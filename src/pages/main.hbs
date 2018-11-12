@@ -1,12 +1,10 @@
 <html>
-  <head>
-    <title>Alexander Bird -- Software Developer</title>
-  </head>
-  <body>
+  {{> atoms/html-head}}
+  {{#> atoms/html-body}}
     <h1>Parked Domain</h1>
     <h2>Future site of Alexander Bird's Resume</h2>
     <p>
-      In the meantime, here's a link of public profiles from my personal website: <a href='https://abird.ca/#contact'>abird.ca/#contact</a>
+      In the meantime, here's a link of public profiles from my personal website: <a href='https://{{contact-link}}'>{{contact-link}}</a>
     <p>
-  </body>
+  {{/atoms/html-body}}
 </html>
