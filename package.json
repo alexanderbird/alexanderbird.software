@@ -5,6 +5,7 @@
   "main": "html/index.html",
   "scripts": {
     "deploy": "s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
+    "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "start": "cd html && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -17,8 +18,20 @@
   ],
   "author": "Alexander Bird",
   "license": "UNLICENSED",
+  "gulp": {
+    "buildDirectory": "html",
+    "sourceDirectory": "src",
+    "handlebars": {
+      "partialsDirectory": "src"
+    }
+  },
   "devDependencies": {
+    "del": "^3.0.0",
+    "gulp": "^4.0.0",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-json-handlebars": "^1.0.5",
     "http-server": "^0.11.1",
+    "require-dir": "^1.1.0",
     "s3-static-website-deploy": ">0.0.1"
   }
 }
