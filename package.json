@@ -4,6 +4,7 @@
   "description": "Resume Website",
   "main": "html/index.html",
   "scripts": {
+    "deploy": "s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -14,5 +15,8 @@
     "static-website"
   ],
   "author": "Alexander Bird",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "s3-static-website-deploy": ">0.0.1"
+  }
 }
