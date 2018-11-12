@@ -7,7 +7,7 @@ const yaml = require('gulp-yaml');
 
 const { buildDirectory, sourceDirectory, handlebars: handlebarsOptions } = require('../config')
 
-gulp.task('build', () => gulp
+gulp.task('build:html', () => gulp
   .src(`${sourceDirectory}/content/**/*.html.yaml`)
   .pipe(yaml())
   .pipe(gulpJsonHandlebars(handlebarsOptions, getPageTemplate))
