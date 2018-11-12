@@ -1,10 +1,13 @@
 <html>
   {{> atoms/html-head}}
   {{#> atoms/html-body}}
-    <h1>Parked Domain</h1>
-    <h2>Future site of Alexander Bird's Resume</h2>
-    <p>
-      In the meantime, here's a link of public profiles from my personal website: <a href='https://{{contact-link}}'>{{contact-link}}</a>
-    <p>
+    <h1>
+      Alexander Bird
+    </h1>
+    {{#> molecules/row items=sections}}
+      {{#*inline 'item'}}
+        {{> organisms/titled-list }}
+      {{/inline}}
+    {{/ molecules/row}}
   {{/atoms/html-body}}
 </html>
