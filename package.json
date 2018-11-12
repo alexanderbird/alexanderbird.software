@@ -30,6 +30,7 @@
     "gulp": "^4.0.0",
     "gulp-ext-replace": "^0.3.0",
     "gulp-json-handlebars": "^1.0.5",
+    "gulp-yaml": "^2.0.2",
     "http-server": "^0.11.1",
     "require-dir": "^1.1.0",
     "s3-static-website-deploy": ">0.0.1"
