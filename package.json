@@ -5,6 +5,7 @@
   "main": "html/index.html",
   "scripts": {
     "deploy": "s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
+    "start": "cd html && http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   "author": "Alexander Bird",
   "license": "UNLICENSED",
   "devDependencies": {
+    "http-server": "^0.11.1",
     "s3-static-website-deploy": ">0.0.1"
   }
 }
