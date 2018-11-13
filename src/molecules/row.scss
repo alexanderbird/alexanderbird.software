@@ -1,11 +1,8 @@
-.scope--row {
+.scope--molecules--row {
   display: flex;
   flex-direction: row;
 
-  .row__item {
-    margin: 1em;
-    border: 1px solid grey;
-    width: auto;
+  .item {
     flex: 1;
   }
 }

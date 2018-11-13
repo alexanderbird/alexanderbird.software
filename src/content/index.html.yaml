@@ -4,7 +4,19 @@ meta:
 contact-link: abird.ca/#contact
 
 sections:
-  - title: Principled
+  - title: Pragmatic
+    items:
+      - foo
+      - bar
+      - baz
   - title: Polyglot
-  - title: Something about communication & teamwork
+    items:
+      - quux
+      - kazam
+      - oomph
+  - title: Communicator
+    items:
+      - icky
+      - picky
+      - sticky
 

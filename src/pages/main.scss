@@ -1,4 +1,20 @@
-.scope--pages-main {
+.scope--pages--main {
   display: flex;
   flex-direction: column;
+
+  .profile {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin-bottom: 16px;
+
+    & > * {
+      display: block;
+      margin: auto;
+    }
+
+    .profile-picture {
+      margin-bottom: 8px;
+    }
+  }
 }

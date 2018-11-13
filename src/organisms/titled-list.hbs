@@ -1,1 +1,8 @@
-<h2>{{data.title}}</h2>
+<div class='scope--organisms--titled-list'>
+  <h2>{{data.title}}</h2>
+  <ul>
+  {{#each data.items}}
+    <li>{{this}}</li>
+  {{/each}}
+  </ul>
+</div>
