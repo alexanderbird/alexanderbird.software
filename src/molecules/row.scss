@@ -1,0 +1,11 @@
+.scope--row {
+  display: flex;
+  flex-direction: row;
+
+  .row__item {
+    margin: 1em;
+    border: 1px solid grey;
+    width: auto;
+    flex: 1;
+  }
+}
