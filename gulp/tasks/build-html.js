@@ -5,6 +5,8 @@ const path = require('path');
 const removeJsonFileNameSuffix = () => require('gulp-ext-replace')('');
 const yaml = require('gulp-yaml');
 
+require('../utils/handlebars-helpers')
+
 const { buildDirectory, sourceDirectory, handlebars: handlebarsOptions } = require('../config')
 
 gulp.task('build:html', () => gulp

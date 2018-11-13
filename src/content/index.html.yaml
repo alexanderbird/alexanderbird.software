@@ -7,22 +7,33 @@ title: Alexander Bird — Software Developer
 profile:
   name: Alexander Bird
   title: Software Developer
-  objective: to be contributing to a healthy team that delivers software to enhance lives and make a profit.
+  tagline: Most satisfied when I can make people money by collaborating to safely build the right software sooner and better.
 
 sections:
   - title: Pragmatic
     items:
-      - foo
-      - bar
-      - baz
+      - recommends appropriate tech (not trendy tech)
+      - builds in small chunks to get feedback often
+      - finds ways to reuse legacy code (rather than rewriting it)
+      - cuts cost by identifying unecessary features (not by cutting quality)
+      - writes tests and documentation
+      - writes code that's easy for humans to read
   - title: Polyglot
     items:
-      - quux
-      - kazam
-      - oomph
-  - title: Communicator
+      - JavaScript, C#, CSS, Ruby, TypeScript
+      - Cypher, SQL
+      - Bash, PowerShell
+      - preface: Exploring
+        text: Go
+      - preface: Once upon a time
+        text: Excel VBA, PHP, Java, C++
+      - ...and always keen to learn another
+  - title: Collaborator
     items:
-      - icky
-      - picky
-      - sticky
+      - Listener
+      - Summarizer
+      - Discussion facilitator
+      - Humble
+      - Follower/supporter, as needed
+      - Leader, as needed
 

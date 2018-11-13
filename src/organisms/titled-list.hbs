@@ -2,7 +2,10 @@
   <h2>{{data.title}}</h2>
   <ul>
   {{#each data.items}}
-    <li>{{this}}</li>
+    <li>
+      <span class='preface'>{{this.preface}}</span>
+      <span>{{coalesce this.text this}}</span>
+    </li>
   {{/each}}
   </ul>
 </div>

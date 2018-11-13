@@ -8,12 +8,13 @@
         <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
         <span class='title'>{{profile.title}}</span>
       </h1>
-      <h2 class='objective'>{{profile.objective}}</h2>
+      <h2 class='tagline'>{{profile.tagline}}</h2>
     </div>
-    {{#> molecules/row items=sections class='' }}
+    {{#> molecules/row items=sections class='content' }}
       {{#*inline 'item'}}
         {{> organisms/titled-list }}
       {{/inline}}
     {{/ molecules/row}}
+    <div/>
   {{/atoms/html-body}}
 </html>

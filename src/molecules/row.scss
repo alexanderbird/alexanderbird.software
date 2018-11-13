@@ -1,8 +1,23 @@
 .scope--molecules--row {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  @media (min-width: 880px) {
+    flex-direction: row;
+  }
 
   .item {
     flex: 1;
+    flex-grow: 1;
+
+    &:not(:first-of-type) {
+      margin-top: 16px;
+    }
+
+    @media (min-width: 880px) {
+      &:not(:first-of-type) {
+        margin-top: 0;
+        margin-left: 16px;
+      }
+    }
   }
 }

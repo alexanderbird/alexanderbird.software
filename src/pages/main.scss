@@ -1,8 +1,15 @@
 @import '../colors';
 
 .scope--pages--main {
+  margin: 16px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+  max-width: 1200px;
+  @media (min-width: 1200px) {
+    margin-left: auto;
+    margin-right: auto;
+  }
 
   .profile {
     display: flex;
@@ -16,21 +23,33 @@
     }
 
     .profile-picture {
-      margin-bottom: 8px;
+      margin-bottom: 16px;
     }
 
     h1 {
+      @media (max-width: 580px) {
+        .name {
+          display: block;
+          text-align: center;
+        }
+        .divider {
+          display: none;
+        }
+      }
       .divider {
         color: $color-secondary;
       }
     }
 
-    .objective {
+    .tagline {
+      text-align: center;
       padding-top: 8px;
       color: $color-secondary;
-      &:before {
-        content: 'Objective: '
-      }
     }
+  }
+
+  .content {
+    flex-basis: 0;
+    flex-grow: 1;
   }
 }
