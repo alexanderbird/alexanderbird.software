@@ -12,12 +12,12 @@ profile:
 sections:
   - title: Pragmatic
     items:
-      - recommends appropriate tech (not trendy tech)
-      - builds in small chunks to get feedback often
-      - finds ways to reuse legacy code (rather than rewriting it)
-      - cuts cost by identifying unecessary features (not by cutting quality)
-      - writes tests and documentation
-      - writes code that's easy for humans to read
+      - Recommends appropriate tech (not trendy tech)
+      - Builds in small chunks to get feedback often
+      - Finds ways to reuse legacy code (rather than rewriting it)
+      - Cuts cost by identifying unecessary features (not by cutting quality)
+      - Writes tests and documentation
+      - Writes code that's easy for humans to read
   - title: Polyglot
     items:
       - JavaScript, C#, CSS, Ruby, TypeScript
