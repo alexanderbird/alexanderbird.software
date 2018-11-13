@@ -24,7 +24,7 @@ sections:
       - Cypher, SQL
       - Bash, PowerShell
       - preface: Exploring
-        text: Go
+        text: Go, Swift
       - preface: Once upon a time
         text: Excel VBA, PHP, Java, C++
       - ...and always keen to learn another
