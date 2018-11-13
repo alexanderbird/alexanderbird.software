@@ -3,9 +3,14 @@
   {{#> atoms/html-body class='scope--pages--main'}}
     <div class='profile'>
       {{> atoms/profile-picture class='profile-picture'}} 
-      <h1 class='title'>Alexander Bird</h1>
+      <h1>
+        <span class='name'>{{profile.name}}</span>
+        <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
+        <span class='title'>{{profile.title}}</span>
+      </h1>
+      <h2 class='objective'>{{profile.objective}}</h2>
     </div>
-    {{#> molecules/row items=sections class='distinguishing-characteristics'}}
+    {{#> molecules/row items=sections }}
       {{#*inline 'item'}}
         {{> organisms/titled-list }}
       {{/inline}}

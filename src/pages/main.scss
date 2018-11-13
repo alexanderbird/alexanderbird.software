@@ -1,3 +1,5 @@
+@import '../colors';
+
 .scope--pages--main {
   display: flex;
   flex-direction: column;
@@ -15,6 +17,20 @@
 
     .profile-picture {
       margin-bottom: 8px;
+    }
+
+    h1 {
+      .divider {
+        color: $color-secondary;
+      }
+    }
+
+    .objective {
+      padding-top: 8px;
+      color: $color-secondary;
+      &:before {
+        content: 'Objective: '
+      }
     }
   }
 }
