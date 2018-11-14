@@ -55,9 +55,11 @@ skill-sections:
       - Listener
       - Summarizer
       - Discussion facilitator
+      - Documenter
       - Humble
       - Follower/supporter, as needed
       - Leader, as needed
+      - Believes most technical problems are people problems
     links:
       - icon: stack-overflow
         alt: '@alexanderbird on Stack Overflow'
