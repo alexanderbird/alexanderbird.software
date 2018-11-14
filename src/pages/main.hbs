@@ -10,9 +10,9 @@
       </h1>
       <h2 class='tagline'>{{profile.tagline}}</h2>
     </div>
-    {{#> molecules/row items=sections class='content' }}
+    {{#> molecules/row items=skill-sections class='content' }}
       {{#*inline 'item'}}
-        {{> organisms/titled-list }}
+        {{> organisms/skill-section }}
       {{/inline}}
     {{/ molecules/row}}
     <div/>

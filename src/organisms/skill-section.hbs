@@ -8,4 +8,9 @@
     </li>
   {{/each}}
   </ul>
+  <div class='scope--organisms--titled-list__links'>
+    {{#each data.links}}
+      {{> molecules/icon-link data=this }}
+    {{/each}}
+  </div>
 </div>

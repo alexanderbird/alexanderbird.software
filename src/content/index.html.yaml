@@ -9,7 +9,7 @@ profile:
   title: Software Developer
   tagline: Most satisfied when I can make people money by collaborating to safely build the right software sooner and better.
 
-sections:
+skill-sections:
   - title: Pragmatic
     items:
       - Recommends appropriate tech (not trendy tech)
@@ -20,7 +20,7 @@ sections:
       - Writes code that's easy for humans to read
     links:
       - icon: twitter
-        alt: @alexander_bird on Twitter
+        alt: '@alexander_bird on Twitter'
         url: https://twitter.com/alexander_bird
   - title: Polyglot
     items:
@@ -34,13 +34,13 @@ sections:
       - ...and always keen to learn another
     links:
       - icon: github
-        alt: @alexanderbird on GitHub
+        alt: '@alexanderbird on GitHub'
         url: https://github.com/alexanderbird
       - icon: stack-overflow
-        alt: @alexanderbird on Stack Overflow -- votes on questions
+        alt: '@alexanderbird on Stack Overflow -- votes on questions'
         url: https://stackoverflow.com/users/3012550/alexanderbird?tab=votes
       - icon: npm
-        alt: @alexanderbird on npm
+        alt: '@alexanderbird on npm'
         url: https://www.npmjs.com/~alexanderbird
   - title: Collaborator
     items:
@@ -52,6 +52,6 @@ sections:
       - Leader, as needed
     links:
       - icon: stack-overflow
-        alt: @alexanderbird on Stack Overflow
+        alt: '@alexanderbird on Stack Overflow'
         url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
 
