@@ -44,8 +44,8 @@ skill-sections:
         url: https://github.com/alexanderbird
       - icon: stack-overflow
         alt: '@alexanderbird on Stack Overflow'
-        title: Questions I've looked at recently
-        url: https://stackoverflow.com/users/3012550/alexanderbird?tab=votes
+        title: Top tags on Stack Overflow
+        url: https://stackoverflow.com/users/3012550/alexanderbird?tab=tags
       - icon: npm
         alt: '@alexanderbird on npm'
         title: Packages I've written
