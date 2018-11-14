@@ -21,6 +21,7 @@ skill-sections:
     links:
       - icon: twitter
         alt: '@alexander_bird on Twitter'
+        title: What I'm reading and thinking about
         url: https://twitter.com/alexander_bird
   - title: Polyglot
     items:
@@ -35,12 +36,15 @@ skill-sections:
     links:
       - icon: github
         alt: '@alexanderbird on GitHub'
+        title: Hobby projects
         url: https://github.com/alexanderbird
       - icon: stack-overflow
-        alt: '@alexanderbird on Stack Overflow -- votes on questions'
+        alt: '@alexanderbird on Stack Overflow'
+        title: Questions I've looked at recently
         url: https://stackoverflow.com/users/3012550/alexanderbird?tab=votes
       - icon: npm
         alt: '@alexanderbird on npm'
+        title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
   - title: Collaborator
     items:
@@ -53,5 +57,6 @@ skill-sections:
     links:
       - icon: stack-overflow
         alt: '@alexanderbird on Stack Overflow'
+        title: Questions and Answers I've contributed to
         url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
 
