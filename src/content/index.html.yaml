@@ -10,7 +10,7 @@ profile:
   tagline: Most satisfied when I can make people money by collaborating to safely build the right software sooner and better.
 
 skill-sections:
-  - title: Pragmatic
+  - title: Software Engineer
     items:
       - Recommends appropriate tech (not trendy tech)
       - Builds in small chunks to get feedback often
@@ -23,6 +23,10 @@ skill-sections:
         alt: '@alexander_bird on Twitter'
         title: What I'm reading and thinking about
         url: https://twitter.com/alexander_bird
+      - icon: stack-exchange
+        alt: '@alexanderbird on Software Engineering Stack Exchange'
+        title: Software Engineering Stack Exchange
+        url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
   - title: Polyglot
     items:
       - JavaScript, C#, CSS, Ruby, TypeScript
@@ -46,7 +50,7 @@ skill-sections:
         alt: '@alexanderbird on npm'
         title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
-  - title: Collaborator
+  - title: Human
     items:
       - Listener
       - Summarizer
