@@ -18,6 +18,10 @@ sections:
       - Cuts cost by identifying unecessary features (not by cutting quality)
       - Writes tests and documentation
       - Writes code that's easy for humans to read
+    links:
+      - icon: twitter
+        alt: @alexander_bird on Twitter
+        url: https://twitter.com/alexander_bird
   - title: Polyglot
     items:
       - JavaScript, C#, CSS, Ruby, TypeScript
@@ -28,6 +32,16 @@ sections:
       - preface: Once upon a time
         text: Excel VBA, PHP, Java, C++
       - ...and always keen to learn another
+    links:
+      - icon: github
+        alt: @alexanderbird on GitHub
+        url: https://github.com/alexanderbird
+      - icon: stack-overflow
+        alt: @alexanderbird on Stack Overflow -- votes on questions
+        url: https://stackoverflow.com/users/3012550/alexanderbird?tab=votes
+      - icon: npm
+        alt: @alexanderbird on npm
+        url: https://www.npmjs.com/~alexanderbird
   - title: Collaborator
     items:
       - Listener
@@ -36,4 +50,8 @@ sections:
       - Humble
       - Follower/supporter, as needed
       - Leader, as needed
+    links:
+      - icon: stack-overflow
+        alt: @alexanderbird on Stack Overflow
+        url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
 
