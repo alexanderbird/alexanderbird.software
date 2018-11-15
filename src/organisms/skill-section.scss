@@ -1,10 +1,7 @@
 @import '../colors';
 
 .scope--organisms--titled-list {
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-start;
-  padding: 1em;
+  padding: 16px;
   border-radius: 4px;
   border: 1px solid grey;
   width: auto;
@@ -12,33 +9,51 @@
     min-height: 364px;
   }
 
-  h2 {
-    margin: 0;
+  .scope--organisms--titled-list__icon {
+    float: right;
+    width: 128px;
+    height: auto;
   }
 
-  ul {
-    li {
-      .preface {
-        color: $color-secondary;
-      }
+  .scope--organisms--titled-list__body {
+    position: relative;
+    padding-bottom: 64px;
+    height: auto;
+    @media (min-width: 880px) { height: 400px; }
+    @media (min-width: 1000px) { height: 300px; }
+    @media (min-width: 1200px) { height: 300px; }
 
-      .preface:not(:empty) {
-        &:after {
-          content: ': ';
+    h2 {
+      margin: 0;
+    }
+
+    ul {
+      li {
+        .preface {
+          color: $color-secondary;
+        }
+
+        .preface:not(:empty) {
+          &:after {
+            content: ': ';
+          }
         }
       }
     }
-  }
 
-  .scope--organisms--titled-list__links {
-    margin-top: auto;
-    justify-self: flex-end;
-    display: inline-flex;
-    flex-direction: row;
-    justify-content: center;
+    .scope--organisms--titled-list__links {
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
 
-    & > *:not(:last-of-type) {
-      margin-right: 8px;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+
+      & > *:not(:last-of-type) {
+        margin-right: 8px;
+      }
     }
   }
 }

@@ -11,6 +11,7 @@ profile:
 
 skill-sections:
   - title: Software Engineer
+    icon: software-engineer.png
     items:
       - Recommends appropriate tech (not trendy tech)
       - Builds in small chunks to get feedback often
@@ -28,6 +29,7 @@ skill-sections:
         title: Software Engineering Stack Exchange
         url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
   - title: Polyglot
+    icon: polyglot.png
     items:
       - JavaScript, C#, CSS, Ruby, TypeScript
       - Cypher, SQL
@@ -51,6 +53,7 @@ skill-sections:
         title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
   - title: Human
+    icon: communicator.png
     items:
       - Listener
       - Summarizer

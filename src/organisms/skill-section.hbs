@@ -1,16 +1,19 @@
 <div class='scope--organisms--titled-list'>
-  <h2>{{data.title}}</h2>
-  <ul>
-  {{#each data.items}}
-    <li>
-      <span class='preface'>{{this.preface}}</span>
-      <span>{{coalesce this.text this}}</span>
-    </li>
-  {{/each}}
-  </ul>
-  <div class='scope--organisms--titled-list__links'>
-    {{#each data.links}}
-      {{> molecules/icon-link data=this }}
+  <img class='scope--organisms--titled-list__icon' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
+  <div class='scope--organisms--titled-list__body'>
+    <h2>{{data.title}}</h2>
+    <ul>
+    {{#each data.items}}
+      <li>
+        <span class='preface'>{{this.preface}}</span>
+        <span>{{coalesce this.text this}}</span>
+      </li>
     {{/each}}
+    </ul>
+    <div class='scope--organisms--titled-list__links'>
+      {{#each data.links}}
+        {{> molecules/icon-link data=this }}
+      {{/each}}
+    </div>
   </div>
 </div>
