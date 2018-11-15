@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../animations';
 
 .scope--pages--main {
   display: flex;
@@ -17,7 +18,12 @@
     }
 
     .profile-picture {
+      @include text-focus-in(0.5s, 0s);
       margin-bottom: 16px;
+    }
+
+    h1, h2 {
+      @include text-focus-in(0.5s, 0.1s);
     }
 
     h1 {
@@ -45,5 +51,17 @@
   .content {
     flex-basis: 0;
     flex-grow: 1;
+
+    & > *:nth-of-type(1) {
+      @include scale-in-center(0.4s, 1.2s);
+    }
+
+    & > *:nth-of-type(2) {
+      @include scale-in-center(0.4s, 1.4s);
+    }
+
+    & > *:nth-of-type(3) {
+      @include scale-in-center(0.4s, 1.0s);
+    }
   }
 }
