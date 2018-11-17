@@ -1,0 +1,27 @@
+/*
+ * If there is no hash, render the home page.
+ * If there is a hash but it matches no page, render the home page.
+ * Otherwise, render the page matching the hash.
+ */
+@import './show-hide';
+
+@mixin transition-out($slug, $is-home-page: false) {
+  $out-selector: '.page##{$slug}:not(:target)';
+  $in-selector: '.page##{$slug}:target';
+  @if $is-home-page {
+    $in-selector: '.page##{$slug}';
+    $out-selector: '.page:target ~ .page##{$slug}';
+  }
+
+  /* without `height: 0`, the browser will scroll the page down a bit when you change hashes */
+  #{$out-selector} {
+    height: 0;
+    @content;
+  }
+
+  #{$in-selector} {
+    height: 0;
+    display: block;
+  }
+}
+

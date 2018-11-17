@@ -1,7 +1,12 @@
 @import '../colors';
 @import '../animations';
+@import '../transitions';
 
-.scope--pages--main {
+@include transition-out('home', $is-home-page: true) {
+  @include hide();
+}
+
+.scope--pages--home {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;

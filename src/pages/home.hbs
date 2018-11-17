@@ -1,4 +1,4 @@
-{{#> atoms/page slug='main' class='scope--pages--main'}}
+{{#> atoms/page slug='home' class='scope--pages--home'}}
   <div class='profile'>
     {{> atoms/profile-picture class='profile-picture'}} 
     <h1>
@@ -7,6 +7,7 @@
       <span class='title'>{{profile.title}}</span>
     </h1>
     <h2 class='tagline'>{{profile.tagline}}</h2>
+    <p><a href='#contact'>Contact</a></p>
   </div>
   {{#> molecules/row items=skill-sections class='content' }}
     {{#*inline 'item'}}

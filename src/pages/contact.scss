@@ -1,0 +1,13 @@
+@import '../animations';
+@import '../transitions';
+
+@include transition-out('contact') {
+  @include hide();
+}
+
+.scope--pages--contact {
+  @include scale-in-center(1s, 0s);
+  h1 {
+    text-align: center;
+  }
+}
