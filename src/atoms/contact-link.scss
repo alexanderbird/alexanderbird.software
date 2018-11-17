@@ -1,0 +1,16 @@
+@import '../colors';
+
+.scope--atoms--contact-link {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  svg {
+    width: 64px;
+    height: auto;
+    
+    g {
+      stroke: $color-secondary;
+    }
+  }
+}
