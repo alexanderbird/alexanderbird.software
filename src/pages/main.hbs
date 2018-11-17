@@ -1,20 +1,17 @@
-<html>
-  {{> atoms/html-head}}
-  {{#> atoms/html-body class='scope--pages--main'}}
-    <div class='profile'>
-      {{> atoms/profile-picture class='profile-picture'}} 
-      <h1>
-        <span class='name'>{{profile.name}}</span>
-        <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
-        <span class='title'>{{profile.title}}</span>
-      </h1>
-      <h2 class='tagline'>{{profile.tagline}}</h2>
-    </div>
-    {{#> molecules/row items=skill-sections class='content' }}
-      {{#*inline 'item'}}
-        {{> organisms/skill-section }}
-      {{/inline}}
-    {{/ molecules/row}}
-    <div/>
-  {{/atoms/html-body}}
-</html>
+{{#> atoms/page slug='main' class='scope--pages--main'}}
+  <div class='profile'>
+    {{> atoms/profile-picture class='profile-picture'}} 
+    <h1>
+      <span class='name'>{{profile.name}}</span>
+      <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
+      <span class='title'>{{profile.title}}</span>
+    </h1>
+    <h2 class='tagline'>{{profile.tagline}}</h2>
+  </div>
+  {{#> molecules/row items=skill-sections class='content' }}
+    {{#*inline 'item'}}
+      {{> organisms/skill-section }}
+    {{/inline}}
+  {{/ molecules/row}}
+  <div/>
+{{/atoms/page}}
