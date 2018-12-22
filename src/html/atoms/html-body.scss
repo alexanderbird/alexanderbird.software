@@ -3,11 +3,14 @@
 .scope--atoms--html-body {
   color: $color-primary;
   font-family: 'Cormorant Garamond', serif;
-  $margin: 16px;
-  margin: $margin;
+  $padding: 16px;
+
+  & > div[id] {
+    padding: $padding;
+  }
 
   max-width: 1200px;
-  @media (min-width: 1200px + (2 * $margin)) {
+  @media (min-width: 1200px + (2 * $padding)) {
     margin-left: auto;
     margin-right: auto;
   }
