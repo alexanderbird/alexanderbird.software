@@ -1,7 +1,7 @@
 const gulp = require('gulp');
-const {sourceDirectory, buildDirectory} = require('../config');
+const {sourceAssetsDirectory, buildDirectory} = require('../config');
 
-gulp.task('build:assets', () => gulp.src(`${sourceDirectory}/assets/**/*`)
+gulp.task('build:assets', () => gulp.src(`${sourceAssetsDirectory}/**/*`)
     .pipe(gulp.dest(`${buildDirectory}/assets`))
 );
 

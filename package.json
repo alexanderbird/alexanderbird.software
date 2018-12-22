@@ -20,9 +20,11 @@
   "license": "UNLICENSED",
   "gulp": {
     "buildDirectory": "html",
-    "sourceDirectory": "src",
+    "sourceDirectory": "src/html",
+    "sourceAssetsDirectory": "src/assets",
+    "sourceContentDirectory": "src/content",
     "handlebars": {
-      "partialsDirectory": "src"
+      "partialsDirectory": "src/html"
     }
   },
   "devDependencies": {

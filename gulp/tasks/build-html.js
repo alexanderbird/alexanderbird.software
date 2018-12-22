@@ -10,14 +10,14 @@ const yaml = require('gulp-yaml');
 
 require('../utils/handlebars-helpers')
 
-const { buildDirectory, sourceDirectory, handlebars: handlebarsOptions } = require('../config')
+const { buildDirectory, sourceDirectory, sourceContentDirectory, handlebars: handlebarsOptions } = require('../config')
 
 gulp.task('build:html', () => gulp
   // Ensure home.html.yaml is the last one src'ed
   .src([
-    `${sourceDirectory}/content/**/*.html.yaml`,
-    `!${sourceDirectory}/content/home.html.yaml`,
-    `${sourceDirectory}/content/home.html.yaml`
+    `${sourceContentDirectory}/**/*.html.yaml`,
+    `!${sourceContentDirectory}/home.html.yaml`,
+    `${sourceContentDirectory}/home.html.yaml`
   ])
   .pipe(yaml())
   .pipe(gulpJsonHandlebars(handlebarsOptions, getPageTemplate))
