@@ -1,0 +1,49 @@
+.page:target,
+.page.page--default {
+  --when-animating-in: unset;
+  --when-animating-out: none;
+}
+
+.page:target ~ .page.page--default,
+.page:not(.page--default):not(:target) {
+  display: none;   
+  --when-animating-in: none;
+  --when-animating-out: unset;
+}
+:root {
+  --max-initialization-duration: 2s;
+  animation: initialize var(--max-initialization-duration) steps(1);
+  --forget-the-lesser-animations: none;
+}
+
+@keyframes initialize {
+  from {
+    --hidden-when-initializing: hidden;
+    --forget-the-lesser-animations: unset;
+  }
+  to {
+    --hidden-when-initializing: unset;
+    --forget-the-lesser-animations: none;
+  }
+}
+
+@keyframes fade-out {
+  from {
+    visibility: var(--hidden-when-initializing, visible);
+    opacity: 1;
+  }
+
+  to {
+    visibility: var(--hidden-when-initializing, visible);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

@@ -1,13 +1,12 @@
 @import '../colors';
 @import '../animations';
-@import '../transitions';
 
-@include transition-out('home', $is-home-page: true) {
-  @include hide();
-}
+#home {
+  animation:
+    var(--when-animating-in, fade-in 1s),
+    var(--when-animating-out, fade-out 1s);
 
-.scope--pages--home {
-  display: flex;
+  /*display: flex;*/
   flex-direction: column;
   justify-content: flex-start;
   height: 100%;
@@ -15,7 +14,7 @@
   position: relative;
 
   .scope--atoms--contact-link {
-    @include fade-in(2s, 2s);
+    @include lesser-fade-in(2s, 2s);
   }
 
   .profile {

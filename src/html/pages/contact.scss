@@ -1,13 +1,11 @@
 @import '../animations';
-@import '../transitions';
 @import '../colors';
 
-@include transition-out('contact') {
-  @include hide();
-}
+#contact {
+  animation:
+    var(--when-animating-in, fade-in 1s),
+    var(--when-animating-out, fade-out 1s);
 
-.scope--pages--contact {
-  @include slide-in-bck-center();
   .scope--pages--contact__content {
     position: relative;
     border: 2px solid $color-secondary;
