@@ -3,6 +3,7 @@
 .scope--atoms--html-body {
   color: $color-primary;
   font-family: 'Cormorant Garamond', serif;
+  font-display: auto;
   $padding: 16px;
 
   & > div[id] {

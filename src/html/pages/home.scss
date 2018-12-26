@@ -14,7 +14,7 @@
   position: relative;
 
   .scope--atoms--contact-link {
-    @include lesser-fade-in(2s, 2s);
+    @include lesser-fade-in(2s, 1s);
   }
 
   .profile {
