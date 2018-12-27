@@ -10,21 +10,10 @@
   --when-animating-in: none;
   --when-animating-out: unset;
 }
-:root {
-  --max-initialization-duration: 2s;
-  animation: initialize var(--max-initialization-duration) steps(1);
-  --forget-the-lesser-animations: none;
-}
 
-@keyframes initialize {
-  from {
-    --hidden-when-initializing: hidden;
-    --forget-the-lesser-animations: unset;
-  }
-  to {
-    --hidden-when-initializing: unset;
-    --forget-the-lesser-animations: none;
-  }
+:root {
+  --hidden-when-initializing: hidden;
+  /* see remainder of initialization configuration in the css-helper-script.hbs file */
 }
 
 @keyframes fade-out {

@@ -1,0 +1,10 @@
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const initializationDelay = 3000
+    setTimeout(() => {
+      const rootStyle = document.documentElement.style
+      rootStyle.removeProperty('--hidden-when-initializing')
+      rootStyle.setProperty('--forget-the-lesser-animations', 'none')
+    }, initializationDelay)
+  })
+</script>
