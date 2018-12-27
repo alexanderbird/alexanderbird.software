@@ -1,5 +1,6 @@
 @import '../animations';
 @import '../colors';
+@import '../svg';
 
 #contact {
   animation:
@@ -50,12 +51,10 @@
           align-items: center;
         }
 
+        @include color-svg($color-secondary);
         svg {
           width: 2em;
           height: 2em;
-          path {
-            fill: $color-secondary;
-          }
           margin-right: 1em;
         }
       }

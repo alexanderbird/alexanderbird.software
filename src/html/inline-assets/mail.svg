@@ -1,1 +1,9 @@
-<svg aria-hidden="true" data-prefix="far" width="32px" height="32px" data-icon="envelope" class="svg-inline--fa fa-envelope fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M464 64H48C21.49 64 0 85.49 0 112v288c0 26.51 21.49 48 48 48h416c26.51 0 48-21.49 48-48V112c0-26.51-21.49-48-48-48zm0 48v40.805c-22.422 18.259-58.168 46.651-134.587 106.49-16.841 13.247-50.201 45.072-73.413 44.701-23.208.375-56.579-31.459-73.413-44.701C106.18 199.465 70.425 171.067 48 152.805V112h416zM48 400V214.398c22.914 18.251 55.409 43.862 104.938 82.646 21.857 17.205 60.134 55.186 103.062 54.955 42.717.231 80.509-37.199 103.053-54.947 49.528-38.783 82.032-64.401 104.947-82.653V400H48z"></path></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" x="0" y="0" width="128" height="82" viewBox="0, 0, 128, 82" xmlns="http://www.w3.org/2000/svg">
+  <g>
+    <path d="M3.658,3.5 L125.342,3.5 L125.342,79.5 L3.658,79.5 L3.658,3.5 z" fill-opacity="0" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M4.137,4.836 C4.137,4.836 64.021,55.496 64.021,55.496 C64.021,55.496 124.863,3.5 124.863,3.5" fill-opacity="0" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M80.592,41.666 C95.349,54.277 110.106,66.889 124.863,79.5" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <path d="M47.775,41.248 C33.229,53.553 18.683,65.858 4.137,78.164" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+  </g>
+</svg>

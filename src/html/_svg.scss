@@ -1,0 +1,8 @@
+@mixin color-svg($color) {
+  svg {
+    path {
+      stroke: $color;
+      fill: $color;
+    }
+  }
+}

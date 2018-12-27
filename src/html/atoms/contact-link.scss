@@ -1,4 +1,5 @@
 @import '../colors';
+@import '../svg';
 
 .scope--atoms--contact-link {
   position: absolute;
@@ -19,9 +20,5 @@
     }
   }
     
-  svg {
-    path {
-      fill: $color-secondary;
-    }
-  }
+  @include color-svg($color-secondary);
 }
