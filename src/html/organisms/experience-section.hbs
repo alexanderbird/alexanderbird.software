@@ -1,0 +1,15 @@
+<section class='organisms__experience-section'>
+  <h2>Experience & Education</h2>
+  {{#each experiences}}
+  <article>
+    <h3>{{this.role}} <span class='organisms__experience-section__date-range'>{{this.from}} &mdash; {{this.to}}</span></h3>
+    <h4>{{this.employer}}</h4>
+    <ul>
+      <li>vel enim sit amet nunc viverra dapibus</li>
+      <li>luctus cum sociis natoque penatibus</li>
+      <li>nulla mollis molestie lorem quisque ut erat curabitur gravida</li>
+      <li>eu sapien cursus vestibulum proin eu</li>
+    </ul>
+  </article>
+  {{/each}}
+</section>
