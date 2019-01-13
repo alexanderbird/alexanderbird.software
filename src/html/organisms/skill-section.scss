@@ -1,6 +1,6 @@
 @import '../colors';
 
-.scope--organisms--titled-list {
+.organisms__titled-list {
   padding: 16px;
   border-radius: 4px;
   border: 1px solid grey;
@@ -9,13 +9,13 @@
     min-height: 364px;
   }
 
-  .scope--organisms--titled-list__icon {
+  .organisms__titled-list__icon {
     float: right;
     width: 128px;
     height: auto;
   }
 
-  .scope--organisms--titled-list__body {
+  .organisms__titled-list__body {
     position: relative;
     padding-bottom: 64px;
     height: auto;
@@ -41,7 +41,7 @@
       }
     }
 
-    .scope--organisms--titled-list__links {
+    .organisms__titled-list__links {
       position: absolute;
       bottom: 0;
       right: 0;

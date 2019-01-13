@@ -1,6 +1,6 @@
-<div class='scope--organisms--titled-list'>
-  <img class='scope--organisms--titled-list__icon' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
-  <div class='scope--organisms--titled-list__body'>
+<div class='organisms__titled-list'>
+  <img class='organisms__titled-list__icon' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
+  <div class='organisms__titled-list__body'>
     <h2>{{data.title}}</h2>
     <ul>
     {{#each data.items}}
@@ -10,7 +10,7 @@
       </li>
     {{/each}}
     </ul>
-    <div class='scope--organisms--titled-list__links'>
+    <div class='organisms__titled-list__links'>
       {{#each data.links}}
         {{> molecules/icon-link data=this }}
       {{/each}}

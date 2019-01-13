@@ -7,7 +7,7 @@
     var(--when-animating-in, fade-in 1s),
     var(--when-animating-out, fade-out 1s);
 
-  .scope--pages--contact__content {
+  .pages__contact__content {
     position: relative;
     display: flex;
     flex-direction: column;
