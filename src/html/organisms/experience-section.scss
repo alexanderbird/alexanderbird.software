@@ -1,5 +1,6 @@
 .organisms__experience-section {
   .organisms__experience-section__date-range {
+    float: right;
     color: var(--color-secondary);
     &:before {
       content: '(';

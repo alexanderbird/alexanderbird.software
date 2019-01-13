@@ -4,12 +4,28 @@
   <article>
     <h3>{{this.role}} <span class='organisms__experience-section__date-range'>{{this.from}} &mdash; {{this.to}}</span></h3>
     <h4>{{this.employer}}</h4>
-    <ul>
-      <li>vel enim sit amet nunc viverra dapibus</li>
-      <li>luctus cum sociis natoque penatibus</li>
-      <li>nulla mollis molestie lorem quisque ut erat curabitur gravida</li>
-      <li>eu sapien cursus vestibulum proin eu</li>
-    </ul>
+    {{#> molecules/row }}
+    {{/ molecules/row }}
+    <div class='scope--molecules--row'>
+      <div class='item'>
+        <h5>Engineering</h5>
+        <ul>
+          {{#each this.engineering}}<li>{{this}}</li>{{/each}}
+        </ul>
+      </div>
+      <div class='item'>
+        <h5>Technology</h5>
+        <ul>
+          {{#each this.technology}}<li>{{this}}</li>{{/each}}
+        </ul>
+      </div>
+      <div class='item'>
+        <h5>Teamwork</h5>
+        <ul>
+          {{#each this.teamwork}}<li>{{this}}</li>{{/each}}
+        </ul>
+      </div>
+    </div>
   </article>
   {{/each}}
 </section>

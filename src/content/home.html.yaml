@@ -70,19 +70,49 @@ skill-sections:
         title: Questions and Answers I've contributed to
         url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
 
-# IDEA: make notes for each role/project in terms of "engineering" "technology" and "teamwork"
 experiences:
   - role: Technical Lead
     from: 2018
     to: ongoing
     employer: Arcurve Inc
+    engineering:
+      - non pretium quis lectus suspendisse potenti in eleifend
+      - vestibulum aliquet ultrices erat tortor sollicitudin mi sit amet
+      - accumsan felis ut at dolor quis odio
+    technology:
+      - mauris vulputate elementum nullam varius nulla facilisi cras non
+      - vel augue vestibulum rutrum rutrum neque aenean auctor
+    teamwork:
+      - viverra pede ac diam cras pellentesque volutpat dui maecenas
+      - eget elit sodales scelerisque mauris sit amet eros suspendisse accumsan
+      - amet consectetuer adipiscing elit proin interdum mauris non ligula pellentesque
 
   - role: Software Developer
     from: 2014
     to: 2018
     employer: Arcurve Inc
+    engineering:
+      - leo maecenas pulvinar lobortis est
+      - nulla sed vel enim sit amet nunc viverra
+    technology:
+      - mi pede malesuada in imperdiet et commodo vulputate justo
+      - nullam molestie nibh in lectus pellentesque at nulla suspendisse
+      - convallis tortor risus dapibus augue vel accumsan
+      - sapien quis libero nullam sit amet turpis
+    teamwork:
+      - nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus
+      - etiam justo etiam pretium iaculis justo in
+
   - role: Research Assistant
     from: 2013
     to: 2014
     employer: Software Engineering Decision Support Lab, University of Calgary
+    engineering:
+      - porta volutpat quam pede lobortis ligula sit amet
+    technology:
+      - dictumst morbi vestibulum velit id pretium iaculis diam
+      - ultrices vel augue vestibulum ante ipsum primis
+    teamwork:
+      - leo rhoncus sed vestibulum sit
+      - nec condimentum neque sapien placerat ante nulla justo aliquam quis
 
