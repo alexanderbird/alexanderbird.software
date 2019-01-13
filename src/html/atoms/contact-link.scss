@@ -1,4 +1,3 @@
-@import '../colors';
 @import '../svg';
 
 .atoms__contact-link {
@@ -10,6 +9,7 @@
     width: 32px;
     height: auto;
   }
+
   @media (min-width: 400px) {
     top: 16px;
     right: 16px;
@@ -20,5 +20,5 @@
     }
   }
     
-  @include color-svg($color-secondary);
+  @include color-svg(var(--color-secondary));
 }

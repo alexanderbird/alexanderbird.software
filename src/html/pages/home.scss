@@ -1,4 +1,3 @@
-@import '../colors';
 @import '../animations';
 
 #home {
@@ -48,14 +47,14 @@
         }
       }
       .divider {
-        color: $color-secondary;
+        color: var(--color-secondary);
       }
     }
 
     .tagline {
       text-align: center;
       padding-top: 8px;
-      color: $color-secondary;
+      color: var(--color-secondary);
     }
   }
 

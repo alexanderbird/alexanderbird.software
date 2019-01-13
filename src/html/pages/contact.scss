@@ -1,5 +1,4 @@
 @import '../animations';
-@import '../colors';
 @import '../svg';
 
 #contact {
@@ -12,7 +11,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid $color-secondary;
+    border: 2px solid var(--color-secondary);
     border-radius: 4px;
     padding: 16px;
     margin: 2px;
@@ -34,7 +33,7 @@
       top: 0;
       padding: 16px;
       text-decoration: none;
-      color: $color-secondary;
+      color: var(--color-secondary);
     }
 
     ul.contact-methods {
@@ -51,7 +50,7 @@
           align-items: center;
         }
 
-        @include color-svg($color-secondary);
+        @include color-svg(var(--color-secondary));
         svg {
           width: 2em;
           height: 2em;
