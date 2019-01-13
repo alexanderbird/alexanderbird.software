@@ -9,11 +9,13 @@
     </h1>
     <h2 class='tagline'>{{profile.tagline}}</h2>
   </div>
-  {{#> molecules/row items=skill-sections class='content' }}
-    {{#*inline 'item'}}
-      {{> organisms/skill-section }}
-    {{/inline}}
-  {{/ molecules/row}}
+  <div class='molecules__row content'>
+    {{#each skill-sections }}
+      <div>
+        {{> organisms/skill-section data=this}}
+      </div>
+    {{/each}}
+  </div>
   {{> organisms/experience-section }}
   <div/>
 {{/atoms/page}}
