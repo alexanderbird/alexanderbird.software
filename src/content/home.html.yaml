@@ -103,10 +103,10 @@ experiences:
       - nisi vulputate nonummy maecenas tincidunt lacus at velit vivamus
       - etiam justo etiam pretium iaculis justo in
 
-  - role: Research Assistant
+  - role: Research Assistant, Software Engineering Decision Support Lab
     from: 2013
     to: 2014
-    employer: Software Engineering Decision Support Lab, University of Calgary
+    employer: University of Calgary
     engineering:
       - porta volutpat quam pede lobortis ligula sit amet
     technology:
@@ -115,4 +115,19 @@ experiences:
     teamwork:
       - leo rhoncus sed vestibulum sit
       - nec condimentum neque sapien placerat ante nulla justo aliquam quis
+  - role: Bachelor of Science in Software Engineering
+    employer: University of Calgary
+    from: 2011
+    to: 2016
+    engineering:
+      - porta volutpat erat quisque erat eros viverra
+      - convallis nunc proin at turpis a pede posuere
+      - bibendum imperdiet nullam orci pede venenatis non
+    technology:
+      - cubilia curae donec pharetra magna vestibulum aliquet ultrices erat tortor
+      - turpis eget elit sodales scelerisque mauris sit
+      - ut ultrices vel augue vestibulum
+    teamwork:
+      - ac est lacinia nisi venenatis tristique fusce
+      - nunc nisl duis bibendum felis sed
 
