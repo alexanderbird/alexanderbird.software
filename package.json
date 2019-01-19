@@ -22,6 +22,7 @@
     "buildDirectory": "html",
     "sourceDirectory": "src/html",
     "sourceAssetsDirectory": "src/assets",
+    "sourceRawPagesDirectory": "src/raw-pages",
     "sourceContentDirectory": "src/content",
     "handlebars": {
       "partialsDirectory": "src/html"
