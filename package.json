@@ -7,7 +7,8 @@
     "deploy": "s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "start": "cd html && http-server",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test:reset": "cd wraith && rm shots_base/* && bundle exec wraith history config.yaml",
+    "test": "cd wraith && bundle exec wraith latest config.yaml"
   },
   "repository": {
     "type": "git",
