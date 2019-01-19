@@ -5,21 +5,20 @@ title: Alexander Bird - Software Developer
 profile:
   name: Alexander Bird
   title: Software Developer
-  tagline: Most satisfied when I can make people money by collaborating to safely build the right software sooner and better.
+  tagline: What I want most is to build software in a healthy team &mdash; software that makes a profit and enhances lives &mdash; and to do that more and more safely and effectively.
 
 skill-sections:
   - title: Software Engineer
-    subtitle: There are better ways to build software
     icon: software-engineer.png
     items:
       - Choose the right tech (not the trendy tech)
-      - Find ways to salveage and reuse legacy code
+      - Find ways to salvage and reuse legacy code
       - Don't solve imaginary problems
       - Build in small chunks; get feedback often
       - Find smaller solutions that achieve the same result
       - Take time to test and document as you go
       - Take time to write code that a human could understand
-      - Assemble the team so they can collaborate
+      - Remove obstacles to the team's collaboration
     links:
       - icon: twitter
         alt: '@alexander_bird on Twitter'
@@ -60,10 +59,10 @@ skill-sections:
       - Summarizer
       - Discussion facilitator
       - Documenter
-      - Humble
+      - Humble (team success preferred to accolades)
       - Follower/supporter, as needed
       - Leader, as needed
-      - Believes most technical problems are people problems
+      - Believes in addressing the people problems behind the technical ones
     links:
       - icon: stack-overflow
         alt: '@alexanderbird on Stack Overflow'
