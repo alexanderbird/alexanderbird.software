@@ -2,4 +2,4 @@ node_modules
 /html
 .local.vimrc
 
-wraith/shots
+test/shots
