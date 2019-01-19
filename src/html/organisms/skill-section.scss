@@ -11,6 +11,10 @@
     float: right;
     width: 128px;
     height: auto;
+    
+    &.organisms__titled-list__icon--small {
+      width: 64px;
+    }
   }
 
   .organisms__titled-list__body {

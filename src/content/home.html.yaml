@@ -9,7 +9,8 @@ profile:
 
 skill-sections:
   - title: Software Engineer
-    icon: software-engineer.png
+    icon: software-engineer.svg
+    icon-size: large
     items:
       - Choose the right tech (not the trendy tech)
       - Find ways to salvage and reuse legacy code
@@ -29,9 +30,10 @@ skill-sections:
         title: Software Engineering Stack Exchange
         url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
   - title: Polyglot
-    icon: polyglot.png
+    icon: polyglot.svg
+    icon-size: small
     items:
-      - JavaScript, C#, CSS, Ruby, TypeScript
+      - JavaScript, C#, CSS, Ruby, TypeScript, HTML
       - Cypher, SQL
       - Bash, PowerShell
       - preface: Exploring
@@ -53,7 +55,8 @@ skill-sections:
         title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
   - title: Human
-    icon: communicator.png
+    icon: human.svg
+    icon-size: small
     items:
       - Listener
       - Summarizer
