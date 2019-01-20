@@ -32,15 +32,17 @@
       <rect x="65.028" y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);"/>
     </g>
     <g>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="52.962" y1="77.372" x2="52.963" y2="72.121"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.862" y2="72.293"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="71.862" y1="72.243" x2="71.853" y2="77.226"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="61.754" y1="72.211" x2="61.742" y2="68.376"/>
-      <path d="M 61.747 67.828 L 62.766 69.593 L 60.727 69.593 L 61.747 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.727 67.828 2.039 1.765 0.5 0 1@846ea562"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="67.88" y1="62.704" x2="73.807" y2="62.704"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="73.787" y1="62.593" x2="73.787" y2="65.185"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="73.775" y1="65.068" x2="70.087" y2="65.052"/>
-      <polygon style="stroke: rgb(0, 0, 0); stroke-width: 0.444; fill: none;" points="68.088 65.067 69.176 65.599 70.227 65.048 69.2 64.529"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="53.05" y1="77.372" x2="53.051" y2="72.121"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.259" y2="72.197"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="71.022" y1="72.243" x2="71.013" y2="77.226"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="61.851" y1="72.211" x2="61.839" y2="68.376"/>
+      <path d="M 61.846 67.828 L 62.865 69.593 L 60.826 69.593 L 61.846 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.826 67.828 2.039 1.765 0.5 0 1@97c289f2"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="79.671" y1="81.657" x2="80.759" y2="81.657"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.559" y1="63.097" x2="80.559" y2="81.697"/>
+      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.759" y1="63.262" x2="68.667" y2="63.254"/>
+      <polygon style="stroke: rgb(0, 0, 0); stroke-width: 0.444; fill: none;" points="77.718 81.66 78.806 82.192 79.857 81.641 78.83 81.122"/>
+      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 69.833 63.893"/>
+      <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 0.463px;" points="70.08 64.073 68.424 63.288 70.043 62.452"/>
     </g>
   </g>
 </svg>
