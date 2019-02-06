@@ -10,13 +10,19 @@ const yaml = require('gulp-yaml');
 
 require('../utils/handlebars-helpers')
 
-const { buildDirectory, sourceDirectory, sourceContentDirectory, handlebars: handlebarsOptions } = require('../config')
+const {
+  buildDirectory,
+  sourceDirectory,
+  sourceContentDirectory,
+  handlebars: handlebarsOptions
+} = require('../config')
+
 
 gulp.task('build:html', () => gulp
   // Ensure home.html.yaml is the last one src'ed
   .src(`${sourceContentDirectory}/**/*.yaml`)
   .pipe(yaml())
-  .pipe(gulpJsonHandlebars(handlebarsOptions, getPageTemplate))
+  .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData }), getPageTemplate))
   .pipe(extensionReplace('.html'))
   .pipe(gulp.dest(buildDirectory))
 );
@@ -31,3 +37,14 @@ const getPageTemplate = pageTemplateName => {
   );
   return fs.readFileSync(templatePath).toString('utf-8');
 };
+
+const preProcessData = (data, file) => {
+  const markdownFile = path.join(sourceContentDirectory, file).replace(/\.json$/, '.md')
+  try {
+    data.content = fs.readFileSync(markdownFile).toString()
+  } catch(e) {
+    // meh 
+  }
+  return data
+}
+

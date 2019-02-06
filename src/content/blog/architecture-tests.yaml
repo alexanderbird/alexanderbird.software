@@ -1,0 +1,5 @@
+meta:
+  pageTemplate: blog-post
+
+title: Architecture Tests in JavaScript
+subtitle: Communicating big-picture architecture to the team with automated tests
