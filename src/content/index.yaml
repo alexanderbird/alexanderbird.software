@@ -1,11 +1,19 @@
 meta:
-  pageTemplate: home
+  pageTemplate: index
 
 title: Alexander Bird - Software Developer
 profile:
   name: Alexander Bird
   title: Software Developer
   tagline: What I want most is to build software in a healthy team &mdash; software that makes a profit and enhances lives &mdash; and to do that more and more safely and effectively.
+
+contactMethods: 
+  - link: mailto:alex@alexanderbird.software
+    text: alex@alexanderbird.software
+    icon: mail
+  - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
+    text: LinkedIn
+    icon: linkedin
 
 skill-sections:
   - title: Software Engineer

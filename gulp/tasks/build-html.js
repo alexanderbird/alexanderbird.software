@@ -14,16 +14,10 @@ const { buildDirectory, sourceDirectory, sourceContentDirectory, handlebars: han
 
 gulp.task('build:html', () => gulp
   // Ensure home.html.yaml is the last one src'ed
-  .src([
-    `${sourceContentDirectory}/**/*.html.yaml`,
-    `!${sourceContentDirectory}/home.html.yaml`,
-    `${sourceContentDirectory}/home.html.yaml`
-  ])
+  .src(`${sourceContentDirectory}/**/*.yaml`)
   .pipe(yaml())
   .pipe(gulpJsonHandlebars(handlebarsOptions, getPageTemplate))
-  .pipe(concat('index.html'))
-  .pipe(wrap({ src: path.join(sourceDirectory, 'index.html.hbs') }))
-  .pipe(gulpHtmlHandlebars({}, { partialsDirectory: [handlebarsOptions.partialsDirectory] }))
+  .pipe(extensionReplace('.html'))
   .pipe(gulp.dest(buildDirectory))
 );
 
