@@ -25,9 +25,15 @@ skill-sections:
       - Don't solve imaginary problems
       - Build in small chunks; get feedback often
       - Find smaller solutions that achieve the same result
-      - Take time to test and document as you go
-      - Take time to write code that a human could understand
-      - Remove obstacles to the team's collaboration
+      - Write documentation, and keep it up to date
+      - |
+        Test your code (
+          <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
+          or TDD for healthy codebases,
+          <a target='_blank' href='http://approvaltests.com/'>Approval Testing</a>
+          or manual test-first otherwise
+        )
+      - Share knowledge (human-readable code, clear error messages, code reviews, etc.)
     links:
       - icon: twitter
         alt: '@alexander_bird on Twitter'
@@ -42,6 +48,7 @@ skill-sections:
     icon-size: small
     items:
       - JavaScript, C#, CSS, Ruby, TypeScript, HTML
+      - Regex
       - Cypher, SQL
       - Bash, PowerShell
       - preface: Exploring

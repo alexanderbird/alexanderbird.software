@@ -5,8 +5,8 @@
     <ul>
     {{#each data.items}}
       <li>
-        <span class='preface'>{{this.preface}}</span>
-        <span>{{coalesce this.text this}}</span>
+        <span class='preface'>{{{this.preface}}}</span>
+        <span>{{{coalesce this.text this}}}</span>
       </li>
     {{/each}}
     </ul>
