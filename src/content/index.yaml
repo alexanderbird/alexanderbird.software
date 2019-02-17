@@ -20,20 +20,19 @@ skill-sections:
     icon: software-engineer.svg
     icon-size: large
     items:
-      - Choose the right tech (not the trendy tech)
-      - Find ways to salvage and reuse legacy code
       - Don't solve imaginary problems
-      - Build in small chunks; get feedback often
-      - Find smaller solutions that achieve the same result
       - Write documentation, and keep it up to date
-      - |
-        Test your code (
-          <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
-          or TDD for healthy codebases,
-          <a target='_blank' href='http://approvaltests.com/'>Approval Testing</a>
-          or manual test-first otherwise
-        )
+      - main: Test your code
+        sub:
+          - |
+            <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
+            or TDD for healthy codebases,
+          - |
+            <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
+            or manual test-first when unit testing isn't possible
       - Share knowledge (human-readable code, clear error messages, code reviews, etc.)
+      - Find ways to salvage and reuse legacy code
+      - Choose simple solutions over impressive solutions
     links:
       - icon: twitter
         alt: '@alexander_bird on Twitter'
@@ -47,15 +46,23 @@ skill-sections:
     icon: polyglot.svg
     icon-size: small
     items:
-      - JavaScript, C#, CSS, Ruby, TypeScript, HTML
-      - Regex
-      - Cypher, SQL
-      - Bash, PowerShell
-      - preface: Exploring
-        text: Go, Swift
+      - preface: Server
+        text: Node.js, C# MVC, Ruby on Rails, Python
+      - preface: Client
+        text: JavaScript, CSS, HTML, TypeScript
+      - preface: UI Frameworks
+        text: React, Handlebars, AngularJS
+      - preface: Database
+        text: SQL, Cypher (graph)
+      - preface: DSL
+        text: Regex, XPath
+      - preface: Shell/scripting
+        text: Bash, PowerShell
+      - preface: Played with
+        text: Go, Swift, Perl
       - preface: Once upon a time
         text: Excel VBA, PHP, Java, C++
-      - ...and always keen to learn another
+      - ...and always keen to learn more
     links:
       - icon: github
         alt: '@alexanderbird on GitHub'

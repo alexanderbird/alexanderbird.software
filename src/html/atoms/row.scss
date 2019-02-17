@@ -1,23 +1,10 @@
 .atoms__row {
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  grid-gap: 16px;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, 1fr);
   @media (min-width: 880px) {
-    flex-direction: row;
-  }
-
-  & > * {
-    flex: 1;
-    flex-grow: 1;
-
-    &:not(:first-of-type) {
-      margin-top: 16px;
-    }
-
-    @media (min-width: 880px) {
-      &:not(:first-of-type) {
-        margin-top: 0;
-        margin-left: 16px;
-      }
-    }
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
 }

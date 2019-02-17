@@ -1,15 +1,14 @@
 <div class='organisms__titled-list'>
-  <img class='organisms__titled-list__icon organisms__titled-list__icon--{{data.icon-size}}' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
   <div class='organisms__titled-list__body'>
-    <h2>{{data.title}}</h2>
-    <ul>
-    {{#each data.items}}
-      <li>
-        <span class='preface'>{{{this.preface}}}</span>
-        <span>{{{coalesce this.text this}}}</span>
-      </li>
-    {{/each}}
-    </ul>
+    <div class='organisms__titled-list__text'>
+      <img class='organisms__titled-list__icon organisms__titled-list__icon--{{data.icon-size}}' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
+      <h2>{{data.title}}</h2>
+      <ul>
+      {{#each data.items}}
+        {{> molecules/bullet bullet=this }}
+      {{/each}}
+      </ul>
+    </div>
     <div class='organisms__titled-list__links'>
       {{#each data.links}}
         {{> molecules/icon-link data=this }}

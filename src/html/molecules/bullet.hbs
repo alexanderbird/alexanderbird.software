@@ -1,0 +1,22 @@
+{{#if bullet.main}}
+<li>
+  <span>{{{bullet.main}}}</span>
+  <ul>
+    {{#each bullet.sub}}
+      {{> molecules/bullet bullet=this }}
+    {{/each}}
+  </ul>
+</li>
+{{else if bullet.subtitle}}
+  <div>{{{bullet.subtitle}}}</div>
+  <ul>
+    {{#each bullet.bullets}}
+      {{> molecules/bullet bullet=this }}
+    {{/each}}
+  </ul>
+{{else}}
+<li>
+  <span class='preface'>{{{bullet.preface}}}</span>
+  <span>{{{coalesce bullet.text bullet}}}</span>
+</li>
+{{/if}}
