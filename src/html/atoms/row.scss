@@ -1,9 +1,10 @@
 .atoms__row {
   display: grid;
-  grid-gap: 16px;
+  grid-gap: 32px;
   grid-template-columns: 1fr;
   grid-template-rows: repeat(3, 1fr);
   @media (min-width: 880px) {
+    grid-gap: 16px;
     grid-template-rows: 1fr;
     grid-template-columns: repeat(3, 1fr);
   }
