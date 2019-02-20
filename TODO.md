@@ -1,0 +1,1 @@
+- in mobile mode, the skills tiles don't all need to be the same height. 
