@@ -99,5 +99,167 @@ skill-sections:
 
 looking-for:
 
-experience:
+_experience-templates:
+  arcurve-dev: &arcurve-dev
+    title: Software Developer
+    employer: Arcurve Inc
 
+experience:
+  - client: Major telecommunications company
+    title: Lead Software Developer
+    employer: Arcurve Inc
+    team-size: 12
+    duration-in-months: 6
+    stack:
+      column:
+        - row:
+          - CSS
+          - JavaScript
+          - React
+          - Redux
+        - Web Browser
+        - HTTP
+        - row:
+          - column: 
+              - row:
+                - Node
+                - Express
+              - Linux
+              - AWS EC2
+          - column:
+              - domain API (C#)
+              - Windows
+              - on-premise
+
+  - client: Legal minutebook management software startup
+    <<: *arcurve-dev
+    team-size: 2
+    duration-in-months: 5
+    stack:
+      column:
+        - row:
+          - CSS
+          - JavaScript
+          - AngularJS
+        - Web Browser
+        - HTTP
+        - row:
+          - Node
+          - Express
+        - row:
+          - Mongo DB
+          - column:
+            - HTTP
+            - other services
+
+  - client: Business information sharing startup
+    <<: *arcurve-dev
+    team-size: 4
+    duration-in-months: 3
+    stack:
+      column:
+        - row:
+          - column:
+            - row:
+              - CSS
+              - JavaScript
+              - React
+            - Web Browser
+          - column:
+            - row:
+              - JavaScript
+              - React Native
+            - iOS
+        - HTTP
+        - row:
+          - JavaScript
+          - Node
+        - row:
+          - Neo4j
+          - column:
+            - HTTP
+            - authentication service
+        - Heroku
+    
+  - client: Video conferencing software provider
+    <<: *arcurve-dev
+    team-size: 5
+    duration-in-months: 12
+    product: JavaScript library for consumers to build custom video conferencing web applications that integrate with our client's video conferencing infrastructure and suite of desktop/embedded video calling applications.
+    stack:
+      column:
+        - Consumer JavaScript (3rd party)
+        - TypeScript
+        - row: 
+          - Stanza.io (XMPP)
+          - Browser WebRTC API
+        - Web Browser
+        - HTTP
+        - row:
+          - proprietary signalling service
+          - video bridge (in C)
+        - row:
+          - desktop video client
+          - other video clients
+
+  - client: Land acquisition service provider 
+    <<: *arcurve-dev
+    team-size: 2
+    duration-in-months: 4
+    stack:
+      column:
+        - row:
+          - HTML
+          - CSS
+          - JavaScript
+          - Kendo UI
+        - Web Browser
+        - HTTP
+        - C# MVC
+        - row:
+          - SQL Server
+          - IIS
+        - on-premise
+
+  - client: Surplus oilfield equipment broker startup
+    <<: *arcurve-dev
+    team-size: 2
+    duration-in-months: 4
+    stack:
+      column: 
+        - row:
+          - HTML
+          - CSS
+          - JavaScript
+        - HTTP
+        - PHP
+        - MySQL
+        - Linux
+        - shared hosting environment
+
+  - client: World-leading oilfield services company
+    <<: *arcurve-dev
+    team-size: 1
+    duration-in-months: 3
+    stack:
+      column:
+        - MS Excel VBA
+
+
+  - client: Software Engineering Decision Support Lab
+    title: Software Developer
+    employer: University of Calgary
+    duration-in-months: 12
+    team-size: 3
+    stack:
+      column:
+        - row:
+          - HTML
+          - CSS
+          - CoffeeScript
+          - Ember.js
+        - Web Browser
+        - HTTP
+        - Ruby on Rails
+        - Postgres
+        - Heroku
