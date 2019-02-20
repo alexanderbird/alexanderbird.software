@@ -1,0 +1,22 @@
+.molecules__tech-stack {
+  margin: auto;
+  margin-top: 0;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  display: flex;
+  padding: 4px;
+  width: calc(100% - 8px);
+
+  &.molecules__tech-stack--string {
+  }
+
+  &.molecules__tech-stack--row {
+    flex-direction: row;
+  }
+
+  &.molecules__tech-stack--column {
+    border: none;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+}

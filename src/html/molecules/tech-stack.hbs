@@ -1,0 +1,11 @@
+{{#if experience.isString}}
+  <div class='molecules__tech-stack molecules__tech-stack--string'>
+    {{experience.value}}
+  </div>
+{{else}}
+  <div class='molecules__tech-stack molecules__tech-stack--{{experience.type}}'>
+  {{#each experience.value}}
+    {{> molecules/tech-stack experience=(experience this) }}    
+  {{/each}}
+  </div>
+{{/if}}

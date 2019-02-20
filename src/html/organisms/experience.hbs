@@ -1,0 +1,8 @@
+<div class='organisms__experience'>
+  <h3>{{data.client}}</h3>
+  <h4>{{data.title}} for {{data.employer}}</h4>
+  <span>{{repeat data.team-size '☺'}}</span>
+  <span>|</span>
+  <span>{{repeat data.duration-in-months '📅'}}</span>
+  {{> molecules/tech-stack experience=(experience data.stack) }}
+</div>

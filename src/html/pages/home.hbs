@@ -16,7 +16,10 @@
       </div>
     {{/each}}
   </div>
-  {{#if 0}}
-  {{> organisms/experience-section }}
-  {{/if}}
+  <hr>
+  <div class='atoms__flex-tiles'>
+    {{#each experience }}
+      {{> organisms/experience data=this }}
+    {{/each}}
+  </div>
 {{/atoms/page}}
