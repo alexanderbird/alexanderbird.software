@@ -194,10 +194,13 @@ experience:
           - Stanza.io (XMPP)
           - Browser WebRTC API
         - Web Browser
-        - HTTP
         - row:
-          - proprietary signalling service
-          - video bridge (in C)
+          - column:
+            - WebRTC
+            - video bridge (in C)
+          - column:
+            - WebSocket
+            - proprietary signalling service
         - row:
           - desktop video client
           - other video clients
