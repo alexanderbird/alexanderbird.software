@@ -5,9 +5,10 @@ title: Alexander Bird - Software Developer
 profile:
   name: Alexander Bird
   title: Software Developer
-  tagline: What I want most is to build software in a healthy team &mdash; software that makes a profit and enhances lives &mdash; and to do that more and more safely and effectively.
+  tagline: |
+    Holistic software developer: technical excellence, uncovering better ways to build, and empathetic collaboration
 
-contactMethods: 
+contact-methods: 
   - link: mailto:alex@alexanderbird.software
     text: alex@alexanderbird.software
     icon: mail
@@ -17,6 +18,7 @@ contactMethods:
 
 skill-sections:
   - title: Software Engineer
+    footer: Build the right thing
     icon: software-engineer.svg
     icon-size: large
     items:
@@ -43,6 +45,7 @@ skill-sections:
         title: Software Engineering Stack Exchange
         url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
   - title: Polyglot
+    footer: Build it right
     icon: polyglot.svg
     icon-size: small
     items:
@@ -77,6 +80,7 @@ skill-sections:
         title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
   - title: Human
+    footer: Don't do it alone
     icon: human.svg
     icon-size: small
     items:
