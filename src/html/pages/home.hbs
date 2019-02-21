@@ -7,7 +7,7 @@
       <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
       <span class='title'>{{profile.title}}</span>
     </h1>
-    <h2 class='tagline'>{{{profile.tagline}}}</h2>
+    <h2 class='atoms__tagline'>{{{profile.tagline}}}</h2>
   </div>
   <div class='atoms__row content'>
     {{#each skill-sections }}
@@ -17,6 +17,7 @@
     {{/each}}
   </div>
   <hr>
+  <h3 class='atoms__tagline'>Experience</h3>
   <div class='atoms__flex-tiles'>
     {{#each experience }}
       {{> organisms/experience data=this }}
