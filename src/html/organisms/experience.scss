@@ -1,5 +1,5 @@
 .organisms__experience {
-  max-width: 400px;
+  max-width: 45%;
   margin: 8px;
   border-radius: 4px;
   padding: 8px;
@@ -9,5 +9,15 @@
     width: 1.2em;
     height: 1.2em;
     color: var(--color-secondary);
+  }
+
+  .organisms__experience__row {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex;
+
+    & > * {
+      flex: 1;
+    }
   }
 }
