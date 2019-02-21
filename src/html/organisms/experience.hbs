@@ -5,6 +5,12 @@
   <span>|</span>
   <span>{{repeat data.duration-in-months '📅'}}</span>
   {{> molecules/tech-stack experience=(experience data.stack) }}
-  <div>PEOPLE: {{{data.people}}}</div>
-  <div>ENGINEERING: {{{data.engineering}}}</div>
+  {{#if data.people}}<div>
+    <img class='organisms__experience__text-icon' src='/assets/team.svg' />
+    <span>{{{data.people}}}</span>
+  </div>{{/if}}
+  {{#if data.engineering}}<div>
+    <img class='organisms__experience__text-icon' src='/assets/uml.svg' />
+    <span>{{{data.engineering}}}</span>
+  </div>{{/if}}
 </div>

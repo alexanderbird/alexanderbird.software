@@ -1,6 +1,13 @@
 .organisms__experience {
+  max-width: 400px;
   margin: 8px;
   border-radius: 4px;
   padding: 8px;
   background-color: var(--color-tertiary);
+
+  .organisms__experience__text-icon {
+    width: 1.2em;
+    height: 1.2em;
+    color: var(--color-secondary);
+  }
 }
