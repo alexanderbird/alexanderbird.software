@@ -105,11 +105,13 @@ _experience-templates:
     employer: Arcurve Inc
 
 experience:
-  - client: Major telecommunications company
+  - client: Leading telecommunications company
     title: Lead Software Developer
     employer: Arcurve Inc
     team-size: 12
     duration-in-months: 6
+    engineering: Introduced and facilitated collaboration practices to transform a siloed (and resentful) group into a cross-functional, collaborative team.
+    people: Created a friendly, productive, and collaborative team inside a competitive, unhealthy, and toxic organization.
     stack:
       column:
         - row:
@@ -135,6 +137,8 @@ experience:
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 5
+    engineering: Built an import utility for a proprietary data format including inferring the domain model/rules from the data, and writing a custom parser for the files.
+    people: Integrated this component with our client's code, and provided extensive documentation and training so their development team is comfortable maintaining (including testing and modifying) the import utility.
     stack:
       column:
         - row:
@@ -156,6 +160,8 @@ experience:
     <<: *arcurve-dev
     team-size: 4
     duration-in-months: 3
+    engineering: When our client pivoted significantly two months in (new UI, new data model), the architecture and tests I had put in place allowed me to salvage most of the existing code.
+    people: Communicated respectfully and constructively with our client despite their ad hominem attacks and disrespectful attitude towards me.
     stack:
       column:
         - row:
@@ -183,9 +189,10 @@ experience:
     
   - client: Video conferencing software provider
     <<: *arcurve-dev
-    team-size: 5
+    team-size: 2
     duration-in-months: 12
-    product: JavaScript library for consumers to build custom video conferencing web applications that integrate with our client's video conferencing infrastructure and suite of desktop/embedded video calling applications.
+    people: Communicated constructively and professionally with my technical lead despite their continued dismissal of my inputs.
+    engineering: Built a JavaScript library for consumers to enable video conferencing from/to their browser applications to/from our client's existing suite of desktop/embedded video conferencing SDKs and applications.
     stack:
       column:
         - Consumer JavaScript (3rd party)
@@ -209,6 +216,8 @@ experience:
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 4
+    engineering: Added features to a mature application, respecting the patterns set out by previous developers (no longer around to explain their thinking).
+    people: Practised constructive code reviews &mdash; receiving (accepting, adopting) feedback, and explaining my thinking.
     stack:
       column:
         - row:
@@ -228,6 +237,8 @@ experience:
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 4
+    engineering: Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application.
+    people: Participated in requirements elicitation from domain experts with very little technical understanding.
     stack:
       column: 
         - row:
@@ -244,15 +255,19 @@ experience:
     <<: *arcurve-dev
     team-size: 1
     duration-in-months: 3
+    engineering: Used TDD and version control &mdash; not easy things inside an Excel spreadsheet.
+    people: Proposed a change in business process to shorted lead time from a new customer signing up to starting service by more than 50% (also modified the business-critical Excel VBA application to support that process change).
     stack:
       column:
         - MS Excel VBA
 
 
   - client: Software Engineering Decision Support Lab
-    title: Software Developer
+    title: Research Assistant
     employer: University of Calgary
     duration-in-months: 12
+    people: Collaborated remotely with the technical lead on the project.
+    engineering: Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool.
     team-size: 3
     stack:
       column:
