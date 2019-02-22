@@ -21,8 +21,11 @@
   "license": "UNLICENSED",
   "gulp": {
     "buildDirectory": "html",
+    "buildAssetsDirectory": "assets",
+    "buildIconsBasename": "icons",
     "sourceDirectory": "src/html",
     "sourceAssetsDirectory": "src/assets",
+    "sourceIconsDirectory": "src/icons",
     "sourceRawPagesDirectory": "src/raw-pages",
     "sourceContentDirectory": "src/content",
     "handlebars": {
@@ -38,7 +41,9 @@
     "gulp-ext-replace": "^0.3.0",
     "gulp-handlebars-html": "0.0.2",
     "gulp-json-handlebars": "^1.0.6",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
+    "gulp-svg-sprite": "^1.5.0",
     "gulp-wrap": "^0.14.0",
     "gulp-yaml": "^2.0.2",
     "handlebars-inline": "^1.0.0",
