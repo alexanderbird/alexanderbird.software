@@ -2,29 +2,29 @@
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <g transform="matrix(3.760586, 0, 0, 3.760586, -176.229797, -209.368988)" style="">
     <g>
-      <rect y="77.324" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);" x="47.06"/>
-      <rect y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);" x="47.06"/>
+      <rect y="77.324" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));" x="47.06"/>
+      <rect y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));" x="47.06"/>
     </g>
     <g>
-      <rect x="55.855" y="58.93" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);"/>
-      <rect x="55.855" y="58.93" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);"/>
+      <rect x="55.855" y="58.93" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));"/>
+      <rect x="55.855" y="58.93" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));"/>
     </g>
     <g>
-      <rect x="65.028" y="77.324" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);"/>
-      <rect x="65.028" y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);"/>
+      <rect x="65.028" y="77.324" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));"/>
+      <rect x="65.028" y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));"/>
     </g>
     <g>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="53.05" y1="77.372" x2="53.051" y2="72.121"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.259" y2="72.197"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="71.022" y1="72.243" x2="71.013" y2="77.226"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="61.851" y1="72.211" x2="61.839" y2="68.376"/>
-      <path d="M 61.846 67.828 L 62.865 69.593 L 60.826 69.593 L 61.846 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.826 67.828 2.039 1.765 0.5 0 1@97c289f2"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="79.671" y1="81.657" x2="80.759" y2="81.657"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.559" y1="63.097" x2="80.559" y2="81.697"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.759" y1="63.262" x2="68.667" y2="63.254"/>
-      <polygon style="stroke: rgb(0, 0, 0); stroke-width: 0.444; fill: none;" points="77.718 81.66 78.806 82.192 79.857 81.641 78.83 81.122"/>
-      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 69.833 63.893"/>
-      <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 0.463px;" points="70.08 64.073 68.424 63.288 70.043 62.452"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="53.05" y1="77.372" x2="53.051" y2="72.121"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.259" y2="72.197"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="71.022" y1="72.243" x2="71.013" y2="77.226"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="61.851" y1="72.211" x2="61.839" y2="68.376"/>
+      <path fill="var(--icon-color-primary, #000)" d="M 61.846 67.828 L 62.865 69.593 L 60.826 69.593 L 61.846 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.826 67.828 2.039 1.765 0.5 0 1@97c289f2"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="79.671" y1="81.657" x2="80.759" y2="81.657"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="80.559" y1="63.097" x2="80.559" y2="81.697"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="80.759" y1="63.262" x2="68.667" y2="63.254"/>
+      <path d="M 77.71800231933594 81.66000366210938 L 78.80599975585938 82.19200134277344 L 79.85700225830078 81.64099884033203 L 78.83000183105469 81.12200164794922 Z" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.444; fill: none;"/>
+      <path style="fill: rgb(216, 216, 216); stroke: var(--icon-color-primary, #000);" d="M 69.833 63.893"/>
+      <polyline style="stroke: var(--icon-color-primary, #000); fill: none; stroke-width: 0.463px;" points="70.08 64.073 68.424 63.288 70.043 62.452"/>
     </g>
   </g>
 </svg>

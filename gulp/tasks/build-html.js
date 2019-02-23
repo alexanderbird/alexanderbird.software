@@ -14,12 +14,12 @@ const {
   buildDirectory,
   sourceDirectory,
   sourceContentDirectory,
-  handlebars: handlebarsOptions
+  handlebars: handlebarsOptions,
+  pageTemplateDirectory
 } = require('../config')
 
 
 gulp.task('build:html', () => gulp
-  // Ensure home.html.yaml is the last one src'ed
   .src(`${sourceContentDirectory}/**/*.yaml`)
   .pipe(yaml())
   .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData }), getPageTemplate))
@@ -30,11 +30,7 @@ gulp.task('build:html', () => gulp
 // returns handlebars template given a template name
 // the template name comes from meta.pageTemplate property in the json file
 const getPageTemplate = pageTemplateName => {
-  const templatePath = path.join(
-    handlebarsOptions.partialsDirectory,
-    'pages',
-    pageTemplateName + '.hbs',
-  );
+  const templatePath = path.join(pageTemplateDirectory, pageTemplateName + '.hbs');
   return fs.readFileSync(templatePath).toString('utf-8');
 };
 

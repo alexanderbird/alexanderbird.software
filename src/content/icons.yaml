@@ -1,2 +1,35 @@
 meta:
   pageTemplate: icons
+
+_: &defaultProperties
+  height: unset
+  color-primary: unset
+  color-secondary: unset
+  color-tertiary: unset
+
+propertySets:
+  - summary: defaults
+    <<: *defaultProperties
+  - summary: larger
+    <<: *defaultProperties
+    height: 40px
+  - summary: custom colors
+    <<: *defaultProperties
+    height: 40px
+    color-primary: '#137F37'
+    color-secondary: '#1CBF53'
+    color-tertiary: '#25FF6E'
+
+iconNames: 
+  - github
+  - human
+  - linkedin
+  - mail
+  - npm
+  - polyglot
+  - software-engineer
+  - stack-exchange
+  - stack-overflow
+  - team
+  - twitter
+  - uml

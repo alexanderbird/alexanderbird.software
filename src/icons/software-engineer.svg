@@ -1,48 +1,42 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
   <g style="" id="person">
-    <path d="M 92.095 91.507 C 93.852 97.942 86.942 128 86.942 128 L 41.734 127.918 C 41.734 127.918 34.009 99.396 35.924 91.451 C 37.474 85.02 48.388 78.814 48.388 78.814 C 51.777 83.995 57.631 87.418 64.284 87.418 C 70.947 87.418 76.808 83.986 80.194 78.793 C 80.194 78.793 90.38 85.231 92.095 91.507 Z" style=""/>
-    <circle style="stroke-width: 1.14823; vector-effect: non-scaling-stroke;" cx="64.283" cy="67.979" r="15.395"/>
+    <path fill="var(--icon-color-primary, #000)" d="M 92.095 91.507 C 93.852 97.942 86.942 128 86.942 128 L 41.734 127.918 C 41.734 127.918 34.009 99.396 35.924 91.451 C 37.474 85.02 48.388 78.814 48.388 78.814 C 51.777 83.995 57.631 87.418 64.284 87.418 C 70.947 87.418 76.808 83.986 80.194 78.793 C 80.194 78.793 90.38 85.231 92.095 91.507 Z" style=""/>
+    <circle fill="var(--icon-color-primary, #000)" style="stroke-width: 1.14823; vector-effect: non-scaling-stroke;" cx="64.283" cy="67.979" r="15.395"/>
   </g>
   <g id="code">
-    <rect width="8.542" height="2.51" style="stroke-width: 0.205;" x="52.293" y="13.361"/>
-    <rect x="55.822" width="18.009" height="2.587" style="stroke-width: 0.205;" y="16.505"/>
-    <rect x="55.822" width="9.024" height="2.587" style="stroke-width: 0.205;" y="19.688"/>
-    <rect width="10.105" height="2.58" style="stroke-width: 0.205;" y="22.873" x="59.658"/>
-    <rect x="59.658" width="14.125" height="2.564" style="stroke-width: 0.205;" y="26.063"/>
-    <rect x="55.822" width="9.024" height="2.441" style="stroke-width: 0.205;" y="29.291"/>
-    <rect x="52.293" width="8.542" height="2.656" style="stroke-width: 0.205;" y="32.382"/>
-    <rect width="26.213" height="26.213" style="fill: none; stroke: rgb(0, 0, 0); stroke-width: 1.434;" x="49.836" y="11.21"/>
+    <path fill="var(--icon-color-primary, #000)" d="M 52.293 13.361 L 60.835 13.361 L 60.835 15.871 L 52.293 15.871 Z M 55.822 16.505 L 73.831 16.505 L 73.831 19.092 L 55.822 19.092 Z M 55.822 19.688 L 64.846 19.688 L 64.846 22.275 L 55.822 22.275 Z M 59.658 22.873 L 69.763 22.873 L 69.763 25.453 L 59.658 25.453 Z M 59.658 26.063 L 73.783 26.063 L 73.783 28.627 L 59.658 28.627 Z M 55.822 29.291 L 64.846 29.291 L 64.846 31.732 L 55.822 31.732 Z M 52.293 32.382 L 60.835 32.382 L 60.835 35.038 L 52.293 35.038 Z" style="stroke-width: 0.205;"/>
+    <rect width="26.213" height="26.213" style="fill: none; stroke: var(--icon-color-primary, #000); stroke-width: 1.434;" x="49.836" y="11.21"/>
   </g>
   <g style="" id="small-person">
-    <path d="M 32.821 42.432 C 33.523 45.002 30.764 57.003 30.764 57.003 L 12.713 56.97 C 12.713 56.97 9.629 45.582 10.394 42.41 C 11.013 39.842 15.37 37.364 15.37 37.364 C 16.723 39.433 19.061 40.8 21.717 40.8 C 24.377 40.8 26.718 39.429 28.07 37.356 C 28.07 37.356 32.137 39.926 32.821 42.432 Z" style=""/>
-    <circle style="stroke-width: 1.14823; vector-effect: non-scaling-stroke;" cx="21.781" cy="33.265" r="6.473"/>
+    <path fill="var(--icon-color-primary, #000)" d="M 32.821 42.432 C 33.523 45.002 30.764 57.003 30.764 57.003 L 12.713 56.97 C 12.713 56.97 9.629 45.582 10.394 42.41 C 11.013 39.842 15.37 37.364 15.37 37.364 C 16.723 39.433 19.061 40.8 21.717 40.8 C 24.377 40.8 26.718 39.429 28.07 37.356 C 28.07 37.356 32.137 39.926 32.821 42.432 Z" style=""/>
+    <circle fill="var(--icon-color-primary, #000)" style="stroke-width: 1.14823; vector-effect: non-scaling-stroke;" cx="21.781" cy="33.265" r="6.473"/>
   </g>
   <g transform="matrix(1, 0, 0, 1, 38.44086, -31.197071)">
     <g>
-      <rect y="77.324" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);" x="47.06"/>
-      <rect y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);" x="47.06"/>
+      <rect y="77.324" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));" x="47.06"/>
+      <rect y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));" x="47.06"/>
     </g>
     <g>
-      <rect x="55.855" y="58.93" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);"/>
-      <rect x="55.855" y="58.93" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);"/>
+      <rect x="55.855" y="58.93" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));"/>
+      <rect x="55.855" y="58.93" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));"/>
     </g>
     <g>
-      <rect x="65.028" y="77.324" width="11.98" height="8.666" style="stroke: rgb(0, 0, 0); stroke-width: 0.488; fill: rgba(0, 0, 0, 0.28);"/>
-      <rect x="65.028" y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: rgb(0, 0, 0); fill: rgba(0, 0, 0, 0.5);"/>
+      <rect x="65.028" y="77.324" width="11.98" height="8.666" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.488; fill: var(--icon-color-tertiary, rgba(0, 0, 0, 0.28));"/>
+      <rect x="65.028" y="77.324" width="11.98" height="2.496" style="stroke-width: 0.488; stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, rgba(0, 0, 0, 0.5));"/>
     </g>
     <g>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="53.05" y1="77.372" x2="53.051" y2="72.121"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.259" y2="72.197"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="71.022" y1="72.243" x2="71.013" y2="77.226"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="61.851" y1="72.211" x2="61.839" y2="68.376"/>
-      <path d="M 61.846 67.828 L 62.865 69.593 L 60.826 69.593 L 61.846 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.826 67.828 2.039 1.765 0.5 0 1@97c289f2"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="79.671" y1="81.657" x2="80.759" y2="81.657"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.559" y1="63.097" x2="80.559" y2="81.697"/>
-      <line style="stroke: rgb(0, 0, 0); stroke-width: 0.463;" x1="80.759" y1="63.262" x2="68.667" y2="63.254"/>
-      <polygon style="stroke: rgb(0, 0, 0); stroke-width: 0.444; fill: none;" points="77.718 81.66 78.806 82.192 79.857 81.641 78.83 81.122"/>
-      <path style="fill: rgb(216, 216, 216); stroke: rgb(0, 0, 0);" d="M 69.833 63.893"/>
-      <polyline style="stroke: rgb(0, 0, 0); fill: none; stroke-width: 0.463px;" points="70.08 64.073 68.424 63.288 70.043 62.452"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="53.05" y1="77.372" x2="53.051" y2="72.121"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="52.928" y1="72.233" x2="71.259" y2="72.197"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="71.022" y1="72.243" x2="71.013" y2="77.226"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="61.851" y1="72.211" x2="61.839" y2="68.376"/>
+      <path fill="var(--icon-color-primary, #000)" d="M 61.846 67.828 L 62.865 69.593 L 60.826 69.593 L 61.846 67.828 Z" style="stroke-width: 0.463;" bx:shape="triangle 60.826 67.828 2.039 1.765 0.5 0 1@97c289f2"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="79.671" y1="81.657" x2="80.759" y2="81.657"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="80.559" y1="63.097" x2="80.559" y2="81.697"/>
+      <line style="stroke: var(--icon-color-primary, #000); stroke-width: 0.463;" x1="80.759" y1="63.262" x2="68.667" y2="63.254"/>
+      <path d="M 77.71800231933594 81.66000366210938 L 78.80599975585938 82.19200134277344 L 79.85700225830078 81.64099884033203 L 78.83000183105469 81.12200164794922 Z" style="stroke: var(--icon-color-primary, #000); stroke-width: 0.444; fill: none;"/>
+      <path style="fill: rgb(216, 216, 216); stroke: var(--icon-color-primary, #000);" d="M 69.833 63.893"/>
+      <polyline style="stroke: var(--icon-color-primary, #000); fill: none; stroke-width: 0.463px;" points="70.08 64.073 68.424 63.288 70.043 62.452"/>
     </g>
   </g>
 </svg>

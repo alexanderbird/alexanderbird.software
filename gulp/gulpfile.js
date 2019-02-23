@@ -7,4 +7,4 @@ gulp.task('build', gulp.parallel(
   'build:css'
 ));
 
-gulp.task('default', gulp.series('clean', 'build'));
+gulp.task('default', gulp.series('clean', 'build:tmp', 'build', 'remove:tmp'));

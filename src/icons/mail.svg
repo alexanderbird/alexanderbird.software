@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg version="1.1" x="0" y="0" width="128" height="82" viewBox="0, 0, 128, 82" xmlns="http://www.w3.org/2000/svg">
   <g>
-    <path d="M3.658,3.5 L125.342,3.5 L125.342,79.5 L3.658,79.5 L3.658,3.5 z" fill-opacity="0" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M4.137,4.836 C4.137,4.836 64.021,55.496 64.021,55.496 C64.021,55.496 124.863,3.5 124.863,3.5" fill-opacity="0" stroke="#000000" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M80.592,41.666 C95.349,54.277 110.106,66.889 124.863,79.5" fill-opacity="0" stroke="#000000" stroke-width="6"/>
-    <path d="M47.775,41.248 C33.229,53.553 18.683,65.858 4.137,78.164" fill-opacity="0" stroke="#000000" stroke-width="6"/>
+    <path d="M3.658,3.5 L125.342,3.5 L125.342,79.5 L3.658,79.5 L3.658,3.5 z" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M4.137,4.836 C4.137,4.836 64.021,55.496 64.021,55.496 C64.021,55.496 124.863,3.5 124.863,3.5" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6" stroke-linejoin="round"/>
+    <path d="M80.592,41.666 C95.349,54.277 110.106,66.889 124.863,79.5" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6"/>
+    <path d="M47.775,41.248 C33.229,53.553 18.683,65.858 4.137,78.164" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6"/>
   </g>
 </svg>

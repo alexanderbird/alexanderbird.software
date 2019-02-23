@@ -28,8 +28,14 @@
     "sourceIconsDirectory": "src/icons",
     "sourceRawPagesDirectory": "src/raw-pages",
     "sourceContentDirectory": "src/content",
+    "pageTemplateDirectory": "src/html/pages",
+    "tmpRootDirectory": "tmp",
+    "tmpDirectory": "tmp/dynamic",
     "handlebars": {
-      "partialsDirectory": "src/html"
+      "partialsDirectory": [
+        "src/html",
+        "tmp"
+      ]
     }
   },
   "devDependencies": {
