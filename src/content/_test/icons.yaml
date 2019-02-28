@@ -3,6 +3,7 @@ meta:
 
 _: &defaultProperties
   height: unset
+  width: unset
   color-primary: unset
   color-secondary: unset
   color-tertiary: unset
@@ -10,9 +11,13 @@ _: &defaultProperties
 propertySets:
   - summary: defaults
     <<: *defaultProperties
-  - summary: larger
+    height: 1em
+  - summary: larger height
     <<: *defaultProperties
     height: 40px
+  - summary: larger width
+    <<: *defaultProperties
+    width: 40px
   - summary: custom colors
     <<: *defaultProperties
     height: 40px

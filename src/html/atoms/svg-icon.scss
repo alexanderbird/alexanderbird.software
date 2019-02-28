@@ -1,4 +1,5 @@
 .atoms__svg-icon {
   width: auto;
-  height: var(--icon-height, 1em);
+  height: var(--icon-height, auto);
+  width: var(--icon-width, auto);
 }
