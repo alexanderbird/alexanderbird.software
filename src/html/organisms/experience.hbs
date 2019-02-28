@@ -7,11 +7,11 @@
   <div class='organisms__experience__row'>
     <div>
       {{#if data.people}}<div>
-        <img class='organisms__experience__text-icon' src='/assets/team.svg' />
+        {{> atoms/svg-icon name='team' }}
         <span>{{{data.people}}}</span>
       </div>{{/if}}
       {{#if data.engineering}}<div>
-        <img class='organisms__experience__text-icon' src='/assets/uml.svg' />
+        {{> atoms/svg-icon name='uml' }}
         <span>{{{data.engineering}}}</span>
       </div>{{/if}}
     </div>

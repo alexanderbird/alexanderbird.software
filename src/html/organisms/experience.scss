@@ -5,11 +5,11 @@
   padding: 8px;
   background-color: var(--color-tertiary);
 
-  .organisms__experience__text-icon {
-    width: 1.2em;
-    height: 1.2em;
-    color: var(--color-secondary);
-  }
+  --icon-width: 1.2em;
+  --icon-height: 1.2em;
+  --icon-color-primary: var(--color-secondary);
+  --icon-color-secondary: var(--color-secondary);
+  --icon-color-tertiary: transparent;
 
   .organisms__experience__row {
     display: flex;
