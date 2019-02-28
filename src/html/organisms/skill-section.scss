@@ -7,6 +7,9 @@
   .organisms__titled-list__icon {
     float: right;
     --icon-width: 128px;
+    --icon-color-primary: var(--color-secondary);
+    --icon-color-secondary: var(--color-secondary);
+    --icon-color-tertiary: var(--color-tertiary);
     
     &.organisms__titled-list__icon--small {
       --icon-width: 64px;
