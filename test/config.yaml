@@ -6,6 +6,7 @@ domains:
 paths:
   home: /
   contact: /#contact
+  test_icons: /_test/icons.html
 
 before_capture: 'javascript/wait--chrome.js'
 
