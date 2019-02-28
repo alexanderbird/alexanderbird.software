@@ -1,5 +1,4 @@
 @import '../animations';
-@import '../svg';
 
 #contact {
   animation:
@@ -50,10 +49,10 @@
           align-items: center;
         }
 
-        @include color-svg(var(--color-secondary));
-        svg {
-          width: 2em;
-          height: 2em;
+        .atoms__svg-icon {
+          --icon-color-primary: var(--color-secondary);
+          --icon-width: 2em;
+          --icon-height: 2em;
           margin-right: 1em;
         }
       }
