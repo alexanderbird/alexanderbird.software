@@ -1,7 +1,7 @@
 <div class='organisms__titled-list'>
   <div class='organisms__titled-list__body'>
     <div class='organisms__titled-list__text'>
-      <img class='organisms__titled-list__icon organisms__titled-list__icon--{{data.icon-size}}' src='/assets/{{data.icon}}' alt='{{data.title}}'/>
+      {{> atoms/svg-icon class=(concat 'organisms__titled-list__icon organisms__titled-list__icon--' data.icon-size) name=data.icon alt=data.title }}
       <h2>{{data.title}}</h2>
       <ul>
       {{#each data.items}}

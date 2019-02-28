@@ -18,7 +18,7 @@ contact-methods:
 skill-sections:
   - title: Software Engineer
     footer: Build the right thing
-    icon: software-engineer.svg
+    icon: software-engineer
     icon-size: large
     items:
       - Don't solve imaginary problems
@@ -45,7 +45,7 @@ skill-sections:
         url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
   - title: Polyglot
     footer: Build it right
-    icon: polyglot.svg
+    icon: polyglot
     icon-size: small
     items:
       - preface: Server
@@ -80,7 +80,7 @@ skill-sections:
         url: https://www.npmjs.com/~alexanderbird
   - title: Human
     footer: Don't do it alone
-    icon: human.svg
+    icon: human
     icon-size: small
     items:
       - Listener

@@ -6,11 +6,10 @@
 
   .organisms__titled-list__icon {
     float: right;
-    width: 128px;
-    height: auto;
+    --icon-width: 128px;
     
     &.organisms__titled-list__icon--small {
-      width: 64px;
+      --icon-width: 64px;
     }
   }
 
