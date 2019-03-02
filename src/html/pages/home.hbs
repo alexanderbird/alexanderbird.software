@@ -9,11 +9,9 @@
     </h1>
     <h2 class='atoms__tagline'>{{{profile.tagline}}}</h2>
   </div>
-  <div class='atoms__row content'>
+  <div class='atoms__row home__content'>
     {{#each skill-sections }}
-      <div>
-        {{> organisms/skill-section data=this}}
-      </div>
+      {{> organisms/skill-section data=this}}
     {{/each}}
   </div>
   <hr>
