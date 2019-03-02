@@ -1,10 +1,11 @@
 .organisms__experience {
   max-width: 45%;
   margin: 8px;
+  border: 1px solid var(--color-secondary);
   border-radius: 4px;
   padding: 8px;
   background-color: var(--color-accent);
-  box-shadow: var(--box-shadow);
+  animation: pop-out 0.4s ease-out 2.2s both;
 
   --icon-width: 1.2em;
   --icon-height: 1.2em;

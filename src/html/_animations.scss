@@ -81,3 +81,30 @@
     opacity: var(--forget-the-lesser-animations, 1);
   }
 }
+
+@keyframes pop-out {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 var(--color-secondary);
+  }
+  50% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 var(--color-secondary);
+  }
+  60% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(4px) translateY(4px);
+    box-shadow: 0 0 0 var(--color-secondary);
+  }
+  100% {
+    opacity: 1;
+    filter: blur(0px);
+    transform: translateX(0) translateY(0);
+    box-shadow: 4px 4px 4px var(--color-secondary);
+  }
+}
