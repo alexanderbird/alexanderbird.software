@@ -119,7 +119,8 @@ experience:
           - React
           - Redux
         - Web Browser
-        - HTTP
+        - row:
+          - HTTP
         - row:
           - column: 
               - row:
@@ -145,7 +146,8 @@ experience:
           - JavaScript
           - AngularJS
         - Web Browser
-        - HTTP
+        - row:
+          - HTTP
         - row:
           - Node
           - Express
@@ -174,8 +176,10 @@ experience:
             - row:
               - JavaScript
               - React Native
-            - iOS
-        - HTTP
+            - row:
+              - iOS
+        - row:
+          - HTTP
         - row:
           - JavaScript
           - Node
@@ -184,7 +188,8 @@ experience:
           - column:
             - HTTP
             - authentication service
-        - Heroku
+        - row:
+          - Heroku
     
   - client: Video conferencing software provider
     <<: *arcurve-dev
@@ -195,7 +200,8 @@ experience:
     stack:
       column:
         - Consumer JavaScript (3rd party)
-        - TypeScript
+        - row:
+          - TypeScript
         - row: 
           - Stanza.io (XMPP)
           - Browser WebRTC API
@@ -225,8 +231,10 @@ experience:
           - JavaScript
           - Kendo UI
         - Web Browser
-        - HTTP
-        - C# MVC
+        - row: 
+          - HTTP
+        - row:
+          - C# MVC
         - row:
           - SQL Server
           - IIS
@@ -244,10 +252,14 @@ experience:
           - HTML
           - CSS
           - JavaScript
-        - HTTP
-        - PHP
-        - MySQL
-        - Linux
+        - row:
+          - HTTP
+        - row:
+          - PHP
+        - row:
+          - MySQL
+        - row:
+          - Linux
         - shared hosting environment
 
   - client: World-leading oilfield services company
@@ -258,7 +270,8 @@ experience:
     people: Proposed a change in business process to shorted lead time from a new customer signing up to starting service by more than 50% (also modified the business-critical Excel VBA application to support that process change).
     stack:
       column:
-        - MS Excel VBA
+        - row:
+          - MS Excel VBA
 
 
   - client: Software Engineering Decision Support Lab
@@ -276,10 +289,14 @@ experience:
           - CoffeeScript
           - Ember.js
         - Web Browser
-        - HTTP
-        - Ruby on Rails
-        - Postgres
-        - Heroku
+        - row:
+          - HTTP
+        - row:
+          - Ruby on Rails
+        - row:
+          - Postgres
+        - row:
+          - Heroku
 
 values:
   intro: Want to be part of a team where we

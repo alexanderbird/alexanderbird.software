@@ -3,3 +3,6 @@
 - make links look like they belong in the site
 - skills sections become ~ 1 sentence.
 - add vimscript in scripting language section
+- skill section animation: blur in, and pop up (box shadow from 0 to current)
+- "Experience" title should be black and bigger
+- experience tiles aren't responsive and don't fit the full width (10% empty space on right)
