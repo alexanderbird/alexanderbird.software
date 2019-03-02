@@ -1,9 +1,9 @@
 <div class='organisms__experience'>
   <h3>{{data.client}}</h3>
   <h4>{{data.title}} for {{data.employer}}</h4>
-  <span>{{repeat data.team-size '☺'}}</span>
+  <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' data.team-size}}</span>
   <span>|</span>
-  <span>{{repeat data.duration-in-months '📅'}}</span>
+  <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' data.duration-in-months}}</span>
   <div class='organisms__experience__row'>
     <div>
       {{#if data.people}}<div>

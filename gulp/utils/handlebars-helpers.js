@@ -1,5 +1,6 @@
 const marked = require('marked');
 const handlebars = require('handlebars');
+const pluralize = require('pluralize');
 
 require('handlebars-inline').register(handlebars)
 
@@ -10,6 +11,7 @@ handlebars.registerHelper('is-array', thing => Array.isArray(thing))
 handlebars.registerHelper('repeat', (count, item) => Array(count + 1).join(item))
 handlebars.registerHelper('json', data => JSON.stringify(data, null, 2))
 handlebars.registerHelper('experience', data => new Experience(data))
+handlebars.registerHelper('pluralize', pluralize)
 
 function Experience(data) {
   if(typeof data === 'string') {
