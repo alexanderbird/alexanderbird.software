@@ -56,10 +56,10 @@ skill-sections:
         text: React, Handlebars, AngularJS
       - preface: Database
         text: SQL, Cypher (graph)
-      - preface: DSL
+      - preface: Scripting/automation
+        text: Vimscript, Bash, PowerShell
+      - preface: Other
         text: Regex, XPath
-      - preface: Shell/scripting
-        text: Bash, PowerShell
       - preface: Played with
         text: Go, Swift, Perl
       - preface: Once upon a time
@@ -313,4 +313,21 @@ values:
     - prefer: appropriate technology (but it's boring/old)
       over: trendy technology (but it's overkill/not appropriate)
 
+interviewer-notes:
+  - category: technical
+    items:
+      - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)
+      - TypeScript vs vanilla JS (pros and cons)
+      - What makes my Excel VBA project my favourite?
+      - Editor preference (Vim)
+      - Project changes to optimize for easy onboarding
+  - category: interpersonal
+    items:
+      - Lessons learned from working in several unpleasant teams
+      - Thoughts on pairing and mobbing
+      - tense workplace conflict resolution anecdotes
+  - category: smalltalk
+    items:
+      - time in the mountains
+      - am a new parent
 
