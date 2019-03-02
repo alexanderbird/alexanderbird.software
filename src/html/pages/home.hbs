@@ -9,14 +9,14 @@
     </h1>
     <h2 class='atoms__tagline'>{{{profile.tagline}}}</h2>
   </div>
-  <div class='atoms__row home__content'>
+  <div class='atoms__grid home__content' style='--atoms--grid-columns: 3'>
     {{#each skill-sections }}
       {{> organisms/skill-section data=this}}
     {{/each}}
   </div>
   <hr>
   <h2 class='atoms__tagline'>Experience</h2>
-  <div class='atoms__flex-tiles'>
+  <div class='atoms__grid' style='--atoms--grid-columns: 2'>
     {{#each experience }}
       {{> organisms/experience data=this }}
     {{/each}}
