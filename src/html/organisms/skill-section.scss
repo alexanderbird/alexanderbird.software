@@ -52,6 +52,9 @@
       display: flex;
       flex-direction: row;
       justify-content: center;
+      --icon-color-primary: var(--color-secondary);
+      --icon-color-secondary: var(--color-secondary);
+      --icon-color-tertiary: var(--color-secondary);
 
       & > *:not(:last-of-type) {
         margin-right: 8px;

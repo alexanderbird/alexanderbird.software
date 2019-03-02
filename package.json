@@ -6,6 +6,8 @@
   "scripts": {
     "deploy": "rm -rf html/_test && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
+    "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
+    "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
     "start": "cd html && http-server",
     "test:reset": "cd test && rm -r shots_base/* && bundle exec wraith history config.yaml",
     "test": "cd test && bundle exec wraith latest config.yaml || true && open shots/gallery.html"
