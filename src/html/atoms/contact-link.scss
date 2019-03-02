@@ -1,24 +1,16 @@
-@import '../svg';
-
 .atoms__contact-link {
   position: absolute;
   top: 4px;
   right: 4px;
 
-  svg {
-    width: 32px;
-    height: auto;
-  }
+  --icon-width: 32px;
+  --icon-height: calc(var(--icon-width) * (82/128));
+  --icon-color-primary: var(--color-secondary);
 
   @media (min-width: 400px) {
     top: 16px;
     right: 16px;
 
-    svg {
-      width: 64px;
-      height: auto;
-    }
+    --icon-width: 64px;
   }
-    
-  @include color-svg(var(--color-secondary));
 }

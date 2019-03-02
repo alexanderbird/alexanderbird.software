@@ -83,6 +83,7 @@ skill-sections:
     icon: human
     icon-size: small
     items:
+      # Something about pairing/mobbing?
       - Listener
       - Summarizer
       - Discussion facilitator
