@@ -1,3 +1,5 @@
 - in mobile mode, the skills tiles don't all need to be the same height. 
 - one of the three skills tiles is 1px too short
 - make links look like they belong in the site
+- skills sections become ~ 1 sentence.
+- add vimscript in scripting language section

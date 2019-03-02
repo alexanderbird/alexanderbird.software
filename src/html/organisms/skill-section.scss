@@ -3,6 +3,7 @@
   border: 1px solid grey;
   width: auto;
   height: 100%;
+  box-shadow: var(--box-shadow);
 
   .organisms__titled-list__icon {
     float: right;
@@ -66,7 +67,7 @@
       padding-top: 4px;
       padding-bottom: 4px;
       font-size: 1.5em;
-      color: var(--color-secondary);
+      color: var(--color-accent-darker);
       border-top: 1px solid var(--color-secondary);
     }
   }
