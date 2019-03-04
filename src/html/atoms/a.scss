@@ -1,0 +1,15 @@
+a:not(.reset) {
+  color: var(--color-primary);
+
+  &:visited {
+    color: var(--color-secondary);
+  }
+
+  &:active {
+    color: var(--color-tertiary);
+  }
+
+  &:hover {
+    color: var(--color-accent-darker);
+  }
+}
