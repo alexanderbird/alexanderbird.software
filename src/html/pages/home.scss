@@ -68,4 +68,11 @@
       animation: pop-out 0.4s ease-out 1.0s both;
     }
   }
+
+  .pages__home__section-header {
+    font-size: 1.8em;
+    animation: invisible 2.2s,
+      fade-in 0.4s ease-out 2.2s;
+    text-align: center;
+  }
 }

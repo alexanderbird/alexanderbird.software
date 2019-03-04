@@ -1,3 +1,2 @@
 - skills sections become ~ 1 sentence.
-- "Experience" title should be black and bigger
 - experience tiles' breakpoint for switching to column view is off. This might not be the case after redesigning that tile
