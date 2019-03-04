@@ -1,2 +1,5 @@
 - skills sections become ~ 1 sentence.
+- make experience tiles pretty
 - experience tiles' breakpoint for switching to column view is off. This might not be the case after redesigning that tile
+- add print mode
+- make github public and add link to it?
