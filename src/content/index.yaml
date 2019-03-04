@@ -112,26 +112,43 @@ experience:
     engineering: During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
     people: Introduced and facilitated collaboration practices to transform a siloed and unfriendly group into a cross-functional, collaborative team.
     stack:
-      column:
-        - row:
-          - CSS
-          - JavaScript
-          - React
-          - Redux
-        - Web Browser
-        - row:
-          - HTTP
-        - row:
-          - column: 
-              - row:
-                - Node
-                - Express
-              - Linux
-              - AWS EC2
-          - column:
-              - domain API (C#)
-              - Windows
-              - on-premise
+      group:
+        direction: column
+        borderless: true
+        items:
+          - group:
+              direction: row
+              name: Web Browser
+              items:
+                - CSS
+                - JavaScript
+                - React
+                - Redux
+          - group:
+              borderless: true
+              direction: row
+              items:
+                - connection: HTTP
+                - connection: HTTP
+          - group:
+              borderless: true
+              direction: row
+              items:
+                - group: 
+                    direction: column
+                    name: SPA Server
+                    items:
+                      - Express
+                      - Node
+                      - Linux
+                      - AWS EC2
+                - group:
+                    direction: column
+                    name: API Server
+                    items:
+                      - C#
+                      - Windows
+                      - on-prem
 
   - client: Legal minutebook management software startup
     <<: *arcurve-dev
@@ -140,22 +157,35 @@ experience:
     engineering: Built an import utility for a proprietary data format including inferring the domain model/rules from the data, and writing a custom parser for the files.
     people: Integrated this component with our client's code, and provided extensive documentation and training so their development team is comfortable maintaining (including testing and modifying) the import utility.
     stack:
-      column:
-        - row:
-          - CSS
-          - JavaScript
-          - AngularJS
-        - Web Browser
-        - row:
-          - HTTP
-        - row:
-          - Node
-          - Express
-        - row:
-          - Mongo DB
-          - column:
-            - HTTP
-            - other services
+      group:
+        direction: column
+        borderless: true
+        items:
+          - group:
+              name: Web Browser
+              direction: row
+              items:
+                - CSS
+                - JavaScript
+                - AngularJS
+          - connection: HTTP
+          - group:
+              name: Server
+              direction: column
+              items:
+                - Express
+                - Node
+                - group:
+                    direction: row
+                    borderless: true
+                    items:
+                      - Mongo DB
+                      - group:
+                          direction: column
+                          borderless: true
+                          items:
+                            - connection: HTTP
+                            - other services
 
   - client: Business information sharing startup
     <<: *arcurve-dev
