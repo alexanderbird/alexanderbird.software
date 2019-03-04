@@ -17,7 +17,7 @@ handlebars.registerHelper('pluralize', pluralize)
 class Experience {
   constructor(data) {
     if(typeof data === 'string') {
-      this.isString = true
+      this.type = 'string'
       this.value = data
     } else {
       const keys = Object.keys(data)
@@ -25,6 +25,23 @@ class Experience {
       this.type = keys[0]
       this.value = data[this.type]
     }
+
+    if(this.isBox) {
+      this.label = this.value.label
+      delete this.value.label
+    }
+  }
+
+  get isPlaceholder() {
+    return this.type === 'empty'
+  }
+
+  get isString() {
+    return this.type === 'string'
+  }
+
+  get isBox() {
+    return this.type === 'box'
   }
 
   get isGroup() {

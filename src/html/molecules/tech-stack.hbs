@@ -1,22 +1,18 @@
-{{#if experience.isString}}
-  <div class='molecules__tech-stack molecules__tech-stack--string'>
-    {{experience.value}}
-  </div>
-{{else if experience.isConnection}}
-  <div class='molecules__tech-stack molecules__tech-stack--connection'>&udarr;{{experience.value}}</div>
-{{else if experience.isGroup}}
-  {{#if (not experience.value.borderless)}}<fieldset class='molecules__tech-stack-fieldset'>{{/if}}
-    {{#if experience.value.name}}<legend>{{experience.value.name}}</legend>{{/if}}
-    <div class='molecules__tech-stack molecules__tech-stack--direction-{{coalesce experience.value.direction 'row'}}'>
-    {{#each experience.value.items}}
-      {{> molecules/tech-stack experience=(experience this) }}    
-    {{/each}}
-    </div>
-  {{#if (not experience.value.borderless)}}</fieldset>{{/if}}
+{{#if model.isString}}
+  <div class='molecules__tech-stack molecules__tech-stack__string'>{{model.value}}</div>
+{{else if model.isConnection}}
+  <div class='molecules__tech-stack molecules__tech-stack__connection'>&udarr;{{model.value}}</div>
+{{else if model.isPlaceholder}}
+  <div class='molecules__tech-stack molecules__tech-stack__placeholder'>&nbsp;</div>
+{{else if model.isBox}}
+  <fieldset class='molecules__tech-stack molecules__tech-stack__box'>
+    {{#if model.label}}<legend>{{model.label}}</legend>{{/if}}
+    {{> molecules/tech-stack model=(experience model.value) }}
+  </fieldset>
 {{else}}
-  <div class='molecules__tech-stack molecules__tech-stack--{{experience.type}}'>
-  {{#each experience.value}}
-    {{> molecules/tech-stack experience=(experience this) }}    
+  <div class='molecules__tech-stack molecules__tech-stack__{{model.type}}'>
+  {{#each model.value}}
+    {{> molecules/tech-stack model=(experience this) }}    
   {{/each}}
   </div>
 {{/if}}
