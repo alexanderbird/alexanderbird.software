@@ -1,8 +1,4 @@
-- in mobile mode, the skills tiles don't all need to be the same height. 
-- one of the three skills tiles is 1px too short
 - make links look like they belong in the site
 - skills sections become ~ 1 sentence.
-- add vimscript in scripting language section
-- skill section animation: blur in, and pop up (box shadow from 0 to current)
 - "Experience" title should be black and bigger
-- experience tiles aren't responsive and don't fit the full width (10% empty space on right)
+- experience tiles' breakpoint for switching to column view is off. This might not be the case after redesigning that tile
