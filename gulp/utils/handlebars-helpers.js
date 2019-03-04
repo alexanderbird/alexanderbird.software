@@ -32,6 +32,10 @@ class Experience {
     }
   }
 
+  get isLine() {
+    return this.type === 'line'
+  }
+
   get isPlaceholder() {
     return this.type === 'empty'
   }

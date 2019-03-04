@@ -4,6 +4,8 @@
   <div class='molecules__tech-stack molecules__tech-stack__connection'>&udarr;{{model.value}}</div>
 {{else if model.isPlaceholder}}
   <div class='molecules__tech-stack molecules__tech-stack__placeholder'>&nbsp;</div>
+{{else if model.isLine}}
+  <hr class='molecules__tech-stack molecules__tech-stack__hr'></hr>
 {{else if model.isBox}}
   <fieldset class='molecules__tech-stack molecules__tech-stack__box'>
     {{#if model.label}}<legend>{{model.label}}</legend>{{/if}}

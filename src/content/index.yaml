@@ -130,14 +130,14 @@ experience:
                 - Express
                 - Node
                 - Linux
-                - AWS EC2
           - box:
               label: API Server
               column:
-                - empty: true
                 - C#
                 - Windows
-                - on-prem
+        - row:
+            - AWS EC2
+            - on-prem
 
   - client: Legal minutebook management software startup
     <<: *arcurve-dev
@@ -178,28 +178,33 @@ experience:
     stack:
       column:
         - row:
-          - column:
-            - row:
-              - CSS
-              - JavaScript
-              - React
-            - Web Browser
-          - column:
-            - row:
-              - JavaScript
-              - React Native
-            - row:
-              - iOS
+          - box:
+              label: Web Browser
+              row:
+                - CSS
+                - JavaScript
+                - React
+          - box:
+              label: iOS
+              row:
+                - JavaScript
+                - React Native
+        - connection: HTTP
         - row:
-          - HTTP
-        - row:
-          - JavaScript
-          - Node
-        - row:
-          - Neo4j
-          - column:
-            - HTTP
-            - authentication service
+          - box:
+              label: Server
+              column:
+                - row:
+                    - JavaScript
+                    - Node
+                    - Cypher
+                - row:
+                  - Neo4j
+          - box:
+              label: Auth. Service
+              row:
+                - JavaScript
+                - Node
         - row:
           - Heroku
     
@@ -211,23 +216,32 @@ experience:
     engineering: Built a JavaScript library for consumers to enable video conferencing from/to their browser applications to/from our client's existing suite of desktop/embedded video conferencing SDKs and applications.
     stack:
       column:
-        - Consumer JavaScript (3rd party)
+        - box:
+            label: Web Browser
+            column:
+              - Consumer JavaScript (3rd party)
+              - box:
+                  label: JavaScript Library
+                  column:
+                    - TypeScript
+                    - row: 
+                      - Browser WebRTC API
+                      - Stanza.io (XMPP)
         - row:
-          - TypeScript
-        - row: 
-          - Stanza.io (XMPP)
-          - Browser WebRTC API
-        - Web Browser
-        - row:
-          - column:
-            - WebRTC
-            - video bridge (in C)
-          - column:
-            - WebSocket
-            - proprietary signalling service
-        - row:
-          - desktop video client
-          - other video clients
+            - connection: WebRTC
+            - connection: WebSocket
+        - box:
+            label: Server
+            row:
+              - Selective Forwarding Unit
+              - Signalling service (XMPP)
+        - connection: (various protocols)
+        - box:
+            label: Other Clients
+            row:
+              - Browser
+              - Desktop
+              - Embedded
 
   - client: Land acquisition service provider 
     <<: *arcurve-dev
@@ -237,19 +251,25 @@ experience:
     people: Practised constructive code reviews &mdash; receiving (accepting, adopting) feedback, and explaining my thinking.
     stack:
       column:
-        - row:
-          - HTML
-          - CSS
-          - JavaScript
-          - Kendo UI
-        - Web Browser
-        - row: 
-          - HTTP
-        - row:
-          - C# MVC
-        - row:
-          - SQL Server
-          - IIS
+        - box:
+            label: Web Browser
+            row:
+              - HTML
+              - CSS
+              - JavaScript
+              - Kendo UI
+        - connection: HTTP
+        - box:
+            label: Server
+            column:
+              - row:
+                  - C#
+                  - .NET MVC
+                  - SQL
+              - line: true
+              - row:
+                  - IIS
+                  - Microsoft SQL Server
         - on-premise
 
   - client: Surplus oilfield equipment broker startup
@@ -260,18 +280,23 @@ experience:
     people: Participated in requirements elicitation from domain experts with very little technical understanding.
     stack:
       column: 
-        - row:
-          - HTML
-          - CSS
-          - JavaScript
-        - row:
-          - HTTP
-        - row:
-          - PHP
-        - row:
-          - MySQL
-        - row:
-          - Linux
+        - box:
+            label: Web Browser
+            row:
+              - HTML
+              - CSS
+              - JavaScript
+        - connection: HTTP
+        - box:
+            label: Server
+            column:
+              - row:
+                  - PHP
+                  - SQL
+              - row:
+                  - Apache
+                  - MySQL
+              - Linux
         - shared hosting environment
 
   - client: World-leading oilfield services company
@@ -282,8 +307,7 @@ experience:
     people: Proposed a change in business process to shorted lead time from a new customer signing up to starting service by more than 50% (also modified the business-critical Excel VBA application to support that process change).
     stack:
       column:
-        - row:
-          - MS Excel VBA
+        - MS Excel VBA
 
 
   - client: Software Engineering Decision Support Lab
@@ -295,20 +319,20 @@ experience:
     team-size: 3
     stack:
       column:
-        - row:
-          - HTML
-          - CSS
-          - CoffeeScript
-          - Ember.js
-        - Web Browser
-        - row:
-          - HTTP
-        - row:
-          - Ruby on Rails
-        - row:
-          - Postgres
-        - row:
-          - Heroku
+        - box:
+            label: Web Browser
+            row:
+              - HTML
+              - CSS
+              - CoffeeScript
+              - Ember.js
+        - connection: HTTP
+        - box:
+            label: Server
+            column:
+              - Ruby on Rails
+              - Postgres
+        - Heroku
 
 values:
   intro: Want to be part of a team where we
