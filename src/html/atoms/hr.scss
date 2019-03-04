@@ -1,6 +1,9 @@
 hr {
-  margin-top: 64px;
-  margin-bottom: 32px;
-  border-top-color: var(--color-tertiary);
-  border-left: none;
+  margin: 64px auto 32px auto;
+  height: 0;
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  border-top: var(--color-tertiary);
 }
