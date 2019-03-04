@@ -5,7 +5,7 @@ title: Alexander Bird - Software Developer
 profile:
   name: Alexander Bird
   title: Software Developer
-  tagline: Innovating in every part of the software development life cycle.
+  tagline: Collaboratively build the right software well.
 
 contact-methods: 
   - link: mailto:alex@alexanderbird.software
@@ -16,35 +16,8 @@ contact-methods:
     icon: linkedin
 
 skill-sections:
-  - title: Software Engineer
-    footer: Build the right thing
-    icon: software-engineer
-    icon-size: large
-    items:
-      - Don't solve imaginary problems
-      - Write documentation, and keep it up to date
-      - main: Test your code
-        sub:
-          - |
-            <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
-            or TDD for healthy codebases,
-          - |
-            <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
-            or manual test-first when unit testing isn't possible
-      - Share knowledge (human-readable code, clear error messages, code reviews, etc.)
-      - Find ways to salvage and reuse legacy code
-      - Choose simple solutions over impressive solutions
-    links:
-      - icon: twitter
-        alt: '@alexander_bird on Twitter'
-        title: What I'm reading and thinking about
-        url: https://twitter.com/alexander_bird
-      - icon: stack-exchange
-        alt: '@alexanderbird on Software Engineering Stack Exchange'
-        title: Software Engineering Stack Exchange
-        url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
-  - title: Polyglot
-    footer: Build it right
+  - title: Technical Excellence
+    footer: Build it well.
     icon: polyglot
     icon-size: small
     items:
@@ -78,9 +51,36 @@ skill-sections:
         alt: '@alexanderbird on npm'
         title: Packages I've written
         url: https://www.npmjs.com/~alexanderbird
-  - title: Human
-    footer: Don't do it alone
-    icon: human
+  - title: Process
+    footer: Build the right thing.
+    icon: software-engineer
+    icon-size: large
+    items:
+      - Don't solve imaginary problems
+      - Write documentation, and keep it up to date
+      - main: Test your code
+        sub:
+          - |
+            <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
+            or TDD for healthy codebases,
+          - |
+            <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
+            or manual test-first when unit testing isn't possible
+      - Share knowledge (human-readable code, clear error messages, code reviews, etc.)
+      - Find ways to salvage and reuse legacy code
+      - Choose simple solutions over impressive solutions
+    links:
+      - icon: twitter
+        alt: '@alexander_bird on Twitter'
+        title: What I'm reading and thinking about
+        url: https://twitter.com/alexander_bird
+      - icon: stack-exchange
+        alt: '@alexanderbird on Software Engineering Stack Exchange'
+        title: Software Engineering Stack Exchange
+        url: https://softwareengineering.stackexchange.com/users/217405/alexanderbird
+  - title: Empathy
+    footer: Build collaboratively.
+    icon: team
     icon-size: small
     items:
       # Something about pairing/mobbing?
