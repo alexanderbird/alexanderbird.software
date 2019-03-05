@@ -1,5 +1,9 @@
-- skills sections become ~ 1 sentence.
+- update skills sections with new content
 - make experience tiles pretty
 - experience tiles' breakpoint for switching to column view is off. This might not be the case after redesigning that tile
 - add print mode
 - make github public and add link to it?
+- revisit the type faces. Also maybe have two? Also include them in the assets folder instead of hot linking?
+- copyediting all content
+- add hobby projects with links to the experience section
+- add education to the experience section
