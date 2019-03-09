@@ -337,27 +337,29 @@ experience:
 education:
   school: etc etc.
   
-hobby-examples:
-  - icon: twitter
-    alt: '@alexander_bird on Twitter'
-    title: What I'm reading and thinking about
-    url: https://twitter.com/alexander_bird
-  - icon: github
-    alt: '@alexanderbird on GitHub'
-    title: Hobby projects
-    url: https://github.com/alexanderbird
-  - icon: npm
-    alt: '@alexanderbird on npm'
-    title: Packages I've written
-    url: https://www.npmjs.com/~alexanderbird
-  - icon: stack-overflow
-    alt: '@alexanderbird on Stack Overflow'
-    title: Questions and Answers I've contributed to
-    url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
-  - icon: stack-overflow
-    alt: '@alexanderbird on Stack Overflow'
-    title: Top tags on Stack Overflow
-    url: https://stackoverflow.com/users/3012550/alexanderbird?tab=tags
+hobby-links:
+  title: Learning & Hobby Programming
+  items:
+    - icon: twitter
+      alt: '@alexander_bird on Twitter'
+      title: What I'm reading and thinking about
+      url: https://twitter.com/alexander_bird
+    - icon: github
+      alt: '@alexanderbird on GitHub'
+      title: Hobby projects
+      url: https://github.com/alexanderbird
+    - icon: npm
+      alt: '@alexanderbird on npm'
+      title: Packages I've written
+      url: https://www.npmjs.com/~alexanderbird
+    - icon: stack-overflow
+      alt: '@alexanderbird on Stack Overflow'
+      title: Questions and Answers I've contributed to
+      url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
+    - icon: stack-overflow
+      alt: '@alexanderbird on Stack Overflow'
+      title: Top tags on Stack Overflow
+      url: https://stackoverflow.com/users/3012550/alexanderbird?tab=tags
 
 # TODO: these might be worth incorporating in their respective experience sections, not off on their own
 interviewer-notes:

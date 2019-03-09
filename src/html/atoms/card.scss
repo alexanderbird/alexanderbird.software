@@ -1,0 +1,8 @@
+.atoms__card {
+  margin: 8px;
+  border: 1px solid var(--color-secondary);
+  border-radius: 4px;
+  padding: 8px;
+  background-color: var(--atoms--card--color);
+  animation: pop-out var(--animation-duration) ease-out var(--animation-delay) both;
+}

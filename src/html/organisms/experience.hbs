@@ -1,4 +1,7 @@
-<div class='organisms__experience'>
+<div
+  class='organisms__experience atoms__card'
+  style='--atoms--card--color: var(--color-accent);'
+  >
   <h3>{{data.client}}</h3>
   <h4>{{data.title}} for {{data.employer}}</h4>
   <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' data.team-size}}</span>

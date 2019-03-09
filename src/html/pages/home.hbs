@@ -16,7 +16,11 @@
   </div>
   <hr class='atoms__hr'>
   <h2 class='pages__home__section-header'>Experience</h2>
-  <div class='atoms__grid' style='--atoms--grid-columns: 2'>
+  <div class='atoms__grid' style='
+      --atoms--grid-columns: 2;
+      --animation-duration: 0.4s;
+      --animation-delay: 2.2s;
+    '>
     {{#each experience }}
       {{> organisms/experience data=this }}
     {{/each}}
