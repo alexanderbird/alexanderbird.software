@@ -1,0 +1,30 @@
+.molecules__detailed-icon-link {
+  --icon-height: 64px;
+  --icon-color-primary: var(--color-secondary);
+  --icon-color-secondary: var(--color-secondary);
+  --icon-color-tertiary: var(--color-secondary);
+
+  color: var(--color-secondary);
+  &:visited {
+    color: var(--color-secondary);
+  }
+  &:active {
+    color: var(--color-tertiary);
+  }
+  &:hover {
+    color: var(--color-accent-darker);
+    --icon-color-primary: var(--color-accent-darker);
+    --icon-color-secondary: var(--color-accent-darker);
+    --icon-color-tertiary: var(--color-accent-darker);
+  }
+
+  text-decoration: none;  
+
+  .atoms__svg-icon {
+    vertical-align: middle;
+  }
+
+  .molecules__detailed-icon-link__text {
+    padding-left: 1em;
+  }
+}

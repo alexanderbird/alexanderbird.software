@@ -2,13 +2,13 @@
   border-radius: 4px;
 
   &.molecules__tech-stack__box {
-    border: 1px solid var(--color-secondary);
+    border: 1px dashed var(--color-secondary);
   }
 
   &.molecules__tech-stack__hr {
     width: 100%;
     border: none;
-    border-top: 1px solid var(--color-secondary);
+    border-top: 1px dashed var(--color-secondary);
   }
 
   &.molecules__tech-stack__string,

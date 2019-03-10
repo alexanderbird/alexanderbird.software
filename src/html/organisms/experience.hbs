@@ -1,23 +1,20 @@
-<div
-  class='organisms__experience atoms__card'
-  style='--atoms--card--color: var(--color-accent);'
-  >
-  <h3>{{data.client}}</h3>
-  <h4>{{data.title}} for {{data.employer}}</h4>
-  <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' data.team-size}}</span>
+<div class='organisms__experience atoms__card'>
+  <h3>{{client}}</h3>
+  <h4>{{title}} for {{employer}}</h4>
+  <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
   <span>|</span>
-  <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' data.duration-in-months}}</span>
+  <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
   <div class='organisms__experience__row'>
     <div>
-      {{#if data.people}}<div>
+      {{#if people}}<div>
         {{> atoms/svg-icon name='team' }}
-        <span>{{{data.people}}}</span>
+        <span>{{{people}}}</span>
       </div>{{/if}}
-      {{#if data.engineering}}<div>
+      {{#if engineering}}<div>
         {{> atoms/svg-icon name='uml' }}
-        <span>{{{data.engineering}}}</span>
+        <span>{{{engineering}}}</span>
       </div>{{/if}}
     </div>
-    {{> molecules/tech-stack model=(experience data.stack) }}
+    {{> molecules/tech-stack model=(experience stack) }}
   </div>
 </div>

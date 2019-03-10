@@ -335,10 +335,13 @@ experience:
         - Heroku
 
 education:
-  school: etc etc.
-  
-hobby-links:
-  title: Learning & Hobby Programming
+  degree: Bachelor of Science in Software Engineering
+  faculty: Schulich School of Engineering
+  institution: University of Calgary
+  institution-logo: university-of-calgary.png
+
+hobby-experience:
+  title: Hobby Programming & Learning
   items:
     - icon: twitter
       alt: '@alexander_bird on Twitter'
@@ -354,7 +357,7 @@ hobby-links:
       url: https://www.npmjs.com/~alexanderbird
     - icon: stack-overflow
       alt: '@alexanderbird on Stack Overflow'
-      title: Questions and Answers I've contributed to
+      title: Questions and answers I've contributed to
       url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
     - icon: stack-overflow
       alt: '@alexanderbird on Stack Overflow'

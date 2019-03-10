@@ -22,7 +22,9 @@
       --animation-delay: 2.2s;
     '>
     {{#each experience }}
-      {{> organisms/experience data=this }}
+      {{> organisms/experience this }}
     {{/each}}
+    {{> organisms/hobby-experience hobby-experience }}
+    {{> organisms/education education }}
   </div>
 {{/atoms/page}}
