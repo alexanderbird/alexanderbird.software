@@ -384,8 +384,9 @@ interviewer-notes:
       - am a new parent
 
 introduction:
-  - title: Other People
-    motivation: I'm motivated by making other people's lives better with software.
+  - motivation:
+      title: Helping Others
+      details: I'm motivated by making other people's lives better with software.
     values:
       - for these who use it, by making software that helps them
       - for those who own it, by making software that profits them
@@ -397,8 +398,9 @@ introduction:
       - pair programming, mobbing, collaborative code reviews
       - documentation writing, coding helpful error messages
 
-  - title: Eliminating Waste
-    motivation: There are too few days to waste them building software ineffectively.
+  - motivation:
+      title: Eliminating Waste
+      details: There are too few days to waste them building software ineffectively.
     values:
       - don't solve imaginary problems
       - don't try to address process problems with more technical excellence
@@ -410,9 +412,11 @@ introduction:
       - works to understand the human/business context
       - emphasizes technical excellence as a means to this end
 
-  - title: Technical Excellence
-    motivation: For me, high quality work is a matter of personal character.
-    #values:
+  - motivation:
+      title: Technical Excellence
+      details: For me, high quality work is a matter of personal character.
+    values:
+      - todo
     strengths:
       - see Experience section
       - TDD / TCR

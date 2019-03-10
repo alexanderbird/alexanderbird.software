@@ -1,0 +1,21 @@
+.organisms__introduction-tile {
+  .organisms__introduction-tile__section {
+    margin-bottom: 32px;
+    position: relative;
+    padding-left: 2em;
+    min-height: 64px;
+
+    .organisms__introduction-tile__label {
+      position: absolute;
+      left: 0;
+      top: 0;
+      color: var(--color-secondary);
+      transform: rotate(270deg) translateX(-100%);
+      transform-origin: left top 0;
+
+      &.organisms__introduction-tile__label--with-title {
+        padding-right: 2em;
+      }
+    }
+  }
+}

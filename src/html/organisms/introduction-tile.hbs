@@ -1,0 +1,23 @@
+<div class='organisms__introduction-tile atoms__card'>
+  <div class='organisms__introduction-tile__section'>
+    <span class='organisms__introduction-tile__label organisms__introduction-tile__label--with-title'>Motivation</span>
+    <h2>{{motivation.title}}</h2>
+    <span>{{motivation.details}}</span>
+  </div>
+  <div class='organisms__introduction-tile__section'>
+    <span class='organisms__introduction-tile__label'>Values</span>
+    <ul>
+    {{#each values}}
+      <li>{{this}}</li>
+    {{/each}}
+    </ul>
+  </div>
+  <div class='organisms__introduction-tile__section'>
+    <span class='organisms__introduction-tile__label'>Strengths</span>
+    <ul>
+    {{#each strengths}}
+      <li>{{this}}</li>
+    {{/each}}
+    </ul>
+  </div>
+</div>
