@@ -1,3 +1,9 @@
+a {
+  &:focus {
+    outline-color: var(--color-accent-darker);
+  }
+}
+
 a:not(.reset) {
   color: var(--color-primary);
 
