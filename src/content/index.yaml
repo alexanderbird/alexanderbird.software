@@ -280,6 +280,10 @@ hobby-experience:
       alt: '@alexanderbird on Stack Overflow'
       title: Top tags on Stack Overflow
       url: https://stackoverflow.com/users/3012550/alexanderbird?tab=tags
+    - icon: github
+      alt: this site on GitHub
+      title: Source code for this site
+      url: https://github.com/alexanderbird/alexanderbird.software
 
 # TODO: these might be worth incorporating in their respective experience sections, not off on their own
 interviewer-notes:
