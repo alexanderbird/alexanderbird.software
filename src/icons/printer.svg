@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 98.38 19.427 L 98.467 36.742 M 98.471 19.609 L 87.481 19.625 L 87.658 7.532 L 98.471 19.609 Z M 29.494 36.742 L 29.494 7.754 L 87.45 7.533" style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linejoin: round; stroke-linecap: round; fill: rgb(255, 255, 255);"/>
+  <rect y="43.262" width="116.774" height="58.754" style="fill: none; stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linejoin: round;" rx="8" x="5.613"/>
+  <rect x="29.494" y="82.834" width="69.012" height="37.415" style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linejoin: round; stroke-linecap: round; fill: rgb(255, 255, 255);"/>
+  <line style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linecap: round;" x1="41.712" y1="93.589" x2="86.288" y2="93.6"/>
+  <line style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linecap: round;" x1="41.713" y1="102.934" x2="86.287" y2="102.945"/>
+  <line style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; stroke-linecap: round;" x1="41.713" y1="110.862" x2="86.287" y2="110.873"/>
+  <circle style="stroke: var(--icon-color-primary, #000); stroke-width: 3px; fill: none;" cx="17.697" cy="55.868" r="5.543"/>
+</svg>

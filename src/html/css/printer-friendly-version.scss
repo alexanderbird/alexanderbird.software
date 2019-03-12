@@ -1,0 +1,8 @@
+#printer-friendly-version:target {
+  --color-accent: #FFF;
+  --color-accent-darker: var(--color-primary);
+  
+  * {
+    animation: none !important;
+  }
+}
