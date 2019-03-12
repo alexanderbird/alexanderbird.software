@@ -26,15 +26,17 @@ propertySets:
     color-tertiary: '#25FF6E'
 
 iconNames: 
-  - github
+  - calendar
   - human
-  - linkedin
   - mail
-  - npm
   - polyglot
+  - printer
   - software-engineer
+  - team
+  - uml
+  - npm
+  - github
+  - linkedin
+  - twitter
   - stack-exchange
   - stack-overflow
-  - team
-  - twitter
-  - uml
