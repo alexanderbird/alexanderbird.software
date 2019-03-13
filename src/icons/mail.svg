@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" x="0" y="0" width="128" height="82" viewBox="0, 0, 128, 82" xmlns="http://www.w3.org/2000/svg">
-  <g>
-    <path d="M3.658,3.5 L125.342,3.5 L125.342,79.5 L3.658,79.5 L3.658,3.5 z" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M4.137,4.836 C4.137,4.836 64.021,55.496 64.021,55.496 C64.021,55.496 124.863,3.5 124.863,3.5" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6" stroke-linejoin="round"/>
-    <path d="M80.592,41.666 C95.349,54.277 110.106,66.889 124.863,79.5" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6"/>
-    <path d="M47.775,41.248 C33.229,53.553 18.683,65.858 4.137,78.164" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="6"/>
-  </g>
+<svg version="1.1" x="0" y="0" width="128" height="82" viewBox="0, 0, 128, 128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 3.158 26 L 124.842 26 L 124.842 102 L 3.158 102 L 3.158 26 Z" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 3.637 27.336 C 3.637 27.336 63.521 77.996 63.521 77.996 C 63.521 77.996 124.363 26 124.363 26" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 80.092 64.166 C 94.849 76.777 109.606 89.389 124.363 102" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
+  <path d="M 47.275 63.748 C 32.729 76.053 18.183 88.358 3.637 100.664" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
 </svg>

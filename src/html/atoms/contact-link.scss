@@ -3,14 +3,13 @@
   top: 4px;
   right: 4px;
 
-  --icon-width: 32px;
-  --icon-height: calc(var(--icon-width) * (82/128));
+  --icon-height: 32px;
   --icon-color-primary: var(--color-secondary);
 
   @media (min-width: 400px) {
     top: 16px;
     right: 16px;
 
-    --icon-width: 64px;
+    --icon-height: 64px;
   }
 }

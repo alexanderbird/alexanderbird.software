@@ -4,8 +4,6 @@
 
 # Functional Aesthetics
 - prettier print mode
-- print and contact icons are lower on the screen, what's up with that?
-- mail icon's weight doesn't match print icon
 - maybe no "Motivation" in the intro section
 
 # Prod readiness

@@ -8,10 +8,11 @@
   /*display: flex;*/
   flex-direction: column;
   justify-content: flex-start;
-  height: 100%;
+  /*height: 100%;*/
   padding-bottom: 64px;
   position: relative;
 
+  .atoms__printer-friendly-version-link,
   .atoms__contact-link {
     @include lesser-fade-in(2s, 1s);
   }
