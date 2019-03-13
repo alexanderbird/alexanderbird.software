@@ -21,7 +21,8 @@ _experience-templates:
     employer: Arcurve Inc
 
 experience:
-  - client: Leading telecommunications company
+  - industry: Telecommunications
+    client-size: publicly traded
     title: Lead Software Developer
     employer: Arcurve Inc
     team-size: 12
@@ -56,7 +57,8 @@ experience:
             - AWS EC2
             - on-prem
 
-  - client: Legal minutebook management software startup
+  - industry: Corporate minutebook management
+    client-size: startup
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 5
@@ -86,7 +88,8 @@ experience:
             column:
               - other services
 
-  - client: Business information sharing startup
+  - industry: Business information sharing
+    client-size: startup
     <<: *arcurve-dev
     team-size: 4
     duration-in-months: 3
@@ -125,7 +128,8 @@ experience:
         - row:
           - Heroku
     
-  - client: Video conferencing software provider
+  - industry: Video conferencing
+    client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 12
@@ -160,7 +164,8 @@ experience:
               - Desktop
               - Embedded
 
-  - client: Land acquisition service provider 
+  - industry: Land acquisition service provider 
+    client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 4
@@ -189,7 +194,8 @@ experience:
                   - Microsoft SQL Server
         - on-premise
 
-  - client: Surplus oilfield equipment broker startup
+  - industry: Surplus oilfield equipment broker
+    client-size: startup
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 4
@@ -216,7 +222,8 @@ experience:
               - Linux
         - shared hosting environment
 
-  - client: World-leading oilfield services company
+  - industry: Oilfield services
+    client-size: publicly traded
     <<: *arcurve-dev
     team-size: 1
     duration-in-months: 3
@@ -224,10 +231,15 @@ experience:
     people: Proposed a change in business process to shorted lead time from a new customer signing up to starting service by more than 50% (also modified the business-critical Excel VBA application to support that process change).
     stack:
       column:
-        - MS Excel VBA
+        - box:
+            label: Microsoft Excel VBA
+            row:
+              - Macros
+              - Unit Tests
+        - Macro Serializer (3rd party)
+        - Perforce Version Control
 
-
-  - client: Software Engineering Decision Support Lab
+  - industry: Software Engineering Decision Support Lab
     title: Research Assistant
     employer: University of Calgary
     duration-in-months: 12

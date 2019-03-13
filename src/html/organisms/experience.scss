@@ -6,13 +6,29 @@
   --icon-color-secondary: var(--color-secondary);
   --icon-color-tertiary: transparent;
 
-  .organisms__experience__row {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'text-head tech-stack'
+    'text-body tech-stack';
+  grid-gap: 20px;
 
-    & > * {
-      flex: 1;
-    }
+  .organisms__experience__text-head {
+    grid-area: text-head;
+  }
+
+  .organisms__experience__text-body {
+    grid-area: text-body;
+  }
+  .organisms__experience__tech-stack {
+    grid-area: tech-stack;
+  }
+
+  .organisms__experience__text--subtle {
+    color: var(--color-secondary);
+  }
+  .organisms__experience__text--emphasis {
+    font-weight: bold;
   }
 }
