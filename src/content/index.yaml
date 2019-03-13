@@ -21,9 +21,10 @@ _experience-templates:
     employer: Arcurve Inc
 
 experience:
-  - industry: Telecommunications
+  - industry: Telecommunications provider
+    summary: Team Lead
     client-size: publicly traded
-    title: Lead Software Developer
+    title: Software Developer Team Lead
     employer: Arcurve Inc
     team-size: 12
     duration-in-months: 6
@@ -33,11 +34,13 @@ experience:
       column:
         - box:
             label: Web Browser
-            row:
-              - CSS
-              - JavaScript
-              - React
-              - Redux
+            column:
+              - row:
+                  - React
+                  - Redux
+              - row:
+                  - CSS
+                  - JavaScript
         - row:
           - connection: HTTP
           - connection: HTTP
@@ -58,6 +61,7 @@ experience:
             - on-prem
 
   - industry: Corporate minutebook management
+    summary: Reverse engineering
     client-size: startup
     <<: *arcurve-dev
     team-size: 2
@@ -88,47 +92,53 @@ experience:
             column:
               - other services
 
-  - industry: Business information sharing
+  - industry: Professional certification auditing
+    summary: Team player
     client-size: startup
     <<: *arcurve-dev
     team-size: 4
     duration-in-months: 3
     engineering: When our client pivoted significantly two months in (new UI, new data model), the architecture and tests I had put in place allowed me to salvage most of the existing code.
-    people: Communicated respectfully and constructively with our client despite their ad hominem attacks and disrespectful attitude towards me.
+    people: Communicated respectfully and constructively with our client despite their ad hominem attacks and disrespectful attitude.
     stack:
       column:
         - row:
           - box:
               label: Web Browser
-              row:
-                - CSS
-                - JavaScript
-                - React
+              column:
+                - row:
+                    - React
+                - row:
+                    - CSS
+                    - JavaScript
           - box:
               label: iOS
-              row:
-                - JavaScript
-                - React Native
+              column:
+                - row:
+                    - React Native
+                - row:
+                    - JavaScript
         - connection: HTTP
         - row:
           - box:
               label: Server
               column:
                 - row:
-                    - JavaScript
-                    - Node
-                    - Cypher
+                  - JavaScript
+                  - Cypher
                 - row:
+                  - Node
                   - Neo4j
           - box:
               label: Auth. Service
-              row:
+              column:
                 - JavaScript
                 - Node
         - row:
           - Heroku
     
   - industry: Video conferencing
+    summary: Browser WebRTC Protocol Deep Dive
     client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
@@ -165,6 +175,7 @@ experience:
               - Embedded
 
   - industry: Land acquisition service provider 
+    summary: Microsoft Stack
     client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
@@ -176,10 +187,12 @@ experience:
         - box:
             label: Web Browser
             row:
-              - HTML
-              - CSS
-              - JavaScript
-              - Kendo UI
+              - column:
+                - CSS
+                - HTML
+              - column:
+                - Kendo UI
+                - JavaScript
         - connection: HTTP
         - box:
             label: Server
@@ -195,6 +208,7 @@ experience:
         - on-premise
 
   - industry: Surplus oilfield equipment broker
+    summary: Navigated Technical Debt
     client-size: startup
     <<: *arcurve-dev
     team-size: 2
@@ -219,10 +233,13 @@ experience:
               - row:
                   - Apache
                   - MySQL
+        - box:
+            label: shared cloud hosting service
+            row:
               - Linux
-        - shared hosting environment
 
   - industry: Oilfield services
+    summary: Make the best of Excel VBA
     client-size: publicly traded
     <<: *arcurve-dev
     team-size: 1
@@ -240,6 +257,7 @@ experience:
         - Perforce Version Control
 
   - industry: Software Engineering Decision Support Lab
+    summary: API/Integration
     title: Research Assistant
     employer: University of Calgary
     duration-in-months: 12
@@ -251,10 +269,12 @@ experience:
         - box:
             label: Web Browser
             row:
-              - HTML
-              - CSS
-              - CoffeeScript
-              - Ember.js
+              - column:
+                - CSS
+                - HTML
+              - column:
+                - Ember.js
+                - CoffeeScript
         - connection: HTTP
         - box:
             label: Server

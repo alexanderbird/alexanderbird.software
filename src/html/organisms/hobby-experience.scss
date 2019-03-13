@@ -1,6 +1,10 @@
 .organisms__hobby-experience {
   --atoms--card--color: var(--color-accent);
 
+  .organisms__hobby-experience__title {
+    text-align: center;
+  }
+
   .organisms__hobby-experience__column {
     display: grid;
     grid-template-columns: 1fr;

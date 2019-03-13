@@ -10,25 +10,37 @@
   grid-template-columns: 1fr 1fr;
   grid-template-rows: auto 1fr;
   grid-template-areas:
-    'text-head tech-stack'
-    'text-body tech-stack';
-  grid-gap: 20px;
+    'summary summary'
+    'text    tech-stack';
+  grid-column-gap: 20px;
 
-  .organisms__experience__text-head {
-    grid-area: text-head;
+  .organisms__experience__summary {
+    grid-area: summary;
+    text-align: center;
   }
 
-  .organisms__experience__text-body {
-    grid-area: text-body;
+  .organisms__experience__text {
+    grid-area: text;
   }
   .organisms__experience__tech-stack {
     grid-area: tech-stack;
   }
 
-  .organisms__experience__text--subtle {
-    color: var(--color-secondary);
+  .organisms__experience__statistics {
+    margin-top: 16px;
   }
-  .organisms__experience__text--emphasis {
-    font-weight: bold;
+
+  .organisms__experience__client-size {
+    color: var(--color-secondary);
+    white-space: nowrap;
+  }
+
+  .organisms__experience__pipe-divider {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: var(--color-secondary);
+    &:before {
+      content: '|';
+    }
   }
 }

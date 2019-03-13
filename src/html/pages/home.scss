@@ -1,6 +1,6 @@
 @import '../animations';
 
-#home {
+.pages__home {
   animation:
     var(--when-animating-in, fade-in 1s),
     var(--when-animating-out, fade-out 1s);
@@ -52,7 +52,9 @@
     }
   }
 
-  .home__content {
+  .pages__home__introduction {
+    margin-top: 32px;
+    --atoms--grid-columns: 3;
     flex-basis: 0;
     flex-grow: 1;
 
@@ -67,6 +69,12 @@
     & > *:nth-of-type(3) {
       animation: pop-out 0.4s ease-out 1.0s both;
     }
+  }
+
+  .pages__home__experiences {
+    --atoms--grid-columns: 2;
+    --animation-duration: 0.4s;
+    --animation-delay: 2.2s;
   }
 
   .pages__home__section-header {

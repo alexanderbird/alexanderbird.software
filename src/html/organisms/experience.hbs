@@ -1,31 +1,38 @@
 <div class='organisms__experience atoms__card'>
-  <div class='organisms__experience__text-head'>
-    <h3>
-      {{industry}}
-      {{#if client-size}}<span class='organisms__experience__text--subtle'>({{client-size}})</span>{{/if}}
-    </h3>
-    <p>
-      <span class='organisms__experience__text--emphasis'>Role: </span>
-      {{title}} for {{employer}}
-    </p>
-    <p>
-      <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
-      <span>|</span>
-      <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
-    </p>
+  <div class='organisms__experience__summary'>
+    <h3>{{summary}}</h3>
   </div>
-  <div class='organisms__experience__text-body'>
-    {{#if people}}<div>
+  <div class='organisms__experience__text'>
+    <div>
+      <span class='atoms__span--emphasis'>Role: </span>{{title}}
+    </div>
+    <div>
+      <span class='atoms__span--emphasis'>Employer: </span>{{employer}}
+    </div>
+    <div>
+      {{#if client-size}}<span class='atoms__span--emphasis'>Client: </span>{{/if}}
+      {{industry}}
+      {{#if client-size}}<span class='organisms__experience__client-size'>({{client-size}})</span>{{/if}}
+    </div>
+    <div class='organisms__experience__statistics'>
+      <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
+      <span class='organisms__experience__pipe-divider'></span>
+      <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
+    </div>
+    {{#if people}}
+    <p>
       {{> atoms/svg-icon name='team' }}
       <span>{{{people}}}</span>
-    </div>{{/if}}
-    {{#if engineering}}<div>
+    </p>
+    {{/if}}
+    {{#if engineering}}
+    <p>
       {{> atoms/svg-icon name='uml' }}
       <span>{{{engineering}}}</span>
-    </div>{{/if}}
+    </p>
+    {{/if}}
   </div>
   <div class='organisms__experience__tech-stack'>
-    <h4>Technology/Architecture</h4>
     {{> molecules/tech-stack model=(experience stack) }}
   </div>
 </div>

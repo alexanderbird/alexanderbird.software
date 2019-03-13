@@ -3,7 +3,7 @@
   grid-gap: 32px;
   grid-template-columns: 1fr;
   grid-template-rows: auto;
-  @media (min-width: 880px) {
+  @media (min-width: 1000px) {
     grid-gap: 16px;
     grid-template-columns: repeat(var(--atoms--grid-columns), 1fr);
   }

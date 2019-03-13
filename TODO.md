@@ -3,9 +3,7 @@
 - make GitHub public
 
 # Functional Aesthetics
-- make experience tiles pretty
 - prettier print mode
-- experience tiles' breakpoint for switching to column view is off. This might not be the case after redesigning that tile
 
 # Nice to have
 - revisit the type faces. Also maybe have two? Also include them in the assets folder instead of hot linking?

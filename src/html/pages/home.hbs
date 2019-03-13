@@ -10,18 +10,14 @@
     </h1>
     <h2 class='atoms__tagline'>{{{profile.tagline}}}</h2>
   </div>
-  <div class='atoms__grid home__content' style='--atoms--grid-columns: 3'>
+  <div class='atoms__grid pages__home__introduction'>
     {{#each introduction }}
       {{> organisms/introduction-tile this}}
     {{/each}}
   </div>
   <hr class='atoms__hr'>
   <h2 class='pages__home__section-header'>Experience</h2>
-  <div class='atoms__grid' style='
-      --atoms--grid-columns: 2;
-      --animation-duration: 0.4s;
-      --animation-delay: 2.2s;
-    '>
+  <div class='atoms__grid pages__home__experiences'>
     {{#each experience }}
       {{> organisms/experience this }}
     {{/each}}
