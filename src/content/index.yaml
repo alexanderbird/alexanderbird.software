@@ -61,7 +61,7 @@ experience:
             - on-prem
 
   - industry: Corporate minutebook management
-    summary: Reverse engineering
+    summary: Reverse Engineering
     client-size: startup
     <<: *arcurve-dev
     team-size: 2
@@ -93,7 +93,7 @@ experience:
               - other services
 
   - industry: Professional certification auditing
-    summary: Team player
+    summary: Team Player
     client-size: startup
     <<: *arcurve-dev
     team-size: 4
@@ -175,7 +175,7 @@ experience:
               - Embedded
 
   - industry: Land acquisition service provider 
-    summary: Microsoft Stack
+    summary: Full Stack
     client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
@@ -239,7 +239,7 @@ experience:
               - Linux
 
   - industry: Oilfield services
-    summary: Make the best of Excel VBA
+    summary: Made the best of Excel VBA
     client-size: publicly traded
     <<: *arcurve-dev
     team-size: 1
@@ -257,7 +257,7 @@ experience:
         - Perforce Version Control
 
   - industry: Software Engineering Decision Support Lab
-    summary: API/Integration
+    summary: REST API Synchronization Utility
     title: Research Assistant
     employer: University of Calgary
     duration-in-months: 12
