@@ -4,20 +4,24 @@
     <h2>{{motivation.title}}</h2>
     <span>{{motivation.details}}</span>
   </div>
+  {{#if values}}
   <div class='organisms__introduction-tile__section'>
     <span class='organisms__introduction-tile__label'>Values</span>
     <ul>
     {{#each values}}
-      <li>{{this}}</li>
+      {{>molecules/bullet bullet=this}}
     {{/each}}
     </ul>
   </div>
+  {{/if}}
+  {{#if strengths}}
   <div class='organisms__introduction-tile__section'>
     <span class='organisms__introduction-tile__label'>Strengths</span>
     <ul>
     {{#each strengths}}
-      <li>{{this}}</li>
+      {{>molecules/bullet bullet=this}}
     {{/each}}
     </ul>
   </div>
+  {{/if}}
 </div>
