@@ -15,6 +15,50 @@ contact-methods:
     text: LinkedIn
     icon: linkedin
 
+introduction:
+  - motivation:
+      title: Helping Others
+      details: I'm motivated by making other people's lives better with software.
+    values:
+      - for these who use it, by making software that helps them
+      - for those who own it, by making software that profits them
+      - for those who build it, by making a collaborative, respectful environment
+    strengths:
+      - listener, summarizer, discussion facilitator
+      - leader and teacher (as needed)
+      - follower and supporter (as needed)
+      - pair programming, mobbing, collaborative code reviews
+      - documentation writing, coding helpful error messages
+
+  - motivation:
+      title: Always Improving
+      details: There are too few days to waste them building software ineffectively.
+    values:
+      - don't solve imaginary problems
+      - don't try to address process problems with more technical excellence
+      - build software to be used, not for show ("software theatre")
+      - don't build yourself into a corner
+    strengths:
+      - requirements gathering, design, modelling
+      - slicing large requirements into small experiements
+      - works to understand the human/business context
+      - emphasizes technical excellence as a means to this end
+
+  - motivation:
+      title: Technical Excellence
+      details: For me, high quality work is a matter of personal character.
+    values:
+      - todo
+    strengths:
+      - see Experience section
+      - TDD / TCR
+      - architecture
+      - safe refactoring (as opposed to delete-and-rewrite refactoring)
+      - diligence, attention to detail
+      - adaptability, quick learner
+      - creative thinker, innovator
+
+
 _experience-templates:
   arcurve-dev: &arcurve-dev
     title: Software Developer
@@ -317,65 +361,12 @@ hobby-experience:
       title: Source code for this site
       url: https://github.com/alexanderbird/alexanderbird.software
 
-# TODO: these might be worth incorporating in their respective experience sections, not off on their own
-interviewer-notes:
-  - category: technical
-    items:
-      - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)
-      - TypeScript vs vanilla JS (pros and cons)
-      - What makes my Excel VBA project my favourite?
-      - Editor preference (Vim)
-      - Project changes to optimize for easy onboarding
-  - category: interpersonal
-    items:
-      - Lessons learned from working in several unpleasant teams
-      - Thoughts on pairing and mobbing
-      - tense workplace conflict resolution anecdotes
-  - category: smalltalk
-    items:
-      - time in the mountains
-      - am a new parent
-
-introduction:
-  - motivation:
-      title: Helping Others
-      details: I'm motivated by making other people's lives better with software.
-    values:
-      - for these who use it, by making software that helps them
-      - for those who own it, by making software that profits them
-      - for those who build it, by making a collaborative, respectful environment
-    strengths:
-      - listener, summarizer, discussion facilitator
-      - leader and teacher (as needed)
-      - follower and supporter (as needed)
-      - pair programming, mobbing, collaborative code reviews
-      - documentation writing, coding helpful error messages
-
-  - motivation:
-      title: Always Improving
-      details: There are too few days to waste them building software ineffectively.
-    values:
-      - don't solve imaginary problems
-      - don't try to address process problems with more technical excellence
-      - build software to be used, not for show ("software theatre")
-      - don't build yourself into a corner
-    strengths:
-      - requirements gathering, design, modelling
-      - slicing large requirements into small experiements
-      - works to understand the human/business context
-      - emphasizes technical excellence as a means to this end
-
-  - motivation:
-      title: Technical Excellence
-      details: For me, high quality work is a matter of personal character.
-    values:
-      - todo
-    strengths:
-      - see Experience section
-      - TDD / TCR
-      - architecture
-      - safe refactoring (as opposed to delete-and-rewrite refactoring)
-      - diligence, attention to detail
-      - adaptability, quick learner
-      - creative thinker, innovator
-
+# TODO: these might be worth incorporating in their respective experience sections
+#     - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)
+#     - TypeScript vs vanilla JS (pros and cons)
+#     - What makes my Excel VBA project my favourite?
+#     - Editor preference (Vim)
+#     - Project changes to optimize for easy onboarding
+#     - Lessons learned from working in several unpleasant teams
+#     - Thoughts on pairing and mobbing
+#     - tense workplace conflict resolution anecdotes
