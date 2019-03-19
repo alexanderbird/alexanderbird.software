@@ -35,8 +35,10 @@ introduction:
       title: Always Improving
       details: I'm motivated by collaborating with others to find more and more efficient ways to work.
     values:
-      - agree on and specify the problem, innovate on solutions
-      - measure outcomes, innovate on approach
+      - main: make room for innovation
+        sub:
+          - agree on and specify the problem (instead of controlling/constraining solutions)
+          - measure outcomes (instead of constraining/regulating the approach)
       - when the problem isn't technical, our approach should reflect that
       - regularly spend time getting faster instead of rushing inefficiently
       - don't solve imaginary problems
@@ -54,6 +56,7 @@ introduction:
     values:
       - you can have quick features and maintainability when you practice good design
       - small units of work make for earlier feedback and a better product
+      - reduce risk by preparing for the unexpected (instead of trying to predict the future)
     strengths:
       - main: building with quality
         sub:
@@ -77,8 +80,7 @@ experience-front-matter:
   title: Experiences
   summary:
     - 4 years at Arcurve Inc (Calgary-based software services & consulting company) working in various domains, team structures, and technologies
-    - 1 year in the Software Engineering Decision Support Lab (University of Calgary)
-    - BSc, University of Calgary
+    - 1 year working in the Software Engineering Decision Support Lab (University of Calgary)
 
 experience:
   - industry: Telecommunications provider

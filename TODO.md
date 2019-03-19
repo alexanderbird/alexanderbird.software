@@ -11,7 +11,11 @@
 # Deployment
 - make GitHub public
 - update bio sections on professional social media sites
-- send the "any advice for finding modern agile gigs" tweeet
+  - Twitter
+  - GitHub
+  - Stack Overflow
+  - others?
+- send the "any advice for finding modern agile gigs" tweet
 
 # Nice to have
 - add section for youth volunteering experience?
