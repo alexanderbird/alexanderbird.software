@@ -20,27 +20,26 @@ introduction:
       title: Helping Others
       details: I'm motivated by making other people's lives better with software.
     values:
-      - for these who use it, by making software that helps them
-      - for those who own it, by making software that profits them
-      - for those who build it, by making a collaborative, respectful environment
+      - 'for users: software that helps them'
+      - 'for the business: software that profits them'
+      - 'for the team who builds it: a collaborative, respectful environment where we can contribute our best'
     strengths:
       - listening
       - discussion facilitation
       - teaching
       - pair programming / mobbing / collaborative code reviews
       - documentation writing
-      - leading (as needed)
+      - leadership
 
   - motivation:
       title: Always Improving
-      details: |
-        I'm motivated by collaborating with others to find more and more efficient ways to work: if the work is worth doing,
-        it's worth doing better.
+      details: I'm motivated by collaborating with others to find more and more efficient ways to work.
     values:
+      - agree on and specify the problem, innovate on solutions
+      - measure outcomes, innovate on approach
+      - when the problem isn't technical, our approach should reflect that
+      - regularly spend time getting faster instead of rushing inefficiently
       - don't solve imaginary problems
-      - don't try to address process problems with more technical excellence
-      - build software to be used, not for show ("software theatre")
-      - don't build yourself into a corner
     strengths:
       - requirements gathering, design, modelling
       - slicing large requirements into small experiments
@@ -56,12 +55,12 @@ introduction:
       - you can have quick features and maintainability when you practice good design
       - small units of work make for earlier feedback and a better product
     strengths:
-      - main: quality
+      - main: building with quality
         sub:
           - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
           - <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
           - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
-      - main: learning
+      - main: learning quickly
         sub:
           - requirements gathering
           - reading documentation
