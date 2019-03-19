@@ -33,7 +33,9 @@ introduction:
 
   - motivation:
       title: Always Improving
-      details: There are too few days to waste them building software ineffectively.
+      details: |
+        I'm motivated by collaborating with others to find more and more efficient ways to work: if the work is worth doing,
+        it's worth doing better.
     values:
       - don't solve imaginary problems
       - don't try to address process problems with more technical excellence
@@ -41,20 +43,19 @@ introduction:
       - don't build yourself into a corner
     strengths:
       - requirements gathering, design, modelling
-      - slicing large requirements into small experiements
+      - slicing large requirements into small experiments
       - works to understand the human/business context
       - emphasizes technical excellence as a means to this end
 
   - motivation:
       title: Technical Excellence
-      details: For me, high quality work is a matter of personal character.
+      details: |
+        As a professional: technical decisions ought to be made on behalf of the users and the business
+        &mdash; not based on my personal interest.
+    values:
+      - you can have quick features and maintainability when you practice good design
+      - small units of work make for earlier feedback and a better product
     strengths:
-      - main: building (full stack)
-        sub:
-          - UI (including CSS)
-          - Server
-          - Database
-          - Deployment & Automation
       - main: quality
         sub:
           - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
@@ -72,6 +73,13 @@ _experience-templates:
   arcurve-dev: &arcurve-dev
     title: Software Developer
     employer: Arcurve Inc
+
+experience-front-matter:
+  title: Experiences
+  summary:
+    - 4 years at Arcurve Inc (Calgary-based software services & consulting company) working in various domains, team structures, and technologies
+    - 1 year in the Software Engineering Decision Support Lab (University of Calgary)
+    - BSc, University of Calgary
 
 experience:
   - industry: Telecommunications provider

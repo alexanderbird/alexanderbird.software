@@ -3,10 +3,10 @@
 
 # Functional Aesthetics
 - prettier print mode
-- maybe no "Motivation" in the intro section
 
 # Prod readiness
 - browser compatibility testing & fixes
+- social sharing design (e.g. text, twitter)
 
 # Deployment
 - make GitHub public

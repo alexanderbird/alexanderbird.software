@@ -80,8 +80,13 @@
 
   .pages__home__section-header {
     font-size: 1.8em;
-    animation: invisible 2.2s,
-      fade-in 0.4s ease-out 2.2s;
+  }
+
+  .pages__home__section-header,
+  .pages__home__section-summary-item {
+    animation: invisible 1.5s,
+      fade-in 0.4s ease-out 1.5s;
     text-align: center;
   }
+
 }

@@ -5,17 +5,18 @@
     padding-left: 2em;
     min-height: 64px;
 
+    &.organisms__introduction-tile__section {
+      padding-left: 0;
+    }
+
     .organisms__introduction-tile__label {
       position: absolute;
-      left: 0;
+      left: -0.5em;
       top: 0;
+      padding-right: 0.5em;
       color: var(--color-secondary);
       transform: rotate(270deg) translateX(-100%);
       transform-origin: left top 0;
-
-      &.organisms__introduction-tile__label--with-title {
-        padding-right: 2em;
-      }
     }
   }
 }
