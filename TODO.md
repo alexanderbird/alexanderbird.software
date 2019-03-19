@@ -1,6 +1,5 @@
 # Content
 - copyediting all content
-- make GitHub public
 
 # Functional Aesthetics
 - prettier print mode
@@ -9,7 +8,13 @@
 # Prod readiness
 - browser compatibility testing & fixes
 
+# Deployment
+- make GitHub public
+- update bio sections on professional social media sites
+- send the "any advice for finding modern agile gigs" tweeet
+
 # Nice to have
+- add section for youth volunteering experience?
 - revisit the type faces. Also maybe have two? Also include them in the assets folder instead of hot linking?
 - revisit all the icons. Are they effective?
 - revisit the loading animation. Does it do anything? What if there was no animation? What if it was subtler?
