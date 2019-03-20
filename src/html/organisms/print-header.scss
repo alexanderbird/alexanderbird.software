@@ -1,0 +1,22 @@
+.organisms__print-header {
+  .organisms__print-header__h1 {
+    margin: 0;
+  }
+
+  .organisms__print-header__hr {
+    border: 0;
+    border-top: 2px solid var(--color-primary);
+  }
+
+  .organisms__print-header__details {
+    display: flex;
+    justify-content: space-between;
+
+    .organisms__print-header__time-zone {
+    }
+
+    .organisms__print-header__contact {
+      text-align: right;
+    }
+  }
+}

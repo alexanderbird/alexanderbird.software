@@ -1,0 +1,14 @@
+.molecules__name-and-title {
+  @media (max-width: 580px) {
+    .molecules__name-and-title__name {
+      display: block;
+      text-align: center;
+    }
+    .molecules__name-and-title__divider {
+      display: none;
+    }
+  }
+  .molecules__name-and-title__divider {
+    color: var(--color-secondary);
+  }
+}

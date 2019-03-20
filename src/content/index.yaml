@@ -8,6 +8,7 @@ profile:
   tagline: A passion for building useful, valuable software in a team
   email: alex@alexanderbird.software
   website: https://alexanderbird.software
+  time-zone: Mountain Time
 
 contact-methods: 
   - link: mailto:alex@alexanderbird.software

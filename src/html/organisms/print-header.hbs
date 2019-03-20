@@ -1,7 +1,13 @@
 <div class='organisms__print-header'>
-  <h1>{{name}}</h1>
-  <h3>{{title}}</h3>
-  <h3>{{tagline}}</h3>
-  <h3>{{email}}</h3>
-  <h3>{{website}}</h3>
+  <h1 class='organisms__print-header__h1'>{{name}}</h1>
+  <hr class='organisms__print-header__hr' />
+  <div class='organisms__print-header__details'>
+    <div class='organisms__print-header__time-zone'>
+      <span class='atoms__span--subtle'>time zone:</span> {{time-zone}}
+    </div>
+    <div class='organisms__print-header__contact'>
+      <div>{{email}}</div>
+      <div>{{website}}</div>
+    </div>
+  </div>
 </div>
