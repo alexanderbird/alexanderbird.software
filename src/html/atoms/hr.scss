@@ -7,3 +7,7 @@
   transform: translateX(-50%);
   border-top: var(--color-tertiary);
 }
+
+#printer-friendly-version:target .atoms__hr {
+  visibility: hidden;
+}
