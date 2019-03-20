@@ -51,4 +51,10 @@
   &.molecules__tech-stack__placeholder {
     padding: 0;
   }
+  &.molecules__tech-stack__box {
+    padding: 1px;
+  }
+  &.molecules__tech-stack__hr {
+    width: calc(100% - 8px - 8px);
+  }
 }

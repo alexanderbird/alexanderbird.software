@@ -5,8 +5,7 @@
 - prettier print mode
   - fit experience to 1.5 pages, preferably 1
     - the changes made for this should also work for mobile
-    - *HEY* this means the zero padding change for the tech stack thing should be a media query, not the print mode
-  - maybe some simple transition/animation between print/web mode?
+    - *HEY* this means the zero padding change for the tech stack thing should also be a media query, not the print mode
 
 # Prod readiness
 - browser compatibility testing & fixes
