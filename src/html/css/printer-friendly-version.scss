@@ -1,7 +1,10 @@
 #printer-friendly-version:target {
   --color-accent: #FFF;
   --color-accent-darker: var(--color-primary);
-  
+  width: 7.5in;
+  margin-left: auto;
+  margin-right: auto;
+
   * {
     animation: none !important;
   }

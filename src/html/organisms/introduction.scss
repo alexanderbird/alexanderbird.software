@@ -9,15 +9,15 @@
   .organisms__introduction__tiles {
     --atoms--grid-columns: 3;
     & > *:nth-of-type(1) {
-      animation: var(--tile-1-animation);
+      --animation-delay: var(--animation-delay-1);
     }
 
     & > *:nth-of-type(2) {
-      animation: var(--tile-2-animation);
+      --animation-delay: var(--animation-delay-2);
     }
 
     & > *:nth-of-type(3) {
-      animation: var(--tile-3-animation);
+      --animation-delay: var(--animation-delay-3);
     }
   }
 }
@@ -25,5 +25,18 @@
 #printer-friendly-version:target .organisms__introduction {
   .organisms__introduction__title-area {
     display: block;
+    .organisms__introduction__title,
+    .organisms__introduction__subtitle {
+      display: inline-block;
+      margin: 0;
+    }
+
+    .organisms__introduction__title {
+      margin-right: 1em;
+    }
+  }
+
+  .organisms__introduction__tiles {
+    --atoms--grid-columns: 1;
   }
 }
