@@ -2,14 +2,13 @@
 - copyediting all content
 
 # Functional Aesthetics
-- prettier print mode
-  - fit experience to 1.5 pages, preferably 1
-    - the changes made for this should also work for mobile
-    - *HEY* this means the zero padding change for the tech stack thing should also be a media query, not the print mode
+- in print mode, fit experience to 1.5 pages, preferably 1
+  - the changes made for this should also work for mobile
 
 # Prod readiness
 - browser compatibility testing & fixes
 - social sharing design (e.g. text, twitter)
+- copyright notice? Consider the footer on https://philcoffman.com/
 
 # Deployment
 - make GitHub public

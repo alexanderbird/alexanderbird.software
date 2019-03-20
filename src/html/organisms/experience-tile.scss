@@ -7,7 +7,16 @@
   --icon-color-tertiary: transparent;
 
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr auto;
+  @media (min-width: 800px) {
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (min-width: 1000px) {
+    grid-template-columns: 1fr auto;
+  }
+  @media (min-width: 1300px) {
+    grid-template-columns: 1fr 1fr;
+  }
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'summary summary'
