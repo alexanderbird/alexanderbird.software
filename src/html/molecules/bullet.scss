@@ -1,0 +1,35 @@
+@mixin collapse-collapsible-bullet {
+  .molecules__bullet__main,
+  .molecules__bullet__sub > .molecules__bullet,
+  .molecules__bullet__sub {
+    display: inline;
+    padding: 0;
+    margin: 0;
+  }
+  .molecules__bullet__main {
+    &:after {
+      content: ': ';
+    }
+  }
+  .molecules__bullet__sub > .molecules__bullet {
+    display: inline;
+    &:after {
+      content: ', ';
+    }
+    &:last-of-type:after {
+      content: '';
+    }
+  }
+}
+.molecules__bullet {
+  &.molecules__bullet__main-and-sub.molecules__bullet--collapsible {
+    @media (max-width: 600px) {
+      @include collapse-collapsible-bullet;
+    }
+  }
+}
+#printer-friendly-version:target .molecules__bullet {
+  &.molecules__bullet__main-and-sub.molecules__bullet--collapsible {
+    @include collapse-collapsible-bullet;
+  }
+}

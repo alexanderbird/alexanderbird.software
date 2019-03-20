@@ -1,7 +1,11 @@
 {{#if bullet.main}}
-<li>
-  <span>{{{bullet.main}}}</span>
-  <ul>
+<li class='
+    molecules__bullet
+    molecules__bullet__main-and-sub
+    {{#if bullet.collapsible}}molecules__bullet--collapsible{{/if}}
+  '>
+  <span class='molecules__bullet__main'>{{{bullet.main}}}</span>
+  <ul class='molecules__bullet__sub'>
     {{#each bullet.sub}}
       {{> molecules/bullet bullet=this }}
     {{/each}}
@@ -14,9 +18,11 @@
       {{> molecules/bullet bullet=this }}
     {{/each}}
   </ul>
-{{else}}
-<li>
+{{else if bullet.preface}}
+<li class='molecules__bullet'>
   <span class='preface'>{{{bullet.preface}}}</span>
-  <span>{{{coalesce bullet.text bullet}}}</span>
+  <span>{{{bullet.text}}}</span>
 </li>
+{{else}}
+<li class='molecules__bullet'>{{{bullet}}}</li>
 {{/if}}

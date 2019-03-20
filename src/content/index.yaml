@@ -42,11 +42,14 @@ introduction:
         - 'for the business: software that profits them'
         - 'for the team who builds it: a collaborative, respectful environment where we can contribute our best'
       strengths:
-        - listening
-        - discussion facilitation
+        - main: communication
+          collapsible: true
+          sub:
+            - listening
+            - discussion facilitation
+            - documentation writing
         - teaching
         - pair programming / mobbing / collaborative code reviews
-        - documentation writing
         - leadership
 
     - motivation:
@@ -77,11 +80,13 @@ introduction:
         - reduce risk by preparing for the unexpected (instead of trying to predict the future)
       strengths:
         - main: building with quality
+          collapsible: true
           sub:
             - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
             - <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
             - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
         - main: learning quickly
+          collapsible: true
           sub:
             - requirements gathering
             - reading documentation
