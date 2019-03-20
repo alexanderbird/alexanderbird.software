@@ -1,38 +1,13 @@
-<div class='organisms__experience atoms__card'>
-  <div class='organisms__experience__summary'>
-    <h3>{{{summary}}}</h3>
-  </div>
-  <div class='organisms__experience__text'>
-    <div>
-      <span class='atoms__span--emphasis'>Role: </span>{{title}}
-    </div>
-    <div>
-      <span class='atoms__span--emphasis'>Employer: </span>{{employer}}
-    </div>
-    <div>
-      {{#if client-size}}<span class='atoms__span--emphasis'>Client: </span>{{/if}}
-      {{industry}}
-      {{#if client-size}}<span class='organisms__experience__client-size'>({{client-size}})</span>{{/if}}
-    </div>
-    <div class='organisms__experience__statistics'>
-      <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
-      <span class='organisms__experience__pipe-divider'></span>
-      <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
-    </div>
-    {{#if people}}
-    <p>
-      {{> atoms/svg-icon name='team' }}
-      <span>{{{people}}}</span>
-    </p>
-    {{/if}}
-    {{#if engineering}}
-    <p>
-      {{> atoms/svg-icon name='uml' }}
-      <span>{{{engineering}}}</span>
-    </p>
-    {{/if}}
-  </div>
-  <div class='organisms__experience__tech-stack'>
-    {{> molecules/tech-stack model=(experience stack) }}
+<div class='organisms__experience'>
+  <h2 class='organisms__experience__section-header'>{{{title}}}</h2>
+  {{#each summary}}
+    <p class='organisms__experience__section-summary-item'>{{{this}}}</p>
+  {{/each}}
+  <div class='atoms__grid organisms__experience__experiences'>
+    {{#each items }}
+      {{> organisms/experience-tile this }}
+    {{/each}}
+    {{> organisms/hobby-experience hobby-experience }}
+    {{> organisms/education education }}
   </div>
 </div>

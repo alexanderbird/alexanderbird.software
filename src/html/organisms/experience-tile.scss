@@ -1,0 +1,46 @@
+.organisms__experience-tile {
+  --atoms--card--color: var(--color-accent);
+  --icon-width: 1.2em;
+  --icon-height: 1.2em;
+  --icon-color-primary: var(--color-secondary);
+  --icon-color-secondary: var(--color-secondary);
+  --icon-color-tertiary: transparent;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'summary summary'
+    'text    tech-stack';
+  grid-column-gap: 20px;
+
+  .organisms__experience-tile__summary {
+    grid-area: summary;
+    text-align: center;
+  }
+
+  .organisms__experience-tile__text {
+    grid-area: text;
+  }
+  .organisms__experience-tile__tech-stack {
+    grid-area: tech-stack;
+  }
+
+  .organisms__experience-tile__statistics {
+    margin-top: 16px;
+  }
+
+  .organisms__experience-tile__client-size {
+    color: var(--color-secondary);
+    white-space: nowrap;
+  }
+
+  .organisms__experience-tile__pipe-divider {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: var(--color-secondary);
+    &:before {
+      content: '|';
+    }
+  }
+}

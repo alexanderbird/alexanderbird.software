@@ -4,15 +4,10 @@
   {{> organisms/header profile}}
   {{> organisms/introduction introduction}}
   <hr class='atoms__hr'>
-  <h2 class='pages__home__section-header'>{{{experience-front-matter.title}}}</h2>
-  {{#each experience-front-matter.summary}}
-    <p class='pages__home__section-summary-item'>{{{this}}}</p>
-  {{/each}}
-  <div class='atoms__grid pages__home__experiences'>
-    {{#each experience }}
-      {{> organisms/experience this }}
-    {{/each}}
-    {{> organisms/hobby-experience hobby-experience }}
-    {{> organisms/education education }}
-  </div>
+  {{> organisms/experience
+    experience-front-matter
+    items=experience
+    education=education
+    hobby-experience=hobby-experience
+    }}
 {{/atoms/page}}

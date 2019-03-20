@@ -23,21 +23,8 @@
     --tile-3-animation: pop-out 0.3s ease-out 0.6s both;
   }
 
-  .pages__home__experiences {
-    --atoms--grid-columns: 2;
+  .organisms__experience {
     --animation-duration: 0.3s;
     --animation-delay: 1.5s;
   }
-
-  .pages__home__section-header {
-    font-size: 1.8em;
-  }
-
-  .pages__home__section-header,
-  .pages__home__section-summary-item {
-    animation: invisible 1.5s,
-      fade-in 0.4s ease-out 1.5s;
-    text-align: center;
-  }
-
 }

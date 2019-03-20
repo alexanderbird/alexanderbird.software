@@ -1,46 +1,15 @@
 .organisms__experience {
-  --atoms--card--color: var(--color-accent);
-  --icon-width: 1.2em;
-  --icon-height: 1.2em;
-  --icon-color-primary: var(--color-secondary);
-  --icon-color-secondary: var(--color-secondary);
-  --icon-color-tertiary: transparent;
+  --atoms--grid-columns: 2;
 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: auto 1fr;
-  grid-template-areas:
-    'summary summary'
-    'text    tech-stack';
-  grid-column-gap: 20px;
+  .organisms__experience__section-header {
+    font-size: 1.8em;
+  }
 
-  .organisms__experience__summary {
-    grid-area: summary;
+  .organisms__experience__section-header,
+  .organisms__experience__section-summary-item {
+    animation: invisible 1.5s,
+      fade-in 0.4s ease-out 1.5s;
     text-align: center;
   }
 
-  .organisms__experience__text {
-    grid-area: text;
-  }
-  .organisms__experience__tech-stack {
-    grid-area: tech-stack;
-  }
-
-  .organisms__experience__statistics {
-    margin-top: 16px;
-  }
-
-  .organisms__experience__client-size {
-    color: var(--color-secondary);
-    white-space: nowrap;
-  }
-
-  .organisms__experience__pipe-divider {
-    padding-left: 4px;
-    padding-right: 4px;
-    color: var(--color-secondary);
-    &:before {
-      content: '|';
-    }
-  }
 }
