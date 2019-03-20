@@ -3,14 +3,34 @@
   top: 4px;
   right: 4px;
 
-  --icon-height: 32px;
+  --icon-width: 32px;
+  --icon-height: calc(var(--icon-width) * 2/3);
   --icon-color-primary: var(--color-secondary);
+  width: var(--icon-width);
 
   @media (min-width: 400px) {
+    --icon-width: 64px;
+  }
+  @media (min-width: 550px) {
     top: 16px;
     right: 16px;
+  }
 
-    --icon-height: 64px;
+  text-decoration: none;
+  .atoms__svg-icon {
+    position: absolute;
+    right: 0;
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .atoms__contact-link__label {
+    margin-top: var(--icon-height);
+    color: var(--color-secondary);
+    text-align: right;
+    font-size: 0.75em;
+    @media (min-width: 400px) {
+      text-align: center;
+    }
   }
 }
 

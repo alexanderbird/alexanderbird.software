@@ -5,12 +5,22 @@
 
   --icon-width: 32px;
   --icon-color-primary: var(--color-secondary);
+  width: var(--icon-width);
 
   @media (min-width: 400px) {
+    --icon-width: 64px;
+  }
+
+  @media (min-width: 550px) {
     top: 16px;
     left: 16px;
+  }
 
-    --icon-width: 64px;
+  text-decoration: none;
+  .atoms__printer-friendly-version-link__label {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 0.75em;
   }
 }
 

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<svg version="1.1" x="0" y="0" width="128" height="82" viewBox="0, 0, 128, 128" xmlns="http://www.w3.org/2000/svg">
-  <path d="M 3.158 26 L 124.842 26 L 124.842 102 L 3.158 102 L 3.158 26 Z" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M 3.637 27.336 C 3.637 27.336 63.521 77.996 63.521 77.996 C 63.521 77.996 124.363 26 124.363 26" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
-  <path d="M 80.092 64.166 C 94.849 76.777 109.606 89.389 124.363 102" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
-  <path d="M 47.275 63.748 C 32.729 76.053 18.183 88.358 3.637 100.664" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
+<svg version="1.1" x="0" y="0" viewBox="0, 0, 128, 82" width="100%&quot; height=&quot;100%" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 3.158 3 L 124.842 3 L 124.842 79 L 3.158 79 L 3.158 3 Z" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 3.637 4.336 C 3.637 4.336 63.521 54.996 63.521 54.996 C 63.521 54.996 124.363 3 124.363 3" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M 80.092 41.166 C 94.849 53.777 109.606 66.389 124.363 79" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
+  <path d="M 47.275 40.748 C 32.729 53.053 18.183 65.358 3.637 77.664" fill-opacity="0" stroke="var(--icon-color-primary, #000000)" stroke-width="3"/>
 </svg>
