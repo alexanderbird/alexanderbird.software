@@ -1,15 +1,7 @@
 {{#> atoms/page slug='home' default='true' class='pages__home'}}
   {{> atoms/contact-link }}
   {{> atoms/printer-friendly-version-link }}
-  <div class='profile'>
-    {{> atoms/profile-picture class='profile-picture'}} 
-    <h1>
-      <span class='name'>{{profile.name}}</span>
-      <span class='divider'>&nbsp;&nbsp;//&nbsp;&nbsp;</span>
-      <span class='title'>{{profile.title}}</span>
-    </h1>
-    <h2 class='atoms__tagline'>{{{profile.tagline}}}</h2>
-  </div>
+  {{> organisms/header profile}}
   <div class='atoms__grid pages__home__introduction'>
     {{#each introduction }}
       {{> organisms/introduction-tile this}}

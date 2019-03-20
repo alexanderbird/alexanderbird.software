@@ -6,6 +6,8 @@ profile:
   name: Alexander Bird
   title: Software Developer
   tagline: A passion for building useful, valuable software in a team
+  email: alex@alexanderbird.software
+  website: https://alexanderbird.software
 
 contact-methods: 
   - link: mailto:alex@alexanderbird.software

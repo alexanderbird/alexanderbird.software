@@ -13,3 +13,7 @@
     --icon-height: 64px;
   }
 }
+
+#printer-friendly-version:target .atoms__contact-link {
+  display: none;
+}

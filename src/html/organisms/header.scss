@@ -1,0 +1,9 @@
+#printer-friendly-version:target {
+  .organisms__header__print { display: block; }
+  .organisms__header__web   { display: none; }
+}
+
+#printer-friendly-version:not(:target) {
+  .organisms__header__print { display: none; }
+  .organisms__header__web   { display: block; }
+}
