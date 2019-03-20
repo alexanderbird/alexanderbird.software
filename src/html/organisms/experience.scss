@@ -4,12 +4,13 @@
   .organisms__experience__section-header {
     font-size: 1.8em;
   }
+}
 
+#printer-friendly-version:not(:target) .organisms__experience {
   .organisms__experience__section-header,
   .organisms__experience__section-summary-item {
     animation: invisible 1.5s,
       fade-in 0.4s ease-out 1.5s;
     text-align: center;
   }
-
 }

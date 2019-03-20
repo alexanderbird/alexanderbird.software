@@ -1,18 +1,29 @@
 .organisms__introduction {
+  .organisms__introduction__title-area {
+    display: none;
+  }
   margin-top: 32px;
-  --atoms--grid-columns: 3;
   flex-basis: 0;
   flex-grow: 1;
 
-  & > *:nth-of-type(1) {
-    animation: var(--tile-1-animation);
-  }
+  .organisms__introduction__tiles {
+    --atoms--grid-columns: 3;
+    & > *:nth-of-type(1) {
+      animation: var(--tile-1-animation);
+    }
 
-  & > *:nth-of-type(2) {
-    animation: var(--tile-2-animation);
-  }
+    & > *:nth-of-type(2) {
+      animation: var(--tile-2-animation);
+    }
 
-  & > *:nth-of-type(3) {
-    animation: var(--tile-3-animation);
+    & > *:nth-of-type(3) {
+      animation: var(--tile-3-animation);
+    }
+  }
+}
+
+#printer-friendly-version:target .organisms__introduction {
+  .organisms__introduction__title-area {
+    display: block;
   }
 }

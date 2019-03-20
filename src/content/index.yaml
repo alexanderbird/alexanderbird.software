@@ -19,59 +19,62 @@ contact-methods:
     icon: linkedin
 
 introduction:
-  - motivation:
-      title: Helping Others
-      details: I'm motivated by making other people's lives better with software.
-    values:
-      - 'for users: software that helps them'
-      - 'for the business: software that profits them'
-      - 'for the team who builds it: a collaborative, respectful environment where we can contribute our best'
-    strengths:
-      - listening
-      - discussion facilitation
-      - teaching
-      - pair programming / mobbing / collaborative code reviews
-      - documentation writing
-      - leadership
+  title: Bio
+  subtitle: Strengths, values, and motivation
+  tiles:
+    - motivation:
+        title: Helping Others
+        details: I'm motivated by making other people's lives better with software.
+      values:
+        - 'for users: software that helps them'
+        - 'for the business: software that profits them'
+        - 'for the team who builds it: a collaborative, respectful environment where we can contribute our best'
+      strengths:
+        - listening
+        - discussion facilitation
+        - teaching
+        - pair programming / mobbing / collaborative code reviews
+        - documentation writing
+        - leadership
 
-  - motivation:
-      title: Always Improving
-      details: I'm motivated by collaborating with others to find more and more efficient ways to work.
-    values:
-      - main: make room for innovation
-        sub:
-          - agree on and specify the problem (instead of controlling/constraining solutions)
-          - measure outcomes (instead of constraining/regulating the approach)
-      - when the problem isn't technical, our approach should reflect that
-      - regularly spend time getting faster instead of rushing inefficiently
-      - don't solve imaginary problems
-    strengths:
-      - requirements gathering, design, modelling
-      - slicing large requirements into small experiments
-      - works to understand the human/business context
-      - emphasizes technical excellence as a means to this end
+    - motivation:
+        title: Always Improving
+        details: I'm motivated by collaborating with others to find more and more efficient ways to work.
+      values:
+        - main: make room for innovation
+          sub:
+            - agree on and specify the problem (instead of controlling/constraining solutions)
+            - measure outcomes (instead of constraining/regulating the approach)
+        - when the problem isn't technical, our approach should reflect that
+        - regularly spend time getting faster instead of rushing inefficiently
+        - don't solve imaginary problems
+      strengths:
+        - requirements gathering, design, modelling
+        - slicing large requirements into small experiments
+        - works to understand the human/business context
+        - emphasizes technical excellence as a means to this end
 
-  - motivation:
-      title: Technical Excellence
-      details: |
-        As a professional: technical decisions ought to be made on behalf of the users and the business
-        &mdash; not based on my personal interest.
-    values:
-      - you can have quick features and maintainability when you practice good design
-      - small units of work make for earlier feedback and a better product
-      - reduce risk by preparing for the unexpected (instead of trying to predict the future)
-    strengths:
-      - main: building with quality
-        sub:
-          - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
-          - <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
-          - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
-      - main: learning quickly
-        sub:
-          - requirements gathering
-          - reading documentation
-          - reading code
-      - see Experience section
+    - motivation:
+        title: Technical Excellence
+        details: |
+          As a professional: technical decisions ought to be made on behalf of the users and the business
+          &mdash; not based on my personal interest.
+      values:
+        - you can have quick features and maintainability when you practice good design
+        - small units of work make for earlier feedback and a better product
+        - reduce risk by preparing for the unexpected (instead of trying to predict the future)
+      strengths:
+        - main: building with quality
+          sub:
+            - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
+            - <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
+            - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
+        - main: learning quickly
+          sub:
+            - requirements gathering
+            - reading documentation
+            - reading code
+        - see Experience section
 
 
 _experience-templates:
