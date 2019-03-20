@@ -8,3 +8,8 @@
     grid-template-columns: repeat(var(--atoms--grid-columns), 1fr);
   }
 }
+
+#printer-friendly-version:target .atoms__grid {
+  grid-gap: 8px;
+  grid-template-columns: repeat(var(--atoms--grid-columns--print, var(--atoms-grid-columns)), 1fr);
+}

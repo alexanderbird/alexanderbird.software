@@ -44,3 +44,7 @@
     }
   }
 }
+
+#printer-friendly-version:target .organisms__experience-tile {
+  grid-template-columns: 1fr auto;
+}

@@ -12,3 +12,7 @@
     grid-grap: 20px;
   }
 }
+
+#printer-friendly-version:target .organisms__hobby-experience {
+  display: none;
+}

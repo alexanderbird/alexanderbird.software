@@ -43,3 +43,12 @@
     grid-auto-flow: row;
   }
 }
+
+#printer-friendly-version:target .molecules__tech-stack {
+  &.molecules__tech-stack__string,
+  &.molecules__tech-stack__box,
+  &.molecules__tech-stack__connection,
+  &.molecules__tech-stack__placeholder {
+    padding: 0;
+  }
+}

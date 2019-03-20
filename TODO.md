@@ -3,6 +3,11 @@
 
 # Functional Aesthetics
 - prettier print mode
+  - fit intro to one page (can you inline the short bullets in tech excellence?)
+  - fit experience to 1.5 pages, preferably 1
+    - the changes made for this should also work for mobile
+    - *HEY* this means the zero padding change for the tech stack thing should be a media query, not the print mode
+  - links should not be styled differently (you can't click them on paper)
 
 # Prod readiness
 - browser compatibility testing & fixes
