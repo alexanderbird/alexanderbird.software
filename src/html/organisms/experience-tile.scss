@@ -1,3 +1,18 @@
+@mixin slimmer-version-of-the-tile {
+  .organisms__experience-tile__role,
+  .organisms__experience-tile__employer--with-client {
+    display: none;
+  }
+  grid-template-areas:
+    'summary tech-stack'
+    'text    tech-stack';
+  .organisms__experience-tile__summary {
+    text-align: left;
+  }
+  .organisms__experience-tile__tech-stack {
+    margin-top: 16px;
+  }
+}
 .organisms__experience-tile {
   --atoms--card--color: var(--color-accent);
   --icon-width: 1.2em;
@@ -56,4 +71,6 @@
 
 #printer-friendly-version:target .organisms__experience-tile {
   grid-template-columns: 1fr auto;
+  border-top: 1px solid black;
+  @include slimmer-version-of-the-tile;
 }

@@ -2,8 +2,8 @@
 - copyediting all content
 
 # Functional Aesthetics
-- in print mode, fit experience to 1.5 pages, preferably 1
-  - the changes made for this should also work for mobile
+- in print mode, fit experience to 2 pages
+  - apply the compressed tile formatting to mobile views also -- the mixin is already there to use, just set the breakpoints
 
 # Prod readiness
 - browser compatibility testing & fixes

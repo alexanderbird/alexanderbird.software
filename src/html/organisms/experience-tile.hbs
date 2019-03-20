@@ -1,19 +1,29 @@
-<div class='organisms__experience-tile atoms__card'>
+<div class='organisms__experience-tile atoms__card atoms__card--disable-for-print'>
   <div class='organisms__experience-tile__summary'>
     <h3>{{{summary}}}</h3>
   </div>
   <div class='organisms__experience-tile__text'>
-    <div>
+    <div class='organisms__experience-tile__role'>
       <span class='atoms__span--emphasis'>Role: </span>{{title}}
     </div>
-    <div>
+    <div class='
+      organisms__experience-tile__employer
+      {{#if client}}organisms__experience-tile__employer--with-client{{/if}}
+      '>
       <span class='atoms__span--emphasis'>Employer: </span>{{employer}}
     </div>
-    <div>
-      {{#if client-size}}<span class='atoms__span--emphasis'>Client: </span>{{/if}}
-      {{industry}}
-      {{#if client-size}}<span class='organisms__experience-tile__client-size'>({{client-size}})</span>{{/if}}
+    {{#if client}}
+    <div class='organisms__experience-tile__client'>
+      <span class='atoms__span--emphasis'>Client: </span>
+      {{client}}
+      <span class='organisms__experience-tile__client-size'>({{client-size}})</span>
     </div>
+    {{/if}}
+    {{#if department}}
+    <div>
+      {{department}}
+    </div>
+    {{/if}}
     <div class='organisms__experience-tile__statistics'>
       <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
       <span class='organisms__experience-tile__pipe-divider'></span>

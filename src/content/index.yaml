@@ -106,9 +106,9 @@ experience-front-matter:
     - 1 year working in the Software Engineering Decision Support Lab (University of Calgary)
 
 experience:
-  - industry: Telecommunications provider
-    summary: Team Lead
+  - client: Telecommunications provider
     client-size: publicly traded
+    summary: Team Lead
     title: Software Developer Team Lead
     employer: Arcurve Inc
     team-size: 12
@@ -145,9 +145,9 @@ experience:
             - AWS EC2
             - on-prem
 
-  - industry: Corporate minutebook management
-    summary: Reverse Engineering
+  - client: Corporate minutebook management
     client-size: startup
+    summary: Reverse Engineering
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 5
@@ -177,9 +177,9 @@ experience:
             column:
               - other services
 
-  - industry: Professional certification auditing
-    summary: Team Player
+  - client: Professional certification auditing
     client-size: startup
+    summary: Team Player
     <<: *arcurve-dev
     team-size: 4
     duration-in-months: 3
@@ -222,7 +222,7 @@ experience:
         - row:
           - Heroku
     
-  - industry: Video conferencing
+  - client: Video conferencing
     summary: Browser WebRTC Protocol Deep Dive
     client-size: private corporation
     <<: *arcurve-dev
@@ -259,7 +259,7 @@ experience:
               - Desktop
               - Embedded
 
-  - industry: Land acquisition service provider 
+  - client: Land acquisition service provider 
     summary: Full Stack
     client-size: private corporation
     <<: *arcurve-dev
@@ -292,7 +292,7 @@ experience:
                   - Microsoft SQL Server
         - on-premise
 
-  - industry: Surplus oilfield equipment broker
+  - client: Surplus oilfield equipment broker
     summary: Navigated Technical Debt
     client-size: startup
     <<: *arcurve-dev
@@ -323,7 +323,7 @@ experience:
             row:
               - Linux
 
-  - industry: Oilfield services
+  - client: Oilfield services
     summary: Made the best of Excel VBA
     client-size: publicly traded
     <<: *arcurve-dev
@@ -341,7 +341,7 @@ experience:
         - Macro Serializer (3rd party)
         - Perforce Version Control
 
-  - industry: Software Engineering Decision Support Lab
+  - department: Software Engineering Decision Support Lab
     summary: REST API Synchronization Utility
     title: Research Assistant
     employer: University of Calgary
