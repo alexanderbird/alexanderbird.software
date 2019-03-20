@@ -19,3 +19,16 @@ a:not(.reset) {
     color: var(--color-accent-darker);
   }
 }
+
+#printer-friendly-version:target {
+  a:not(.reset) {
+    color: var(--color-primary);
+    text-decoration: none;
+
+    &:visited,
+    &:active,
+    &:hover {
+      color: var(--color-primary);
+    }
+  }
+}
