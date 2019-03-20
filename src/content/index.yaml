@@ -18,6 +18,18 @@ contact-methods:
     text: LinkedIn
     icon: linkedin
 
+navigation:
+  print-mode:
+    icon: printer
+    display-label: Resume View
+    alt: Print
+    title: Printer Friendly Version
+  contact:
+    icon: mail
+    display-label: Contact
+    alt: Contact
+    title: Contact Information
+
 introduction:
   title: Bio
   subtitle: Strengths, values, and motivation
