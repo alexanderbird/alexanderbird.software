@@ -2,11 +2,7 @@
   {{> atoms/contact-link }}
   {{> atoms/printer-friendly-version-link }}
   {{> organisms/header profile}}
-  <div class='atoms__grid pages__home__introduction'>
-    {{#each introduction }}
-      {{> organisms/introduction-tile this}}
-    {{/each}}
-  </div>
+  {{> organisms/introduction introduction}}
   <hr class='atoms__hr'>
   <h2 class='pages__home__section-header'>{{{experience-front-matter.title}}}</h2>
   {{#each experience-front-matter.summary}}
