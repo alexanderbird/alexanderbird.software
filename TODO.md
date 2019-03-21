@@ -1,9 +1,6 @@
 # Content
 - copyediting all content
-
-# Functional Aesthetics
-- in print mode, fit experience to 2 pages
-  - apply the compressed tile formatting to mobile views also -- the mixin is already there to use, just set the breakpoints
+  - in print mode, fit experience to 2 pages
 
 # Prod readiness
 - browser compatibility testing & fixes

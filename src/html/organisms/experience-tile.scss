@@ -22,15 +22,22 @@
   --icon-color-tertiary: transparent;
 
   display: grid;
-  grid-template-columns: 1fr auto;
-  @media (min-width: 800px) {
-    grid-template-columns: 1fr 1fr;
+  --grid-columns-small-diagram: 1fr auto;
+  --grid-columns-large-diagram: 1fr 1fr;
+
+  @media (max-width: 799px) {
+    grid-template-columns: var(--grid-columns-small-diagram);
+    @include slimmer-version-of-the-tile;
   }
-  @media (min-width: 1000px) {
-    grid-template-columns: 1fr auto;
+  @media (min-width: 800px) and (max-width: 999px) {
+    grid-template-columns: var(--grid-columns-large-diagram);
+  }
+  @media (min-width: 1000px) and (max-width: 1299px) {
+    grid-template-columns: var(--grid-columns-small-diagram);
+    @include slimmer-version-of-the-tile;
   }
   @media (min-width: 1300px) {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: var(--grid-columns-large-diagram);
   }
   grid-template-rows: auto 1fr;
   grid-template-areas:
