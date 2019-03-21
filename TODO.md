@@ -2,12 +2,11 @@
 - copyediting all content
   - in print mode, fit experience to 2 pages
 
-# Prod readiness
+# Prod readiness (after initial deploy)
 - browser compatibility testing & fixes
 - social sharing design (e.g. text, twitter)
-- copyright notice? Consider the footer on https://philcoffman.com/
 
-# Deployment
+# Post-deployment
 - make GitHub public
 - update bio sections on professional social media sites
   - Twitter

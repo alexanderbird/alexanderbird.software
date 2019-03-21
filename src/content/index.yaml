@@ -10,6 +10,10 @@ profile:
   website: https://alexanderbird.software
   time-zone: Mountain Time
 
+copyright:
+  notice: '&copy; 2019'
+  open-source: open source at <a href='https://github.com/alexanderbird/alexanderbird.software'>github.com/alexanderbird/alexanderbird.software</a>
+
 contact-methods: 
   - link: mailto:alex@alexanderbird.software
     text: alex@alexanderbird.software
@@ -397,10 +401,6 @@ hobby-experience:
       alt: '@alexanderbird on Stack Overflow'
       title: Top tags on Stack Overflow
       url: https://stackoverflow.com/users/3012550/alexanderbird?tab=tags
-    - icon: github
-      alt: this site on GitHub
-      title: Source code for this site
-      url: https://github.com/alexanderbird/alexanderbird.software
 
 # TODO: these might be worth incorporating in their respective experience sections
 #     - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)

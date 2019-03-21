@@ -1,0 +1,9 @@
+.atoms__copyright-footer {
+  color: var(--color-secondary);
+  display: flex;
+  justify-content: space-between;
+}
+
+#printer-friendly-version:target .atoms__copyright-footer {
+  display: none;
+}
