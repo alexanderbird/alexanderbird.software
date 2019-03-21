@@ -16,3 +16,23 @@
     text-align: center;
   }
 }
+
+#printer-friendly-version:target .organisms__education {
+  .organisms__education__degree-label,
+  .organisms__education__institution-label,
+  .organisms__education__faculty-label {
+    width: auto;
+    text-align: left;
+  }
+
+  .organisms__education__degree-label {
+    margin-top: 0;
+    display: inline-block;
+  }
+
+  .organisms__education__institution-logo {
+    margin: 8px;
+    float: right;
+    height: 4em;
+  }
+}

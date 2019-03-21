@@ -71,6 +71,8 @@
 
 #printer-friendly-version:target .organisms__experience-tile {
   grid-template-columns: 1fr auto;
-  border-top: 1px solid black;
   @include slimmer-version-of-the-tile;
+  .organisms__experience-tile__summary-header {
+    margin-top: 0;
+  }
 }

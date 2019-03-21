@@ -1,13 +1,12 @@
-/* atoms__card--disable-for-print in non-print mode 
- * OR
- * atoms__card in any mode
- */
-#printer-friendly-version:not(:target) .atoms__card.atoms__card--disable-for-print,
-.atoms__card:not(.atoms__card--disable-for-print) {
+#printer-friendly-version:not(:target) .atoms__card {
   margin: 8px;
   border: 1px solid var(--color-secondary);
   border-radius: 4px;
   padding: 16px;
   background-color: var(--atoms--card--color);
   animation: pop-out var(--animation-duration) ease-out var(--animation-delay) both;
+}
+
+#printer-friendly-version:target .atoms__card {
+  border-top: 1px solid var(--color-secondary);
 }

@@ -15,3 +15,12 @@
     text-align: center;
   }
 }
+#printer-friendly-version:target .organisms__experience {
+  .organisms__experience__section-header {
+    border-bottom: 2px solid var(--color-primary);
+  }
+
+  .organisms__experience__experiences {
+    margin-left: 16px;
+  }
+}

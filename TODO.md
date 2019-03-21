@@ -4,7 +4,6 @@
 # Functional Aesthetics
 - in print mode, fit experience to 2 pages
   - apply the compressed tile formatting to mobile views also -- the mixin is already there to use, just set the breakpoints
-  - education should not have the tile border -- probably take away the .atoms__card--disable-for-print class and make that implicit
 
 # Prod readiness
 - browser compatibility testing & fixes
