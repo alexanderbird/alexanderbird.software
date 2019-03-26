@@ -149,7 +149,7 @@ experience:
                 - Windows
         - row:
             - AWS EC2
-            - on-prem
+            - on-premise
 
   - client: Corporate minutebook management
     client-size: startup
@@ -158,8 +158,9 @@ experience:
     team-size: 2
     duration-in-months: 5
     comments:
-      - Built an import utility for a proprietary data format including inferring the domain model/rules from the data, and writing a custom parser for the files.
-      - Integrated this component with our client's code, and provided extensive documentation and training so their development team is comfortable maintaining (including testing and modifying) the import utility.
+      - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
+      - Integrated this component with our client's code
+      - Provided extensive documentation and training so their development team was comfortable maintaining the import utility.
     stack:
       column:
         - box:
@@ -279,19 +280,17 @@ experience:
     team-size: 2
     duration-in-months: 4
     comments:
-      - Added features to a mature application, respecting the patterns set out by previous developers (no longer around to explain their thinking).
-      - Practised constructive code reviews &mdash; receiving (accepting, adopting) feedback, and explaining my thinking.
+      - Followed patterns set by previous developers
+      - Collaborated through constructive code reviews &mdash; receiving (accepting, adopting) feedback, discussing my approach
     stack:
       column:
         - box:
             label: Web Browser
             row:
-              - column:
-                - CSS
-                - HTML
-              - column:
-                - Kendo UI
-                - JavaScript
+              - CSS
+              - HTML
+              - Kendo UI
+              - JavaScript
         - connection: HTTP
         - box:
             label: Server
@@ -342,7 +341,8 @@ experience:
     team-size: 1
     duration-in-months: 3
     comments:
-      - Updated a business process (proposed to team, updated tooling to support it) in order to shorten lead time from a new customer signing up to starting service by more than 50%
+      - Proposed new business process to reduce lead time for new clients by 50%
+      - Modified the existing Excel VBA tool to support the new process
     stack:
       column:
         - box:

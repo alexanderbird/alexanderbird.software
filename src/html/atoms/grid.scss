@@ -12,7 +12,7 @@
 #printer-friendly-version:target .atoms__grid {
   display: block;
   & > * {
-    margin-bottom: 8px;
+    margin-bottom: 2px;
     page-break-inside: avoid;
   }
 }

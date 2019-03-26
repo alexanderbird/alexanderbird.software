@@ -20,6 +20,8 @@
 
   &.molecules__tech-stack__hr {
     width: calc(100% - 8px - 8px);
+    margin-top: -2px;
+    margin-bottom: -2px;
   }
 }
 
@@ -32,6 +34,7 @@
 
   &.molecules__tech-stack__hr {
     width: 100%;
+    height: 0;
     border: none;
     border-top: 1px dashed var(--color-secondary);
   }

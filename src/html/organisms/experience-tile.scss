@@ -21,6 +21,10 @@
   .organisms__experience-tile__tech-stack {
     margin-top: 16px;
   }
+
+  .organisms__experience-tile__comments {
+    margin-bottom: 0;
+  }
 }
 .organisms__experience-tile {
   --atoms--card--color: var(--color-accent);
