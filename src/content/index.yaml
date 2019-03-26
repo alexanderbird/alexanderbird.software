@@ -307,7 +307,9 @@ experience:
     duration-in-months: 4
     comments:
       - Followed patterns set by previous developers
-      - Collaborated through constructive code reviews &mdash; receiving (accepting, adopting) feedback, discussing my approach
+      - |
+        Collaborated through code reviews &mdash; receiving
+        (accepting, adopting) feedback, discussing my approach
     stack:
       column:
         - box:
@@ -319,7 +321,7 @@ experience:
               - JavaScript
         - connection: HTTP
         - box:
-            label: Server
+            label: on-premise Server
             column:
               - row:
                   - C#
@@ -329,7 +331,6 @@ experience:
               - row:
                   - IIS
                   - Microsoft SQL Server
-        - on-premise
 
   - client: Surplus oilfield equipment broker
     summary: Navigated Technical Debt
