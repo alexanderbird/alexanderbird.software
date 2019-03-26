@@ -3,7 +3,10 @@
     <h3 class='organisms__experience-tile__summary-header'>{{{summary}}}</h3>
   </div>
   <div class='organisms__experience-tile__text'>
-    <div class='organisms__experience-tile__role'>
+    <div class='
+      organisms__experience-tile__role
+      {{#if client}}organisms__experience-tile__role--with-client{{/if}}
+      '>
       <span class='atoms__span--emphasis'>Role: </span>{{title}}
     </div>
     <div class='
@@ -19,11 +22,6 @@
       <span class='organisms__experience-tile__client-size'>({{client-size}})</span>
     </div>
     {{/if}}
-    {{#if department}}
-    <div>
-      {{department}}
-    </div>
-    {{/if}}
     <div class='organisms__experience-tile__statistics'>
       <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
       <span class='organisms__experience-tile__pipe-divider'></span>
@@ -31,7 +29,7 @@
     </div>
     <ul class='organisms__experience-tile__comments'>
     {{#each comments}}
-      <li>{{{this}}}</li>
+      {{> molecules/bullet bullet=this }}
     {{/each}}
     </ul>
   </div>

@@ -208,11 +208,12 @@ experience:
     duration-in-months: 3
     comments:
       - |
-        When our client pivoted significantly two months in (new UI, new data model),
-        the architecture and tests I had put in place allowed me to salvage most of the existing code.
+        Architected and unit tested the application in a way that allowed us to salvage most of the
+        application when the client drastically changed their application after several months (new UI,
+        new data model)
       - |
-        Communicated respectfully and constructively with our client despite
-        their ad hominem attacks and disrespectful attitude.
+        Maintained respectful, constructive communication with our client in a challenging team
+        environment
     stack:
       column:
         - row:
@@ -257,8 +258,16 @@ experience:
     team-size: 2
     duration-in-months: 12
     comments:
-      - Built a JavaScript library for consumers to enable video conferencing from/to their browser applications to/from our client's existing suite of desktop/embedded video conferencing SDKs and applications.
-      - Communicated constructively and professionally with my technical lead despite their continued dismissal of my inputs.
+      - main: |
+          Integrated the emerging WebRTC protocol with our client's custom video
+          conferencing infrastructure via a proof-of-concept JavaScript library.
+        sub:
+          - |
+            Enabled video calling between a browser and multiple embedded and/or
+            desktop clients
+      - |
+        Collaborated constructively and respectfully with my technical lead in
+        the face of many differences of opinion
     stack:
       column:
         - box:
@@ -370,14 +379,12 @@ experience:
         - Macro Serializer (3rd party)
         - Perforce Version Control
 
-  - department: Software Engineering Decision Support Lab
-    summary: REST API Synchronization Utility
-    title: Research Assistant
+  - summary: Software Engineering Decision Support Lab
+    title: Software Developer / Research Assistant
     employer: University of Calgary
-    duration-in-months: 12
+    duration-in-months: 4
     comments:
       - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool.
-      - Collaborated remotely with the technical lead on the project.
     team-size: 3
     stack:
       column:
@@ -392,11 +399,10 @@ experience:
                 - CoffeeScript
         - connection: HTTP
         - box:
-            label: Server
-            column:
+            label: Heroku
+            row:
               - Ruby on Rails
               - Postgres
-        - Heroku
 
 education:
   degree: Bachelor of Science in Software Engineering
