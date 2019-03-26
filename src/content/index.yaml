@@ -79,7 +79,7 @@ introduction:
         title: Technical Excellence
         details: I'm motivated when I can do the best job possible.
       values:
-        - main: when you practice good, pragmatic design and regular refactoring:
+        - main: 'when you practice good, pragmatic design and regular refactoring:'
           sub:
             - you can have both quick features and maintainability
             - testing speeds up development and reduces risk
@@ -200,7 +200,7 @@ experience:
 
   - client: Professional certification auditing
     client-size: startup
-    summary: Team Player
+    summary: Architected for Reuse
     <<: *arcurve-dev
     team-size: 4
     duration-in-months: 3
@@ -298,7 +298,7 @@ experience:
               - Embedded
 
   - client: Land acquisition service provider 
-    summary: Full Stack
+    summary: Following Patterns; Accepting Feedback
     client-size: private corporation
     <<: *arcurve-dev
     team-size: 2
@@ -338,7 +338,7 @@ experience:
     duration-in-months: 4
     comments:
       - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application.
-      - Participated in requirements elicitation from domain experts with very little technical understanding.
+      - Participated in requirements elicitation from domain experts who had little technical understanding.
     stack:
       column: 
         - box:
@@ -360,7 +360,7 @@ experience:
         - Linux (shared cloud hosting)
 
   - client: Oilfield services
-    summary: Made the best of Excel VBA
+    summary: TDD & Version Control with Excel VBA
     client-size: publicly traded
     <<: *arcurve-dev
     team-size: 1
@@ -376,7 +376,7 @@ experience:
               - Macros
               - Unit Tests
         - Macro Serializer (3rd party)
-        - Perforce Version Control
+        - Version Control
 
   - summary: Software Engineering Decision Support Lab
     title: Software Developer / Research Assistant
