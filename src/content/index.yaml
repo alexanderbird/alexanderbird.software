@@ -77,13 +77,14 @@ introduction:
 
     - motivation:
         title: Technical Excellence
-        details: |
-          As a professional: technical decisions ought to be made on behalf of the users and the business
-          &mdash; not based on my personal interest.
+        details: I'm motivated when I can do the best job possible.
       values:
-        - you can have quick features and maintainability when you practice good design
-        - small units of work make for earlier feedback and a better product
-        - reduce risk by preparing for the unexpected (instead of trying to predict the future)
+        - main: when you practice good, pragmatic design and regular refactoring:
+          sub:
+            - you can have both quick features and maintainability
+            - testing speeds up development and reduces risk
+            - you can deliver small units of work to get earlier feedback and a better product
+            - you can adapt to change (instead of trying to predict the future)
       strengths:
         - main: building with quality
           collapsible: true
