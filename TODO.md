@@ -2,6 +2,13 @@
 - copyediting all content
   - in print mode, fit experience to 2 pages
 
+# other
+- tech stack diagram use min/max so it's not more than 50% width
+- don't link to SO top tags -- they're not tags I want to show off
+- add graduation date to uni
+- less spacing between experience bullets to save room
+- don't break experience section over page dividers
+
 # Prod readiness (after initial deploy)
 - browser compatibility testing & fixes
 - social sharing design (e.g. text, twitter)
