@@ -7,6 +7,13 @@
 
   * {
     animation: none !important;
-    transition: all 0.5s ease;
+  }
+}
+
+body.javascript-state__fully-initialized {
+  #printer-friendly-version:target {
+    * {
+      transition: all 0.5s ease;
+    }
   }
 }

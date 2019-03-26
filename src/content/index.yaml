@@ -33,6 +33,11 @@ navigation:
     display-label: Contact
     alt: Contact
     title: Contact Information
+  home:
+    icon: home
+    display-label: Full Site
+    alt: Full Site
+    title: Back to full site
 
 introduction:
   title: Bio
@@ -202,8 +207,12 @@ experience:
     team-size: 4
     duration-in-months: 3
     comments:
-      - When our client pivoted significantly two months in (new UI, new data model), the architecture and tests I had put in place allowed me to salvage most of the existing code.
-      - Communicated respectfully and constructively with our client despite their ad hominem attacks and disrespectful attitude.
+      - |
+        When our client pivoted significantly two months in (new UI, new data model),
+        the architecture and tests I had put in place allowed me to salvage most of the existing code.
+      - |
+        Communicated respectfully and constructively with our client despite
+        their ad hominem attacks and disrespectful attitude.
     stack:
       column:
         - row:

@@ -1,0 +1,31 @@
+.atoms__home-link {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+
+  --icon-width: 16px;
+  --icon-color-primary: var(--color-secondary);
+  width: auto;
+
+  text-decoration: none;
+  .atoms__svg-icon {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  .atoms__home-link__label {
+    color: var(--color-secondary);
+    text-align: center;
+    font-size: 0.75em;
+  }
+}
+
+#printer-friendly-version:not(:target) .atoms__home-link {
+  display: none;
+}
+
+@media print {
+  .atoms__home-link {
+    display: none;
+  }
+}
