@@ -1,11 +1,20 @@
 @mixin slimmer-version-of-the-tile {
+  grid-template-areas:
+    'summary tech-stack'
+    'text    tech-stack';
+
+  .organisms__experience-tile__summary-header {
+    margin-bottom: 4px;
+  }
+  .organisms__experience-tile__statistics {
+    margin-top: 4px;
+  }
+
   .organisms__experience-tile__role,
   .organisms__experience-tile__employer--with-client {
     display: none;
   }
-  grid-template-areas:
-    'summary tech-stack'
-    'text    tech-stack';
+
   .organisms__experience-tile__summary {
     text-align: left;
   }
