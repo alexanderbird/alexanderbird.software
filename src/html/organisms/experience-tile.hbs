@@ -29,18 +29,11 @@
       <span class='organisms__experience-tile__pipe-divider'></span>
       <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
     </div>
-    {{#if people}}
-    <p>
-      {{> atoms/svg-icon name='team' }}
-      <span>{{{people}}}</span>
-    </p>
-    {{/if}}
-    {{#if engineering}}
-    <p>
-      {{> atoms/svg-icon name='uml' }}
-      <span>{{{engineering}}}</span>
-    </p>
-    {{/if}}
+    <ul class='organisms__experience-tile__comments'>
+    {{#each comments}}
+      <li>{{{this}}}</li>
+    {{/each}}
+    </ul>
   </div>
   <div class='organisms__experience-tile__tech-stack'>
     {{> molecules/tech-stack model=(experience stack) }}
