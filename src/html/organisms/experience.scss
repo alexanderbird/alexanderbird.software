@@ -9,10 +9,9 @@
 
 #printer-friendly-version:not(:target) .organisms__experience {
   .organisms__experience__section-header,
-  .organisms__experience__section-summary-item {
+  .organisms__experience__summary {
     animation: invisible 1.5s,
       fade-in 0.4s ease-out 1.5s;
-    text-align: center;
   }
 }
 #printer-friendly-version:target .organisms__experience {
@@ -21,7 +20,11 @@
   }
 
   .organisms__experience__experiences,
-  .organisms__experience__section-summary-item {
+  .organisms__experience__summary {
     margin-left: 16px;
+  }
+
+  .organisms__experience__summary {
+    margin-bottom: 16px;
   }
 }

@@ -1,8 +1,10 @@
 <div class='organisms__experience'>
   <h2 class='organisms__experience__section-header'>{{{title}}}</h2>
+  <div class='organisms__experience__summary'>
   {{#each summary}}
-    <p class='organisms__experience__section-summary-item'>{{{this}}}</p>
+    {{> molecules/employment-summary this }}
   {{/each}}
+  </div>
   <div class='atoms__grid organisms__experience__experiences'>
     {{#each items }}
       {{> organisms/experience-tile this }}

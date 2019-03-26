@@ -1,0 +1,24 @@
+.molecules__employment-summary {
+  margin-bottom: 8px;
+  display: grid;
+  grid-template-areas:
+    'role years'
+    'company company'
+    'comments comments';
+
+  .molecules__employment-summary__years {
+    grid-area: years;
+    text-align: right;
+    color: var(--color-secondary);
+  }
+  .molecules__employment-summary__role {
+    grid-area: role;
+    font-weight: bold;
+  }
+  .molecules__employment-summary__company {
+    grid-area: company;
+  }
+  .molecules__employment-summary__comments {
+    grid-area: comments;
+  }
+}
