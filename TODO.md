@@ -2,10 +2,6 @@
 - copyediting all content
   - in print mode, fit experience to 2 pages
 
-# other
-- tech stack diagram use min/max so it's not more than 50% width
-- print mode -- use header on each page?
-
 # Prod readiness (after initial deploy)
 - browser compatibility testing & fixes
 - social sharing design (e.g. text, twitter)
