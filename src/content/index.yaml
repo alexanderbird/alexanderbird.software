@@ -138,8 +138,9 @@ experience:
           - box: 
               label: SPA Server
               column:
-                - Express
-                - Node
+                - row:
+                  - Express
+                  - Node
                 - Linux
           - box:
               label: API Server
@@ -171,8 +172,10 @@ experience:
         - box:
             label: Server
             column:
-              - Express
-              - Node
+              - row:
+                - Express
+                - Node
+              - line: true
               - row:
                   - Mongo DB
                   - Axios
@@ -254,11 +257,13 @@ experience:
         - row:
             - connection: WebRTC
             - connection: WebSocket
-        - box:
-            label: Server
-            row:
-              - Selective Forwarding Unit
-              - Signalling service (XMPP)
+        - row:
+          - box:
+              label: Server
+              string: Selective Forwarding Unit
+          - box:
+              label: Server
+              string: Signalling service (XMPP)
         - connection: (various protocols)
         - box:
             label: Other Clients
@@ -328,10 +333,7 @@ experience:
               - row:
                   - Apache
                   - MySQL
-        - box:
-            label: shared cloud hosting service
-            row:
-              - Linux
+        - Linux (shared cloud hosting)
 
   - client: Oilfield services
     summary: Made the best of Excel VBA
@@ -340,8 +342,7 @@ experience:
     team-size: 1
     duration-in-months: 3
     comments:
-      - Used TDD and version control &mdash; not easy things inside an Excel spreadsheet.
-      - Proposed a change in business process to shorted lead time from a new customer signing up to starting service by more than 50% (also modified the business-critical Excel VBA application to support that process change).
+      - Updated a business process (proposed to team, updated tooling to support it) in order to shorten lead time from a new customer signing up to starting service by more than 50%
     stack:
       column:
         - box:

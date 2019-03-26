@@ -8,6 +8,11 @@
     padding: 1px;
   }
 
+  &.molecules__tech-stack__connection {
+    margin-top: -4px;
+    margin-bottom: -4px;
+  }
+
   &.molecules__tech-stack__column,
   &.molecules__tech-stack__row {
     padding: 0 2px 2px 2px;
