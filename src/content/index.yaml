@@ -62,21 +62,18 @@ introduction:
         - leadership
 
     - motivation:
-        title: Always Improving
-        details: I'm motivated by collaborating with others to find more and more efficient ways to work.
+        title: Innovation
+        details: I'm motivated when the way we work makes room for innovation.
       values:
-        - main: make room for innovation
-          sub:
-            - agree on and specify the problem (instead of controlling/constraining solutions)
-            - measure outcomes (instead of constraining/regulating the approach)
-        - when the problem isn't technical, our approach should reflect that
-        - regularly spend time getting faster instead of rushing inefficiently
-        - don't solve imaginary problems
+        - begin by agreeing on and specifying the problem (instead of constraining solutions to a vague problem)
+        - measure outcomes (instead of measuring the approach and activities)
+        - consider the non-technical aspects of the problem (instead of working in a silo)
+        - regularly spend time getting faster (instead of always rushing inefficiently)
       strengths:
         - requirements gathering, design, modelling
         - slicing large requirements into small experiments
-        - works to understand the human/business context
-        - emphasizes technical excellence as a means to this end
+        - working to understand the human/business context
+        - communicating the problem to everyone on the team
 
     - motivation:
         title: Technical Excellence
