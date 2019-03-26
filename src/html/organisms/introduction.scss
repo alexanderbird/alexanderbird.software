@@ -3,7 +3,7 @@
     border-bottom: 2px solid var(--color-primary);
     display: none;
     .organisms__introduction__title {
-      font-size: 1.8em;
+      font-size: 1.5em;
     }
   }
   margin-top: 32px;
@@ -28,6 +28,7 @@
 }
 
 #printer-friendly-version:target .organisms__introduction {
+  margin-top: 0;
   .organisms__introduction__title-area {
     display: block;
     .organisms__introduction__title,

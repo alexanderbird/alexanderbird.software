@@ -8,7 +8,7 @@ profile:
   tagline: A passion for building useful, valuable software in a team
   email: alex@alexanderbird.software
   website: https://alexanderbird.software
-  time-zone: Mountain Time
+  location: Calgary, AB, Canada
 
 copyright:
   notice: '&copy; 2019'
@@ -106,8 +106,8 @@ _experience-templates:
 experience-front-matter:
   title: Experiences
   summary:
-    - 4 years at Arcurve Inc (Calgary-based software services & consulting company) working in various domains, team structures, and technologies
-    - 1 year working in the Software Engineering Decision Support Lab (University of Calgary)
+    - 4 years at Arcurve Inc (Calgary-based software services & consulting company) working in various domains, team structures, and technologies (2014-2015, 2016-2019)
+    - 4 months working in the Software Engineering Decision Support Lab (University of Calgary, 2013)
 
 experience:
   - client: Telecommunications provider
