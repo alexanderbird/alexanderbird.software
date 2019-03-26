@@ -4,7 +4,6 @@
 
 # other
 - tech stack diagram use min/max so it's not more than 50% width
-- don't break experience section over page dividers
 - print mode -- use header on each page?
 
 # Prod readiness (after initial deploy)

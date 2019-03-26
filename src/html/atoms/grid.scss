@@ -10,6 +10,9 @@
 }
 
 #printer-friendly-version:target .atoms__grid {
-  grid-gap: 8px;
-  grid-template-columns: repeat(var(--atoms--grid-columns--print, var(--atoms-grid-columns)), 1fr);
+  display: block;
+  & > * {
+    margin-bottom: 8px;
+    page-break-inside: avoid;
+  }
 }
