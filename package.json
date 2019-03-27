@@ -10,7 +10,8 @@
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
     "start": "cd html && http-server",
     "test:reset": "cd test && rm -r shots_base/* && bundle exec wraith history config.yaml",
-    "test": "cd test && bundle exec wraith latest config.yaml || true && open shots/gallery.html"
+    "test:vanilla": "cd test && bundle exec wraith latest config.yaml || true",
+    "test": "npm run test:vanilla && open shots/gallery.html"
   },
   "repository": {
     "type": "git",

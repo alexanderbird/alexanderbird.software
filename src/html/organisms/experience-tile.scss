@@ -1,3 +1,25 @@
+.organisms__experience-tile {
+  --atoms--card--color: var(--color-accent);
+  --icon-width: 1.2em;
+  --icon-height: 1.2em;
+  --icon-color-primary: var(--color-secondary);
+  --icon-color-secondary: var(--color-secondary);
+  --icon-color-tertiary: transparent;
+
+  .organisms__experience-tile__client-size {
+    color: var(--color-secondary);
+    white-space: nowrap;
+  }
+
+  .organisms__experience-tile__pipe-divider {
+    padding-left: 4px;
+    padding-right: 4px;
+    color: var(--color-secondary);
+    &:before {
+      content: '|';
+    }
+  }
+}
 @mixin slimmer-version-of-the-tile {
   grid-template-areas:
     'summary tech-stack'
@@ -27,13 +49,6 @@
   }
 }
 .organisms__experience-tile {
-  --atoms--card--color: var(--color-accent);
-  --icon-width: 1.2em;
-  --icon-height: 1.2em;
-  --icon-color-primary: var(--color-secondary);
-  --icon-color-secondary: var(--color-secondary);
-  --icon-color-tertiary: transparent;
-
   display: grid;
   --grid-columns-small-diagram: 1fr auto;
   --grid-columns-large-diagram: 1fr 1fr;
@@ -72,20 +87,6 @@
 
   .organisms__experience-tile__statistics {
     margin-top: 16px;
-  }
-
-  .organisms__experience-tile__client-size {
-    color: var(--color-secondary);
-    white-space: nowrap;
-  }
-
-  .organisms__experience-tile__pipe-divider {
-    padding-left: 4px;
-    padding-right: 4px;
-    color: var(--color-secondary);
-    &:before {
-      content: '|';
-    }
   }
 }
 
