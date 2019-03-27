@@ -40,19 +40,6 @@
 
 }
 @mixin organisms__experience-tile--slim {
-  display: grid;
-  grid-column-gap: 20px;
-  grid-template-rows: auto 1fr;
-  grid-template-columns: 1fr auto;
-  grid-template-areas:
-    'summary tech-stack'
-    'text    tech-stack';
-
-  .organisms__experience-tile__summary { grid-area: summary; }
-  .organisms__experience-tile__text { grid-area: text; }
-  .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
-
-
   .organisms__experience-tile__summary-header {
     margin-bottom: 4px;
   }
@@ -69,7 +56,9 @@
     text-align: left;
   }
   .organisms__experience-tile__tech-stack {
-    margin-top: 16px;
+    margin: 16px 0 4px 8px;
+    max-width: 50%;
+    float: right;
   }
 
   .organisms__experience-tile__comments {
@@ -115,7 +104,7 @@
   }
 }
 
-.organisms__experience-tile {
+#printer-friendly-version:not(:target) .organisms__experience-tile {
   @media (max-width: 799px) {
     @include organisms__experience-tile--slim;
   }

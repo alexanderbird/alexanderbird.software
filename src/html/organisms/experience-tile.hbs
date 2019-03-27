@@ -1,4 +1,7 @@
 <div class='organisms__experience-tile atoms__card'>
+  <div class='organisms__experience-tile__tech-stack'>
+    {{> molecules/tech-stack model=(experience stack) }}
+  </div>
   <div class='organisms__experience-tile__summary'>
     <h3 class='organisms__experience-tile__summary-header'>{{{summary}}}</h3>
   </div>
@@ -32,8 +35,5 @@
       {{> molecules/bullet bullet=this }}
     {{/each}}
     </ul>
-  </div>
-  <div class='organisms__experience-tile__tech-stack'>
-    {{> molecules/tech-stack model=(experience stack) }}
   </div>
 </div>
