@@ -42,6 +42,7 @@
 @mixin organisms__experience-tile--slim {
   .organisms__experience-tile__summary-header {
     margin-bottom: 4px;
+    text-align: left;
   }
   .organisms__experience-tile__statistics {
     margin-top: 4px;
