@@ -1,6 +1,12 @@
 # Content
 - copyediting all content
-  - in print mode, fit experience to 2 pages
+  - in print mode, somehow get education on first three pages (instead of on the 4th page)
+  - revise the Innovation values section
+  - revise the Tech Excellence values section
+
+# Look & Feel
+- Text-align left in experience small web view headers
+- Revise the experience intro section in web view
 
 # Prod readiness (after initial deploy)
 - browser compatibility testing & fixes

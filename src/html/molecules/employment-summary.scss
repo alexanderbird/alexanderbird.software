@@ -1,4 +1,4 @@
-.molecules__employment-summary {
+@mixin molecules__employment-summary--print {
   margin-bottom: 8px;
   display: grid;
   grid-template-areas:
@@ -21,4 +21,32 @@
   .molecules__employment-summary__comments {
     grid-area: comments;
   }
+}
+
+@mixin molecules__employment-summary--web {
+  text-align: center;
+  margin-bottom: 8px;
+  .molecules__employment-summary__years {
+    font-weight: bold;
+  }
+  .molecules__employment-summary__years:after,
+  .molecules__employment-summary__role:after,
+  .molecules__employment-summary__company:after {
+    color: var(--color-secondary);
+    content: ' // ';
+  }
+  .molecules__employment-summary__years,
+  .molecules__employment-summary__role,
+  .molecules__employment-summary__company,
+  .molecules__employment-summary__comments {
+    text-wrap: avoid;
+  }
+}
+
+.printer-friendly-version:not(:target) .molecules__employment-summary {
+  @include molecules__employment-summary--web;
+}
+
+.printer-friendly-version:target .molecules__employment-summary {
+  @include molecules__employment-summary--print;
 }
