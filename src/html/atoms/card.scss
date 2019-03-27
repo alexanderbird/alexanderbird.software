@@ -1,4 +1,4 @@
-#printer-friendly-version:not(:target) .atoms__card {
+.printer-friendly-version:not(:target) .atoms__card {
   margin: 8px;
   border: 1px solid var(--color-secondary);
   border-radius: 4px;
@@ -7,6 +7,6 @@
   animation: pop-out var(--animation-duration) ease-out var(--animation-delay) both;
 }
 
-#printer-friendly-version:target .atoms__card {
+.printer-friendly-version:target .atoms__card {
   border-top: 1px solid var(--color-secondary);
 }

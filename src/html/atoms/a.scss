@@ -20,7 +20,7 @@ a:not(.reset) {
   }
 }
 
-#printer-friendly-version:target {
+.printer-friendly-version:target {
   a:not(.reset) {
     color: var(--color-primary);
     text-decoration: none;

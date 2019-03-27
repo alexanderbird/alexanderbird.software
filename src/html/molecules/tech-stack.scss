@@ -79,7 +79,7 @@
   }
 }
 
-#printer-friendly-version:target .molecules__tech-stack {
+.printer-friendly-version:target .molecules__tech-stack {
   @include slimmer-version-of-the-diagram;
 }
 

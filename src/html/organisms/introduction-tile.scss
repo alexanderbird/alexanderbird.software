@@ -18,7 +18,7 @@
   }
 }
 
-#printer-friendly-version:not(:target) .organisms__introduction-tile {
+.printer-friendly-version:not(:target) .organisms__introduction-tile {
   .organisms__introduction-tile__section {
     margin-bottom: 32px;
     min-height: 64px;

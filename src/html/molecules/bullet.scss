@@ -28,7 +28,7 @@
     }
   }
 }
-#printer-friendly-version:target .molecules__bullet {
+.printer-friendly-version:target .molecules__bullet {
   &.molecules__bullet__main-and-sub.molecules__bullet--collapsible {
     @include collapse-collapsible-bullet;
   }

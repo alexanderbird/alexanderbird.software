@@ -8,7 +8,7 @@
   border-top: var(--color-tertiary);
 }
 
-#printer-friendly-version:target .atoms__hr {
+.printer-friendly-version:target .atoms__hr {
   margin: 0 auto 32px auto;
   visibility: hidden;
 }

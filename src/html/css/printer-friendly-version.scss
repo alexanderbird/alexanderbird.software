@@ -1,4 +1,4 @@
-#printer-friendly-version:target {
+.printer-friendly-version:target {
   --color-accent: #FFF;
   --color-accent-darker: var(--color-primary);
   width: 7.5in;
@@ -11,7 +11,7 @@
 }
 
 body.javascript-state__fully-initialized {
-  #printer-friendly-version:target {
+  .printer-friendly-version:target {
     * {
       transition: all 0.5s ease;
     }

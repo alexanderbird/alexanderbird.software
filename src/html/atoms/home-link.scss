@@ -20,7 +20,7 @@
   }
 }
 
-#printer-friendly-version:not(:target) .atoms__home-link {
+.printer-friendly-version:not(:target) .atoms__home-link {
   display: none;
 }
 

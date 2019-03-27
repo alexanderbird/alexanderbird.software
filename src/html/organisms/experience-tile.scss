@@ -104,7 +104,7 @@
   }
 }
 
-#printer-friendly-version:not(:target) .organisms__experience-tile {
+.printer-friendly-version:not(:target) .organisms__experience-tile {
   @media (max-width: 799px) {
     @include organisms__experience-tile--slim;
   }
@@ -127,6 +127,6 @@
 }
 
 
-#printer-friendly-version:target .organisms__experience-tile {
+.printer-friendly-version:target .organisms__experience-tile {
   @include organisms__experience-tile--print;
 }

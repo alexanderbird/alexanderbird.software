@@ -9,7 +9,7 @@
   }
 }
 
-#printer-friendly-version:target .atoms__grid {
+.printer-friendly-version:target .atoms__grid {
   display: block;
   & > * {
     margin-bottom: 2px;

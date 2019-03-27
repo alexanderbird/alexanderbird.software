@@ -7,14 +7,14 @@
   }
 }
 
-#printer-friendly-version:not(:target) .organisms__experience {
+.printer-friendly-version:not(:target) .organisms__experience {
   .organisms__experience__section-header,
   .organisms__experience__summary {
     animation: invisible 1.5s,
       fade-in 0.4s ease-out 1.5s;
   }
 }
-#printer-friendly-version:target .organisms__experience {
+.printer-friendly-version:target .organisms__experience {
   .organisms__experience__section-header {
     border-bottom: 2px solid var(--color-primary);
   }
