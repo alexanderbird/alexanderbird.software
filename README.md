@@ -13,7 +13,7 @@ A resume website.
  - When YAML content needs to be transformed before being rendered, that transformation happens in `/gulp/utils/handlebars-helpers.js` 
  - I'm not running client side JavaScript (except for a few trivial lines) because I wanted to explore using CSS `:target` selector to change state with CSS
    - I thought this website would be a good opportunity to experiment with the technique so I could learn more about CSS
- - Icons are **SVG**s, combined using `[gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite)` and displayed with SVG `<use href='icon-name'></use>`
+ - Icons are **SVG**s, combined using [gulp-svg-sprite](https://github.com/jkphl/gulp-svg-sprite) and displayed with SVG `<use href='icon-name'></use>`
    - I've made the icons from scratch (because I like that I can customize them, and to learn more about SVG)
    - colors (sometimes multiple for one icon) are set with CSS custom properties. 
      - In the SVG: `stroke: var(--icon-color-primary, #000)`
