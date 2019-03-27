@@ -84,44 +84,25 @@
 }
 
 @mixin print-version-of-the-tile {
-  .organisms__experience-tile__summary {
-    text-align: center;
-  }
-
-  .organisms__experience-tile__statistics {
-    margin-top: 16px;
-  }
-  grid-template-columns: 1fr auto;
   display: grid;
-  --grid-columns-small-diagram: 1fr auto;
-  --grid-columns-large-diagram: 1fr 1fr;
-  grid-template-columns: var(--grid-columns-large-diagram);
+  grid-column-gap: 20px;
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr auto;
+  grid-template-areas:
+    'summary tech-stack'
+    'text    tech-stack';
 
   .organisms__experience-tile__summary { grid-area: summary; }
   .organisms__experience-tile__text { grid-area: text; }
   .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
 
-  grid-column-gap: 20px;
-
-  grid-template-rows: auto 1fr;
-  grid-template-areas:
-    'summary summary'
-    'text    tech-stack';
-  grid-template-columns: var(--grid-columns-small-diagram);
-  grid-template-areas:
-    'summary tech-stack'
-    'text    tech-stack';
-
-  .organisms__experience-tile__summary-header {
-    margin-bottom: 4px;
-  }
-  .organisms__experience-tile__statistics {
-    margin-top: 4px;
-  }
-
   .organisms__experience-tile__role--with-client,
   .organisms__experience-tile__employer--with-client {
     display: none;
+  }
+
+  .organisms__experience-tile__statistics {
+    margin-top: 4px;
   }
 
   .organisms__experience-tile__summary {
@@ -135,6 +116,7 @@
     margin-bottom: 0;
   }
   .organisms__experience-tile__summary-header {
+    margin-bottom: 4px;
     margin-top: 0;
   }
 }
