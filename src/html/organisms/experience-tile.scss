@@ -20,7 +20,41 @@
     }
   }
 }
+@mixin larger-version-of-the-tile {
+  display: grid;
+  --grid-columns-small-diagram: 1fr auto;
+  --grid-columns-large-diagram: 1fr 1fr;
+  grid-template-columns: var(--grid-columns-large-diagram);
+
+  .organisms__experience-tile__summary { grid-area: summary; }
+  .organisms__experience-tile__text { grid-area: text; }
+  .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
+
+  grid-column-gap: 20px;
+
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'summary summary'
+    'text    tech-stack';
+
+}
 @mixin slimmer-version-of-the-tile {
+  display: grid;
+  --grid-columns-small-diagram: 1fr auto;
+  --grid-columns-large-diagram: 1fr 1fr;
+  grid-template-columns: var(--grid-columns-large-diagram);
+
+  .organisms__experience-tile__summary { grid-area: summary; }
+  .organisms__experience-tile__text { grid-area: text; }
+  .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
+
+  grid-column-gap: 20px;
+
+  grid-template-rows: auto 1fr;
+  grid-template-areas:
+    'summary summary'
+    'text    tech-stack';
+  grid-template-columns: var(--grid-columns-small-diagram);
   grid-template-areas:
     'summary tech-stack'
     'text    tech-stack';
@@ -48,41 +82,78 @@
     margin-bottom: 0;
   }
 }
-.organisms__experience-tile {
+
+@mixin print-version-of-the-tile {
+  .organisms__experience-tile__summary {
+    text-align: center;
+  }
+
+  .organisms__experience-tile__statistics {
+    margin-top: 16px;
+  }
+  grid-template-columns: 1fr auto;
   display: grid;
   --grid-columns-small-diagram: 1fr auto;
   --grid-columns-large-diagram: 1fr 1fr;
+  grid-template-columns: var(--grid-columns-large-diagram);
 
-  @media (max-width: 799px) {
-    grid-template-columns: var(--grid-columns-small-diagram);
-    @include slimmer-version-of-the-tile;
-  }
-  @media (min-width: 800px) and (max-width: 999px) {
-    grid-template-columns: var(--grid-columns-large-diagram);
-  }
-  @media (min-width: 1000px) and (max-width: 1299px) {
-    grid-template-columns: var(--grid-columns-small-diagram);
-    @include slimmer-version-of-the-tile;
-  }
-  @media (min-width: 1300px) {
-    grid-template-columns: var(--grid-columns-large-diagram);
-  }
+  .organisms__experience-tile__summary { grid-area: summary; }
+  .organisms__experience-tile__text { grid-area: text; }
+  .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
+
+  grid-column-gap: 20px;
+
   grid-template-rows: auto 1fr;
   grid-template-areas:
     'summary summary'
     'text    tech-stack';
-  grid-column-gap: 20px;
+  grid-template-columns: var(--grid-columns-small-diagram);
+  grid-template-areas:
+    'summary tech-stack'
+    'text    tech-stack';
+
+  .organisms__experience-tile__summary-header {
+    margin-bottom: 4px;
+  }
+  .organisms__experience-tile__statistics {
+    margin-top: 4px;
+  }
+
+  .organisms__experience-tile__role--with-client,
+  .organisms__experience-tile__employer--with-client {
+    display: none;
+  }
 
   .organisms__experience-tile__summary {
-    grid-area: summary;
-    text-align: center;
-  }
-
-  .organisms__experience-tile__text {
-    grid-area: text;
+    text-align: left;
   }
   .organisms__experience-tile__tech-stack {
-    grid-area: tech-stack;
+    margin-top: 16px;
+  }
+
+  .organisms__experience-tile__comments {
+    margin-bottom: 0;
+  }
+  .organisms__experience-tile__summary-header {
+    margin-top: 0;
+  }
+}
+
+.organisms__experience-tile {
+  @media (max-width: 799px) {
+    @include slimmer-version-of-the-tile;
+  }
+  @media (min-width: 800px) and (max-width: 999px) {
+    @include larger-version-of-the-tile;
+  }
+  @media (min-width: 1000px) and (max-width: 1299px) {
+    @include slimmer-version-of-the-tile;
+  }
+  @media (min-width: 1300px) {
+    @include larger-version-of-the-tile;
+  }
+  .organisms__experience-tile__summary {
+    text-align: center;
   }
 
   .organisms__experience-tile__statistics {
@@ -90,10 +161,7 @@
   }
 }
 
+
 #printer-friendly-version:target .organisms__experience-tile {
-  grid-template-columns: 1fr auto;
-  @include slimmer-version-of-the-tile;
-  .organisms__experience-tile__summary-header {
-    margin-top: 0;
-  }
+  @include print-version-of-the-tile;
 }
