@@ -22,7 +22,7 @@ A resume website.
 ## Deployment
 The static site is hosted on AWS S3, Route 53 for DNS, and CloudFront for SSL termination.
 
-I've published my deployment script on NPM: `[s3-static-website-deploy](https://www.npmjs.com/package/s3-static-website-deploy)`
+I've published my deployment script on NPM: [s3-static-website-deploy](https://www.npmjs.com/package/s3-static-website-deploy)
 
 ## Testing
 
