@@ -20,7 +20,8 @@
     }
   }
 }
-@mixin larger-version-of-the-tile {
+
+@mixin organisms__experience-tile--large {
   display: grid;
   --grid-columns-small-diagram: 1fr auto;
   --grid-columns-large-diagram: 1fr 1fr;
@@ -38,7 +39,7 @@
     'text    tech-stack';
 
 }
-@mixin slimmer-version-of-the-tile {
+@mixin organisms__experience-tile--slim {
   display: grid;
   grid-column-gap: 20px;
   grid-template-rows: auto 1fr;
@@ -76,7 +77,7 @@
   }
 }
 
-@mixin print-version-of-the-tile {
+@mixin organisms__experience-tile--print {
   display: grid;
   grid-column-gap: 20px;
   grid-template-rows: auto 1fr;
@@ -116,16 +117,16 @@
 
 .organisms__experience-tile {
   @media (max-width: 799px) {
-    @include slimmer-version-of-the-tile;
+    @include organisms__experience-tile--slim;
   }
   @media (min-width: 800px) and (max-width: 999px) {
-    @include larger-version-of-the-tile;
+    @include organisms__experience-tile--large;
   }
   @media (min-width: 1000px) and (max-width: 1299px) {
-    @include slimmer-version-of-the-tile;
+    @include organisms__experience-tile--slim;
   }
   @media (min-width: 1300px) {
-    @include larger-version-of-the-tile;
+    @include organisms__experience-tile--large;
   }
   .organisms__experience-tile__summary {
     text-align: center;
@@ -138,5 +139,5 @@
 
 
 #printer-friendly-version:target .organisms__experience-tile {
-  @include print-version-of-the-tile;
+  @include organisms__experience-tile--print;
 }
