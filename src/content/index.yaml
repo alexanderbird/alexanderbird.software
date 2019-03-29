@@ -63,12 +63,13 @@ introduction:
 
     - motivation:
         title: Innovation
-        details: I'm motivated when the way we work makes room for innovation.
+        details: I'm motivated when I'm expected to deliver excellent results &mdash; instead of being expected to follow "the way we've always done it"
       values:
-        - begin by agreeing on and specifying the problem (instead of constraining solutions to a vague problem)
-        - measure outcomes (instead of measuring the approach and activities)
-        - consider the non-technical aspects of the problem (instead of working in a silo)
-        - regularly spend time getting faster (instead of always rushing inefficiently)
+        - agree on the problem up front &mdash; "what excellent results are we looking for?"
+        - 'work in small batches; measure: "are we on the right track?"'
+        - main: use whatever methodology and technical approach &mdash; traditional or unusual &mdash; that yields excellent results
+          sub:
+            - and keep looking for more effective ways to work
       strengths:
         - requirements gathering, design, modelling
         - slicing large requirements into small experiments
