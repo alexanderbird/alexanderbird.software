@@ -10,6 +10,10 @@ profile:
   website: https://alexanderbird.software
   location: Calgary, AB, Canada
 
+meta-tags:
+  twitter-handle: '@alexander_bird'
+  site-image: https://alexanderbird.software/assets/alexanderbird.jpg
+
 copyright:
   notice: '&copy; 2019'
   open-source: open source at <a href='https://github.com/alexanderbird/alexanderbird.software'>github.com/alexanderbird/alexanderbird.software</a>
