@@ -2,6 +2,33 @@
   color: var(--color-secondary);
   display: flex;
   justify-content: space-between;
+  flex-direction: column;
+
+  .atoms__copyright-footer__github {
+    display: flex;
+    justify-content: flex-end;
+
+    .atoms__copyright-footer__link-to-code {
+      max-width: 100%;
+      text-overflow: ellipsis;
+      white-space: no-wrap;
+      overflow: hidden;
+    }
+  }
+
+  .atoms__copyright-footer__open-source-at {
+    display: none;
+  }
+
+  @media (min-width: 425px) {
+    flex-direction: row;
+  }
+
+  @media (min-width: 500px) {
+    .atoms__copyright-footer__open-source-at {
+      display: block;
+    }
+  }
 }
 
 .printer-friendly-version:target .atoms__copyright-footer {
