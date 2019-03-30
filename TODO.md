@@ -2,9 +2,12 @@
 - copyediting all content
   - in print mode, somehow get education on first three pages (instead of on the 4th page)
 
-
-# Prod readiness (after initial deploy)
-- browser compatibility testing & fixes
+# Browser compatibility
+- firefox
+  - initial animation didn't tween properly -- three awkward jumps
+  - print seems to completely ignore the print view
+- safari
+  - print page breaks aren't working
 
 # Post-deployment
 - update bio sections on professional social media sites
