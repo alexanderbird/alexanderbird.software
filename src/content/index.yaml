@@ -47,9 +47,10 @@ introduction:
         title: Helping Others
         details: I'm motivated by making other people's lives better with software.
       values:
-        - 'for users: software that helps them'
-        - 'for the business: software that profits them'
-        - 'for the team who builds it: a collaborative, respectful environment where we can contribute our best'
+        - deploy early and often
+        - ask users for feedback
+        - build the features that make the business money
+        - make room on the development team for everyone to contribute
       strengths:
         - main: communication
           collapsible: true
@@ -63,13 +64,17 @@ introduction:
 
     - motivation:
         title: Innovation
-        details: I'm motivated when I'm expected to deliver excellent results &mdash; instead of being expected to follow "the way we've always done it"
+        # Whereas some organizations require one to ask permission before deviating from standardized processes and tools.
+        details: |
+          I'm motivated when there is room for innovation: when our team is expected
+          to deliver excellent results quickly by whatever processes and tools we find
+          work best in the current context.
       values:
-        - agree on the problem up front &mdash; "what excellent results are we looking for?"
-        - 'work in small batches; measure: "are we on the right track?"'
-        - main: use whatever methodology and technical approach &mdash; traditional or unusual &mdash; that yields excellent results
-          sub:
-            - and keep looking for more effective ways to work
+        - measure outcomes instead of developer activities
+        - specify the problem (not the tasks to complete)
+        - work in small batches; reevaluate process/tools regularly based on results
+        - devote time to improvement (instead of always rushing and never going faster)
+
       strengths:
         - requirements gathering, design, modelling
         - slicing large requirements into small experiments
@@ -78,14 +83,15 @@ introduction:
 
     - motivation:
         title: Technical Excellence
-        details: I'm motivated when I can do the best job possible.
+        details: |
+          I'm motivated when we spend an appropriate amount of time to test, architect,
+          and document what we build. I have found this pays for itself now, and helps
+          us in the future, because well-written software is:
       values:
-        - main: 'when you practice good, pragmatic design and regular refactoring:'
-          sub:
-            - you can have both quick features and maintainability
-            - testing speeds up development and reduces risk
-            - you can deliver small units of work to get earlier feedback and a better product
-            - you can adapt to change (instead of trying to predict the future)
+        - faster to write
+        - cheaper to maintain
+        - less stressful to work with
+        - easier to re-purpose when plans change
       strengths:
         - main: building with quality
           collapsible: true
@@ -99,6 +105,7 @@ introduction:
             - requirements gathering
             - reading documentation
             - reading code
+            - learning new languages
         - see Experience section
 
 
@@ -132,6 +139,7 @@ experience:
     comments:
       - During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
       - Introduced and facilitated collaboration practices to transform a siloed and unfriendly group into a cross-functional, collaborative team.
+      - Conducted job interviews
     stack:
       column:
         - box:
