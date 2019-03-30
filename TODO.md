@@ -1,8 +1,6 @@
 # Content
 - copyediting all content
   - in print mode, somehow get education on first three pages (instead of on the 4th page)
-  - revise the Innovation values section
-  - revise the Tech Excellence values section
 
 # Look & Feel
 - Revise the experience intro section in web view
@@ -10,9 +8,9 @@
 # Prod readiness (after initial deploy)
 - browser compatibility testing & fixes
 - social sharing design (e.g. text, twitter)
+- redirect www to bar domain
 
 # Post-deployment
-- make GitHub public
 - update bio sections on professional social media sites
   - Twitter
   - GitHub
@@ -21,6 +19,7 @@
 - send the "any advice for finding modern agile gigs" tweet
 
 # Nice to have
+- better social sharing photo -- with less cropping of the forehead/chin
 - add section for youth volunteering experience?
 - revisit the type faces. Also maybe have two?
 - revisit all the icons. Are they effective?
