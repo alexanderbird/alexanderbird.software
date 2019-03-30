@@ -54,7 +54,7 @@ introduction:
       values:
         - deploy early and often
         - ask users for feedback
-        - build the features that make the business money
+        - build the features that provide business value
         - make room on the development team for everyone to contribute
       strengths:
         - main: communication
