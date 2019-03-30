@@ -52,6 +52,9 @@
   &.molecules__tech-stack__string {
     background-color: var(--color-background);
     color: var(--color-primary);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
   }
 
   &.molecules__tech-stack__row {

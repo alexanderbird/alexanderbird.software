@@ -1,5 +1,5 @@
 {{#if model.isString}}
-  <div class='molecules__tech-stack molecules__tech-stack__string'>{{model.value}}</div>
+  <div class='molecules__tech-stack molecules__tech-stack__string'><span>{{model.value}}</span></div>
 {{else if model.isConnection}}
   <div class='molecules__tech-stack molecules__tech-stack__connection'>&udarr;{{model.value}}</div>
 {{else if model.isPlaceholder}}
