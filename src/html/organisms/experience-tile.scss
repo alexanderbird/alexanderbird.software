@@ -67,6 +67,26 @@
   }
 }
 
+@mixin organisms__experience-tile--very-small {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows: auto;
+  grid-template-areas:
+    'summary'
+    'text'
+    'tech-stack';
+
+  .organisms__experience-tile__summary { grid-area: summary; }
+  .organisms__experience-tile__text { grid-area: text; }
+  .organisms__experience-tile__tech-stack { grid-area: tech-stack; }
+  @include organisms__experience-tile--slim;
+  .organisms__experience-tile__tech-stack {
+    margin: 16px 0 0 0;
+    max-width: unset;
+    float: unset;
+  }
+}
+
 @mixin organisms__experience-tile--print {
   display: grid;
   grid-column-gap: 20px;
@@ -106,7 +126,10 @@
 }
 
 .printer-friendly-version:not(:target) .organisms__experience-tile {
-  @media (max-width: 799px) {
+  @media (max-width: 499px) {
+    @include organisms__experience-tile--very-small;
+  }
+  @media (min-width: 500px) and (max-width: 799px) {
     @include organisms__experience-tile--slim;
   }
   @media (min-width: 800px) and (max-width: 999px) {
