@@ -4,7 +4,7 @@
   "description": "Resume Website",
   "main": "html/index.html",
   "scripts": {
-    "deploy": "rm -rf html/_test && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
+    "deploy": "rm -rf html/_test && rm -rf html/private && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
