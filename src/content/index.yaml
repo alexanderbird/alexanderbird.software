@@ -134,6 +134,42 @@ experience-front-matter:
       comments: University of Calgary
 
 experience:
+  - client: Corporate minutebook management
+    client-size: startup
+    summary: Reverse Engineering
+    <<: *arcurve-dev
+    team-size: 1
+    duration-in-months: 5
+    comments:
+      - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
+      - Integrated this component with our client's code
+      - Provided extensive documentation and training so their development team was comfortable maintaining the import utility.
+    stack:
+      column:
+        - box:
+            label: Web Browser
+            row:
+              - CSS
+              - JavaScript
+              - AngularJS
+        - connection: HTTP
+        - box:
+            label: Server
+            column:
+              - row:
+                - Express
+                - Node
+              - line: true
+              - row:
+                  - Mongo DB
+                  - Axios
+        - row:
+            - empty: true
+            - connection: HTTP
+        - box:
+            column:
+              - other services
+
   - client: Telecommunications provider
     client-size: publicly traded
     summary: Team Lead
@@ -175,42 +211,6 @@ experience:
         - row:
             - AWS EC2
             - on-premise
-
-  - client: Corporate minutebook management
-    client-size: startup
-    summary: Reverse Engineering
-    <<: *arcurve-dev
-    team-size: 2
-    duration-in-months: 5
-    comments:
-      - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
-      - Integrated this component with our client's code
-      - Provided extensive documentation and training so their development team was comfortable maintaining the import utility.
-    stack:
-      column:
-        - box:
-            label: Web Browser
-            row:
-              - CSS
-              - JavaScript
-              - AngularJS
-        - connection: HTTP
-        - box:
-            label: Server
-            column:
-              - row:
-                - Express
-                - Node
-              - line: true
-              - row:
-                  - Mongo DB
-                  - Axios
-        - row:
-            - empty: true
-            - connection: HTTP
-        - box:
-            column:
-              - other services
 
   - client: Professional certification auditing
     client-size: startup
