@@ -175,7 +175,7 @@ experience:
     summary: Team Lead
     title: Software Developer Team Lead
     employer: Arcurve Inc
-    team-size: 12
+    team-size: 8
     duration-in-months: 6
     comments:
       - During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
