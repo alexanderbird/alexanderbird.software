@@ -122,12 +122,14 @@ _experience-templates:
 experience-front-matter:
   title: Experience
   summary:
-    - years: 2014-2015, 2016-2019
+    - years: 2018-2019
       company: Arcurve Inc
-      comments: |
-        (software services & consulting: working in wide range of
-        technologies, team structures, and methodologies)
+      role: Technical Lead
+      comments: (various projects)
+    - years: 2014-2015, 2016-2018
+      company: Arcurve Inc
       role: Software Developer
+      comments: (various projects)
     - years: 2013 (4 months)
       role: Software Developer / Research Assistant
       company: Software Engineering Decision Support Lab

@@ -29,11 +29,13 @@
   .molecules__employment-summary__years {
     font-weight: bold;
   }
-  .molecules__employment-summary__years:after,
-  .molecules__employment-summary__role:after,
-  .molecules__employment-summary__company:after {
-    color: var(--color-secondary);
-    content: ' // ';
+  .molecules__employment-summary__role,
+  .molecules__employment-summary__company,
+  .molecules__employment-summary__comments {
+    &:not(:empty):before {
+      color: var(--color-secondary);
+      content: ' // ';
+    }
   }
   .molecules__employment-summary__years,
   .molecules__employment-summary__role,
@@ -49,4 +51,10 @@
 
 .printer-friendly-version:target .molecules__employment-summary {
   @include molecules__employment-summary--print;
+}
+
+.molecules__employment-summary {
+  .molecules__employment-summary__comments {
+    color: var(--color-secondary);
+  }
 }
