@@ -1,4 +1,6 @@
 .atoms__svg-icon {
   height: var(--icon-height, var(--icon-width, auto));
   width: var(--icon-width, var(--icon-height, auto));
+  vertical-align: text-bottom;
+  display: inline-block;
 }

@@ -11,6 +11,11 @@
     white-space: nowrap;
   }
 
+  .organisms__experience-tile__statistics-item {
+    display: inline-block;
+    break-inside: avoid;
+  }
+
   .organisms__experience-tile__pipe-divider {
     padding-left: 4px;
     padding-right: 4px;
@@ -46,6 +51,7 @@
   }
   .organisms__experience-tile__statistics {
     margin-top: 4px;
+    font-size: 0.8em;
   }
 
   .organisms__experience-tile__role,

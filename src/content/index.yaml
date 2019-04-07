@@ -146,6 +146,7 @@ experience:
     <<: *arcurve-dev
     team-size: 1
     duration-in-months: 5
+    role: Tech Lead
     comments:
       - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
       - Integrated this component with our client's code
@@ -183,6 +184,7 @@ experience:
     employer: Arcurve Inc
     team-size: 8
     duration-in-months: 6
+    role: Tech Lead
     comments:
       - During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
       - Introduced and facilitated collaboration practices to transform a siloed and unfriendly group into a cross-functional, collaborative team.
@@ -224,6 +226,7 @@ experience:
     <<: *arcurve-dev
     team-size: 3
     duration-in-months: 3
+    role: Developer
     comments:
       - |
         Architected and unit tested the application in a way that allowed us to salvage most of the
@@ -275,6 +278,7 @@ experience:
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 12
+    role: Developer
     comments:
       - main: |
           Integrated the emerging WebRTC protocol with our client's custom video
@@ -321,6 +325,7 @@ experience:
     <<: *arcurve-dev
     team-size: 2
     duration-in-months: 4
+    role: Developer
     comments:
       - Followed patterns set by previous developers
       - |
@@ -354,6 +359,7 @@ experience:
     <<: *arcurve-dev
     team-size: 1
     duration-in-months: 4
+    role: Intern
     comments:
       - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application.
       - Participated in requirements elicitation from domain experts who had little technical understanding.
@@ -380,6 +386,7 @@ experience:
     <<: *arcurve-dev
     team-size: 1
     duration-in-months: 3
+    role: Intern
     comments:
       - Proposed new business process to reduce lead time for new clients by 50%
       - Modified the existing Excel VBA tool to support the new process
@@ -397,6 +404,7 @@ experience:
     title: Software Developer / Research Assistant
     employer: University of Calgary
     duration-in-months: 4
+    role: Research Assistant
     comments:
       - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool.
     team-size: 2

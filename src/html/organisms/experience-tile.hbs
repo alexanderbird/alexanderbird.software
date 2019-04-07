@@ -26,9 +26,11 @@
     </div>
     {{/if}}
     <div class='organisms__experience-tile__statistics'>
-      <span>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
+      <span class='organisms__experience-tile__statistics-item'>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
       <span class='organisms__experience-tile__pipe-divider'></span>
-      <span>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
+      <span class='organisms__experience-tile__statistics-item'>{{> atoms/svg-icon name='calendar' }} {{pluralize 'month' duration-in-months}}</span>
+      <span class='organisms__experience-tile__pipe-divider'></span>
+      <span class='organisms__experience-tile__statistics-item'>{{> atoms/svg-icon name='id-badge' }} {{role}}</span>
     </div>
     <ul class='organisms__experience-tile__comments'>
     {{#each comments}}
