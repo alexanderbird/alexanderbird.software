@@ -53,7 +53,7 @@
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2",
     "gulp-svg-sprite": "^1.5.0",
-    "gulp-wrap": "^0.14.0",
+    "gulp-wrap": "^0.15.0",
     "gulp-yaml": "^2.0.2",
     "handlebars-inline": "^1.0.0",
     "http-server": "^0.11.1",
