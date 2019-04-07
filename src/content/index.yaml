@@ -222,7 +222,7 @@ experience:
     client-size: startup
     summary: Architected for Reuse
     <<: *arcurve-dev
-    team-size: 4
+    team-size: 3
     duration-in-months: 3
     comments:
       - |
@@ -354,7 +354,7 @@ experience:
     summary: Navigated Technical Debt
     client-size: startup
     <<: *arcurve-dev
-    team-size: 2
+    team-size: 1
     duration-in-months: 4
     comments:
       - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application.
@@ -404,7 +404,7 @@ experience:
     duration-in-months: 4
     comments:
       - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool.
-    team-size: 3
+    team-size: 2
     stack:
       column:
         - box:
