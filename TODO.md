@@ -6,11 +6,6 @@
   - print page breaks aren't working
 
 # Post-deployment
-- update bio sections on professional social media sites
-  - Twitter
-  - GitHub
-  - Stack Overflow
-  - others?
 - send the "any advice for finding modern agile gigs" tweet
 
 # Nice to have
