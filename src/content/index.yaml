@@ -304,12 +304,10 @@ experience:
             - connection: WebSocket
         - row:
           - box:
-              label: Server
               string: Selective Forwarding Unit
           - box:
-              label: Server
               string: Signalling service (XMPP)
-        - connection: (various protocols)
+        - connection: various protocols
         - box:
             label: Other Clients
             row:
@@ -370,13 +368,10 @@ experience:
         - connection: HTTP
         - box:
             label: Server
-            column:
-              - row:
-                  - PHP
-                  - SQL
-              - row:
-                  - Apache
-                  - MySQL
+            row:
+              - PHP
+              - MySQL
+              - Apache
         - Linux (shared cloud hosting)
 
   - client: Oilfield services
@@ -416,7 +411,9 @@ experience:
               - column:
                 - Ember.js
                 - CoffeeScript
-        - connection: HTTP
+        - row:
+          - connection: HTTP
+          - blank: true
         - box:
             label: Heroku
             row:

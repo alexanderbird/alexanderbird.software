@@ -1,7 +1,3 @@
-# Content
-- copyediting all content
-  - in print mode, somehow get education on first three pages (instead of on the 4th page)
-
 # Browser compatibility
 - firefox
   - initial animation didn't tween properly -- three awkward jumps
