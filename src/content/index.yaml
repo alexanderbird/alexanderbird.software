@@ -152,6 +152,7 @@ experience:
       - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
       - Integrated this component with our client's code
       - Provided extensive documentation and training so their development team was comfortable maintaining the import utility.
+      - Conducted job interviews
     stack:
       column:
         - box:
@@ -188,7 +189,6 @@ experience:
     role: Tech Lead
     comments:
       - During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
-      - Introduced and facilitated collaboration practices to transform a siloed and unfriendly group into a cross-functional, collaborative team.
       - Conducted job interviews
     stack:
       column:
