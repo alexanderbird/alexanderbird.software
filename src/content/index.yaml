@@ -151,7 +151,7 @@ experience:
     comments:
       - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
       - Integrated this component with our client's code
-      - Provided extensive documentation and training so their development team was comfortable maintaining the import utility.
+      - Provided extensive documentation and training so their development team was comfortable maintaining the import utility
       - Conducted job interviews
     stack:
       column:
@@ -188,7 +188,8 @@ experience:
     duration-in-months: 6
     role: Tech Lead
     comments:
-      - During this application re-write project, identified a way to temporarily reuse components of the depracated system in order to release sooner.
+      - Updated team processes to increase knowledge sharing and collaboration between team members
+      - Identified a way to temporarily reuse legacy components in order to release sooner
       - Conducted job interviews
     stack:
       column:
@@ -283,7 +284,7 @@ experience:
     comments:
       - main: |
           Integrated the emerging WebRTC protocol with our client's custom video
-          conferencing infrastructure via a proof-of-concept JavaScript library.
+          conferencing infrastructure via a proof-of-concept JavaScript library
         sub:
           - |
             Enabled video calling between a browser and multiple embedded and/or
@@ -362,8 +363,8 @@ experience:
     duration-in-months: 4
     role: Intern
     comments:
-      - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application.
-      - Participated in requirements elicitation from domain experts who had little technical understanding.
+      - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application
+      - Participated in requirements elicitation from domain experts who had little technical understanding
     stack:
       column: 
         - box:
@@ -407,7 +408,7 @@ experience:
     duration-in-months: 4
     role: Research Assistant
     comments:
-      - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool.
+      - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool
     team-size: 2
     stack:
       column:
