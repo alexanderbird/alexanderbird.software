@@ -33,6 +33,7 @@
     "sourceContentDirectory": "src/content",
     "pageTemplateDirectory": "src/html/pages",
     "tmpRootDirectory": "tmp",
+    "tmpContentDirectory": "tmp/content",
     "tmpDirectory": "tmp/dynamic",
     "handlebars": {
       "partialsDirectory": [
@@ -48,6 +49,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-cssnano": "^2.1.3",
     "gulp-ext-replace": "^0.3.0",
+    "gulp-filter": "^5.1.0",
     "gulp-handlebars-html": "0.0.2",
     "gulp-json-handlebars": "^1.0.6",
     "gulp-json-refs": "^0.1.1",

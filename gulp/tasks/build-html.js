@@ -8,6 +8,8 @@ const extensionReplace = require('gulp-ext-replace');
 const path = require('path');
 const yaml = require('gulp-yaml');
 const jsonRefs = require('gulp-json-refs');
+const filter = require('gulp-filter');
+const del = require('del');
 
 require('../utils/handlebars-helpers')
 
@@ -16,28 +18,36 @@ const {
   sourceDirectory,
   sourceContentDirectory,
   handlebars: handlebarsOptions,
+  tmpContentDirectory,
   pageTemplateDirectory
 } = require('../config')
 
 
-gulp.task('build:content-1', () => gulp
+gulp.task('clean:yaml', () => del(tmpContentDirectory))
+
+// This should really be part of build:html
+// Except gulp-json-refs seems to not work when it's piped
+// content from `yaml()` instead of from `src()`
+gulp.task('build:yaml', () => gulp
   .src(`${sourceContentDirectory}/**/*.yaml`)
   .pipe(yaml())
-  .pipe(gulp.dest('./whatever/1'))
+  .pipe(gulp.dest(tmpContentDirectory))
 );
 
-gulp.task('build:content-2', () => gulp
-  .src(`whatever/1/**/*.json`)
+gulp.task('build:handlebars', () => gulp
+  .src(`${tmpContentDirectory}/**/*.json`)
   .pipe(jsonRefs())
-  .pipe(gulp.dest('./whatever/2'))
-);
-
-gulp.task('build:html', () => gulp
-  .src([`whatever/2/**/*.json`, `!whatever/2/**/_*.json`])
+  .pipe(filter(['**/*', '!**/_*.json']))
   .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData }), getPageTemplate))
   .pipe(extensionReplace('.html'))
   .pipe(gulp.dest(buildDirectory))
 );
+
+gulp.task('build:html', gulp.series(
+  'clean:yaml',
+  'build:yaml',
+  'build:handlebars'
+));
 
 // returns handlebars template given a template name
 // the template name comes from meta.pageTemplate property in the json file
