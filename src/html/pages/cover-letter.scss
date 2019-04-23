@@ -1,3 +1,11 @@
 .pages__cover-letter {
   width: 8.5in;
+  @media print {
+    width: auto;
+  }
+
+  .pages__cover-letter__printer-friendly-version {
+    margin: 0;
+    padding: 0;
+  }
 }
