@@ -1,0 +1,295 @@
+- client: Corporate minutebook management
+  client-size: startup
+  summary: Reverse Engineering
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 1
+  duration-in-months: 5
+  role: Tech Lead
+  comments:
+    - "Built an import utility for a proprietary data format: inferred the domain model/rules from the data, wrote a custom parser."
+    - Integrated this component with our client's code
+    - Provided extensive documentation and training so their development team was comfortable maintaining the import utility
+    - Conducted job interviews
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          row:
+            - CSS
+            - JavaScript
+            - AngularJS
+      - connection: HTTP
+      - box:
+          label: Server
+          column:
+            - row:
+              - Express
+              - Node
+            - line: true
+            - row:
+                - Mongo DB
+                - Axios
+      - row:
+          - empty: true
+          - connection: HTTP
+      - box:
+          column:
+            - other services
+
+- client: Telecommunications provider
+  client-size: publicly traded
+  summary: Team Lead
+  title: Software Developer Team Lead
+  employer: Arcurve Inc
+  team-size: 8
+  duration-in-months: 6
+  role: Tech Lead
+  comments:
+    - Updated team processes to increase knowledge sharing and collaboration between team members
+    - Identified a way to temporarily reuse legacy components in order to release sooner
+    - Conducted job interviews
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          column:
+            - row:
+                - React
+                - Redux
+            - row:
+                - CSS
+                - JavaScript
+      - row:
+        - connection: HTTP
+        - connection: HTTP
+      - row:
+        - box: 
+            label: SPA Server
+            column:
+              - row:
+                - Express
+                - Node
+              - Linux
+        - box:
+            label: API Server
+            column:
+              - C#
+              - Windows
+      - row:
+          - AWS EC2
+          - on-premise
+
+- client: Professional certification auditing
+  client-size: startup
+  summary: Architected for Reuse
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 3
+  duration-in-months: 3
+  role: Developer
+  comments:
+    - |
+      Architected and unit tested the application in a way that allowed us to salvage most of the
+      application when the client drastically changed their application after several months (new UI,
+      new data model)
+    - |
+      Maintained respectful, constructive communication with our client in a challenging team
+      environment
+  stack:
+    column:
+      - row:
+        - box:
+            label: Web Browser
+            column:
+              - row:
+                  - React
+              - row:
+                  - CSS
+                  - JavaScript
+        - box:
+            label: iOS
+            column:
+              - row:
+                  - React Native
+              - row:
+                  - JavaScript
+      - connection: HTTP
+      - row:
+        - box:
+            label: Server
+            column:
+              - row:
+                - JavaScript
+                - Cypher
+              - row:
+                - Node
+                - Neo4j
+        - box:
+            label: Auth. Service
+            column:
+              - JavaScript
+              - Node
+      - row:
+        - Heroku
+  
+- client: Video conferencing
+  summary: Browser WebRTC Protocol Deep Dive
+  client-size: private corporation
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 2
+  duration-in-months: 12
+  role: Developer
+  comments:
+    - main: |
+        Integrated the emerging WebRTC protocol with our client's custom video
+        conferencing infrastructure via a proof-of-concept JavaScript library
+      sub:
+        - |
+          Enabled video calling between a browser and multiple embedded and/or
+          desktop clients
+    - |
+      Collaborated constructively and respectfully with my technical lead in
+      the face of many differences of opinion
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          column:
+            - Consumer JavaScript (3rd party)
+            - box:
+                label: JavaScript Library
+                column:
+                  - TypeScript
+                  - row: 
+                    - Browser WebRTC API
+                    - Stanza.io (XMPP)
+      - row:
+          - connection: WebRTC
+          - connection: WebSocket
+      - row:
+        - box:
+            string: Selective Forwarding Unit
+        - box:
+            string: Signalling service (XMPP)
+      - connection: various protocols
+      - box:
+          label: Other Clients
+          row:
+            - Browser
+            - Desktop
+            - Embedded
+
+- client: Land acquisition service provider 
+  summary: Following Patterns; Accepting Feedback
+  client-size: private corporation
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 2
+  duration-in-months: 4
+  role: Developer
+  comments:
+    - Followed patterns set by previous developers
+    - |
+      Collaborated through code reviews &mdash; receiving
+      (accepting, adopting) feedback, discussing my approach
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          row:
+            - CSS
+            - HTML
+            - Kendo UI
+            - JavaScript
+      - connection: HTTP
+      - box:
+          label: on-premise Server
+          column:
+            - row:
+                - C#
+                - .NET MVC
+                - SQL
+            - line: true
+            - row:
+                - IIS
+                - Microsoft SQL Server
+
+- client: Surplus oilfield equipment broker
+  summary: Navigated Technical Debt
+  client-size: startup
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 1
+  duration-in-months: 4
+  role: Intern
+  comments:
+    - Identified and fixed several illusive bugs in a very indebted and haphazardly constructed application
+    - Participated in requirements elicitation from domain experts who had little technical understanding
+  stack:
+    column: 
+      - box:
+          label: Web Browser
+          row:
+            - HTML
+            - CSS
+            - JavaScript
+      - connection: HTTP
+      - box:
+          label: Server
+          row:
+            - PHP
+            - MySQL
+            - Apache
+      - Linux (shared cloud hosting)
+
+- client: Oilfield services
+  summary: TDD & Version Control with Excel VBA
+  client-size: publicly traded
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 1
+  duration-in-months: 3
+  role: Intern
+  comments:
+    - Proposed new business process to reduce lead time for new clients by 50%
+    - Modified the existing Excel VBA tool to support the new process
+  stack:
+    column:
+      - box:
+          label: Microsoft Excel VBA
+          row:
+            - Macros
+            - Unit Tests
+      - Macro Serializer (3rd party)
+      - Version Control
+
+- summary: Software Engineering Decision Support Lab
+  title: Software Developer / Research Assistant
+  employer: University of Calgary
+  duration-in-months: 4
+  role: Research Assistant
+  comments:
+    - Implemented a synchronization utility between JIRA and a proprietary business intelligence / project planning tool
+  team-size: 2
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          row:
+            - column:
+              - CSS
+              - HTML
+            - column:
+              - Ember.js
+              - CoffeeScript
+      - row:
+        - connection: HTTP
+        - blank: true
+      - box:
+          label: Heroku
+          row:
+            - Ruby on Rails
+            - Postgres
+
