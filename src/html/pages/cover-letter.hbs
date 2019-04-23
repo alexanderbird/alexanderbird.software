@@ -1,9 +1,14 @@
 <!DOCTYPE html>
 <html lang='en'>
   {{> invisible/html-head}}
-  {{#> atoms/html-body class='pages__cover-letter'}}
+  {{#> atoms/html-body class='pages__cover-letter printer-friendly-version' id='print'}}
     {{> invisible/icon-symbols }}
     {{> organisms/print-header profile }}
     {{{ markdown content }}}
+    {{> organisms/experience
+      resume.experience-front-matter
+      items=resume.experience
+      education=resume.education
+      }}
   {{/atoms/html-body}}
 </html>
