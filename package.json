@@ -58,9 +58,9 @@
     "gulp-yaml": "^2.0.2",
     "handlebars-inline": "^1.0.0",
     "http-server": "^0.11.1",
+    "marked": "^0.6.2",
     "pluralize": "^7.0.0",
     "require-dir": "^1.1.0",
-    "s3-static-website-deploy": ">0.0.1",
-    "marked": "^0.6.2"
+    "s3-static-website-deploy": ">0.0.1"
   }
 }

@@ -3,12 +3,7 @@ meta:
 
 title: Alexander Bird - Software Developer
 profile:
-  name: Alexander Bird
-  title: Software Developer
-  tagline: A passion for building useful, valuable software in a team
-  email: alex@alexanderbird.software
-  website: https://alexanderbird.software
-  location: Calgary, AB, Canada
+  $ref: ./_profile.json
 
 meta-tags:
   twitter-handle: '@alexander_bird'
@@ -16,9 +11,7 @@ meta-tags:
   description: A passion for building useful, valuable software in a team. Motivated by helping others with innovation and technical excellence.
 
 copyright:
-  notice: '&copy; 2019'
-  open-source-at: open source at
-  link-to-code: <a href='https://github.com/alexanderbird/alexanderbird.software'>github.com/alexanderbird/alexanderbird.software</a>
+  $ref: ./_copyright.json
 
 contact-methods: 
   - link: mailto:alex@alexanderbird.software

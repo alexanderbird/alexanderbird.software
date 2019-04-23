@@ -7,6 +7,7 @@ const wrap = require('gulp-wrap');
 const extensionReplace = require('gulp-ext-replace');
 const path = require('path');
 const yaml = require('gulp-yaml');
+const jsonRefs = require('gulp-json-refs');
 
 require('../utils/handlebars-helpers')
 
@@ -19,9 +20,20 @@ const {
 } = require('../config')
 
 
-gulp.task('build:html', () => gulp
+gulp.task('build:content-1', () => gulp
   .src(`${sourceContentDirectory}/**/*.yaml`)
   .pipe(yaml())
+  .pipe(gulp.dest('./whatever/1'))
+);
+
+gulp.task('build:content-2', () => gulp
+  .src(`whatever/1/**/*.json`)
+  .pipe(jsonRefs())
+  .pipe(gulp.dest('./whatever/2'))
+);
+
+gulp.task('build:html', () => gulp
+  .src([`whatever/2/**/*.json`, `!whatever/2/**/_*.json`])
   .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData }), getPageTemplate))
   .pipe(extensionReplace('.html'))
   .pipe(gulp.dest(buildDirectory))
