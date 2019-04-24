@@ -8,4 +8,16 @@
     margin: 0;
     padding: 0;
   }
+
+  .pages__cover-letter__letter-page {
+    min-height: 11in;
+    page-break-after: always;
+    @media print {
+      min-height: auto;
+    }
+  }
+
+  .pages__cover-letter__signature {
+    height: 3em;
+  }
 }

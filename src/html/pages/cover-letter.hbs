@@ -4,9 +4,11 @@
   {{#> atoms/html-body class='pages__cover-letter'}}
     {{> invisible/icon-symbols }}
     <div id='print' class='printer-friendly-version pages__cover-letter__printer-friendly-version'>
-      {{> organisms/print-header profile }}
-      {{{ markdown content }}}
-      <div class='atoms__page-break'></div>
+      <div class='pages__cover-letter__letter-page'>
+        {{> organisms/print-header profile }}
+        {{{ markdown content }}}
+        <img class='pages__cover-letter__signature' src='data:image/png;base64, {{signature}}'></img>
+      </div>
       {{> organisms/experience
         resume.experience-front-matter
         items=resume.experience
