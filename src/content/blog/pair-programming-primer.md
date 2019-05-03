@@ -1,6 +1,10 @@
-Pair programming, when done poorly, is exhausting, uncomfortably intimate, and
-generally unpleasant. Here are some points to cover when introducing pairing so
-it's less likely to be offensive.
+Pair programming, when done poorly, can be:
+  - exhausting
+  - uncomfortably intimate
+  - generally unpleasant
+
+Here are some points to cover when introducing pairing to make it a positive
+experience:
 
 ### Collaboration
 
@@ -39,9 +43,13 @@ it's less likely to be offensive.
   - Consider keeping a bottle of hand sanitizer to use when handing off the
     keyboard
 
-### Further reading
- - [Woody Zuill's very comprehensive experience report on Mob
+### Customization
+- **Retrospect**
+  - Chat about what is and isn't working; adjust to suit.
+  - Consider [this overview of a variety of pairing
+    techniques](https://builttoadapt.io/whats-the-best-way-to-pair-a8699f9beb81)
+    which may give you more ideas of things to try
+  - Also, [Woody Zuill's very comprehensive experience report on Mob
    Programming](https://www.agilealliance.org/resources/experience-reports/mob-programming-agile2014/)
-    - many of the experiences shared also apply to pairing
- - [An overview of a variety of pairing techniques](https://builttoadapt.io/whats-the-best-way-to-pair-a8699f9beb81)
+   has a lot of great material which applies equally well to pairing
 
