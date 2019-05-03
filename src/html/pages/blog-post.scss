@@ -1,0 +1,24 @@
+.pages__blog-post {
+  min-height: calc(100vh - 8px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  .pages__blog-post__home-link {
+    min-height: initial;
+    .atoms__svg-icon {
+      min-height: initial;
+      --icon-color-primary: var(--color-secondary);
+      --icon-width: 32px;
+    }
+    height: 100%;
+    padding: 32px;
+    top: 0;
+    right: 0;
+    position: absolute;
+  }
+
+  .pages__blog-post__footer {
+    padding: 8px;
+  }
+}

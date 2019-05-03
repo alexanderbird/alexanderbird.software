@@ -3,3 +3,5 @@ meta:
 
 title: Architecture Tests in JavaScript
 subtitle: Communicating big-picture architecture to the team with automated tests
+copyright:
+  $ref: ../_copyright.json

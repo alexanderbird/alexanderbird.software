@@ -2,3 +2,5 @@ meta:
   pageTemplate: blog-post
 
 title: Software Blog &mdash; Draft
+copyright:
+  $ref: ../_copyright.json
