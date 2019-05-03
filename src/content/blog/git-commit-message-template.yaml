@@ -3,5 +3,6 @@ meta:
 
 title: Git commit message template
 subtitle: To train me to write better commit messages
+date: 2019-03
 copyright:
   $ref: ../_copyright.json

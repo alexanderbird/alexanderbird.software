@@ -18,6 +18,11 @@
     position: absolute;
   }
 
+  .pages__blog-post__written-on {
+    color: var(--color-secondary);
+    font-style: italic;
+  }
+
   .pages__blog-post__footer {
     padding: 8px;
   }
