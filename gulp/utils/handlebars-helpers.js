@@ -2,8 +2,6 @@ const marked = require('marked');
 const handlebars = require('handlebars');
 const pluralize = require('pluralize');
 
-require('handlebars-inline').register(handlebars)
-
 handlebars.registerHelper('not', object => !object)
 handlebars.registerHelper('markdown', markdown => marked(markdown))
 handlebars.registerHelper('coalesce', (...args) => args.find(i => !!i))
