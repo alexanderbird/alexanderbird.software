@@ -7,6 +7,7 @@
     "deploy": "rm -rf html/_test && rm -rf html/private && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
+    "build:fast:watch": "nodemon --watch src --exec 'npm run build:fast' --ext '*'",
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
     "start": "cd html && http-server",
     "test:reset": "cd test && rm -r shots_base/* && bundle exec wraith history config.yaml",
@@ -61,6 +62,7 @@
     "handlebars-inline": "^1.0.0",
     "http-server": "^0.11.1",
     "marked": "^0.6.2",
+    "nodemon": "^1.19.0",
     "pluralize": "^7.0.0",
     "require-dir": "^1.1.0",
     "s3-static-website-deploy": ">0.0.1"
