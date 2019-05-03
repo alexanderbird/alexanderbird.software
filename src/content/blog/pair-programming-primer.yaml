@@ -1,0 +1,8 @@
+meta:
+  pageTemplate: blog-post
+
+title: Pair Programming Primer
+subtitle: Points to cover when introducing pair programming.
+date: 2019-05
+copyright:
+  $ref: ../_copyright.json

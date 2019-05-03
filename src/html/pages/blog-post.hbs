@@ -11,7 +11,10 @@
       <h1>{{{title}}}</h1>
       <h2>{{{subtitle}}}</h2>
       {{{ markdown content }}}
-      {{#if date}}<p class='pages__blog-post__written-on'>Written {{date}}</p>{{/if}}
+      {{#if date}}
+        <hr/>
+        <p class='pages__blog-post__written-on'>Written {{date}}</p>
+      {{/if}}
     </section>
     <footer class='pages__blog-post__footer'>
       {{> atoms/copyright-footer copyright }}
