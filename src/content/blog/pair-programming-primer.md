@@ -1,6 +1,7 @@
 Pair programming, when done poorly, can be:
   - exhausting
   - uncomfortably intimate
+  - boring
   - generally unpleasant
 
 Here are some points to cover when introducing pairing to make it a positive
