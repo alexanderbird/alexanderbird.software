@@ -1,0 +1,9 @@
+meta:
+  pageTemplate: blog-post
+
+title: The Active Code Reviewee
+twitter: https://twitter.com/alexander_bird/status/1127386693454057472
+subtitle: Getting the most from a quiet reviewer
+date: 2019-05
+copyright:
+  $ref: ../_copyright.json
