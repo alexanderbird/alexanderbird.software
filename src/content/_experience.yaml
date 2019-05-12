@@ -1,3 +1,51 @@
+- client: Oilfield services
+  client-size: publicly traded
+  summary: 
+  title: Software Developer
+  employer: Arcurve Inc
+  team-size: 2
+  duration-in-months: 2
+  is-ongoing: true
+  role: Tech Lead
+  comments:
+    - Prototyped experimental data visualizations with Highcharts based on mockups provided to me
+    - Setup project build & test infrastructure (using Lerna to manage the monorepo; auto-generating the Angular SDK from the API Swagger doc)
+    - Conducted job interviews
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          column:
+           - row:
+             - CSS
+             - HTML
+             - Highcharts
+           - row:
+             - Angular 7
+             - TypeScript
+      - row:
+        - connection: HTTP
+        - connection: HTTP
+      - box:
+          label: Docker
+          column:
+            - row:
+              - box:
+                  label: Single Page App
+                  column:
+                    - NGINX
+              - box:
+                  label: REST API
+                  column:
+                    - Nest
+                    - TypeScript
+            - row:
+              - box:
+                  string: Data collection & aggregation
+      - connection: various protocols
+      - box:
+          string: Well-site sensors
+
 - client: Corporate minutebook management
   client-size: startup
   summary: Reverse Engineering
