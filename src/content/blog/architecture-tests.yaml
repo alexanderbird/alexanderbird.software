@@ -6,3 +6,5 @@ subtitle: Communicating big-picture architecture to the team with automated test
 date: 2019-03
 copyright:
   $ref: ../_copyright.json
+header:
+  $ref: ./_header.json

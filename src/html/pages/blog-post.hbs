@@ -5,11 +5,9 @@
     {{> invisible/signature }}
     {{> invisible/icon-symbols }}
     <section>
-      <a class='pages__blog-post__home-link' href='/blog' alt='Home Page'>
-        {{> atoms/svg-icon name='home' class='' }}
-      </a>
-      <h1>{{{title}}}</h1>
-      <h2>{{{subtitle}}}</h2>
+      {{> organisms/blog-header header }}
+      <h2>{{{title}}}</h2>
+      <h3>{{{subtitle}}}</h3>
       {{{ markdown content }}}
       {{#if twitter}}
         <hr/>

@@ -7,3 +7,5 @@ subtitle: Getting the most from a quiet reviewer
 date: 2019-05
 copyright:
   $ref: ../_copyright.json
+header:
+  $ref: ./_header.json

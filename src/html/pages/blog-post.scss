@@ -1,22 +1,17 @@
 .pages__blog-post {
-  min-height: calc(100vh - 8px);
+  h2 {
+    font-size: 1.6em;
+  }
+
+  h3 { 
+    font-size: 1.2em;
+  }
+  --blog-header-height: 64px;
+  min-height: calc(100vh - 8px - var(--blog-header-height));
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-
-  .pages__blog-post__home-link {
-    min-height: initial;
-    .atoms__svg-icon {
-      min-height: initial;
-      --icon-color-primary: var(--color-secondary);
-      --icon-width: 32px;
-    }
-    height: 100%;
-    padding: 32px;
-    top: 0;
-    right: 0;
-    position: absolute;
-  }
+  margin-top: var(--blog-header-height);
 
   .pages__blog-post__written-on {
     color: var(--color-secondary);

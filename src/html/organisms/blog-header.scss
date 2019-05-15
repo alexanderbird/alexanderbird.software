@@ -1,0 +1,53 @@
+.organisms__blog-header {
+  position: fixed;
+  height: var(--blog-header-height);
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background: linear-gradient(
+    var(--color-background),
+    var(--color-accent)
+  );
+
+  border-bottom: 2px solid var(--color-background);
+
+  .organisms__blog-header__title-area {
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    .organisms__blog-header__title {
+      font-size: 1.2em;
+      margin: 0;
+    }
+
+    .organisms__blog-header__subtitle {
+      font-style: italic;
+      display: none;
+
+      @media (min-width: 300px) {
+        display: initial;
+      }
+    }
+  }
+
+  .organisms__blog-header__home-link {
+    margin-left: auto;
+    min-height: initial;
+    .atoms__svg-icon {
+      margin: auto;
+      min-height: initial;
+      --icon-color-primary: var(--color-secondary);
+      --icon-width: 32px;
+    }
+    height: var(--blog-header-height);
+    width: var(--blog-header-height);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+  }
+
+}
