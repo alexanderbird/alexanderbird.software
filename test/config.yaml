@@ -7,6 +7,8 @@ paths:
   home: /
   contact: /#contact
   print: /#resume
+  blog_root: /blog
+  blog_post: /blog/git-commit-message-template.html
   test_icons: /_test/icons.html
 
 before_capture: 'javascript/wait--chrome.js'
