@@ -1,0 +1,10 @@
+meta:
+  pageTemplate: blog-post
+
+title: Git Recipe Book
+subtitle: Git suggestions for developers first starting on a medium/large team.
+date: 2019-05
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
