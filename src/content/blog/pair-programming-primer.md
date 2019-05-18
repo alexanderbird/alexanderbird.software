@@ -28,6 +28,13 @@ experience:
 - **Attribution in version control**
   - Update your git config so both pairs' names appear in the git log.
     - `git config --global user.name "Alex B. and Sarah L."`
+- **Swapping roles**
+  - At regular intervals (&lt;30 minutes), switch roles with your partner. Set a
+    timer, but don't be dogmatic &mdash; if the navigator is just about to
+    finish a thought, let them do so. 
+  - A version control commit is a natural time to have someone
+    else take control: you may find it helpful to work in small chunks that can
+    be started and finished in 20-30 minutes.
 
 ### Comfort
 - **Attend to your personal needs**
@@ -39,8 +46,10 @@ experience:
 - **Ergonomics**
   - When you take your turn at the keyboard, take a moment to place it fully in
     front of you (instead of leaning awkwardly out of your seat).
-- Hygiene
-  - Sit somewhere where you're not rubbing shoulders and coughing on each other
+- **Hygiene**
+  - Consider each others' personal space: make sure there's enough room where
+    you're sitting that you're not right on top of each other (coughing and
+    sweating on each other)
   - Consider keeping a bottle of hand sanitizer to use when handing off the
     keyboard
 
