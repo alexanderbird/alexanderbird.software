@@ -43,7 +43,7 @@ If you are in the habit of putting the ticket slug in the commit message
 Or, try another search term instead of "FOO-164".
 
 ----------
-*&#8227; What is different between branch 'feature/foo' and branch 'master'?  
+*&#8227; What is different between branch 'feature/foo' and branch 'master'?*  
 
     git diff --name-status master feature/foo
 
