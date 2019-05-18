@@ -1,6 +1,7 @@
 meta:
   pageTemplate: blog-post
 
+title: Software Blog
 copyright:
   $ref: ../_copyright.json
 header:

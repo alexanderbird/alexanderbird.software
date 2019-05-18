@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang='en'>
-  {{> invisible/html-head}}
+  {{> invisible/html-head title=(concat title ' &bull; ' header.title)}}
   {{#> atoms/html-body class='pages__blog-post' }}
     {{> invisible/signature }}
     {{> invisible/icon-symbols }}
