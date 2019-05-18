@@ -4,8 +4,8 @@
   {{#> atoms/html-body class='pages__blog-post' }}
     {{> invisible/signature }}
     {{> invisible/icon-symbols }}
-    <section>
-      {{> organisms/blog-header header }}
+    {{> organisms/blog-header header }}
+    <section class='pages__blog-post__body'>
       <h2>{{{title}}}</h2>
       <h3>{{{subtitle}}}</h3>
       {{{ markdown content }}}

@@ -1,5 +1,6 @@
 .organisms__blog-header {
   position: fixed;
+  z-index: 1;
   height: var(--blog-header-height);
   top: 0;
   left: 0;

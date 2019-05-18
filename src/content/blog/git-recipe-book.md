@@ -1,8 +1,32 @@
+### Contents
+ - [Questions you can ask git](#questions-you-can-ask-git)
+   - [Who...](#who)
+     - [Who wrote line 47 of foo/bar/baz.cs?](#-who-wrote-line-47-of-foobarbazcs)
+     - [Who has worked on this project (in the last n months)](#-who-has-worked-on-this-project-in-the-last-n-months)
+     - [Who should I ask for help with module `src/controllers/CoolWidgetController`?](#-who-should-i-ask-for-help-with-module-srccontrollerscoolwidgetcontroller)
+   - [What...](#what)
+     - [What commits relate to JIRA ticket FOO-164?](#-what-commits-relate-to-jira-ticket-foo-164)
+     - [What is different between branch 'feature/foo' and branch 'master'?](#-what-is-different-between-branch-featurefoo-and-branch-master)
+     - [What branches exist locally? And on the remotes?](#-what-branches-exist-locally-and-on-the-remotes)
+     - [What files have changed in the past two weeks](#-what-files-have-changed-in-the-past-two-weeks)
+     - [What have I done this week?](#-what-have-i-done-this-week)
+   - [Other...](#other)
+     - [When was this regression introduced?](#-when-was-this-regression-introduced)
+     - [Will there be merge conflicts if I merge master into my branch?](#-will-there-be-merge-conflicts-if-i-merge-master-into-my-branch)
+ - [Disaster Recovery](#disaster-recovery)
+   - [You deleted your branch before pushing](#-you-deleted-your-branch-before-pushing)
+   - [Your commits are mixed with other commits that don't belong](#-your-commits-are-mixed-with-other-commits-that-dont-belong)
+   - [Your most recent commit has the wrong commit message](#-your-most-recent-commit-has-the-wrong-commit-message)
+   - [You notice that several commits back you have a bad commit message](#-you-notice-that-several-commits-back-you-have-a-bad-commit-message)
+   - [You want to combine several commits](#-you-want-to-combine-several-commits)
+   - [You need to rewrite history that you've already pushed](#-you-need-to-rewrite-history-that-youve-already-pushed)
+ - [General tips](#general-tips)
+
 ### Questions you can ask git
 
 ----------
 #### Who...
-*&#8227; Who wrote line 47 of foo/bar/baz.cs?*  
+##### &#8227; Who wrote line 47 of foo/bar/baz.cs?  
 
     git blame foo/bar/baz.cs
 
@@ -18,13 +42,13 @@ conditional logic on the line six weeks ago. From the command line it's not as
 easy as clicking a link to move backwards in time.
 
 ----------
-*&#8227; Who has worked on this project (in the last n months)*  
+##### &#8227; Who has worked on this project (in the last n months)  
 
     git shortlog -s
     git shortlog -s --since "5 months ago"
 
 ----------
-*&#8227; Who should I ask for help with module `src/controllers/CoolWidgetController`?*  
+##### &#8227; Who should I ask for help with module `src/controllers/CoolWidgetController`?  
 
     git shortlog -s -- src/controllers/CoolWidgetController
 
@@ -34,7 +58,7 @@ filter to only look at recent commits.
 
 ----------
 #### What...
-*&#8227; What commits relate to JIRA ticket FOO-164?*  
+##### &#8227; What commits relate to JIRA ticket FOO-164?  
 
 If you are in the habit of putting the ticket slug in the commit message
 
@@ -43,7 +67,7 @@ If you are in the habit of putting the ticket slug in the commit message
 Or, try another search term instead of "FOO-164".
 
 ----------
-*&#8227; What is different between branch 'feature/foo' and branch 'master'?*  
+##### &#8227; What is different between branch 'feature/foo' and branch 'master'?  
 
     git diff --name-status master feature/foo
 
@@ -58,7 +82,7 @@ See `git help diff` and search for `--diff-filter` for additional filters
 (modified, created, etc.).
 
 ----------
-*&#8227; What branches exist locally? And on the remotes?*  
+##### &#8227; What branches exist locally? And on the remotes?  
 
     git branch
     git branch --all
@@ -68,7 +92,7 @@ And if you're looking for a specific branch, you can pipe the output to `grep`
 
     git branch --all | grep foo
 ----------
-*&#8227; What files have changed in the past two weeks*  
+##### &#8227; What files have changed in the past two weeks  
 
     git log --name-only --pretty= --since "2 weeks ago"
 
@@ -82,13 +106,13 @@ no commit summary will be shown. All you'll see is the `--name-only` output that
 lists the names of affected files.
 
 ----------
-*&#8227; What have I done this week?*  
+##### &#8227; What have I done this week?  
 
     git log --author "My Name" --since "1 week ago"
 
 ----------
 #### Other
-*&#8227; When was this regression introduced?*  
+##### &#8227; When was this regression introduced?  
 
 When you know that the code worked at a certain commit (say, 1 month ago) but
 doesn't work now, `git bisect` will help you efficiently search through all the
@@ -103,7 +127,7 @@ commits. Either you check each commit manually and tell git that it's "good" or
 "bad" automatically.
 
 ----------
-*&#8227; Will there be merge conflicts if I merge master into my branch?*  
+##### &#8227; Will there be merge conflicts if I merge master into my branch?  
 This command does change your working copy, so make sure all your local changes
 are committed or stashed before the following:
 
@@ -117,7 +141,26 @@ are committed or stashed before the following:
 You've messed something up, now what?
 
 ----------
-*&#8227; Your commits are mixed with other commits that don't belong*  
+##### &#8227; You deleted your branch before pushing  
+
+Don't worry, it's not gone! There's a detailed walk-through on this blog post:
+[Recover a git branch you accidentally
+deleted](https://opensolitude.com/2012/02/29/recover-git-branch.html). The key
+idea is:
+
+  - use `git fsck` to list all the unreachable commits
+  - find the most recent commit on your lost branch by reading the commit
+    messages
+      - The blog post uses some bash-fu to get the commit message. If you only
+        have access to PowerShell, you'll have to sort that step out on your
+        own.
+  - checkout that commit, creating a new branch `git checkout <the-hash> -b
+    your-branch-name`
+
+The details are all in that blog post.
+
+----------
+##### &#8227; Your commits are mixed with other commits that don't belong  
 Maybe because you merged the wrong branch in and then kept committing, or
 because you started work in the wrong branch, or for whatever reason you have a
 commit you don't want followed by a commit you do want.
@@ -137,13 +180,13 @@ Now, the branch that was once all messed up has only the commits you want, on
 top of branch that you meant to be building on top of.
 
 ----------
-*&#8227; Your most recent commit has the wrong commit message*  
+##### &#8227; Your most recent commit has the wrong commit message  
 This one's straightforward:
 
     git commit --amend
 
 ----------
-*&#8227; You notice that several commits back you have a bad commit message*  
+##### &#8227; You notice that several commits back you have a bad commit message  
 Find the commit hash of the commit before the one you want to rename, then:
 
     git rebase -i <that-hash>
@@ -154,7 +197,7 @@ want to rename, replace `pick` with `reword`. Git will re-apply each commit one
 at a time, and for the ones you marked as `reword` you will be prompted to edit
 the commit message.
 
-*&#8227; You want to combine several commits*  
+##### &#8227; You want to combine several commits  
 Maybe you notice that two commits back you have several commits with a summary
 "wip" and "more wip". Those should probably be combined with the commit after
 them. 
@@ -193,7 +236,7 @@ The full options for rebasing are (you'll see this help message when you execute
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
 
-*&#8227; You need to rewrite history that you've already pushed*  
+##### &#8227; You need to rewrite history that you've already pushed  
 The tips above explain how to rewrite your git history. When you haven't pushed
 those commits yet, that's all fine and well. However, once you've pushed your
 commits, they're part of the shared history and you have no business rewriting
