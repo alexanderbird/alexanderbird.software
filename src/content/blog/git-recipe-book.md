@@ -143,6 +143,13 @@ idea is:
       - The blog post uses some bash-fu to get the commit message. If you only
         have access to PowerShell, you'll have to sort that step out on your
         own.
+      - I didn't have luck following the blog directly (event with bash), but I
+        modified it as a bash oneliner that worked for me: 
+          - `git fsck --full --no-reflogs --unreachable --lost-found | grep
+            commit | xargs -n 3 echo | awk '{ print $3}' | git log -n 1
+            --pretty=oneline`
+          - (take only the commits, group by three words, take the third which
+            is the commit hash, print the log message for that commit)
   - checkout that commit, creating a new branch `git checkout <the-hash> -b
     your-branch-name`
 
