@@ -19,7 +19,7 @@
    - [Your most recent commit has the wrong commit message](#your-most-recent-commit-has-the-wrong-commit-message)
    - [You notice that several commits back you have a bad commit message](#you-notice-that-several-commits-back-you-have-a-bad-commit-message)
    - [You want to combine several commits](#you-want-to-combine-several-commits)
-   - [You need to rewrite history that you've already pushed](#you-need-to-rewrite-history-that-youve-already-pushed)
+   - [Notes on rewriting history](#notes-on-rewriting-history)
  - [General tips](#general-tips)
 
 ### Questions you can ask git
@@ -229,25 +229,17 @@ The full options for rebasing are (you'll see this help message when you execute
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
 
-##### You need to rewrite history that you've already pushed  
-The tips above explain how to rewrite your git history. When you haven't pushed
-those commits yet, that's all fine and well. However, once you've pushed your
-commits, they're part of the shared history and you have no business rewriting
-them.
+#### Notes on rewriting history
+Changing commit messages, combining commits, reordering them &mdash; these are
+ways to rewrite the git history.
 
-Suppose you've pushed the branch `feature/snazzy-whatsit`, but then you noticed
-that half of the commit messages are "wip". 
-
-**If nobody else is working on `feature/snazzy-whatsit`** (and you're really
-sure of it), you can rewrite the history as described above and then run `git
-push --force` to tell the git remote that you're intentionally changing the
-history. Usually this is not allowed on the master branch but is allowed on
-feature branches.
-
-**If other people are also working on `feature/snazzy-whatsit`**, then the only
-reasonable course of action is to rewrite the history with their collaboration.
-Go walk by their desk and ask to do it together. Whether this is worth doing or
-not depends on how much your team cares about having a well-curated git history.
+ - If you haven't pushed the commits yet, it's safe to rewrite.
+ - If you've pushed the commits but nobody has pulled them, then you can rewrite
+   and force-push (`git push --force`) &mdash; but the only way to find out if
+   someone's pulled is to ask them
+ - If you've pushed and someone else has pulled already, a force-push will
+   impact everyone working on the branch &mdash; probably best to coordinate
+   with them before you do the rewrite/force-push.
 
 ### General tips
  - Choose an editor you like for you commit message &mdash; you don't have to

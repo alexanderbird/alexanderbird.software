@@ -45,16 +45,16 @@
   flex-direction: column;
   justify-content: space-between;
 
-  .pages__blog-post__header {
-  }
-
-  [id]:before {
-    display: block; 
-    content: " "; 
-    margin-top: calc(-1 * var(--blog-header-height);
-    height: var(--blog-header-height);; 
-    visibility: hidden; 
-    pointer-events: none;
+  [id] {
+    z-index: -1;
+    &:before {
+      display: block; 
+      content: " "; 
+      margin-top: calc(-1 * var(--blog-header-height);
+      height: var(--blog-header-height);; 
+      visibility: hidden; 
+      pointer-events: none;
+    }
   }
 
   .pages__blog-post__body {
