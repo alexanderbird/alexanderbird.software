@@ -1,25 +1,25 @@
 ### Contents
  - [Questions you can ask git](#questions-you-can-ask-git)
    - [Who...](#who)
-     - [Who wrote line 47 of foo/bar/baz.cs?](#-who-wrote-line-47-of-foobarbazcs)
-     - [Who has worked on this project (in the last n months)](#-who-has-worked-on-this-project-in-the-last-n-months)
-     - [Who should I ask for help with module `src/controllers/CoolWidgetController`?](#-who-should-i-ask-for-help-with-module-srccontrollerscoolwidgetcontroller)
+     - [Who wrote line 47 of foo/bar/baz.cs?](#who-wrote-line-47-of-foobarbazcs)
+     - [Who has worked on this project (in the last 5 months)](#who-has-worked-on-this-project-in-the-last-5-months)
+     - [Who should I ask for help with module `src/controllers/CoolWidgetController`?](#who-should-i-ask-for-help-with-module-srccontrollerscoolwidgetcontroller)
    - [What...](#what)
-     - [What commits relate to JIRA ticket FOO-164?](#-what-commits-relate-to-jira-ticket-foo-164)
-     - [What is different between branch 'feature/foo' and branch 'master'?](#-what-is-different-between-branch-featurefoo-and-branch-master)
-     - [What branches exist locally? And on the remotes?](#-what-branches-exist-locally-and-on-the-remotes)
-     - [What files have changed in the past two weeks](#-what-files-have-changed-in-the-past-two-weeks)
-     - [What have I done this week?](#-what-have-i-done-this-week)
+     - [What commits relate to JIRA ticket FOO-164?](#what-commits-relate-to-jira-ticket-foo-164)
+     - [What is different between branch `feature/foo` and branch `master`?](#what-is-different-between-branch-featurefoo-and-branch-master)
+     - [What branches exist locally? And on the remotes?](#what-branches-exist-locally-and-on-the-remotes)
+     - [What files have changed in the past two weeks](#what-files-have-changed-in-the-past-two-weeks)
+     - [What have I done this week?](#what-have-i-done-this-week)
    - [Other...](#other)
-     - [When was this regression introduced?](#-when-was-this-regression-introduced)
-     - [Will there be merge conflicts if I merge master into my branch?](#-will-there-be-merge-conflicts-if-i-merge-master-into-my-branch)
+     - [When was this regression introduced?](#when-was-this-regression-introduced)
+     - [Will there be merge conflicts if I merge master into my branch?](#will-there-be-merge-conflicts-if-i-merge-master-into-my-branch)
  - [Disaster Recovery](#disaster-recovery)
-   - [You deleted your branch before pushing](#-you-deleted-your-branch-before-pushing)
-   - [Your commits are mixed with other commits that don't belong](#-your-commits-are-mixed-with-other-commits-that-dont-belong)
-   - [Your most recent commit has the wrong commit message](#-your-most-recent-commit-has-the-wrong-commit-message)
-   - [You notice that several commits back you have a bad commit message](#-you-notice-that-several-commits-back-you-have-a-bad-commit-message)
-   - [You want to combine several commits](#-you-want-to-combine-several-commits)
-   - [You need to rewrite history that you've already pushed](#-you-need-to-rewrite-history-that-youve-already-pushed)
+   - [You deleted your branch before pushing](#you-deleted-your-branch-before-pushing)
+   - [Your commits are mixed with other commits that don't belong](#your-commits-are-mixed-with-other-commits-that-dont-belong)
+   - [Your most recent commit has the wrong commit message](#your-most-recent-commit-has-the-wrong-commit-message)
+   - [You notice that several commits back you have a bad commit message](#you-notice-that-several-commits-back-you-have-a-bad-commit-message)
+   - [You want to combine several commits](#you-want-to-combine-several-commits)
+   - [You need to rewrite history that you've already pushed](#you-need-to-rewrite-history-that-youve-already-pushed)
  - [General tips](#general-tips)
 
 ### Questions you can ask git
@@ -40,7 +40,7 @@ this line last week, but the thing you care about is when Andrew changed the
 conditional logic on the line six weeks ago. From the command line it's not as
 easy as clicking a link to move backwards in time.
 
-##### Who has worked on this project (in the last n months)  
+##### Who has worked on this project (in the last 5 months)  
 
     git shortlog -s
     git shortlog -s --since "5 months ago"
@@ -62,7 +62,7 @@ If you are in the habit of putting the ticket slug in the commit message
 
 Or, try another search term instead of "FOO-164".
 
-##### What is different between branch 'feature/foo' and branch 'master'?  
+##### What is different between branch `feature/foo` and branch `master`?  
 
     git diff --name-status master feature/foo
 
