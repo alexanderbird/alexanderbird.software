@@ -1,0 +1,11 @@
+.pages__blog-index {
+  margin-top: var(--blog-header-height);
+  max-width: 800px;
+  .page__blog-index__posts {
+    display: flex;
+    flex-direction: column;
+  }
+  .pages__blog-index__footer {
+    padding: 8px;
+  }
+}

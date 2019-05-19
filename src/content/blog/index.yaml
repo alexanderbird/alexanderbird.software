@@ -1,8 +1,14 @@
 meta:
-  pageTemplate: blog-post
+  pageTemplate: blog-index
 
 title: Software Blog
 copyright:
   $ref: ../_copyright.json
 header:
   $ref: ./_header.json
+posts:
+  - $ref: ./git-recipe-book.json
+  - $ref: ./the-active-code-reviewee.json
+  - $ref: ./pair-programming-primer.json
+  - $ref: ./git-commit-message-template.json
+  - $ref: ./architecture-tests.json

@@ -1,0 +1,49 @@
+.organisms__blog-post-summary {
+  position: relative;
+  display: grid;
+  grid-template-areas:
+    'title    date'
+    'subtitle subtitle';
+
+  text-decoration: none;
+  color: inherit;
+
+  --animation-duration: 150ms;
+
+  transition: all 100ms ease 0s;
+  top: 0;
+  left: 0;
+  &:hover {
+    --pop-out-animation-depth: 10px;
+    top: -6px;
+    left: -6px;
+  }
+
+  &:active {
+    --pop-out-animation-depth: 1px;
+    top: 3px;
+    left: 3px;
+  }
+
+  @for $i from 1 through 20 {
+    &:nth-child(#{$i}) {
+      --animation-delay: #{($i - 1) * 75}ms;
+    }
+  }
+  --animation-delay: 50ms;
+
+  .organisms__blog-post-summary__date {
+    grid-area: date;
+    color: var(--color-secondary);
+    text-align: right;
+  }
+
+  .organisms__blog-post-summary__title {
+    grid-area: title;
+    margin: 0;
+  }
+
+  .organisms__blog-post-summary__subtitle {
+    grid-area: subtitle;
+  }
+}

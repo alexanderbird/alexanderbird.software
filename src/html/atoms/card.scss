@@ -1,4 +1,4 @@
-.printer-friendly-version:not(:target) .atoms__card {
+.atoms__card {
   margin: 8px;
   border: 1px solid var(--color-secondary);
   border-radius: 4px;
@@ -9,4 +9,10 @@
 
 .printer-friendly-version:target .atoms__card {
   border-top: 1px solid var(--color-secondary);
+  margin: unset;
+  border: unset;
+  border-radius: unset;
+  padding: unset;
+  background-color: unset;
+  animation: unset;
 }
