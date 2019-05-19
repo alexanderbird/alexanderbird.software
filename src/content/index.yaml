@@ -135,6 +135,10 @@ hobby-experience:
       alt: '@alexanderbird on Stack Overflow'
       title: Questions and answers I've contributed to on Stack Overflow
       url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
+    - icon: ab-initials
+      alt: 'Software Blog'
+      title: Software Blog
+      url: /blog
 
 # TODO: these might be worth incorporating in their respective experience sections
 #     - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)
