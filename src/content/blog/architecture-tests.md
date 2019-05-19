@@ -7,7 +7,7 @@ How do you ensure the architecture is respected?
 Automated architecture tests are a way to communicate architectural rules
 (and the intent behind them).
 
-## Approach
+### Approach
 There are more sophisticated approaches to this that involve actually
 parsing your code and navigating the AST, but for basic rules a full-text
 search approach can do the work -- and is simpler to grok if you're rolling
@@ -18,12 +18,12 @@ test with the file and line number of the infraction, along with an explanation
 of the architectural rule in question. This may include a link to your internal
 wiki explaining in more detail.
 
-## Simple Example: forbidden words
+### Simple Example: forbidden words
 For example, your team has decided to use `*API` instead of `*Api`. Consequently,
 your code has `fooAPI`, `barApi`, etc.. You can go back and correct all the occurances
 of `*Api`, but how do you keep it from creeping in again?
 
-### Binding to shell functions
+#### Binding to shell functions
 We'll be working with command line tools to do the text search, and you'll need the
 results in your test. There are several options for doing this in Node, but
 [child_process.exec](https://nodejs.org/api/child_process.html#child_process_child_process_exec_command_options_callback) is a simple one. 
@@ -34,7 +34,7 @@ results in your test. There are several options for doing this in Node, but
       console.log(result)
     })
 
-### Finding offending files
+#### Finding offending files
 So now what command will give us the list of files? [Stack Overflow question](https://stackoverflow.com/q/6153152/3012550)
 
 But we don't want to search inside `node_modules`, or our project's build folder, etc.
@@ -49,7 +49,7 @@ But we don't want to search inside `node_modules`, or our project's build folder
 
 We'd like if it returned empty results -- there shouldn't be any files matching `.*Api`.
 
-### Passing or failing the tests
+#### Passing or failing the tests
 Using `child_process.exec` we get the output of the command as a string. Your test could look something like
 
     const matchedLines = result.trim().split('\n')
@@ -57,7 +57,7 @@ Using `child_process.exec` we get the output of the command as a string. Your te
       throw new Error(`Architecture test failed: ${matchedLines.length} files contain *Api`)
     }
 
-### Printing a useful error
+#### Printing a useful error
 It's not enough to detect it, though: the goal was to communicate architectural intent; to teach
 new team members the why. Also if you don't print the file names how can we fix the error?
 
@@ -90,15 +90,15 @@ Which would fail with:
         Read more: http://our-internal-wiki/architecture/naming
 
 
-## Next Steps
-### Import Rules
+### Next Steps
+#### Import Rules
 For example, folder `foo` may import from folder `bar`, but not the other way around.
   
   - Update your `git-grep` to only search in `src/bar`
   - Update your regex to match `require(.*/bar/.*)`
 
 
-## Next Steps
+### Next Steps
 It would be really nice to have a node package that does this for you -- where you define
 your architecture rules like:
 

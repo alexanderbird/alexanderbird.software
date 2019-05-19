@@ -1,5 +1,8 @@
 pre, code {
-  background-color: #f2f7ed;
+  background-image: linear-gradient(
+    var(--color-accent),
+    transparent
+  );
 }
 
 pre {

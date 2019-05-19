@@ -5,11 +5,39 @@
 
   h3 { 
     font-size: 1.2em;
+    --h-overline-height: 8px;
+    --h-overline-outdent: 20px;
+  }
+
+  h4 {
+    font-size: 1.15em;
+    margin-bottom: 0;
+    --h-overline-height: 4px;
+    --h-overline-outdent: 14px;
   }
 
   h5 {
     font-size: 1.1em;
     margin-bottom: 0;
+    --h-overline-height: 2px;
+    --h-overline-outdent: 6px;
+  }
+
+  h3, h4, h5 {
+    position: relative;
+    &:after {
+      position: absolute;
+      height: 1em;
+      margin-bottom: 4px;
+      bottom: 0;
+      content: ' ';
+      display: block;
+      width: calc(100% + var(--h-overline-outdent));
+      margin-left: calc(-1 * var(--h-overline-outdent));
+      border-top-width: var(--h-overline-height);
+      border-top-style: solid;
+      border-image: linear-gradient(to right, var(--color-secondary), transparent 20%) 1;
+    }
   }
   --blog-header-height: 64px;
   min-height: calc(100vh - 8px - var(--blog-header-height));

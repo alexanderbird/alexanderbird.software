@@ -24,9 +24,8 @@
 
 ### Questions you can ask git
 
-----------
 #### Who...
-##### &#8227; Who wrote line 47 of foo/bar/baz.cs?  
+##### Who wrote line 47 of foo/bar/baz.cs?  
 
     git blame foo/bar/baz.cs
 
@@ -41,14 +40,12 @@ this line last week, but the thing you care about is when Andrew changed the
 conditional logic on the line six weeks ago. From the command line it's not as
 easy as clicking a link to move backwards in time.
 
-----------
-##### &#8227; Who has worked on this project (in the last n months)  
+##### Who has worked on this project (in the last n months)  
 
     git shortlog -s
     git shortlog -s --since "5 months ago"
 
-----------
-##### &#8227; Who should I ask for help with module `src/controllers/CoolWidgetController`?  
+##### Who should I ask for help with module `src/controllers/CoolWidgetController`?  
 
     git shortlog -s -- src/controllers/CoolWidgetController
 
@@ -56,9 +53,8 @@ The person with the most commits in that folder is probably a good start. If
 they're not on the project anymore, try the next highest &mdash; or add a `--since`
 filter to only look at recent commits.
 
-----------
 #### What...
-##### &#8227; What commits relate to JIRA ticket FOO-164?  
+##### What commits relate to JIRA ticket FOO-164?  
 
 If you are in the habit of putting the ticket slug in the commit message
 
@@ -66,8 +62,7 @@ If you are in the habit of putting the ticket slug in the commit message
 
 Or, try another search term instead of "FOO-164".
 
-----------
-##### &#8227; What is different between branch 'feature/foo' and branch 'master'?  
+##### What is different between branch 'feature/foo' and branch 'master'?  
 
     git diff --name-status master feature/foo
 
@@ -81,8 +76,7 @@ If you only care about files that have been, for example, deleted
 See `git help diff` and search for `--diff-filter` for additional filters
 (modified, created, etc.).
 
-----------
-##### &#8227; What branches exist locally? And on the remotes?  
+##### What branches exist locally? And on the remotes?  
 
     git branch
     git branch --all
@@ -91,8 +85,7 @@ And if you're looking for a specific branch, you can pipe the output to `grep`
 (bash) or `Select-String` (PowerShell) to narrow down the list.
 
     git branch --all | grep foo
-----------
-##### &#8227; What files have changed in the past two weeks  
+##### What files have changed in the past two weeks  
 
     git log --name-only --pretty= --since "2 weeks ago"
 
@@ -105,14 +98,12 @@ determines what to show for the commit summary; by setting it to an empty value,
 no commit summary will be shown. All you'll see is the `--name-only` output that
 lists the names of affected files.
 
-----------
-##### &#8227; What have I done this week?  
+##### What have I done this week?  
 
     git log --author "My Name" --since "1 week ago"
 
-----------
 #### Other
-##### &#8227; When was this regression introduced?  
+##### When was this regression introduced?  
 
 When you know that the code worked at a certain commit (say, 1 month ago) but
 doesn't work now, `git bisect` will help you efficiently search through all the
@@ -126,8 +117,7 @@ commits. Either you check each commit manually and tell git that it's "good" or
 "bad", or you provide git with a script to check if a given commit is "good" or
 "bad" automatically.
 
-----------
-##### &#8227; Will there be merge conflicts if I merge master into my branch?  
+##### Will there be merge conflicts if I merge master into my branch?  
 This command does change your working copy, so make sure all your local changes
 are committed or stashed before the following:
 
@@ -140,8 +130,7 @@ are committed or stashed before the following:
 ### Disaster Recovery
 You've messed something up, now what?
 
-----------
-##### &#8227; You deleted your branch before pushing  
+##### You deleted your branch before pushing  
 
 Don't worry, it's not gone! There's a detailed walk-through on this blog post:
 [Recover a git branch you accidentally
@@ -159,8 +148,7 @@ idea is:
 
 The details are all in that blog post.
 
-----------
-##### &#8227; Your commits are mixed with other commits that don't belong  
+##### Your commits are mixed with other commits that don't belong  
 Maybe because you merged the wrong branch in and then kept committing, or
 because you started work in the wrong branch, or for whatever reason you have a
 commit you don't want followed by a commit you do want.
@@ -179,14 +167,12 @@ commit you don't want followed by a commit you do want.
 Now, the branch that was once all messed up has only the commits you want, on
 top of branch that you meant to be building on top of.
 
-----------
-##### &#8227; Your most recent commit has the wrong commit message  
+##### Your most recent commit has the wrong commit message  
 This one's straightforward:
 
     git commit --amend
 
-----------
-##### &#8227; You notice that several commits back you have a bad commit message  
+##### You notice that several commits back you have a bad commit message  
 Find the commit hash of the commit before the one you want to rename, then:
 
     git rebase -i <that-hash>
@@ -197,7 +183,7 @@ want to rename, replace `pick` with `reword`. Git will re-apply each commit one
 at a time, and for the ones you marked as `reword` you will be prompted to edit
 the commit message.
 
-##### &#8227; You want to combine several commits  
+##### You want to combine several commits  
 Maybe you notice that two commits back you have several commits with a summary
 "wip" and "more wip". Those should probably be combined with the commit after
 them. 
@@ -236,7 +222,7 @@ The full options for rebasing are (you'll see this help message when you execute
     # If you remove a line here THAT COMMIT WILL BE LOST.
 
 
-##### &#8227; You need to rewrite history that you've already pushed  
+##### You need to rewrite history that you've already pushed  
 The tips above explain how to rewrite your git history. When you haven't pushed
 those commits yet, that's all fine and well. However, once you've pushed your
 commits, they're part of the shared history and you have no business rewriting
@@ -259,6 +245,9 @@ not depends on how much your team cares about having a well-curated git history.
 ### General tips
  - Choose an editor you like for you commit message &mdash; you don't have to
    use vim
+   - See [this list of suggestions for editor
+     config](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)
+     (scroll to the "git config editor - core.editor" section)
  - While working on a feature branch, if you rebase regularly from the base
    branch you can avoid larger merge conflicts when you merge back to the base.
  - [Commit message suggestions](/blog/git-commit-message-template.html)
