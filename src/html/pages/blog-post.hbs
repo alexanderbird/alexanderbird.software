@@ -7,7 +7,7 @@
     {{> organisms/blog-header header }}
     <section class='pages__blog-post__body'>
       <h2>{{{title}}}</h2>
-      <p>{{{subtitle}}}</p>
+      {{#if subtitle}}<p>{{{subtitle}}}</p>{{/if}}
       {{{ markdown content }}}
       {{#if twitter}}
         <hr/>
