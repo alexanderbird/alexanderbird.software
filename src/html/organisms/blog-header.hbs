@@ -1,9 +1,14 @@
 <header class='organisms__blog-header'>
+  <a class='organisms__blog-header__home-link' href='/blog' title='Home Page'>
+    {{> atoms/svg-icon name='ab-initials' class='' }}
+    <span>Home</span>
+  </a>
   <div class='organisms__blog-header__title-area'>
     <h1 class='organisms__blog-header__title'>{{{title}}}</h1>
     <div class='organisms__blog-header__subtitle'>{{{subtitle}}}</div>
   </div>
-  <a class='organisms__blog-header__home-link' href='/blog' title='Home Page'>
+  <a class='organisms__blog-header__about-link' href='/' title='About'>
     {{> atoms/svg-icon name='home' class='' }}
+    <span>About</span>
   </a>
 </header>

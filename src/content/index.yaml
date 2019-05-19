@@ -136,6 +136,7 @@ hobby-experience:
       title: Questions and answers I've contributed to on Stack Overflow
       url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
     - icon: ab-initials
+      internal-link: true
       alt: 'Software Blog'
       title: Software Blog
       url: /blog

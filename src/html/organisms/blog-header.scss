@@ -5,7 +5,7 @@
   top: 0;
   left: 0;
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   width: 100%;
   background: linear-gradient(
     var(--color-background),
@@ -15,7 +15,8 @@
   border-bottom: 2px solid var(--color-background);
 
   .organisms__blog-header__title-area {
-    margin-left: 16px;
+    margin-left: 0;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -29,17 +30,21 @@
       font-style: italic;
       display: none;
 
-      @media (min-width: 300px) {
+      @media (min-width: 340px) {
         display: initial;
       }
     }
   }
 
-  .organisms__blog-header__home-link {
-    margin-left: auto;
+  .organisms__blog-header__home-link,
+  .organisms__blog-header__about-link {
     min-height: initial;
+    margin-top: auto;
+    margin-bottom: auto;
     .atoms__svg-icon {
-      margin: auto;
+      margin: 0;
+      margin-left: auto;
+      margin-right: auto;
       min-height: initial;
       --icon-color-primary: var(--color-secondary);
       --icon-width: 32px;
@@ -47,8 +52,16 @@
     height: var(--blog-header-height);
     width: var(--blog-header-height);
     display: flex;
+    flex-direction: column;
     align-content: center;
     justify-content: center;
+    text-align: center;
+    font-size: 0.8em;
+    text-decoration: none;
+  }
+  .organisms__blog-header__about-link {
+    justify-self: flex-end;
+    margin-left: auto;
   }
 
 }

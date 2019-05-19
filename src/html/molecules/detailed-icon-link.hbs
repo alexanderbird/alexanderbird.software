@@ -2,7 +2,7 @@
   class='reset molecules__detailed-icon-link'
   href='{{url}}'
   alt='{{alt}}'
-  target='_blank'
+  {{#if internal-link}}{{else}}target='_blank'{{/if}}
   >
   {{> atoms/svg-icon name=icon }}
   <span class='molecules__detailed-icon-link__text'>{{title}}</span>
