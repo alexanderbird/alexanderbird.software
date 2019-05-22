@@ -8,11 +8,11 @@
 }
 
 .printer-friendly-version:target .atoms__card {
-  border-top: 1px solid var(--color-secondary);
   margin: unset;
   border: unset;
   border-radius: unset;
   padding: unset;
   background-color: unset;
   animation: unset;
+  border-top: 1px solid var(--color-secondary);
 }
