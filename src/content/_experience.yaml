@@ -1,6 +1,6 @@
 - client: Oilfield services
   client-size: publicly traded
-  summary: 
+  summary: Real-Time Well Monitoring Dashboard 
   title: Software Developer
   employer: Arcurve Inc
   team-size: 2
@@ -8,8 +8,10 @@
   is-ongoing: true
   role: Tech Lead
   comments:
-    - Prototyped experimental data visualizations with Highcharts based on mockups provided to me
+    - Led Domain Driven Design style modelling session with team to clarify the problem statement and approach
+    - Prototyped experimental data visualizations with Highcharts from provided mockups
     - Setup project build & test infrastructure (using Lerna to manage the monorepo; auto-generating the Angular SDK from the API Swagger doc)
+    - Built inexpensive demo infrastructure so we can deploy before the upstream integration points (external team) are available
     - Conducted job interviews
   stack:
     column:
