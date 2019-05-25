@@ -8,7 +8,7 @@
   is-ongoing: true
   role: Tech Lead
   comments:
-    - Led Domain Driven Design style modelling session with team to clarify the problem statement and approach
+    - Led Domain Driven Design style modelling session with team (incl. user researcher, UX, and PM) to clarify the problem statement and approach
     - Prototyped experimental data visualizations with Highcharts from provided mockups
     - Setup project build & test infrastructure (using Lerna to manage the monorepo; auto-generating the Angular SDK from the API Swagger doc)
     - Built inexpensive demo infrastructure so we can deploy before the upstream integration points (external team) are available
