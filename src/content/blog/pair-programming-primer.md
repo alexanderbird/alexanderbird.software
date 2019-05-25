@@ -63,3 +63,8 @@ experience:
    Programming](https://www.agilealliance.org/resources/experience-reports/mob-programming-agile2014/)
    has a lot of great material which applies equally well to pairing
 
+### More Reading
+- [Mob programming role playing
+  game](https://github.com/willemlarsen/mobprogrammingrpg). Even if you don't
+  play it as a game, it provides an inventory of many different hats you can
+  wear when working collaboratively.
