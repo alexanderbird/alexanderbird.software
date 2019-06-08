@@ -1,0 +1,101 @@
+meta:
+  pageTemplate: blog-book-list-post
+
+title: Reading List
+subtitle: Books I've found helpful or want to read soon
+#twitter: https://twitter.com/alexander_bird/status/
+date: 2019-06
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+
+books:
+  - category: Software Structure
+    books:
+      - title: Building Evolutionary Architectures
+        author: Ford, Parsons, & Kua
+        link: https://www.oreilly.com/library/view/building-evolutionary-architectures/9781491986356/
+        notes: How to build software that maintains its virtues as it grows and changes
+      - title: Domain-Driven Design
+        subtitle: Tackling Complexity in the Heart of Software
+        author: Evans
+        link: https://www.oreilly.com/library/view/domain-driven-design-tackling/0321125215/
+        notes: |
+          How to architect software to make that solves real problems and can
+          be adapted easily to solve new problems (by making it easy to
+          collaborate with non-technical domain experts).
+      - title: Refactoring
+        subtitle: Improving the Design of Existing Code
+        author: Fowler
+        link: https://www.oreilly.com/library/view/refactoring-improving-the/0201485672/
+        new-revision-available: true
+        notes: Detailed instructions and examples about how to change code without breaking it.
+      - title: Design Patterns
+        subtitle: Elements of Reusable Object-Oriented Software
+        author: Gamma, Helm, Johnson, & Vlissides
+        link: https://www.oreilly.com/library/view/design-patterns-elements/0201633612/
+        notes: |
+          An inventory of ways to structure your code to solve certain technical
+          problems (including examples and notes on when to prefer one over the
+          other)
+
+  - category: Process
+    books:
+      - title: Software Design X-Rays
+        subtitle: Fix Technical Debt with Behavioral Code Analysis
+        author: Tornhill
+        link: https://pragprog.com/book/atevol/software-design-x-rays
+        notes: |
+          Uncovering coupling, pain-points, technical debt, who has what
+          expertise, team boundaries, and many other useful things using your
+          git repository, git commands, and bash.
+      - title: Lean Thinking
+        subtitle: Banish Waste and Create Wealth in Your Corporation
+        author: Womack & Jones
+        link: https://www.simonandschuster.com/books/Lean-Thinking/James-P-Womack/9780743249270
+        notes: |
+          How to focus on the useful things and remove the useless things so you
+          can deliver more value more effectively. Many case studies.
+      - title: Rework
+        author: Fried & Hansson
+        link: https://basecamp.com/books/rework
+        notes: |
+          Advice about professional attitudes and values that lead to healthy
+          and effective software development
+      - title: The Practice of Creativity
+        subtitle: A Manual for Dynamic Group Problem-Solving
+        author: Prince
+        link: https://www.amazon.com/Practice-Creativity-Manual-Dynamic-Problem-Solving/dp/0963878484
+        notes: How to run a really effective brainstorming session
+
+  - category: Web UI
+    books:
+      - title: Don’t Make Me Think!
+        subtitle: A Common Sense Approach to Web Usability
+        author: Krug
+        new-revision-available: true
+        link: https://www.oreilly.com/library/view/dont-make-me/0321344758/
+      - title: Defensive Design for the Web
+        subtitle: How to improve error messages, help, forms, and other crisis points
+        author: 37signals
+        link: https://www.amazon.ca/Defensive-Design-Web-improve-messages/dp/073571410X
+
+  - category: Want to Read
+    books:
+      - title: User Story Mapping
+        subtitle: Discover the whole story, build the right product
+        author: Patton
+        link: https://www.oreilly.com/library/view/user-story-mapping/9781491904893/
+      - title: Working Effectively with Legacy Code
+        author: Feathers
+        link: https://www.oreilly.com/library/view/working-effectively-with/0131177052/
+      - title: Beyond Legacy Code
+        subtitle: Nine Practices to Extend the Life (and Value) of Your Software
+        author: Bernstein
+        link: https://pragprog.com/book/dblegacy/beyond-legacy-code
+      - title: An Elegant Puzzle
+        subtitle: Systems of Engineering Management
+        author: Larson
+        link: https://lethain.com/elegant-puzzle/
+

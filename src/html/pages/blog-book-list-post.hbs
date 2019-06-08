@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang='en'>
+  {{> invisible/html-head title=header.title}}
+  {{#> atoms/html-body class='pages__blog-book-list-post' }}
+    {{> invisible/signature }}
+    {{> invisible/icon-symbols }}
+    {{> organisms/blog-header header }}
+    <section class='pages__blog-post page__blog-book-list-post__body'>
+      {{#each books}}
+        <h3>{{{this.category}}}</h3>
+        {{#each this.books}}
+          {{> molecules/book-summary this }}
+        {{/each}}
+      {{/each}}
+    </section>
+    <footer class='pages__blog-book-list-post__footer'>
+      {{> atoms/copyright-footer copyright }}
+    </footer>
+  {{/atoms/html-body}}
+</html>
