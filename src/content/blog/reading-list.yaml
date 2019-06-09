@@ -92,10 +92,10 @@ books:
       - title: Working Effectively with Legacy Code
         author: Feathers
         link: https://www.oreilly.com/library/view/working-effectively-with/0131177052/
-      - title: Beyond Legacy Code
-        subtitle: Nine Practices to Extend the Life (and Value) of Your Software
-        author: Bernstein
-        link: https://pragprog.com/book/dblegacy/beyond-legacy-code
+      - title: Extreme Programming Explained
+        subtitle: Embrace Change
+        author: Beck & Andres
+        link: https://www.oreilly.com/library/view/extreme-programming-explained/0321278658/
       - title: An Elegant Puzzle
         subtitle: Systems of Engineering Management
         author: Larson
