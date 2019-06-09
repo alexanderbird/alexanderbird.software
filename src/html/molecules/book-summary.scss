@@ -41,6 +41,7 @@
   .molecules__book-summary__link {
     display: block;
     margin-top: 16px;
+    max-width: 32px;
     --icon-color-primary: var(--color-primary);
     --icon-color-secondary: var(--color-secondary);
     --icon-width: 32px;
