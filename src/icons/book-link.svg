@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <path d="M 1.927 12.112 C 1.927 12.112 2.089 20.87 10.019 20.996 C 10.096 20.998 105.01 20.348 105.01 20.348 L 105.543 121.99 C 105.543 121.99 10.676 122.393 10.372 122.393 C 5.688 122.393 1.892 117.938 1.892 112.443 C 1.892 111.379 1.989 12.448 1.989 12.075 C 1.989 7.144 5.044 3.053 9.054 2.262 L 76.13 2.369" style="fill: none; stroke: var(--icon-color-primary, #000); stroke-linejoin: round; stroke-linecap: round; stroke-width: 3px;"/>
+  <path style="stroke: var(--icon-color-primary, #000); stroke-linecap: round; stroke-width: 3px;" d="M 11.498 11.656 L 86.803 11.124"/>
+  <path style="stroke: var(--icon-color-primary, #000); fill: var(--icon-color-secondary, #777); stroke-linejoin: round; stroke-width: 3px;" d="M 31.082 73.88 C 31.082 73.88 74.489 107.623 99.785 27.288 C 100.129 26.195 82.637 20.575 82.637 20.575 L 117.531 2.653 L 125.57 37.824 C 125.57 37.824 110.777 30.452 110.301 31.485 C 74.751 108.507 31.082 73.88 31.082 73.88 Z"/>
+</svg>

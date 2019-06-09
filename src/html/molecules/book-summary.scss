@@ -1,0 +1,63 @@
+.molecules__book-summary {
+  width: auto;
+  height: auto;
+  margin: 0 auto 0 0;
+  border-style: solid;
+  border-left-width: 2px;
+  border-top-width: 2px;
+  border-bottom-width: 2px;
+  border-right-width: 0;
+  border-color: var(--color-primary);
+  border-image: linear-gradient(
+    to right,
+    var(--color-primary),
+    transparent
+  ) 1;
+  
+  padding: 16px;
+
+  background-image: linear-gradient(to right, transparent, transparent);
+  transition: background-image 0.5s ease;
+
+  &:hover {
+    background-image: linear-gradient(to right, var(--color-tertiary), transparent);
+  }
+
+  .molecules__book-summary__title {
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+
+  .molecules__book-summary__subtitle {
+    font-size: 1.1em;
+    margin-bottom: 8px;
+  }
+
+  .molecules__book-summary__author {
+    font-style: italic;
+    margin-bottom: 8px;
+  }
+
+  .molecules__book-summary__link {
+    display: block;
+    margin-top: 16px;
+    --icon-color-primary: var(--color-primary);
+    --icon-color-secondary: var(--color-secondary);
+    --icon-width: 32px;
+
+    &:hover {
+      --icon-color-primary: var(--color-accent-darker);
+      --icon-color-secondary: var(--color-accent-darker);
+    }
+
+    display: flex;
+    flex-direction: column;
+  }
+
+  .molecules__book-summary__notes {
+    &:not(:empty):before {
+      content: 'Notes: ';
+      color: var(--color-secondary);
+    }
+  }
+}

@@ -1,5 +1,10 @@
 <div class='molecules__book-summary'>
-  <h4>{{title}}{{#if subtitle}}: {{subtitle}}{{/if}}</h4>
-  <span><i>{{author}}</i> <a href='{{link}}' target='_blank'>details</a></span>
-  <p>{{{notes}}}</p>
+  <div class='molecules__book-summary__title'>{{{title}}}</div>
+  <div class='molecules__book-summary__subtitle'>{{{subtitle}}}</div>
+  <div class='molecules__book-summary__author'>{{{author}}}</div>
+  <div class='molecules__book-summary__notes'>{{{notes}}}</div>
+  <a class='molecules__book-summary__link' href='{{link}}' target='_blank'>
+    {{> atoms/svg-icon name='book-link' alt='Link to Book Details'}}
+    <span class='molecules__book-summary__link-text'>Book</span>
+  </a>
 </div>

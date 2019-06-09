@@ -12,6 +12,7 @@ header:
 
 books:
   - category: Software Structure
+    intro: Books about how to structure your software
     books:
       - title: Building Evolutionary Architectures
         author: Ford, Parsons, & Kua
@@ -40,7 +41,8 @@ books:
           problems (including examples and notes on when to prefer one over the
           other)
 
-  - category: Process
+  - category: Process & People
+    intro: Books about software development process and how we collaborate
     books:
       - title: Software Design X-Rays
         subtitle: Fix Technical Debt with Behavioral Code Analysis

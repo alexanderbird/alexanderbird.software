@@ -1,10 +1,21 @@
 .pages__blog-book-list-post {
-  margin-top: var(--blog-header-height);
+  margin-top: calc(var(--blog-header-height) + 24px);
   max-width: 800px;
-  .page__blog-book-list-post__body {
-    display: flex;
-    flex-direction: column;
+  .pages__blog-book-list-post__section {
+    margin-bottom: 32px;
+
+    .pages__blog-book-list-post__section-intro:not(:empty) {
+      margin-bottom: 16px;
+    }
+
+    .pages__blog-book-list-post__book-grid {
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      grid-template-rows: repeat(auto-fill, 1fr);
+    }
   }
+
   .pages__blog-book-list-post__footer {
     padding: 8px;
   }
