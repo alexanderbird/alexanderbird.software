@@ -1,0 +1,10 @@
+meta:
+  pageTemplate: blog-post
+
+title: Getting Help as a Software Developer
+subtitle: Links to resources and tutorials covering basic, (boring?), but essential skills for a software developer.
+date: 2019-09
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json

@@ -85,6 +85,10 @@ books:
 
   - category: Want to Read
     books:
+      - title: Waltzing with Bears
+        subtitle: Managing Risk on Software Projects
+        author: DeMarko & Lister
+        link: https://www.oreilly.com/library/view/waltzing-with-bears/9780133492248/
       - title: User Story Mapping
         subtitle: Discover the whole story, build the right product
         author: Patton
