@@ -24,6 +24,10 @@
       content: '|';
     }
   }
+
+  .organisms__experience-tile__comments {
+    padding-left: 20px;
+  }
 }
 
 @mixin organisms__experience-tile--large {

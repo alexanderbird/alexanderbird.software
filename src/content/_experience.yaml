@@ -1,11 +1,46 @@
+
+- summary: Modifying a Legacy Application
+  employer: Shareworks by Morgan Stanley
+  # When this isn't ongoing, change to past tense
+  ongoing-since: July 2019
+  role: Sr. Developer
+  comments:
+    - Mob and pair program to add features to a legacy Java application
+    - Familiarize myself with a new area of code each month (every team can be assigned to work on any area of the code)
+    - Story-splitting and user story mapping
+    - Refactor partially tested legacy code (safely) to make it easier to change
+    - Demo weekly to clients
+    - main: Take initiative to improve shared automation and tooling
+      sub:
+        - published a command line interface (with tab completion) to abstract,
+          document, and improve common developer commands (people actually use it
+          and submit PRs)
+        - wrote a small Ruby on Rails tool to make test failure results easier
+          to triage (still in trial/demo stage)
+  team-size: "> 100"
+  stack:
+    column:
+      - box:
+          label: Web Browser
+          column:
+            - row:
+                - HTML
+                - CSS
+                - JavaScript
+            - various UI frameworks
+      - connection: HTTP
+      - box:
+          label: Server
+          row: 
+            - Java 8
+            - Oracle Database
+
 - client: Oilfield services
   client-size: publicly traded
   summary: Real-Time Well Monitoring Dashboard 
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 2
-  duration-in-months: 2
-  is-ongoing: true
+  duration-in-months: 4
   role: Tech Lead
   comments:
     - Led Domain Driven Design style modelling session with team (incl. user researcher, UX, and PM) to clarify the problem statement and approach
@@ -51,7 +86,6 @@
 - client: Corporate minutebook management
   client-size: startup
   summary: Reverse Engineering
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 1
   duration-in-months: 5
@@ -90,7 +124,6 @@
 - client: Telecommunications provider
   client-size: publicly traded
   summary: Team Lead
-  title: Software Developer Team Lead
   employer: Arcurve Inc
   team-size: 8
   duration-in-months: 6
@@ -133,7 +166,6 @@
 - client: Professional certification auditing
   client-size: startup
   summary: Architected for Reuse
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 3
   duration-in-months: 3
@@ -186,7 +218,6 @@
 - client: Video conferencing
   summary: Browser WebRTC Protocol Deep Dive
   client-size: private corporation
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 2
   duration-in-months: 12
@@ -234,7 +265,6 @@
 - client: Land acquisition service provider 
   summary: Following Patterns; Accepting Feedback
   client-size: private corporation
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 2
   duration-in-months: 4
@@ -269,7 +299,6 @@
 - client: Surplus oilfield equipment broker
   summary: Navigated Technical Debt
   client-size: startup
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 1
   duration-in-months: 4
@@ -297,7 +326,6 @@
 - client: Oilfield services
   summary: TDD & Version Control with Excel VBA
   client-size: publicly traded
-  title: Software Developer
   employer: Arcurve Inc
   team-size: 1
   duration-in-months: 3
@@ -316,7 +344,6 @@
       - Version Control
 
 - summary: Software Engineering Decision Support Lab
-  title: Software Developer / Research Assistant
   employer: University of Calgary
   duration-in-months: 4
   role: Research Assistant
