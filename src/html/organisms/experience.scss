@@ -2,6 +2,8 @@
   --atoms--grid-columns: 2;
   --atoms--grid-columns--print: 1;
 
+  break-inside: avoid;
+
   .organisms__experience__section-header {
     font-size: 1.5em;
   }
@@ -22,6 +24,7 @@
 
   .organisms__experience__experiences,
   .organisms__experience__summary {
+    break-inside: avoid;
     margin-left: 16px;
   }
 
