@@ -1,0 +1,11 @@
+meta:
+  pageTemplate: blog-post
+
+title: Foundational Software Development Skills
+subtitle: Links to resources and tutorials covering basic, (boring?), but essential skills for a software developer.
+twitter: https://twitter.com/alexander_bird/status/1178055669921878016
+date: 2019-09
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json

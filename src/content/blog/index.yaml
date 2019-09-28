@@ -7,6 +7,7 @@ copyright:
 header:
   $ref: ./_header.json
 posts:
+  - $ref: ./foundational-software-development-skills.json
   - $ref: ./getting-help-as-a-software-developer.json
   - $ref: ./reading-list.json
   - $ref: ./git-recipe-book.json

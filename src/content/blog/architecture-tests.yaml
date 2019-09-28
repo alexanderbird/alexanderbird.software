@@ -2,7 +2,7 @@ meta:
   pageTemplate: blog-post
 
 title: Architecture Tests in JavaScript
-subtitle: Communicating big-picture architecture to the team with automated tests
+subtitle: Communicating big-picture architecture with your team with automated tests
 url: architecture-tests.html
 date: 2019-03
 copyright:
