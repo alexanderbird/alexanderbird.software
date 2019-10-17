@@ -2,6 +2,12 @@
   position: fixed;
   z-index: 1;
   height: var(--blog-header-height);
+
+  @media print {
+    position: relative;
+    height: auto;
+  }
+
   top: 0;
   left: 0;
   display: flex;

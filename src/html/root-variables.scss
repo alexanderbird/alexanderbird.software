@@ -7,4 +7,8 @@
   --color-accent-darker: #4f7d28;
   --box-shadow: 4px 4px 4px var(--color-secondary);
   --blog-header-height: 64px;
+
+  @media print {
+    --blog-header-height: 0;
+  }
 }
