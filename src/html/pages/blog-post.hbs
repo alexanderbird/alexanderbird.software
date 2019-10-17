@@ -1,6 +1,12 @@
 <!DOCTYPE html>
 <html lang='en'>
-  {{> invisible/html-head title=(concat title ' &bull; ' header.title)}}
+  {{#> invisible/html-head title=(concat title ' &bull; ' header.title)}}
+    {{> invisible/meta-tags
+      meta-tags
+      title=title
+      description=subtitle
+    }}
+  {{/invisible/html-head}}
   {{#> atoms/html-body class='pages__blog-post' }}
     {{> invisible/signature }}
     {{> invisible/icon-symbols }}
