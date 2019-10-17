@@ -5,8 +5,11 @@
 
   h3 { 
     font-size: 1.2em;
+    margin-top: 32px;
+    margin-bottom: 4px;
     --h-overline-height: 8px;
     @media (min-width: 800px) {
+      margin-top: 16px;
       --h-overline-outdent: 20px;
     }
   }
@@ -45,6 +48,10 @@
       border-top-width: var(--h-overline-height);
       border-top-style: solid;
       border-image: linear-gradient(to right, var(--color-secondary), transparent 20%) 1;
+    }
+
+    & + ul {
+      margin-top: 0;
     }
   }
   min-height: calc(100vh - 8px - var(--blog-header-height));

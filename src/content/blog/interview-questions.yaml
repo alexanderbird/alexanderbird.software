@@ -1,0 +1,11 @@
+meta:
+  pageTemplate: blog-post
+
+title: Interview Questions
+subtitle: Questions for job candidates to ask interviewers
+twitter: https://twitter.com/alexander_bird/status/1184644199133507584
+date: 2019-10
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
