@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Algorithms in a Nutshell
+subtitle: Notes from reading the book. (Work in progress.)
+date: 2019-10
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

@@ -22,6 +22,7 @@
    - How are architectural decisions made?
 
 ### Release Cadence
+ - How do you know what you're working on solves a real problem?
  - What's the process between "it works on my machine" to running in production?
  - What is the mechanism for getting feedback from users?
  - How long from completing some code to getting feedback from people using
@@ -34,9 +35,12 @@
    - What is the general philosophy on slack time? How does that impact
      day to day work?
    - How do lean principles play out in day to day work?
+   - How is this team's performance evaluated? How does the team find out?
+   - What are one-on-one's like?
  - Regarding the folks who manage this team's managers:
    - What is their philosophy on risk, scheduling, estimates, and predictions?
    - How is disappointment and/or excitement communicated down to the team?
+   - How is this team's performance evaluated? How does the team find out?
  - How does this product make the company money? How does your work impact that?
 
 ### A day in the life

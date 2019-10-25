@@ -73,6 +73,18 @@ books:
         link: https://www.amazon.com/Practice-Creativity-Manual-Dynamic-Problem-Solving/dp/0963878484
         notes: How to run a really effective brainstorming session
 
+  - category: Design & Planning
+    intro: Books about how we decide what software to build
+    books:
+      - title: User Story Mapping
+        subtitle: Discover the whole story, build the right product
+        author: Patton
+        link: https://www.oreilly.com/library/view/user-story-mapping/9781491904893/
+        notes: |
+          An approach to eliciting, organizing, and collaborating on the details of what
+          the software should do without losing sight of the big picture. So much better than
+          a flat backlog in Jira.
+
   - category: Web UI
     books:
       - title: Don’t Make Me Think!
@@ -85,16 +97,25 @@ books:
         author: 37signals
         link: https://www.amazon.ca/Defensive-Design-Web-improve-messages/dp/073571410X
 
+  - category: Reading
+    books: 
+      - title: Algorithms in a Nutshell
+        subtitle: A Desktop Quick Reference
+        author: Pollice, Selkow, & Heineman
+        link: http://shop.oreilly.com/product/9780596516246.do
+        blog: algorithms-in-a-nutshell
+        notes: Practical suggestions for writing performance-optimized software
+
   - category: Want to Read
     books:
+      - title: Domain Storytelling
+        subtitle: A Collaborative Modeling Method
+        link: https://leanpub.com/domainstorytelling
+        author: Hofer & Schwentner
       - title: Waltzing with Bears
         subtitle: Managing Risk on Software Projects
         author: DeMarko & Lister
         link: https://www.oreilly.com/library/view/waltzing-with-bears/9780133492248/
-      - title: User Story Mapping
-        subtitle: Discover the whole story, build the right product
-        author: Patton
-        link: https://www.oreilly.com/library/view/user-story-mapping/9781491904893/
       - title: Working Effectively with Legacy Code
         author: Feathers
         link: https://www.oreilly.com/library/view/working-effectively-with/0131177052/

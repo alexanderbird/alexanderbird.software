@@ -51,21 +51,26 @@
     margin-bottom: 8px;
   }
 
-  .molecules__book-summary__link {
-    display: block;
-    margin-top: 16px;
-    max-width: 32px;
-    --icon-color-primary: var(--color-primary);
-    --icon-color-secondary: var(--color-secondary);
-    --icon-width: 32px;
-
-    &:hover {
-      --icon-color-primary: var(--color-accent-darker);
-      --icon-color-secondary: var(--color-accent-darker);
-    }
-
+  .molecules__book-summary__link-row {
     display: flex;
-    flex-direction: column;
+
+    .molecules__book-summary__link {
+      display: inline;
+      margin-top: 16px;
+      margin-right: 16px;
+      max-width: 32px;
+      --icon-color-primary: var(--color-primary);
+      --icon-color-secondary: var(--color-secondary);
+      --icon-width: 32px;
+
+      &:hover {
+        --icon-color-primary: var(--color-accent-darker);
+        --icon-color-secondary: var(--color-accent-darker);
+      }
+
+      display: flex;
+      flex-direction: column;
+    }
   }
 
   .molecules__book-summary__notes {
