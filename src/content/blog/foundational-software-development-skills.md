@@ -71,6 +71,8 @@ Changing the code structure without changing the behaviour
   - [How to quickly and effectively read other people’s code](https://selftaughtcoders.com/how-to-quickly-and-effectively-read-other-peoples-code/)
     - (I find the first half with code examples more helpful than the second
       half about chickens.) 
+  - [How do you go about getting familiar with a code written by someone
+    else?](https://www.quora.com/How-do-you-go-about-getting-familiar-with-a-code-written-by-someone-else/answer/Jeff-Langr?srid=RjMI)
 
 ### Finding Code in the Code Base
 full text search (`ack` / `grep -E` / `git grep -E`)
