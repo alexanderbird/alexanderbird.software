@@ -87,4 +87,18 @@
   .pages__blog-post__footer {
     padding: 8px;
   }
+
+  &__slimmer-blockquotes {
+    blockquote {
+      padding-top: 0;
+      padding-right: 0;
+      padding-bottom: 0;
+      margin-top: 0;
+      margin-bottom: 0;
+
+      p {
+        margin: 0;
+      }
+    }
+  }
 }
