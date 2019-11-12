@@ -49,3 +49,13 @@
  - Every job has frustrations. What's frustrating here?
  - Do you have a technical leader who takes time to teach/coach you? What's that like?
  - What do you do when you disagree with a decision made by someone else that impacts you?
+
+### Work Life Balance
+ - Does anyone work from home from time to time? What's the policy around that?
+   What's the culture around that?
+ - When you're sick, do you keep working through it?
+ - What hours do you & your team normally work? How does that change when
+   things are behind schedule?
+ - When was the last time that everything was "on fire"? How often does that
+   happen?
+
