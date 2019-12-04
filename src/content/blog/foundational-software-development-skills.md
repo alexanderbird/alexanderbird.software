@@ -11,6 +11,8 @@
 - [Git Basics](https://git-scm.com/book/en/v1/Git-Basics)
 - [Git merge
   conflicts](https://www.atlassian.com/git/tutorials/using-branches/merge-conflicts)
+- [Git workflow for open source projects](https://github.com/firstcontributions/first-contributions)
+  - useful for your first time in any medium sized team and above
 
 ### Unit Testing
   - [Unit Testing

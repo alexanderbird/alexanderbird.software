@@ -84,6 +84,15 @@ books:
           An approach to eliciting, organizing, and collaborating on the details of what
           the software should do without losing sight of the big picture. So much better than
           a flat backlog in Jira.
+      - title: No Estimates
+        subtitle: How to measure project progress without estimating
+        author: Duarte
+        link: http://noestimatesbook.com
+        notes: |
+          Estimates help us plan because they help us answer several important questions.
+          This book presents an alternative method that is more effective and less effort
+          than traditional estimates.
+        blog: no-estimates
 
   - category: Web UI
     books:
@@ -108,6 +117,33 @@ books:
 
   - category: Want to Read
     books:
+      - title: How Google Works
+        author: Schmidt
+        link: https://www.amazon.ca/How-Google-Works-Eric-Schmidt/dp/1455582328
+      - title: Powerful
+        subtitle: Building a Culture of Freedom and Responsibility
+        link: https://www.amazon.com/Powerful-Building-Culture-Freedom-Responsibility/dp/1939714095
+        author: McCord
+      - title: The Lean Startup
+        subtitle: How Today's Entrepreneurs Use Continuous Innovation to Create Radically Successful Businesses
+        link: https://www.amazon.ca/Lean-Startup-Entrepreneurs-Continuous-Innovation/dp/0307887898
+        author: Ries
+      - title: Team Topologies
+        subtitle: Organizing Business and Technology Teams for Fast Flow
+        link: https://www.amazon.ca/Team-Topologies-Organizing-Business-Technology/dp/1942788819/ref=olp_product_details?_encoding=UTF8&me=
+        author: Skelton & Pais
+      - title: Living Documentation by design, with Domain-Driven Design
+        subtitle: Accelerate Delivery Through Continuous Investment on Knowledge
+        author: Martraire
+        link: https://leanpub.com/livingdocumentation
+      - title: Competing with Unicorns
+        subtitle: How the World’s Best Companies Ship Software and Work Differently
+        author: Rasmusson
+        link: https://pragprog.com/book/jragile/competing-with-unicorns
+      - title: Shape Up
+        subtitle: Stop Running in Circles and Ship Work that Matters
+        author: Singer
+        link: https://basecamp.com/shapeup
       - title: Domain Storytelling
         subtitle: A Collaborative Modeling Method
         link: https://leanpub.com/domainstorytelling

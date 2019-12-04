@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: No Estimates
+subtitle: Notes from reading the book.
+date: 2019-11
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
