@@ -17,10 +17,9 @@ GEM
     log4r (1.1.10)
     mini_magick (4.9.2)
     mini_portile2 (2.4.0)
-    nokogiri (1.10.1)
+    nokogiri (1.10.8)
       mini_portile2 (~> 2.4.0)
     parallel (1.12.1)
-    phantomjs (2.1.1.0)
     rake (12.3.2)
     robotex (1.0.0)
     rubyzip (1.2.2)
@@ -44,7 +43,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  phantomjs!
   wraith!
 
 BUNDLED WITH
