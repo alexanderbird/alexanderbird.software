@@ -106,14 +106,21 @@ books:
         author: 37signals
         link: https://www.amazon.ca/Defensive-Design-Web-improve-messages/dp/073571410X
 
-  - category: Reading
-    books: 
+  - category: Other
+    books:
       - title: Algorithms in a Nutshell
         subtitle: A Desktop Quick Reference
         author: Pollice, Selkow, & Heineman
         link: http://shop.oreilly.com/product/9780596516246.do
         blog: algorithms-in-a-nutshell
         notes: Practical suggestions for writing performance-optimized software
+
+  - category: Reading
+    books: 
+      - title: Implementing Domain-Driven Design
+        author: Vernon
+        link: https://www.oreilly.com/library/view/implementing-domain-driven-design/9780133039900/
+        notes: Domain-Driven Design part two.
 
   - category: Want to Read
     books:
