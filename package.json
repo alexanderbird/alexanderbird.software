@@ -4,7 +4,8 @@
   "description": "Resume Website",
   "main": "html/index.html",
   "scripts": {
-    "deploy": "rm -rf html/_test && rm -rf html/private && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
+    "deploy": "npm run _sanitize && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
+    "build:ci": "npm run build && npm run _sanitize",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
     "build:fast:watch": "nodemon --watch src --exec 'npm run build:fast' --ext '*'",
@@ -12,7 +13,8 @@
     "start": "cd html && http-server",
     "test:reset": "cd test && rm -rf shots_base/* && bundle exec wraith history config.yaml",
     "test:vanilla": "cd test && bundle exec wraith latest config.yaml || true",
-    "test": "npm run test:vanilla && open test/shots/gallery.html"
+    "test": "npm run test:vanilla && open test/shots/gallery.html",
+    "_sanitize": "rm -rf html/_test && rm -rf html/private"
   },
   "repository": {
     "type": "git",
