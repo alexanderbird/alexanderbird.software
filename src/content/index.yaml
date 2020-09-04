@@ -20,6 +20,9 @@ contact-methods:
   - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
     text: LinkedIn
     icon: linkedin
+  - link: https://twitter.com/alexander_bird
+    text: Twitter
+    icon: twitter
 
 navigation:
   print-mode:
