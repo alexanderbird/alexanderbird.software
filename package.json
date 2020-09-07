@@ -4,6 +4,7 @@
   "description": "Resume Website",
   "main": "html/index.html",
   "scripts": {
+    "deploy": "npm run _sanitize && s3-static-website-deploy --domain alexanderbird.software --region ca-central-1 --directory html",
     "build:ci": "npm run build && npm run _sanitize",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",

@@ -20,8 +20,9 @@ A resume website.
      - In the CSS for that use of the icon: `--icon-color-primary: yellow;`
 
 ## Deployment
+The static site is hosted on AWS S3, Route 53 for DNS, and CloudFront for SSL termination.
 
-Netlify -- it just works.
+I've published my deployment script on NPM: [s3-static-website-deploy](https://www.npmjs.com/package/s3-static-website-deploy)
 
 ## Testing
 
