@@ -124,6 +124,10 @@ books:
 
   - category: Want to Read
     books:
+      - title: Analysis Patterns
+        subtitle: Reusable Object Models
+        author: Fowler
+        link: https://martinfowler.com/books/ap.html
       - title: How Google Works
         author: Schmidt
         link: https://www.amazon.ca/How-Google-Works-Eric-Schmidt/dp/1455582328
