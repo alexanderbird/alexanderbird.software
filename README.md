@@ -21,7 +21,9 @@ A resume website.
 
 ## Deployment
 
-Netlify -- it just works.
+Netlify -- because it just works.
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/59a8cb3e-65e6-4db6-a9ac-1cdd87f68068/deploy-status)](https://app.netlify.com/sites/alexanderbird-software/deploys)
 
 ## Testing
 
