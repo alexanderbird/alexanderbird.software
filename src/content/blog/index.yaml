@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./introducing-mobbing-with-empathy.json
   - $ref: ./interview-questions.json
   - $ref: ./foundational-software-development-skills.json
   - $ref: ./getting-help-as-a-software-developer.json

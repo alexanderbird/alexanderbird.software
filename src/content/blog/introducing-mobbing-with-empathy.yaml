@@ -1,0 +1,13 @@
+meta:
+  pageTemplate: blog-post
+
+title: Introducing Mobbing with Empathy
+subtitle: Mob Mentality Show (guest appearance)
+date: 2020-11
+twitter: https://twitter.com/mob__mentality/status/1323605691613933568
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
