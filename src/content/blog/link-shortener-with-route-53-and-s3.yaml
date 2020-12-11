@@ -4,6 +4,7 @@ meta:
 title: Link Shortener with Route 53 and S3
 subtitle: Can you make a link shortener with just a DNS? Not quite.
 date: 2020-12
+twitter: https://twitter.com/alexander_bird/status/1337196586078597121
 copyright:
   $ref: ../_copyright.json
 header:
