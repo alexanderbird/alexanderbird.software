@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Link Shortener with Route 53 and S3
+subtitle: Can you make a link shortener with just a DNS? Not quite.
+date: 2020-12
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

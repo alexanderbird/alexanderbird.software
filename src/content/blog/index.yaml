@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./link-shortener-with-route-53-and-s3.json
   - $ref: ./introducing-mobbing-with-empathy.json
   - $ref: ./interview-questions.json
   - $ref: ./foundational-software-development-skills.json
