@@ -1,0 +1,11 @@
+meta:
+  pageTemplate: blog-post
+
+title: Hobby Project Index
+subtitle: An inventory of my favourite side projects (for fun & learning).
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

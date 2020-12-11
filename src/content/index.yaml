@@ -129,7 +129,7 @@ hobby-experience:
     - icon: github
       alt: '@alexanderbird on GitHub'
       title: Hobby projects
-      url: https://github.com/alexanderbird
+      url: /blog/hobby-project-index.html
     - icon: npm
       alt: '@alexanderbird on npm'
       title: Packages I've written
