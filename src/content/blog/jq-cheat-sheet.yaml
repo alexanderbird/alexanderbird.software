@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: jq cheat sheet
+subtitle: Notes on cool things to do with the JSON processor tool
+date: 2020-12
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
