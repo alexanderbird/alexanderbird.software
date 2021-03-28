@@ -7,12 +7,13 @@
     "build:ci": "npm run build && npm run _sanitize",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
-    "build:fast:watch": "nodemon --watch src --exec 'npm run build:fast' --ext '*'",
+    "build:fast:watch": "test -f tmp/dynamic/icons.svg || npm run build:fast:prepare && nodemon --watch src --exec 'npm run build:fast' --ext '*'",
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
     "start": "cd html && http-server",
     "test:reset": "cd test && rm -rf shots_base/* && bundle exec wraith history config.yaml",
     "test:vanilla": "cd test && bundle exec wraith latest config.yaml || true",
     "test": "npm run test:vanilla && open test/shots/gallery.html",
+    "dev": "run-p start build:fast:watch",
     "_sanitize": "rm -rf html/_test && rm -rf html/private"
   },
   "repository": {
@@ -62,6 +63,7 @@
     "http-server": "^0.11.1",
     "marked": "^0.6.2",
     "nodemon": "^1.19.0",
+    "npm-run-all": "^4.1.5",
     "pluralize": "^7.0.0",
     "require-dir": "^1.1.0",
     "s3-static-website-deploy": ">0.0.1"

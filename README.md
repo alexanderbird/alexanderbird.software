@@ -1,5 +1,6 @@
 # alexanderbird.software
-A resume website.
+A classic resume website... excessively customized technical stack when there
+are plenty out of the box tools that would do just as well 😅
 
 ## Architecture
  - content is in **YAML** files
@@ -24,6 +25,10 @@ A resume website.
 Netlify -- because it just works.
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/59a8cb3e-65e6-4db6-a9ac-1cdd87f68068/deploy-status)](https://app.netlify.com/sites/alexanderbird-software/deploys)
+
+## Development
+
+    npm run dev
 
 ## Testing
 
