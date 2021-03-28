@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Just Sharing
+subtitle: a simpler way to tell folks about what's worked for you
+date: 2021-03
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
