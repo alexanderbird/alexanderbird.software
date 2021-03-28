@@ -37,7 +37,7 @@ following ways" than it is to disagree with the statement "You should do X".)
 Since this comes up in conversations with strangers in the internet, I've found
 it helpful to link to the Mob Mentality Show video -- I'll say "I'm just sharing
 (link), but here's what's worked for me ....". To make that even easier, I've
-written a mini-website at [justsharing.dev](justsharing.dev) with the help of
+written a mini-website at [justsharing.dev](https://justsharing.dev) with the help of
 the Mob Mentality Show team.
 
 Feel free to use that link in your online discussions or in conversations with
