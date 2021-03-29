@@ -2,7 +2,7 @@ meta:
   pageTemplate: blog-post
 
 title: Just Sharing
-subtitle: a simpler way to tell folks about what's worked for you
+subtitle: an approach (that I've found effective) for telling folks about what's worked for me
 date: 2021-03
 copyright:
   $ref: ../_copyright.json
