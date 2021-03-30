@@ -3,6 +3,7 @@ meta:
 
 title: The "Just Sharing" Principle
 subtitle: an approach (that I've found effective) for telling folks about tools & practices
+url: just-sharing.html
 date: 2021-03
 copyright:
   $ref: ../_copyright.json
