@@ -1,8 +1,8 @@
 meta:
   pageTemplate: blog-post
 
-title: Just Sharing
-subtitle: an approach (that I've found effective) for telling folks about what's worked for me
+title: The "Just Sharing" Principle
+subtitle: an approach (that I've found effective) for telling folks about tools & practices
 date: 2021-03
 copyright:
   $ref: ../_copyright.json
