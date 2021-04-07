@@ -3,6 +3,7 @@ meta:
 
 title: Getting Better At Writing Code For Readability
 subtitle: Some things that I have found helpful to grow in writing code for humans to read
+twitter: https://twitter.com/alexander_bird/status/1379596536158384132
 date: 2021-04
 copyright:
   $ref: ../_copyright.json
