@@ -10,8 +10,10 @@ submitting it for review at [Code Review Stack Exchange](https://codereview.stac
 -- focus on how you could improve your style, clarity, readability, etc..
  
 In addition, you can do a code kata -- solve a practice problem many times (3 or
-more). Each time, you start from scratch -- either do the same thing again, or
-try something new. I've found I'll vary one thing or another until I really get
-the feel for the problem. This helps you to find different ways to express your
-thoughts in code. When you can write the same code many different ways, you'll
-be able to write code that really clearly expresses your intent.
+more). Each time, you start from scratch -- either write the same code again, or
+(more likely) try some slight variation that solves the same problem in a new
+way. I've found I'll vary one thing or another until I get really comfortable
+with the problem and different possible solutions. This helps you to find
+different ways to express your thoughts in code. When you can write the same
+code many different ways, you'll be able to write code that really clearly
+expresses your intent.
