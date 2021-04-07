@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./getting-better-at-writing-code-for-readability.json
   - $ref: ./just-sharing.json
   - $ref: ./jq-cheat-sheet.json
   - $ref: ./hobby-project-index.json

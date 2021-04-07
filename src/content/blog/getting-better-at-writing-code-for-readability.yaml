@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Getting Better At Writing Code For Readability
+subtitle: Some things that I have found helpful to grow in writing code for humans to read
+date: 2021-04
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
