@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Organic Adoption and the Build vs Buy Dilemma
+subtitle: An exploration of one dimension in the decision to build custom or to use an off the shelf component
+date: 2021-04
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

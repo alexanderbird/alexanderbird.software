@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./organic-adoption-and-the-build-vs-buy-dilemma.json
   - $ref: ./getting-better-at-writing-code-for-readability.json
   - $ref: ./just-sharing.json
   - $ref: ./jq-cheat-sheet.json
