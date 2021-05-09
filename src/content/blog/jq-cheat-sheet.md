@@ -23,7 +23,9 @@ $ cat greeting.jq
 Unix `column` formats tab separated output as a table and jq `@tsv` produces tab separated output.
 
 ```
-curl https://jsonplaceholder.typicode.com/users | jq -r ".[] | [.id, .address.city, .name] | @tsv" | column -ts $'\t'
+curl https://jsonplaceholder.typicode.com/users \
+  | jq -r ".[] | [.id, .address.city, .name] | @tsv" \
+  | column -ts $'\t'
 ```
 
 ### Vim syntax highlighting
