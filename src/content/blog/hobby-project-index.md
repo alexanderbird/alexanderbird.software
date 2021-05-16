@@ -1,9 +1,15 @@
+- 🔢 [uuidv4.link](https://uuidv4.link) (public)
+  - A minimalist website for generating UUIDs. Available in
+    [html](https://uuidv4.link), [text](https://uuidv4.link/txt), and
+    [json](https://uuidv4.link/json)
+  - JavaScript | [GitHub](https://github.com/alexanderbird/uuidv4.link)
+
 - 👍 [thumb.codes](https://thumb.codes) (public)
   - Emoji clipboard: from search term to clipboard without using your mouse
   - JavaScript | [GitHub](https://github.com/alexanderbird/thumb.codes)
 
 - ⚡ [invisi.link](/blog/link-shortener-with-route-53-and-s3.html)
-  (personal/informational)
+  (personal proof of concept)
   - Link shortener with AWS Route 53 and S3.
   - AWS CloudFormation + bash | [GitHub](https://github.com/alexanderbird/invisi.link/)
 
