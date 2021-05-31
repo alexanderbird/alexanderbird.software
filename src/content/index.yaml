@@ -68,10 +68,10 @@ introduction:
         title: Doing a Good Job
         details: |
           I wish this went without saying, but it doesn't. When we say "yes" to
-          everything, we can't do a good job. When we believe that cutting
-          corners on maintainability reduces our overall cost, we can't do a
-          good job. I'm motivated when our team is expected to deliver excellent
-          results quickly by whatever processes and tools we find work best in
+          everything, we can't do a good job. When we ignore long-standing
+          principles of effective software development, we don't do a good job.
+          I'm motivated when our team is expected to deliver excellent results
+          quickly by whatever processes and tools we find work best in
           our current context.
       values:
         - measure outcomes instead of developer activities
