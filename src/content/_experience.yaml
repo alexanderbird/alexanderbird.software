@@ -1,16 +1,80 @@
 
+- summary: Leading Our Team Amidst A Transition
+  employer: Amazon Web Services
+  ongoing-since: February 2020
+  role: Acting Software Development Manager
+  team-size: "12"
+  comments:
+    - active participation in most team code reviews
+    - promote technical practices like refactoring, domain driven design, and
+      customer-centric design
+    - managing the team's ramp-up on a neighboring system as our area of
+      ownership doubles
+    - coaching several engineers who are mentoring interns for the first time
+    - weekly 1:1s with 10+ engineers
+    - managing onboarding of 4+ engineers
+
+- summary: Enhancing AWS Service Catalog
+  employer: Amazon Web Services
+  duration-in-months: 15
+  role: Software Development Engineer II
+  comments:
+    - redesign core data processing component of our system from procedural and
+      error prone to highly scalable / retryable queue & lambda architecture
+    - introduce pairing and mobbing to our team to accelerate knowledge/skill
+      transfer and increase code quality
+    - main: established contract testing on the team to
+      sub:
+        - reduce time to add tests for a big feature from months to days
+        - increase stability of tests in the build pipeline
+        - increase the percentage of testing we can do through unit tests
+          (reducing iteration time from minutes to seconds)
+    - led the investigation and mitigation of several customer-impacting
+      operational incidents while oncall
+    - established User Story Mapping on the team to make our design activities
+      more customer-centric.
+  team-size: "9"
+  stack:
+    column:
+      - connection: public AWS API
+      - box:
+          label: internal service
+          column:
+            - Java 8
+            - proprietary framework
+            - row:
+              - Lambda
+              - EC2
+      - connection: HTTP via Java SDK
+      - box:
+          label: collaborators
+          column:
+            - row:
+              - AWS Organizations
+              - AWS Config
+              - AWS DynamoDB
+            - row:
+              - AWS IAM
+              - AWS SQS
+              - AWS SNS
+            - internal services from other teams
+      - box:
+         label: Infrastructure as Code
+         row:
+           - proprietary tools
+           - AWS CloudFormation
+
 - summary: Modifying a Legacy Application
   employer: Shareworks by Morgan Stanley
-  # When this isn't ongoing, change to past tense
-  ongoing-since: July 2019
+  duration-in-months: 6
   role: Sr. Developer
   comments:
-    - Mob and pair program to add features to a legacy Java application
-    - Familiarize myself with a new area of code each month (every team can be assigned to work on any area of the code)
+    - Mob and pair programming to add features to a legacy Java application
+    - Familiarized myself with a new area of code each month (every team can be assigned to work on any area of the code)
     - Story-splitting and user story mapping
-    - Refactor partially tested legacy code (safely) to make it easier to change
-    - Demo weekly to clients
-    - main: Take initiative to improve shared automation and tooling
+    - Refactored partially tested legacy code (safely) to make it easier to change
+    - Demoed weekly to clients
+    - main: Took initiative to improve shared automation and tooling
       sub:
         - published a command line interface (with tab completion) to abstract,
           document, and improve common developer commands (people actually use it

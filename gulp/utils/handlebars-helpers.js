@@ -11,7 +11,7 @@ handlebars.registerHelper('concat-space', (...args) => args.pop() && args.flat()
 handlebars.registerHelper('is-array', thing => Array.isArray(thing))
 handlebars.registerHelper('repeat', (count, item) => Array(count + 1).join(item))
 handlebars.registerHelper('json', data => JSON.stringify(data, null, 2))
-handlebars.registerHelper('experience', data => new Experience(data))
+handlebars.registerHelper('experience', data => data && new Experience(data))
 handlebars.registerHelper('pluralize', pluralize)
 handlebars.registerHelper('kebab-case', string => string.replace(/ /g, '-').toLowerCase())
 

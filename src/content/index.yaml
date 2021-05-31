@@ -50,7 +50,7 @@ introduction:
         details: I'm motivated by making other people's lives better with software.
       values:
         - deploy early and often
-        - ask users for feedback
+        - building mechanisms to accept and adapt to user feedback
         - build the features that provide business value
         - make room on the development team for everyone to contribute
       strengths:
@@ -65,49 +65,52 @@ introduction:
         - leadership
 
     - motivation:
-        title: Innovation
-        # Whereas some organizations require one to ask permission before deviating from standardized processes and tools.
+        title: Doing a Good Job
         details: |
-          I'm motivated when there is room for innovation: when our team is expected
-          to deliver excellent results quickly by whatever processes and tools we find
-          work best in the current context.
+          I wish this went without saying, but it doesn't. When we say "yes" to
+          everything, we can't do a good job. When we believe that cutting
+          corners on maintainability reduces our overall cost, we can't do a
+          good job. I'm motivated when our team is expected to deliver excellent
+          results quickly by whatever processes and tools we find work best in
+          our current context.
       values:
         - measure outcomes instead of developer activities
         - specify the problem (not the tasks to complete)
         - work in small batches; reevaluate process/tools regularly based on results
+        - finish the current goal before starting new work
         - devote time to improvement (instead of always rushing and never going faster)
 
       strengths:
-        - requirements gathering, design, modelling
         - slicing large requirements into small experiments
         - working to understand the human/business context
-        - communicating the problem to everyone on the team
+        - helping the team develop a shared understanding of the problem
+        - requirements gathering, design, modelling
 
     - motivation:
-        title: Technical Excellence
+        title: Go Well to Go Fast
         details: |
           I'm motivated when we spend an appropriate amount of time to test, architect,
           and document what we build. I have found this pays for itself now, and helps
-          us in the future, because well-written software is:
+          us in the future
       values:
-        - faster to write
-        - cheaper to maintain
-        - less stressful to work with
-        - easier to re-purpose when plans change
+        - coding for humans to read
+        - coding so it's easy to operate
+        - coding so it's easy to change when we learn
+        - Domain Driven Design
       strengths:
         - main: building with quality
           collapsible: true
           sub:
             - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
-            - <a target='_blank' href='http://llewellynfalco.blogspot.com/2008/10/approval-tests.html'>Approval Testing</a>
+            - Domain Driven Design so the code matches the business rules
             - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
         - main: learning quickly
           collapsible: true
           sub:
-            - requirements gathering
-            - reading documentation
-            - reading code
-            - learning new languages
+            - Behavior Driven Design -- stakeholder-readable tests
+            - quick experiments and data gathering
+            - facilitating discussions to get the best out of everyone present
+            - reading (docs, code)
         - see Experience section
 
 experience-front-matter:

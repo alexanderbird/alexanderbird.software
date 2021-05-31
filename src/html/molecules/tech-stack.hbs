@@ -14,7 +14,9 @@
 {{else}}
   <div class='molecules__tech-stack molecules__tech-stack__{{model.type}}'>
   {{#each model.value}}
-    {{> molecules/tech-stack model=(experience this) }}    
+    {{#if this}}
+      {{> molecules/tech-stack model=(experience this) }}    
+    {{/if}}
   {{/each}}
   </div>
 {{/if}}
