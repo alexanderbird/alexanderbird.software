@@ -45,7 +45,7 @@
             - row:
               - Lambda
               - EC2
-      - connection: HTTP via Java SDK
+      - connection: HTTP via SDKs
       - box:
           label: collaborators
           column:
