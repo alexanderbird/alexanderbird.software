@@ -47,6 +47,11 @@
     'summary summary'
     'text    tech-stack';
 
+  &--no-stack {
+    grid-template-areas:
+      'summary summary'
+      'text    text';
+    }
 }
 @mixin organisms__experience-tile--slim {
   .organisms__experience-tile__summary-header {

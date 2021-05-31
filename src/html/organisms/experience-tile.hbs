@@ -1,4 +1,4 @@
-<div class='organisms__experience-tile atoms__card'>
+<div class='organisms__experience-tile atoms__card {{#if noStack}}organisms__experience-tile--no-stack{{/if}}'>
   <div class='organisms__experience-tile__tech-stack'>
     {{> molecules/tech-stack model=(experience stack) }}
   </div>

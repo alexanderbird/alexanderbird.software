@@ -13,6 +13,7 @@
     - coaching several engineers who are mentoring interns for the first time
     - weekly 1:1s with 10+ engineers
     - managing onboarding of 4+ engineers
+  noStack: true
 
 - summary: Enhancing AWS Service Catalog
   employer: Amazon Web Services
