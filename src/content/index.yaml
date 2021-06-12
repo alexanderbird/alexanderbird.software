@@ -1,14 +1,14 @@
 meta:
   pageTemplate: index
 
-title: Alexander Bird - Software Developer
+title: Alexander Bird - Software Engineer
 profile:
   $ref: ./_profile.json
 
 meta-tags:
   twitter-handle: '@alexander_bird'
   site-image: https://alexanderbird.software/assets/alexanderbird.jpg
-  description: A passion for building useful, valuable software in a team. Motivated by helping others with innovation and technical excellence.
+  description: Learning to build useful, valuable software in a team.
 
 copyright:
   $ref: ./_copyright.json
@@ -42,76 +42,7 @@ navigation:
     title: Back to full site
 
 introduction:
-  title: Bio
-  subtitle: Strengths, values, and motivators
-  tiles:
-    - motivation:
-        title: Helping Others
-        details: I'm motivated by making other people's lives better with software.
-      values:
-        - deploy early and often
-        - building mechanisms to accept and adapt to user feedback
-        - build the features that provide business value
-        - make room on the development team for everyone to contribute
-      strengths:
-        - main: communication
-          collapsible: true
-          sub:
-            - listening
-            - discussion facilitation
-            - documentation writing
-        - teaching
-        - pair programming / mobbing / collaborative code reviews
-        - leadership
-
-    - motivation:
-        title: Doing a Good Job
-        details: |
-          I wish this went without saying, but it doesn't. When we say "yes" to
-          everything, we can't do a good job. When we ignore long-standing
-          principles of effective software development, we don't do a good job.
-          I'm motivated when our team is expected to deliver excellent results
-          quickly by whatever processes and tools we find work best in
-          our current context.
-      values:
-        - measure outcomes instead of developer activities
-        - specify the problem (not the tasks to complete)
-        - work in small batches; reevaluate process/tools regularly based on results
-        - finish the current goal before starting new work
-        - devote time to improvement (instead of always rushing and never going faster)
-
-      strengths:
-        - slicing large requirements into small experiments
-        - working to understand the human/business context
-        - helping the team develop a shared understanding of the problem
-        - requirements gathering, design, modelling
-
-    - motivation:
-        title: Go Well to Go Fast
-        details: |
-          I'm motivated when we spend an appropriate amount of time to test, architect,
-          and document what we build. I have found this pays for itself now, and helps
-          us in the future
-      values:
-        - coding for humans to read
-        - coding so it's easy to operate
-        - coding so it's easy to change when we learn
-        - Domain Driven Design
-      strengths:
-        - main: building with quality
-          collapsible: true
-          sub:
-            - TDD / <a target='_blank' href='https://medium.com/@kentbeck_7670/test-commit-revert-870bbd756864'>TCR</a>
-            - Domain Driven Design so the code matches the business rules
-            - safe <a target='_blank' href='https://martinfowler.com/bliki/DefinitionOfRefactoring.html'>refactoring</a>
-        - main: learning quickly
-          collapsible: true
-          sub:
-            - Behavior Driven Design -- stakeholder-readable tests
-            - quick experiments and data gathering
-            - facilitating discussions to get the best out of everyone present
-            - reading (docs, code)
-        - see Experience section
+  $ref: ./_bio.json
 
 experience-front-matter:
   $ref: ./_experience-front-matter.json

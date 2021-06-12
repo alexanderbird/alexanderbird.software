@@ -1,0 +1,69 @@
+title: Bio
+subtitle: Strengths, values, and motivators
+tiles:
+  - motivation:
+      title: Collaborative
+      details: Successful software requires intentional collaboration
+    values:
+      - mob, pair whenever possible
+      - make work visible so we share our mental model
+      - develop a shared language (tech & stakeholder)
+      - write code for humans to read
+      - make room on the team for everyone to contribute
+    strengths:
+      - facilitating mobbing & design work
+      - domain driven design
+      - empathy 
+      - mentoring
+      - documentation writing
+      - stakeholder-readable tests
+
+  - motivation:
+      title: Iterative
+      details: As a lean thinker, I can't help but work in small batches
+    values:
+      - get useful software quick, then improve
+      - iterative, just-in-time design
+      - don't build it if you don't need it
+    strengths:
+      - main: commits in minutes
+        collapsible: true
+        sub:
+          - TDD
+          - TCR (test && commit || revert)
+          - provable refactoring
+      - main: merges in hours
+        sub:
+          - slice tech tasks into tiny deliverable chunks
+          - branch-by-abstraction
+          - prototype then refactor
+      - main: releases in days
+        sub:
+          - slice customer needs into tiny deliverable chunks
+          - user story mapping to drive small slices of customer-centric work
+          - use experiments to de-risk unknowns
+          - sustainable, sufficient testing so we can release with confidence
+          - acceptance test driven development to keep us focussed
+
+  - motivation:
+      title: Engineer
+      details: Striving for methodical, data-driven, high quality work
+    values:
+      - success should feel like solving a puzzle not winning the lottery
+    strengths:
+      - main: work backwards from customer needs
+        sub:
+          - stories about customers' work drive features
+          - acceptance tests drive features
+          - unit tests drive implementation
+      - main: don't guess
+        sub:
+          - if it's not covered by a test it doesn't exist
+          - thoughtfully instrument your code for observability
+          - test-in-production (e.g. <a href='https://github.blog/2016-02-03-scientist/'>scientist pattern</a>) to prove your refactoring is safe
+      - main: learn with experiments
+        sub:
+          - instead of big up front design, craft experiments and spikes to
+            drive design
+
+            
