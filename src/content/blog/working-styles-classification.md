@@ -1,10 +1,15 @@
-When a new team members (who doesn't have much pair programming or mob
-programming experience) joins our team, their first impression is that the terms
-we use to describe our different work styles are all synonyms: pairing, mobbing,
-swarming. In the first week there's usually a conversation to explain our lingo
-and give an introduction to our approach to mobbing. In the course of giving
-those explanations, I've formed a mental model for classifying working styles.
-It's reductive, but I find it helpful in differentiating the terms.
+When a new team member (who doesn't have much pair programming or mob
+programming experience) joins our team, they encounter several different words
+for working styles: solo work, pairing, mobbing, and swarming. The three
+collaborative types may sound like synonyms, but when we use them we mean
+distinct things by each one. 
+
+
+In the first week there's usually a conversation to explain our lingo and give
+an introduction to our approach to mobbing and collaborative work. In the course
+of giving those explanations, I've formed a mental model for classifying working
+styles. It's admitedly reductive, but I find it helpful in differentiating the
+terms.
 
 <div class='image-container'>
   <img
