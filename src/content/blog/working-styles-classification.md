@@ -1,0 +1,16 @@
+When a new team members (who doesn't have much pair programming or mob
+programming experience) joins our team, their first impression is that the terms
+we use to describe our different work styles are all synonyms: pairing, mobbing,
+swarming. In the first week there's usually a conversation to explain our lingo
+and give an introduction to our approach to mobbing. In the course of giving
+those explanations, I've formed a mental model for classifying working styles.
+It's reductive, but I find it helpful in differentiating the terms.
+
+<div class='image-container'>
+  <img
+    src='/assets/blog/working-styles.png'
+    alt='2-axis chart with "people per task" on the x axis and "computers per task" on the y axis. The 1 by 1 cell is labelled "solo work". The 2 people and 1 computer is labelled "pair programming". 3+ people and 1 computer is labelled "mob programming". Moving up the chart: the 2+ computers and 1 person is empty. The 2+ people and 2+ computers cell is labelled swarming. There is a long arrow diagonally across the chart from 3+ computers and 1 person down to 1 computer and 3+ people labelled "more focus". Another arrow follows the same line but points in the opposite direction, labelled "more coordination overhead". Above the chart, there is a curly brace encompassing everything with 2 or more people per task which is labelled "collaborative programming". '
+    />
+</div>
+
+<br/>

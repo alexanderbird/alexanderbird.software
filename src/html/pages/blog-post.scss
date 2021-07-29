@@ -77,6 +77,16 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(var(--blog-header-height) + 24px);
+    .image-container {
+      width: 100%;
+      height: 90vh;
+      justify-content: center;
+      display: flex;
+      img {
+        margin: 0 auto;
+      }
+    }
+
   }
 
   .pages__blog-post__written-on {

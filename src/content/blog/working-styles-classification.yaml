@@ -1,0 +1,13 @@
+meta:
+  pageTemplate: blog-post
+
+title: Working Styles Classification
+subtitle: A reductive visual summary of collaborative programming terms like mobbing, pairing, and swarming
+twitter: https://twitter.com/alexander_bird/status/1420748153167302678?s=20
+date: 2021-07
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
