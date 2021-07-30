@@ -73,16 +73,21 @@
 
   .pages__blog-post__body {
     font-size: 20px;
+    width: 100vw;
     max-width: 800px;
     margin-left: auto;
     margin-right: auto;
     margin-top: calc(var(--blog-header-height) + 24px);
     .image-container {
       width: 100%;
-      height: 90vh;
+      max-height: 90vh;
       justify-content: center;
       display: flex;
+      position: relative;
       img {
+        max-width: 100%;
+        height: auto;
+        width: auto;
         margin: 0 auto;
       }
     }
