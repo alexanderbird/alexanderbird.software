@@ -3,6 +3,9 @@ module.exports = class Experience {
     if(typeof data === 'string') {
       this.type = 'string'
       this.value = data
+    } else if (Array.isArray(data)) {
+      this.type = 'group'
+      this.value = data
     } else {
       const keys = Object.keys(data)
       if(keys.length != 1) throw new Error(`ArgumentError: data must have exactly one key. Got ${JSON.stringify(data, null, 2)}`)

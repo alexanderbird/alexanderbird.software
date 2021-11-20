@@ -1,0 +1,13 @@
+meta:
+  pageTemplate: blog-post
+
+title: Crossing the WIP per person threshold
+subtitle: How we reduced WIP/person from >1.5 to <1
+twitter: https://twitter.com/alexander_bird/status/1461767107809398784?s=20
+date: 2021-11
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

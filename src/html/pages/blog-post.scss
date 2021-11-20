@@ -64,8 +64,7 @@
     &:before {
       display: block; 
       content: " "; 
-      margin-top: calc(-1 * var(--blog-header-height);
-      height: var(--blog-header-height);; 
+      height: var(--blog-header-height);
       visibility: hidden; 
       pointer-events: none;
     }

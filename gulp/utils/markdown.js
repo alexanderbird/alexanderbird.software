@@ -1,4 +1,4 @@
-const marked = require('marked');
+const { marked } = require('marked');
 // Thanks to https://stackoverflow.com/a/6234804/3012550
 function escapeHtml(unsafe) {
   return unsafe
