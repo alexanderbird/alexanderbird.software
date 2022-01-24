@@ -9,7 +9,7 @@
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
     "build:fast:watch": "test -f tmp/dynamic/icons.svg || npm run build:fast:prepare && nodemon --watch src --exec 'npm run build:fast' --ext '*'",
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
-    "start": "cd html && http-server",
+    "start": "http-server html",
     "test:reset": "cd test && rm -rf shots_base/* && bundle exec wraith history config.yaml",
     "test:vanilla": "cd test && bundle exec wraith latest config.yaml || true",
     "test": "npm run test:vanilla && open test/shots/gallery.html",
