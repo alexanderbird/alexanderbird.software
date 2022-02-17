@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Written Narrative Driven Collaborative Discussions
+subtitle: An alternative meeting format for highly abstract or contentious discussions
+date: 2022-04
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
