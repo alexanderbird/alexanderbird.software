@@ -98,6 +98,10 @@ to a decision about which should be chosen. By separating the act of exploring
 alternatives from the act of selecting an alternative, the group can more
 peaceably collaborate despite contension. 
 
+This comic from Jeff Patton illustrates how helpful it can be to be looking at
+the same document when making collaborative decisions:
+["I'm glad we all agree" (comic)](https://www.jpattonassociates.com/glad-we-all-agree-2/)
+
 #### Tradeoffs between the two approaches
 
 Writing a document in advance is extra effort, and reading a document quietly in
