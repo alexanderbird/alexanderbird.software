@@ -1,3 +1,11 @@
+Most of the important decisions we make at work are made in a group. Usually,
+folks in the group are not of the same mind, so we need to discuss. We schedule
+a meeting, and we hash it out. Some of these discussions are extremely
+rewarding, satisfying, or occasionally exhilirating as we work together to do
+things that none of us would have thought to do on our own. Other times, these
+group decision making sessions are painful, and it takes self discipline not to
+stand up and leave the discussion mid-sentence. 
+
 ### Things I love about collaborative discussions
  - when someone notices a risk or opportunity I never thought of
  - when someone corrects me (saving me from future consequences)
