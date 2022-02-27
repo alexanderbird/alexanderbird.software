@@ -1,3 +1,8 @@
+- 🟩 [Wordle Cheat](https://wordle.alexanderbird.software) (public)
+  - An interactive tool to help me cheat at Wordle
+  - JavaScript + CSS with Preact |
+    [GitHub](https://github.com/alexanderbird/wordle-cheat)
+
 - 🔢 [uuidv4.link](https://uuidv4.link) (public)
   - A minimalist website for generating UUIDs. Available in
     [html](https://uuidv4.link), [text](https://uuidv4.link/txt), and
