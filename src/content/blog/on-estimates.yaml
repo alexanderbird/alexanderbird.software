@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: On Estimates
+subtitle: Let's not take time making guesses that are more precise than their accuracy warrants.
+date: 2022-03
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json

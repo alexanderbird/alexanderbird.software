@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./on-estimates.json
   - $ref: ./written-narrative-driven-collaborative-discussions.json
   - $ref: ./crossing-the-wip-per-person-threshold.json
   - $ref: ./working-styles-classification.json
