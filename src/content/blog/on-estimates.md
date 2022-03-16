@@ -1,3 +1,11 @@
+### Background / Context
+
+The following three paragraphs describe how we work (not related to estimates).
+Everything I say about estimation is colored by many other practices we have. If
+your work looks significantly different than the conext I describe in these
+three paragraphs, then it's possible that your experience with estimating is also
+quite different. 
+
 We choose to work in time boxed sprints. We agree as a team what we want to do
 in the next two weeks (with input from stakeholders) and then track our progress
 against that list of goals. It helps us stay focussed as a team and gives
