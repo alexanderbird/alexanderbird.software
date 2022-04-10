@@ -53,8 +53,8 @@ the team member from delivering **tasks to do** to delivering **advice** and
 **vision** (intended outcomes). If the leader can share their insight about the
 problem, and frame a clear intended outcome (maybe with some advice about
 possible actions), then the person doing the work can start exercising their
-insight generation engine to produce their own action list. It yeilds better
-results, it's more rewarding, and it prepares them to lead.
+internal insight generation engine to produce their own action list. It yeilds
+better results, it's more rewarding, and it prepares them to lead.
 
 <div class='image-container'>
   <img
