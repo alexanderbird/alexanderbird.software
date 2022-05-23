@@ -7,70 +7,77 @@ casualDisclaimer: |
   <p>
     Or, carry on for my slightly out of date resume 👇🏻.
   </p>
+
+
 tiles:
   - motivation:
-      title: Collaborative
-      details: Successful software requires intentional collaboration
+      title: Basic Approach
+      details: I'd like to be on a team where these are established philosophies and practices.
     values:
-      - mob, pair whenever possible
-      - make work visible so we share our mental model
-      - develop a shared language (tech & stakeholder)
-      - write code for humans to read
-      - make room on the team for everyone to contribute
+      - most of these are generally accepted as good ideas
+      - there are other folks with experience in these areas so I can learn from them
+      - we discuss if an how to apply these things in our current context
     strengths:
-      - facilitating mobbing & design work
-      - domain driven design
-      - empathy 
-      - mentoring
-      - documentation writing
-      - stakeholder-readable tests
-
+      - "inspect and adapt: the best team processes come from regularly taking time as a team
+        to look back on how we've been working and come up with ideas for how we can work
+        more effectively."
+      - "lean flow: improve effectiveness, speed, quality, and agility by reducing the amount
+        of work in progress. In software, work in progress includes unreleased features,
+        unimplemented designs, unbuilt product backlogs, feature branches, and research for
+        unbuilt features."
+      - "refactoring: since we can't (and shouldn't try to) predict the future, the code we wrote
+        last year/month/week is not perfectly suited for the new things we're building. 
+        Rather than forcing new behaviour into a system which it doesn't fit, we ought to
+        continuously update the structure of our code without changing the behavior so that
+        it is easier to add new capabilities. &ldquo;Make the change easy (this might be hard) then 
+        make the easy change&rdquo;."
+      - "cohesive teams: the apparent speed-up created by having folks work independently is
+        generally outweighed by the communication overhead of independent work stream. Since
+        the thinking and learning we do *is* the work, we should set up our teams to think
+        and learn together (instead of doing our &ldquo;work&rdquo; in isolation and having set times
+        to synchronize)."
+      - "embrace the chaos: it's not possible to design, estimate, or test our way to a 
+        zero-surprise system. Instead of attempting to eliminate the unexpected, embrace it.
+        Design with an intent to learn; estimate with the expectation that scope changes;
+        supplement traditional testing with product metrics that detect unexpected failure."
   - motivation:
-      title: Iterative
-      details: As a lean thinker, I can't help but work in small batches
+      title: Can Teach
+      details: >
+        I'd like to be on a team where these philosophies and practices can be discussed and explored.
+        I have experience teaching these things.
     values:
-      - get useful software quick, then improve
-      - iterative, just-in-time design
-      - don't build it if you don't need it
+      - most of these are generally accepted as good ideas
+      - we discuss if an how to apply these things in our current context
     strengths:
-      - main: commits in minutes
-        collapsible: true
-        sub:
-          - TDD
-          - TCR (test && commit || revert)
-          - provable refactoring
-      - main: merges in hours
-        sub:
-          - slice tech tasks into tiny deliverable chunks
-          - branch-by-abstraction
-          - prototype then refactor
-      - main: releases in days
-        sub:
-          - slice customer needs into tiny deliverable chunks
-          - user story mapping to drive small slices of customer-centric work
-          - use experiments to de-risk unknowns
-          - sustainable, sufficient testing so we can release with confidence
-          - acceptance test driven development to keep us focussed
-
+      - "example driven development (TDD, ATDD, and BDD): usually, the highest value code
+        comes from authoring a single example of how it is used (in the form of an automated
+        test) before authoring the code."
+      - "domain driven development: for business-critical code, we can produce the highest
+        quality (and most adaptable) code by developing a spoken language to discuss the
+        system that all team members share, and we should structure our code to align
+        with that spoken language. "
+      - "customer-involved development: when we design, we incorporate feedback from real, 
+        specific customers. When we deliver, we let customers use it (instead of demoing it
+        to customers)"
+      - "the same humans who write the code are oncall to operate the services running the code"
+      - "story slicing by customer capability: instead of dividing our work by technical chunks,
+        we identify small, customer-valuable slices of capabilities and deliver one of them (end
+        to end) before working on the next slice of customer value. For exploratory work when
+        the smallest possible slice takes &ldquo;a while&rdquo;, then we slice on technical boundaries."
+      - "story counting instead of numeric estimates: when we discuss what's entailed in building
+        the next slice, instead of driving to a number for the story, drive towards same-sized stories.
+        If we learn there are many aspects to the story, slice it into many stories. If we learn
+        that there are many risks with the story, slice off a time-boxed experiment instead of
+        taking on the whole story. When you need to forecast, count the remaining stories and compare
+        it to the number of stories delivered per unit time in the recent past. "
   - motivation:
-      title: Engineer
-      details: Striving for methodical, data-driven, high quality work
-    values:
-      - success should feel like solving a puzzle not winning the lottery
+      title: Willing to Share
+      details: I care about these things, but am not bothered if my team is not interested in them.
     strengths:
-      - main: work backwards from customer needs
-        sub:
-          - stories about customers' work drive features
-          - acceptance tests drive features
-          - unit tests drive implementation
-      - main: don't guess
-        sub:
-          - if it's not covered by a test it doesn't exist
-          - thoughtfully instrument your code for observability
-          - test-in-production (e.g. <a href='https://github.blog/2016-02-03-scientist/'>scientist pattern</a>) to prove your refactoring is safe
-      - main: learn with experiments
-        sub:
-          - instead of big up front design, craft experiments and spikes to
-            drive design
-
-            
+      - user story mapping
+      - release activities (like updating docs) ought to be incorporated into the developer lifecycle
+        (rather than being handled by another team at a later date)
+      - "stakeholder readable tests: our high level tests should be consumable by stakeholders and
+        used as an assessment of whether the system behavior is as expected. If we demo to customers
+        (instead of them exploring the system themselves), then these tests should also be used to
+        run the demos."
