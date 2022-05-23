@@ -11,6 +11,11 @@
     {{/each}}
   </ul>
 </li>
+{{else if bullet.title}}
+<li class='molecules__bullet'>
+  <span class='title'>{{{bullet.title}}}: </span>
+  <span>{{{bullet.body}}}</span>
+</li>
 {{else if bullet.subtitle}}
   <div>{{{bullet.subtitle}}}</div>
   <ul>

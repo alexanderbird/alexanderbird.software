@@ -22,6 +22,9 @@
   }
 }
 .molecules__bullet {
+  .title {
+    font-weight: bold;
+  }
   &.molecules__bullet__main-and-sub.molecules__bullet--collapsible {
     @media (max-width: 600px) {
       @include collapse-collapsible-bullet;
