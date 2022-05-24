@@ -66,12 +66,13 @@ tiles:
           with that spoken language. 
       - title: Refactoring
         body: >
-          since we can't (and shouldn't try to) predict the future, the code we wrote
-          last year/month/week is not perfectly suited for the new things we're building. 
-          Rather than forcing new behaviour into a system which it doesn't fit, we ought to
-          continuously update the structure of our code without changing the behavior so that
-          it is easier to add new capabilities. &ldquo;Make the change easy (this might be hard) then 
-          make the easy change&rdquo;.
+          since we can't predict the future, the code we wrote last
+          year/month/week is not perfectly suited for the new things we're
+          building.  Rather than forcing new behaviour into a system which it
+          doesn't fit, we ought to continuously update the structure of our
+          code without changing the behavior so that it is easier to add new
+          capabilities. This is aptly put by Kent Beck&colon; "Make the change
+          easy (this might be hard) then make the easy change".
       - title: Story Slicing by Customer Capability
         body: >
           instead of dividing our work by technical chunks,
