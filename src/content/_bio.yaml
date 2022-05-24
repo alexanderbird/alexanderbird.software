@@ -75,15 +75,18 @@ tiles:
           easy (this might be hard) then make the easy change".
       - title: Story Slicing by Customer Capability
         body: >
-          instead of dividing our work by technical chunks,
-          we identify small, customer-valuable slices of capabilities and deliver one of them (end
-          to end) before working on the next slice of customer value. For exploratory work when
-          the smallest possible slice takes &ldquo;a while&rdquo;, then we slice on technical boundaries.
+          instead of dividing our work by technical chunks, we identify small,
+          customer-valuable slices of capabilities and deliver one of them (end
+          to end) before working on the next slice of customer value. Only when
+          there is truly no way to split customer slices smaller do we slice on
+          technical boundaries.
       - title: Story Counting Instead of Numeric Estimates
         body: >
-          when we discuss what's entailed in building
-          the next slice, instead of driving to a number for the story, drive towards same-sized stories.
-          If we learn there are many aspects to the story, slice it into many stories. If we learn
-          that there are many risks with the story, slice off a time-boxed experiment instead of
-          taking on the whole story. When you need to forecast, count the remaining stories and compare
-          it to the number of stories delivered per unit time in the recent past. 
+          when we discuss what's entailed in building the next slice, instead
+          of generating a number representing the size of the story, rework the
+          stories until they are all roughly the same size.  If we learn there
+          are many aspects to the story, we slice it into many stories. If we
+          learn that there are many risks with the story, we slice off a
+          time-boxed experiment instead of taking on the whole story. When we
+          need to forecast, we count the remaining stories and compare that to
+          the number of stories delivered per unit time in the recent past. 
