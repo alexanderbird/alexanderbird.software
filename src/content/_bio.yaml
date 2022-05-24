@@ -19,51 +19,54 @@ tiles:
     strengths:
       - title: Inspect and Adapt
         body: >
-          the best team processes come from regularly taking time as a team
-          to look back on how we've been working and come up with ideas for how we can work
-          more effectively.
+          the best team processes come from regularly taking time as a team to
+          look back on how we've been working and come up with ideas for how we
+          can work more effectively.
       - title: Lean Flow
         body: >
-          improve effectiveness, speed, quality, and agility by reducing the amount
-          of work in progress. In software, work in progress includes unreleased features,
-          unimplemented designs, unbuilt product backlogs, feature branches, and research for
-          unbuilt features.
+          improve effectiveness, speed, quality, and agility by reducing the
+          amount of work in progress. In software, work in progress includes
+          unreleased features, unimplemented designs, unbuilt product backlogs,
+          feature branches, and research for unbuilt features.
       - title: Cohesive Teams
         body: >
           the apparent speed-up created by having folks work independently is
-          generally outweighed by the communication overhead of independent work streams. Since
-          the thinking and learning we do *is* the work, we should set up our teams to think
-          and learn together (instead of doing our &ldquo;work&rdquo; in isolation and having set times
-          to synchronize).
-      - title: Embrace the Chaos
+          generally outweighed by the communication overhead of independent
+          work streams. Since the thinking and learning we do *is* the work, we
+          should set up our teams to think and learn together (instead of doing
+          our &ldquo;work&rdquo; in isolation and having set times to
+          synchronize).
+      - title: Plan to Adapt
         body: >
-          it's not possible to design, estimate, or test our way to a 
-          zero-surprise system. Instead of attempting to eliminate the unexpected, embrace it.
-          Design with an intent to learn; estimate with the expectation that scope changes;
-          supplement traditional testing with product metrics that detect unexpected failure.
+          it's not possible to design, estimate, or test our way to a
+          zero-surprise system. Instead of attempting to eliminate the
+          unexpected, embrace it.  Design with an intent to learn; estimate
+          with the expectation that scope changes; supplement traditional
+          testing with product metrics that detect unexpected failure.
       - title: Customer-Involved Development
         body: >
-          when we design, we incorporate feedback from real, 
-          specific customers. When we deliver, we let customers use it (instead of demoing it
-          to customers)
+          when we design, we incorporate feedback from real, specific
+          customers. When we deliver, we let customers use it (instead of
+          demoing it to customers)
   - motivation:
       title: Can Teach
       details: >
         I'd like to be on a team where these things are accepted as reasonable
-        (even if the team isn't currently practicing them).  I have experience teaching these
-        things and am comfortable being the advocate for them on a team.
+        (even if the team isn't currently practicing them).  I have experience
+        teaching these things and am comfortable being the advocate for them on
+        a team.
     strengths:
       - title: Example Driven Development (TDD, ATDD, and BDD)
         body: >
-          usually, the highest value code
-          comes from authoring a single example of how it is used (in the form of an automated
-          test) before authoring the code.
+          usually, the highest value code comes from authoring a single example
+          of how it is used (in the form of an automated test) before authoring
+          the code.
       - title: Domain Driven Design
         body: >
-          for business-critical code, we can produce the highest
-          quality (and most adaptable) code by developing a spoken language to discuss the
-          system that all team members share, and we should structure our code to align
-          with that spoken language. 
+          for business-critical code, we can produce the highest quality (and
+          most adaptable) code by developing a spoken language to discuss the
+          system that all team members share, and we should structure our code
+          to align with that spoken language. 
       - title: Refactoring
         body: >
           since we can't predict the future, the code we wrote last
