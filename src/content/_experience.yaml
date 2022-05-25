@@ -33,7 +33,7 @@
       - connection: message queue
       - new code and infrastructure (hexagonal architecture)
       - connection: API call
-      - existing storage service with modifications
+      - existing storage service (with modifications)
       - connection: public AWS API
       - consuming customers
 
