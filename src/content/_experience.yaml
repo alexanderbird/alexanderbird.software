@@ -1,7 +1,45 @@
 
+- summary: Design & Lead High Scale Feature
+  employer: Amazon Web Services
+  ongoing since: January 2022
+  role: Software Development Engineer II
+  team-size: "7"
+  comments:
+    - leading the team in adding a new system capability which allows
+      customers to perform the work of 1000s of API calls through a single
+      gesture (API / CloudFormation update / Console action)
+    - apply distributed system design principals to integrate this 1000x scale
+      with the existing system which is not designed for that scale
+    - navigate tradeoffs between upgrading existing systems (to safely handle
+      scale) and delivering in a timely manner. We are making some upgrades and
+      leaving some systems unchanged.
+    - apply hexagonal architecture to isolate the core business logic from the
+      integration points (as we increase the scale later in the project, this
+      architecture allows us to move the core logic from an existing service to
+      a new service later without rewriting)
+    - mentor, train, and guide the team so everyone can contribute to the design
+      and coding
+  stack:
+    column:
+      - administrator customers
+      - connection: public AWS API
+      - row:
+          - existing service
+          - existing service
+      - row:
+          - connection: method call
+          - connection: method call
+      - new code (hexagonal architecture)
+      - connection: message queue
+      - new code and infrastructure (hexagonal architecture)
+      - connection: API call
+      - existing storage service with modifications
+      - connection: public AWS API
+      - consuming customers
+
 - summary: Leading Our Team Amidst A Transition
   employer: Amazon Web Services
-  ongoing-since: February 2020
+  duration-in-months: 8
   role: Acting Software Development Manager
   team-size: "12"
   comments:
@@ -13,6 +51,7 @@
     - coaching several engineers who are mentoring interns for the first time
     - weekly 1:1s with 10+ engineers
     - managing onboarding of 4+ engineers
+    - 4 summer interns (3 returned to our team summer 2022)
   noStack: true
 
 - summary: Enhancing AWS Service Catalog
