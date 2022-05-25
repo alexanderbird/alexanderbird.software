@@ -1,7 +1,7 @@
 
 - summary: Design & Lead High Scale Feature
   employer: Amazon Web Services
-  ongoing since: January 2022
+  ongoing-since: January 2022
   role: Software Development Engineer II
   team-size: "7"
   comments:
@@ -43,15 +43,16 @@
   role: Acting Software Development Manager
   team-size: "12"
   comments:
-    - active participation in most team code reviews
-    - promote technical practices like refactoring, domain driven design, and
+    - mentoring and supporting 10+ engineers with weekly 1:1s
+    - supporting onboarding of 4+ engineers
+    - main: coaching several engineers who are mentoring interns for the first time
+      sub:
+        - of the 4 summer interns, 3 returned to our team summer 2022
+    - actively participating in most team code reviews
+    - promoting technical practices like refactoring, domain driven design, and
       customer-centric design
-    - managing the team's ramp-up on a neighboring system as our area of
-      ownership doubles
-    - coaching several engineers who are mentoring interns for the first time
-    - weekly 1:1s with 10+ engineers
-    - managing onboarding of 4+ engineers
-    - 4 summer interns (3 returned to our team summer 2022)
+    - spearheading the team's ramp-up on a neighboring system as our area of
+      ownership doubled
   noStack: true
 
 - summary: Enhancing AWS Service Catalog
