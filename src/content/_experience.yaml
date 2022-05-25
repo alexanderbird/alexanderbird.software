@@ -16,7 +16,7 @@
     - apply hexagonal architecture to isolate the core business logic from the
       integration points (as we increase the scale later in the project, this
       architecture allows us to move the core logic from an existing service to
-      a new service later without rewriting)
+      a new service without rewriting or retesting core logic)
     - mentor, train, and guide the team so everyone can contribute to the design
       and coding
   stack:
