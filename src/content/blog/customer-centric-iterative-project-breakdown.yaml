@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: Customer-Centric Iterative Project Breakdown
+subtitle: "Describing two project archetypes: the tech-centric project breakdown, and the customer-centric alternative."
+date: 2022-07
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
