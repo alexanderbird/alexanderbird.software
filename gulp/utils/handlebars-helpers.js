@@ -14,4 +14,7 @@ handlebars.registerHelper('json', data => JSON.stringify(data, null, 2))
 handlebars.registerHelper('experience', data => data && new Experience(data))
 handlebars.registerHelper('pluralize', pluralize)
 handlebars.registerHelper('kebab-case', string => string.replace(/ /g, '-').toLowerCase())
+handlebars.registerHelper('html-unescape', string => string && string
+  .replace(new RegExp('&amp;', 'g'), '&')
+  .replace(new RegExp('&bull;', 'g'), '•'))
 
