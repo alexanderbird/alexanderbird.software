@@ -48,6 +48,12 @@ tiles:
         body: >
           I use spikes, experiments, production metrics, and other mechanisms to compare reality to our plans so we
           know that we're building the right thing. Guesses are timeboxed and we gather data to course correct.
+      - title: lean flow
+        body: >
+          I apply practices that reduce work in progress, queued work, unreleased inventory, and other lean waste
+          we can have more impact with the same effort. I share practices like collaborative programming,
+          continuous integration, small commits to help me and my peers spend more effort building/delivering
+          and less effort coordinating/correcting.
   - motivation:
       title: People
       details: >
