@@ -29,6 +29,9 @@ tiles:
         body: >
           Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
           <code>test && commit || revert</code>)
+      - title: learning
+        body: >
+          Always keen to learn a new tech stack, pattern, or approach.
   - motivation:
       title: Process
       details: >
