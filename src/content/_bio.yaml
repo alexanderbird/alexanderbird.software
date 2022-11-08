@@ -11,85 +11,66 @@ casualDisclaimer: |
 
 tiles:
   - motivation:
-      title: Growing In
+      title: Tech
       details: >
-        I'd like to be on a team where these practices and philosophies are established. I would
-        like to work with some folks who have experience in these areas who will challenge me
-        to grow in them.
+        What I build
     strengths:
-      - title: Inspect and Adapt
+      - title: polyglot
         body: >
-          the best team processes come from regularly taking time as a team to
-          look back on how we've been working and come up with ideas for how we
-          can work more effectively.
-      - title: Lean Flow
+          Comfortable with Java, TypeScript/JavaScript, Bash. Familiar with Ruby, C#, C++, Python, VBA
+      - title: database agnostic
         body: >
-          improve effectiveness, speed, quality, and agility by reducing the
-          amount of work in progress. In software, work in progress includes
-          unreleased features, unimplemented designs, unbuilt product backlogs,
-          feature branches, and research for unbuilt features.
-      - title: Cohesive Teams
+          Comfortable modelling and testing relational data with SQL and NoSQL based databases
+      - title: multi-architecture
         body: >
-          the apparent speed-up created by having folks work independently is
-          generally outweighed by the communication overhead of independent
-          work streams. Since the thinking and learning we do *is* the work, we
-          should set up our teams to think and learn together (instead of doing
-          our &ldquo;work&rdquo; in isolation and having set times to
-          synchronize).
-      - title: Plan to Adapt
+          Comfortable building distributed systems in the cloud and modular monoliths. I prefer hexagonal
+          architecture because of how easy it makes unit testing.
+      - title: refactoring
         body: >
-          it's not possible to design, estimate, or test our way to a
-          zero-surprise system. Instead of attempting to eliminate the
-          unexpected, embrace it.  Design with an intent to learn; estimate
-          with the expectation that scope changes; supplement traditional
-          testing with product metrics that detect unexpected failure.
-      - title: Customer-Involved Development
-        body: >
-          when we design, we incorporate feedback from real, specific
-          customers. When we deliver, we let customers use it (instead of
-          demoing it to customers)
+          Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
+          <code>test && commit || revert</code>)
   - motivation:
-      title: Can Teach
+      title: Process
       details: >
-        I'd like to be on a team where these things are accepted as reasonable
-        (even if the team isn't currently practicing them).  I have experience
-        teaching these things and am comfortable being the advocate for them on
-        a team.
+        How I build
     strengths:
-      - title: Example Driven Development (TDD, ATDD, and BDD)
+      - title: test driven
         body: >
-          usually, the highest value code comes from authoring a single example
-          of how it is used (in the form of an automated test) before authoring
-          the code.
-      - title: Domain Driven Design
+          Acceptance Test Driven Development at a system capability level; Test Driven Development at the class level.
+          I can find ways to test drive very hard-to-test systems, either with creative testing approaches or
+          strategic refactoring.
+      - title: adapting to change
         body: >
-          for business-critical code, we can produce the highest quality (and
-          most adaptable) code by developing a spoken language to discuss the
-          system that all team members share, and we should structure our code
-          to align with that spoken language. 
-      - title: Refactoring
+          I engineer the system so it's cheap to change so we don't have to predict the future to be successful.
+          That includes modular architecture, appropriate testing, and refactoring skills (practicing them personally
+          and sharing them with team mates).
+      - title: measuring over guessing
         body: >
-          since we can't predict the future, the code we wrote last
-          year/month/week is not perfectly suited for the new things we're
-          building.  Rather than forcing new behaviour into a system which it
-          doesn't fit, we ought to continuously update the structure of our
-          code without changing the behavior so that it is easier to add new
-          capabilities. This is aptly put by Kent Beck&colon; "Make the change
-          easy (this might be hard) then make the easy change".
-      - title: Story Slicing by Customer Capability
+          I use spikes, experiments, production metrics, and other mechanisms to compare reality to our plans so we
+          know that we're building the right thing. Guesses are timeboxed and we gather data to course correct.
+  - motivation:
+      title: People
+      details: >
+        How I interact with others
+    strengths:
+      - title: customer focussed
         body: >
-          instead of dividing our work by technical chunks, we identify small,
-          customer-valuable slices of capabilities and deliver one of them (end
-          to end) before working on the next slice of customer value. Only when
-          there is truly no way to split customer slices smaller do we slice on
-          technical boundaries.
-      - title: Story Counting Instead of Numeric Estimates
+          I've found the only way to build software that actually gets used is
+          to work closely with our customers from the very beginning and
+          throughout the work. This might mean customer interviews, watching
+          them work, User Story Mapping, releasing early prototypes for
+          feedback, collecting thoughtfully crafted metrics, and repeating those
+          things throughout the work.
+      - title: collaborative
         body: >
-          when we discuss what's entailed in building the next slice, instead
-          of generating a number representing the size of the story, rework the
-          stories until they are all roughly the same size.  If we learn there
-          are many aspects to the story, we slice it into many stories. If we
-          learn that there are many risks with the story, we slice off a
-          time-boxed experiment instead of taking on the whole story. When we
-          need to forecast, we count the remaining stories and compare that to
-          the number of stories delivered per unit time in the recent past. 
+          I'd like to achive more than I can as a solo developer. I need the perspectives, inspiration,
+          and experience of many peers to do my best so I work hard to sustain and enhance
+          an environment where we can all bring our best to the table. In most teams I am
+          part of I share practices like collaborative programming (ensemble/pair/mob) and
+          retrospective techniques which help us spend more of our effort creating together
+          and wasting less effort negotiating and coordinating with each other.
+      - title: communicative
+        body: >
+          I apply practices like continuous integration, User Story Mapping,
+          Domain Driven Design, Acceptance Test Driven Development, and Architectural Decision
+          Records to facilitate cross-discipline communication early and often.
