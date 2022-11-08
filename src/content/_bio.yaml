@@ -17,10 +17,10 @@ tiles:
     strengths:
       - title: polyglot
         body: >
-          Comfortable with Java, TypeScript/JavaScript, Bash. Familiar with Ruby, C#, C++, Python, VBA
+          Comfortable with Java, TypeScript/JavaScript, Bash. Familiar with Ruby, C#, C++, Python, VBA.
       - title: database agnostic
         body: >
-          Comfortable modelling and testing relational data with SQL and NoSQL based databases
+          Comfortable modelling and testing relational data with SQL and NoSQL based databases.
       - title: multi-architecture
         body: >
           Comfortable building distributed systems in the cloud and modular monoliths. I prefer hexagonal
@@ -28,10 +28,14 @@ tiles:
       - title: refactoring
         body: >
           Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
-          <code>test && commit || revert</code>)
+          <code>test && commit || revert</code>).
       - title: learning
         body: >
           Always keen to learn a new tech stack, pattern, or approach.
+      - title: oncall operator
+        body: >
+          Experienced as a first responder to production incidents, including emergency performance optimization,
+          security incident response, and other high severity customer-impacting incidents.
   - motivation:
       title: Process
       details: >
