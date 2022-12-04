@@ -23,8 +23,9 @@ tiles:
           Comfortable modelling and testing relational data with SQL and NoSQL based databases.
       - title: multi-architecture
         body: >
-          Comfortable building distributed systems in the cloud and modular monoliths. I prefer hexagonal
-          architecture because of how easy it makes unit testing.
+          Comfortable building distributed systems in the cloud, domain driven
+          microservices, and modular monoliths. I prefer hexagonal architecture
+          because of how easy it makes unit testing.
       - title: refactoring
         body: >
           Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
