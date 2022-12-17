@@ -1,0 +1,13 @@
+meta:
+  pageTemplate: blog-post
+
+title: Leaders ought to clarify the problem (and not solve it)
+subtitle: What I do to create an environment where everyone gets to do interesting, valuable work
+url: leaders-ought-to-clarify-the-problem.html
+date: 2022-12
+copyright:
+  $ref: ../_copyright.json
+header:
+  $ref: ./_header.json
+meta-tags:
+  $ref: ./_meta-tags.json
