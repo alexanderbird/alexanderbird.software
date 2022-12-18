@@ -1,9 +1,9 @@
 In my experience, software work can be split into a few broad categories:
 
-- problem is understood, solution is understood (let's call this "implementation
+- work where both the problem and the solution is understood (let's call this "implementation
   work")
-- problem is understood, solution is ambiguous (let's call this "design work")
-- problem is ambiguous (let's call this "ambiguous work")
+- work where the problem is understood, but the solution is ambiguous (let's call this "design work")
+- work where the problem is ambiguous (let's call this "ambiguous work")
 
 In general, folks covet the design work (it's fun, interesting, high impact, and
 looks great on a resume). There tends to be lots of implementation work. The
@@ -23,7 +23,7 @@ environment where junior folks can safely and effectively complete design work.
 In Netflix's book *No Rules Rules* they call this "Lead with context, not
 control".
 
-### How a leader can enable inexperienced team members to do interesting desing
+### How a leader can enable inexperienced team members to do interesting design
 
 #### 1. Clarify risky design tasks
 
