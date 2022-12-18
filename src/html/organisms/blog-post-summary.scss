@@ -33,9 +33,9 @@
     left: 3px;
   }
 
-  @for $i from 1 through 20 {
+  @for $i from 1 through 40 {
     &:nth-child(#{$i}) {
-      --animation-delay: #{($i - 1) * 75}ms;
+      --animation-delay: #{($i - 1) * 30}ms;
     }
   }
   --animation-delay: 50ms;
