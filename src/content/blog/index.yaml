@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./adrs-for-intuitive-decision-makers.json
   - $ref: ./leaders-ought-to-clarify-the-problem.json
   - $ref: ./customer-centric-iterative-project-breakdown.json
   - $ref: ./the-natural-micromanager.json
