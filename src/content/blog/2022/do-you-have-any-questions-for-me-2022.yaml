@@ -1,0 +1,14 @@
+meta:
+  pageTemplate: blog-post
+
+title: '"Do you have any questions for me" (2022 edition)'
+subtitle: Questions I ask my interviewers.
+#mastodon: https://mstdn.ca/@alexanderbird/todo
+url: 2022/do-you-have-any-questions-for-me-2022.html
+date: 2022-12
+copyright:
+  $ref: ../../_copyright.json
+header:
+  $ref: ./../_header.json
+meta-tags:
+  $ref: ./../_meta-tags.json
