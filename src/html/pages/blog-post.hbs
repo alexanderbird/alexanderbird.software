@@ -5,7 +5,7 @@
       meta-tags
       title=title
       description=subtitle
-      url=url
+      url=(concat "blog/" url)
     }}
   {{/invisible/html-head}}
   {{#> atoms/html-body class=(concat-space 'pages__blog-post' style-variations) }}
