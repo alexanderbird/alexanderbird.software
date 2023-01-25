@@ -1,11 +1,12 @@
 .pages__blog-post {
+  scroll-padding-top: var(--blog-header-height);
+
   h2 {
     font-size: 1.6em;
   }
 
   h3 { 
     font-size: 1.2em;
-    margin-top: 32px;
     margin-bottom: 4px;
     --h-overline-height: 8px;
     @media (min-width: 800px) {
@@ -64,7 +65,7 @@
     &:before {
       display: block; 
       content: " "; 
-      height: var(--blog-header-height);
+      height: 18px;
       visibility: hidden; 
       pointer-events: none;
     }

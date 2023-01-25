@@ -1,0 +1,13 @@
+meta:
+  pageTemplate: blog-post
+
+title: 'Mistakes I (still) make when writing software'
+#mastodon: https://mstdn.ca/@alexanderbird/todo
+url: 2023/mistakes-i-make.html
+date: 2023-01
+copyright:
+  $ref: ../../_copyright.json
+header:
+  $ref: ./../_header.json
+meta-tags:
+  $ref: ./../_meta-tags.json
