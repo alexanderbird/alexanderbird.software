@@ -1,7 +1,8 @@
 meta:
   pageTemplate: blog-post
 
-title: 'Mistakes I (still) make when writing software'
+title: 'Mistakes I still make when writing software'
+subtitle: "(And what I do when I realize I've made them.)"
 mastodon: https://mstdn.ca/@alexanderbird/109748788842072196
 url: 2023/mistakes-i-make.html
 date: 2023-01
