@@ -1,8 +1,21 @@
-
+- summary: Support tech leads in designing and executing software delivieries
+  team-size: "12"
+  employer: Amazon Web Services
+  role: Senior Software Development Engineer (L6)
+  ongoing-since: January 2022
+  comments:
+    - Helping tech leads navigate technical challenges faced in their design
+    - Linking current design work to multi-year organizational objectives
+    - Writing production code to prove concepts, set patterns, and create examples of design concepts
+    - Writing technical documents to align business leaders and the engineering team
+    - Implementing mechanisms for sharing and enforcing technical design throughout the team
+    - Teaching test design, technical writing and communication, and other skills that increase a tech lead's effectiveness
+    - Mentoring several L4 and L5 engineers
+    - Oncall operations -- resolving high severity operational incidents in response to our system alarms
 - summary: Design & Lead High Scale Feature
   employer: Amazon Web Services
-  ongoing-since: January 2022
-  role: Software Development Engineer II
+  duration-in-months: 6
+  role: Software Development Engineer II (L5)
   team-size: "7"
   comments:
     - leading the team in adding a new system capability which allows
