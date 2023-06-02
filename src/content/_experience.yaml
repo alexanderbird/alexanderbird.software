@@ -10,7 +10,7 @@
     - Writing technical documents to align business leaders and the engineering team
     - Implementing mechanisms for sharing and enforcing technical design throughout the team
     - Teaching test design, technical writing and communication, and other skills that increase a tech lead's effectiveness
-    - Mentoring several L4 and L5 engineers
+    - Mentoring several engineers
     - Oncall operations -- resolving high severity operational incidents in response to our system alarms
   noStack: true
 - summary: Design & Lead High Scale Feature
