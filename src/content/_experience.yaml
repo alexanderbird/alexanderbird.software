@@ -12,6 +12,7 @@
     - Teaching test design, technical writing and communication, and other skills that increase a tech lead's effectiveness
     - Mentoring several L4 and L5 engineers
     - Oncall operations -- resolving high severity operational incidents in response to our system alarms
+  noStack: true
 - summary: Design & Lead High Scale Feature
   employer: Amazon Web Services
   duration-in-months: 6
