@@ -9,6 +9,7 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - $ref: ./2023/optimize-for-never-hearing-about-this-again.json
   - $ref: ./2023/mistakes-i-make.json
   - $ref: ./2022/do-you-have-any-questions-for-me-2022.json
   - $ref: ./adrs-for-intuitive-decision-makers.json

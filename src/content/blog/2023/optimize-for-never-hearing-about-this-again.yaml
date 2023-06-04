@@ -1,0 +1,14 @@
+meta:
+  pageTemplate: blog-post
+
+title: 'Optimize for never hearing about this again'
+subtitle: "Approaches for increasing your tenure without collecting interruptors"
+#mastodon: https://mstdn.ca/@alexanderbird/109748788842072196
+url: 2023/optimize-for-never-hearing-about-this-again.html
+date: 2023-06
+copyright:
+  $ref: ../../_copyright.json
+header:
+  $ref: ./../_header.json
+meta-tags:
+  $ref: ./../_meta-tags.json
