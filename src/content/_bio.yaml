@@ -11,32 +11,31 @@ casualDisclaimer: |
 
 tiles:
   - motivation:
-      title: Tech
+      title: People
       details: >
-        What I build
+        How I interact with others
     strengths:
-      - title: polyglot
+      - title: customer focussed
         body: >
-          Comfortable with Java, TypeScript/JavaScript, Bash. Familiar with Ruby, C#, C++, Python, VBA.
-      - title: database agnostic
+          I've found the only way to build software that actually gets used is
+          to work closely with our customers from the very beginning and
+          throughout the work. This might mean customer interviews, watching
+          them work, User Story Mapping, releasing early prototypes for
+          feedback, collecting thoughtfully crafted metrics, and repeating those
+          things throughout the work.
+      - title: collaborative
         body: >
-          Comfortable modelling and testing relational data with SQL and NoSQL based databases.
-      - title: multi-architecture
+          I'd like to achive more than I can as a solo developer. I need the perspectives, inspiration,
+          and experience of many peers to do my best so I work hard to sustain and enhance
+          an environment where we can all bring our best to the table. In most teams I am
+          part of I share practices like collaborative programming (ensemble/pair/mob) and
+          retrospective techniques which help us spend more of our effort creating together
+          and wasting less effort negotiating and coordinating with each other.
+      - title: communicative
         body: >
-          Comfortable building distributed systems in the cloud, domain driven
-          microservices, and modular monoliths. I prefer hexagonal architecture
-          because of how easy it makes unit testing.
-      - title: refactoring
-        body: >
-          Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
-          <code>test && commit || revert</code>).
-      - title: learning
-        body: >
-          Always keen to learn a new tech stack, pattern, or approach.
-      - title: oncall operator
-        body: >
-          Experienced as a first responder to production incidents, including emergency performance optimization,
-          security incident response, and other high severity customer-impacting incidents.
+          I apply practices like continuous integration, User Story Mapping,
+          Domain Driven Design, Acceptance Test Driven Development, and Architectural Decision
+          Records to facilitate cross-discipline communication early and often.
   - motivation:
       title: Process
       details: >
@@ -63,28 +62,29 @@ tiles:
           continuous integration, small commits to help me and my peers spend more effort building/delivering
           and less effort coordinating/correcting.
   - motivation:
-      title: People
+      title: Tech
       details: >
-        How I interact with others
+        What I build
     strengths:
-      - title: customer focussed
+      - title: polyglot
         body: >
-          I've found the only way to build software that actually gets used is
-          to work closely with our customers from the very beginning and
-          throughout the work. This might mean customer interviews, watching
-          them work, User Story Mapping, releasing early prototypes for
-          feedback, collecting thoughtfully crafted metrics, and repeating those
-          things throughout the work.
-      - title: collaborative
+          Comfortable with Java, TypeScript/JavaScript, Bash. Familiar with Ruby, C#, C++, Python, VBA.
+      - title: database agnostic
         body: >
-          I'd like to achive more than I can as a solo developer. I need the perspectives, inspiration,
-          and experience of many peers to do my best so I work hard to sustain and enhance
-          an environment where we can all bring our best to the table. In most teams I am
-          part of I share practices like collaborative programming (ensemble/pair/mob) and
-          retrospective techniques which help us spend more of our effort creating together
-          and wasting less effort negotiating and coordinating with each other.
-      - title: communicative
+          Comfortable modelling and testing relational data with SQL and NoSQL based databases.
+      - title: multi-architecture
         body: >
-          I apply practices like continuous integration, User Story Mapping,
-          Domain Driven Design, Acceptance Test Driven Development, and Architectural Decision
-          Records to facilitate cross-discipline communication early and often.
+          Comfortable building distributed systems in the cloud, domain driven
+          microservices, and modular monoliths. I prefer hexagonal architecture
+          because of how easy it makes unit testing.
+      - title: refactoring
+        body: >
+          Very comfortable with advanced refactoring methods (IDE tooling, manual provable refactorings,
+          <code>test && commit || revert</code>).
+      - title: learning
+        body: >
+          Always keen to learn a new tech stack, pattern, or approach.
+      - title: oncall operator
+        body: >
+          Experienced as a first responder to production incidents, including emergency performance optimization,
+          security incident response, and other high severity customer-impacting incidents.

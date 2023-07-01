@@ -20,9 +20,10 @@ contact-methods:
   - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
     text: LinkedIn
     icon: linkedin
-  - link: https://twitter.com/alexander_bird
-    text: Twitter
-    icon: twitter
+  - link: https://mstdn.ca/@alexanderbird
+    rel: me
+    text: Mastodon
+    icon: mastodon
 
 navigation:
   print-mode:
@@ -56,18 +57,13 @@ education:
 hobby-experience:
   title: Hobby Programming & Learning
   items:
-    - icon: twitter
-      alt: '@alexander_bird on Twitter'
+    - icon: mastodon
+      alt: '@alexanderbird@mstdn.ca on Mastodon'
       title: What I'm reading and thinking about
-      url: https://twitter.com/alexander_bird
+      url: https://mstdn.ca/@alexanderbird
     - icon: github
-      alt: '@alexanderbird on GitHub'
       title: Hobby projects
       url: /blog/hobby-project-index.html
-    - icon: npm
-      alt: '@alexanderbird on npm'
-      title: Packages I've written
-      url: https://www.npmjs.com/~alexanderbird
     - icon: stack-overflow
       alt: '@alexanderbird on Stack Overflow'
       title: Questions and answers I've contributed to on Stack Overflow
@@ -77,13 +73,3 @@ hobby-experience:
       alt: 'Software Blog'
       title: Software Blog
       url: /blog
-
-# TODO: these might be worth incorporating in their respective experience sections
-#     - Challenges of working with WebRTC while spec is in flux (Chrome bugs, protocol ambiguity)
-#     - TypeScript vs vanilla JS (pros and cons)
-#     - What makes my Excel VBA project my favourite?
-#     - Editor preference (Vim)
-#     - Project changes to optimize for easy onboarding
-#     - Lessons learned from working in several unpleasant teams
-#     - Thoughts on pairing and mobbing
-#     - tense workplace conflict resolution anecdotes

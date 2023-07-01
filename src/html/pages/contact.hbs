@@ -4,7 +4,7 @@
     <a class='exit' href='#home'>✘</a>
     <ul class='contact-methods'>
       {{#each contact-methods as |contact|}}
-        <li><a target='_blank' href='{{contact.link}}'>{{> atoms/svg-icon name=contact.icon}}{{contact.text}}</a>
+        <li><a target='_blank' rel='{{contact.rel}}' href='{{contact.link}}'>{{> atoms/svg-icon name=contact.icon}}{{contact.text}}</a>
       {{/each}}
     </ul>
   </div>
