@@ -1,0 +1,14 @@
+meta:
+  pageTemplate: blog-post
+
+title: My Technical Approach
+subtitle: A mind map of things that I focus on at work
+#mastodon: https://mstdn.ca/@alexanderbird/X
+url: 2023/technical-approach.html
+date: 2023-06
+copyright:
+  $ref: ../../_copyright.json
+header:
+  $ref: ./../_header.json
+meta-tags:
+  $ref: ./../_meta-tags.json
