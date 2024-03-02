@@ -1,0 +1,5 @@
+- design and build high scale distributed systems
+- investigate, mitigate, and prevent customer-impacting operational incidents as an oncall engineer
+- drive architecture improvements across multiple teams (primarily my own team, with some cross-team impact and mentoring)
+- develop and establish mechanisms for aligning engineering work with customer needs
+- practice, promote, and mentor in TDD, refactoring, story splitting, test strategy, and other technical practices that support agility
