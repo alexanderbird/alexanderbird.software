@@ -68,6 +68,18 @@ Sometimes, I had no interest in reading text books. Then, months later, I would
 get stoked about one and read it on the train for a while. In some jobs, I would
 take 30 minutes in the morning to read at my desk or in the parking lot.
 
+### Writing and publishing
+
+I started writing on Twitter to keep a record of interesting things I was
+learning. Later, I started this blog. This exercise of summarizing and
+publishing something about what I'm learning has been helpful. Sometimes, I get
+some feedback from someone on the internet that helps with my learning.  Every
+time, the process of writing helps clarify my thinking.
+
+It's hard to know in advance what things will turn out to be quite useful and
+what things will be boring, so I try to not think too much about that and just
+write about what I'm learning and what I think is interesting.
+
 ### Learning at work
 
 I'm always on the lookout for opportunities to learn on the job. I'm looking for
