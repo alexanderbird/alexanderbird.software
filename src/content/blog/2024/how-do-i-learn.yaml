@@ -1,0 +1,12 @@
+meta:
+  pageTemplate: blog-post
+
+title: How do I learn and grow as a software developer?
+url: 2024/how-do-i-learn.html
+date: 2024-05
+copyright:
+  $ref: ../../_copyright.json
+header:
+  $ref: ./../_header.json
+meta-tags:
+  $ref: ./../_meta-tags.json
