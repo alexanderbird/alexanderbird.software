@@ -1,5 +1,3 @@
-@import '../animations';
-
 .organisms__introduction {
   .organisms__introduction__title-area {
     border-bottom: 2px solid var(--color-primary);
@@ -11,13 +9,10 @@
   margin-top: 32px;
   flex-basis: 0;
   flex-grow: 1;
-  --casual-disclaimer-delay: 0.5s;
-  --after-casual-disclaimer-delay: 1s;
 
   .organisms__introduction__casual-disclaimer {
     text-align: center;
     margin-bottom: 36px;
-    @include lesser-fade-in(1s, var(--casual-disclaimer-delay));
 
     .printer-friendly-version:target & {
       display: none;
@@ -27,17 +22,6 @@
   .organisms__introduction__tiles {
     margin-left: 16px;
     --atoms--grid-columns: 3;
-    & > *:nth-of-type(1) {
-      --animation-delay: calc(var(--animation-delay-1) + var(--after-casual-disclaimer-delay));
-    }
- 
-    & > *:nth-of-type(2) {
-      --animation-delay: calc(var(--animation-delay-2) + var(--after-casual-disclaimer-delay));
-    }
-
-    & > *:nth-of-type(3) {
-      --animation-delay: calc(var(--animation-delay-3) + var(--after-casual-disclaimer-delay));
-    }
   }
 }
 

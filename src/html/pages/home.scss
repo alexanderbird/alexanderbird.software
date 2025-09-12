@@ -1,31 +1,6 @@
-@import '../animations';
-
 .pages__home {
-  animation:
-    var(--when-animating-in, fade-in 1s),
-    var(--when-animating-out, fade-out 1s);
-
-  /*display: flex;*/
   flex-direction: column;
   justify-content: flex-start;
-  /*height: 100%;*/
   padding-bottom: 64px;
   position: relative;
-
-  .atoms__printer-friendly-version-link,
-  .atoms__contact-link {
-    @include lesser-fade-in(2s, 1s);
-  }
-
-  .organisms__introduction {
-    --animation-duration: 0.3s;
-    --animation-delay-1: 0.6s;
-    --animation-delay-2: 0.9s;
-    --animation-delay-3: 1.2s;
-  }
-
-  .organisms__experience {
-    --animation-duration: 0.3s;
-    --animation-delay: 1.5s;
-  }
 }
