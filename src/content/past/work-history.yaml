@@ -1,0 +1,75 @@
+meta:
+  pageTemplate: index
+
+title: Alexander Bird - Software Engineer
+profile:
+  $ref: ../_profile.json
+
+meta-tags:
+  twitter-handle: '@alexander_bird'
+  site-image: https://alexanderbird.software/assets/alexanderbird.jpg
+  description: Learning to build useful, valuable software in a team.
+
+copyright:
+  $ref: ../_copyright.json
+
+contact-methods: 
+  - link: mailto:alex@alexanderbird.software
+    text: alex@alexanderbird.software
+    icon: mail
+  - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
+    text: LinkedIn
+    icon: linkedin
+  - link: https://mstdn.ca/@alexanderbird
+    rel: me
+    text: Mastodon
+    icon: mastodon
+
+navigation:
+  print-mode:
+    icon: printer
+    display-label: Resume View
+    alt: Print
+    title: Printer Friendly Version
+  contact:
+    icon: mail
+    display-label: Contact
+    alt: Contact
+    title: Contact Information
+  home:
+    icon: home
+    display-label: Full Site
+    alt: Full Site
+    title: Back to full site
+
+introduction:
+  $ref: ../_bio.json
+
+experience-front-matter:
+  $ref: ../_experience-front-matter.json
+
+experience:
+  $ref: ../_experience.json
+
+education:
+  $ref: ../_education.json
+
+hobby-experience:
+  title: Hobby Programming & Learning
+  items:
+    - icon: mastodon
+      alt: '@alexanderbird@mstdn.ca on Mastodon'
+      title: What I'm reading and thinking about
+      url: https://mstdn.ca/@alexanderbird
+    - icon: github
+      title: Hobby projects
+      url: /blog/hobby-project-index.html
+    - icon: stack-overflow
+      alt: '@alexanderbird on Stack Overflow'
+      title: Questions and answers I've contributed to on Stack Overflow
+      url: https://stackoverflow.com/users/3012550/alexanderbird?tab=summary
+    - icon: ab-initials
+      internal-link: true
+      alt: 'Software Blog'
+      title: Software Blog
+      url: /blog
