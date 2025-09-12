@@ -1,4 +1,10 @@
+@import '../animations';
+
 #contact {
+  animation:
+    var(--when-animating-in, fade-in 1s),
+    var(--when-animating-out, fade-out 1s);
+
   .pages__contact__content {
     position: relative;
     display: flex;
