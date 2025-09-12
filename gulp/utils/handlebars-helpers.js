@@ -1,7 +1,8 @@
-const handlebars = require('handlebars');
 const pluralize = require('pluralize');
 const markdown = require('./markdown');
 const Experience = require('./models/experience.js');
+
+function registerHelpers(handlebars) {
 
 handlebars.registerHelper('not', object => !object)
 handlebars.registerHelper('markdown', markdown)
@@ -18,3 +19,6 @@ handlebars.registerHelper('html-unescape', string => string && string
   .replace(new RegExp('&amp;', 'g'), '&')
   .replace(new RegExp('&bull;', 'g'), '•'))
 
+};
+
+module.exports = { registerHelpers };

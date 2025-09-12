@@ -2,6 +2,9 @@ const fs = require('fs');
 const gulp = require('gulp');
 const gulpJsonHandlebars = require('gulp-json-handlebars');
 const gulpHtmlHandlebars = require('gulp-handlebars-html')();
+const Handlebars = require('handlebars')
+const {allowInsecurePrototypeAccess} = require('@handlebars/allow-prototype-access')
+const insecureHandlebars = allowInsecurePrototypeAccess(Handlebars)
 const concat = require('gulp-concat');
 const wrap = require('gulp-wrap');
 const extensionReplace = require('gulp-ext-replace');
@@ -11,7 +14,8 @@ const jsonRefs = require('gulp-json-refs');
 const filter = require('gulp-filter');
 const del = require('del');
 
-require('../utils/handlebars-helpers')
+const { registerHelpers } = require('../utils/handlebars-helpers')
+registerHelpers(insecureHandlebars);
 
 const {
   buildDirectory,
@@ -38,7 +42,7 @@ gulp.task('build:handlebars', () => gulp
   .src(`${tmpContentDirectory}/**/*.json`)
   .pipe(jsonRefs())
   .pipe(filter(['**/*', '!**/_*.json']))
-  .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData }), getPageTemplate))
+  .pipe(gulpJsonHandlebars(Object.assign({}, handlebarsOptions, { preProcessData, handlebars: insecureHandlebars }), getPageTemplate))
   .pipe(extensionReplace('.html'))
   .pipe(gulp.dest(buildDirectory))
 );
