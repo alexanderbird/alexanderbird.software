@@ -4,16 +4,9 @@
   width: 7.5in;
   margin-left: auto;
   margin-right: auto;
-
-  * {
-    animation: none !important;
-  }
 }
 
 body.javascript-state__fully-initialized {
   .printer-friendly-version:target {
-    * {
-      transition: all 0.5s ease;
-    }
   }
 }

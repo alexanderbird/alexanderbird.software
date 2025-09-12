@@ -8,37 +8,24 @@
   text-decoration: none;
   color: inherit;
 
-  --animation-duration: 150ms;
-
   transition: all 100ms ease 0s;
   top: 0;
   left: 0;
   &:hover {
-    --pop-out-animation-depth: 10px;
     top: -6px;
     left: -6px;
 
     &:after {
       content: '';
       display: block;
-      height: calc(100% + var(--pop-out-animation-depth));
-      width: calc(100% + var(--pop-out-animation-depth));
       position: absolute;
     }
   }
 
   &:active {
-    --pop-out-animation-depth: 1px;
     top: 3px;
     left: 3px;
   }
-
-  @for $i from 1 through 40 {
-    &:nth-child(#{$i}) {
-      --animation-delay: #{($i - 1) * 30}ms;
-    }
-  }
-  --animation-delay: 50ms;
 
   .organisms__blog-post-summary__date {
     grid-area: date;

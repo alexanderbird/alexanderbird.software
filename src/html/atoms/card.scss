@@ -4,7 +4,6 @@
   border-radius: 4px;
   padding: 16px;
   background-color: var(--atoms--card--color);
-  animation: pop-out var(--animation-duration) ease-out var(--animation-delay) both;
 }
 
 .printer-friendly-version:target .atoms__card {
