@@ -1,0 +1,13 @@
+{{#> organisms/index-meta }}
+  {{#> atoms/page slug='past-work-history' default='true' class='pages__past-work-history'}}
+    {{> organisms/header profile}}
+    {{> organisms/experience
+      experience-front-matter
+      items=experience
+      education=education
+      hobby-experience=hobby-experience
+      }}
+    <hr class='atoms__hr'>
+    {{> atoms/copyright-footer copyright }}
+  {{/atoms/page}}
+{{/ organisms/index-meta }}

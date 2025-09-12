@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html lang='en'>
-  {{#> invisible/html-head title=title }}
-    {{> invisible/meta-tags
-      meta-tags
-      title=title
-      domain=profile.website
-    }}
-  {{/invisible/html-head}}
-  {{#> atoms/html-body}}
-    {{> invisible/signature }}
-    {{> invisible/css-helper-script }}
-    {{> invisible/icon-symbols }}
-    <div id='resume' class='printer-friendly-version'>
-      {{> pages/contact }}
-      {{> pages/home }}
-    </div>
-    <script src='/signature.js'></script>
-    {{> invisible/link-to-readme }}
-  {{/atoms/html-body}}
-</html>
+{{#> organisms/index-meta }}
+  <div id='resume' class='printer-friendly-version'>
+    {{> pages/contact }}
+    {{> pages/home }}
+  </div>
+{{/ organisms/index-meta }}
