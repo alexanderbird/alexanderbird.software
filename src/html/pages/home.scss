@@ -4,7 +4,29 @@
   padding-bottom: 64px;
   position: relative;
 
-  .organisms__experience-summary {
-    margin-top: 48px;
+  .pages__home__intro-grid {
+    --atoms--grid-columns: 2;
+
+    .atoms__card {
+      position: relative;
+    }
+
+    .organisms__experience-summary {
+      margin-bottom: 24px;
+    }
+
+    .pages__home__footnote-link {
+      font-size: 0.8em;
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      padding: 8px 12px;
+    }
   }
+
+  .organisms__past-present-future {
+    margin-top: 24px;
+    margin-bottom: 42px;
+  }
+
 }

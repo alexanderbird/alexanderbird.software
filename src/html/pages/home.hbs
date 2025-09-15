@@ -1,9 +1,19 @@
 {{#> atoms/page slug='home' default='true' class='pages__home'}}
   {{> atoms/home-link navigation.home }}
   {{> organisms/header profile}}
-  {{> organisms/experience-summary experience-summary }}
-  <hr class='atoms__hr'>
   {{> organisms/past-present-future }}
+  <div class='atoms__grid pages__home__intro-grid'>
+    <div class='atoms__card'>
+      <h4>History</h4>
+      {{> organisms/experience-summary experience-summary }}
+      <a class='pages__home__footnote-link' href="/past/work-history">Read More</a>
+    </div>
+    <div class='atoms__card'>
+      <h4>Work</h4>
+      {{{ markdown content }}}
+      <a class='pages__home__footnote-link' href="/present/approach">Read More</a>
+    </div>
+  </div>
   <hr class='atoms__hr'>
   {{> atoms/copyright-footer copyright }}
 {{/atoms/page}}
