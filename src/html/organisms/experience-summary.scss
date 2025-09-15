@@ -1,0 +1,32 @@
+.organisms__experience-summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  ul {
+    flex-shrink: 1;
+    margin: auto;
+    padding: 0;
+    width: auto;
+
+    li {
+      list-style-type: none;
+      width: auto;
+      margin: 3px 0;
+    }
+  }
+
+  &__year {
+    border-radius: 8px;
+    background-color: var(--color-accent);
+    padding: 0 4px;
+  }
+
+  &__main {
+    font-weight: bold;
+  }
+
+  &__secondary {
+    color: var(--color-secondary);
+  }
+}

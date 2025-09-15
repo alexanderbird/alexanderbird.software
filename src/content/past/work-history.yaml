@@ -56,6 +56,9 @@ experience-front-matter:
 experience:
   $ref: ../_experience.json
 
+experience-summary:
+  $ref: ../_experience-summary.json
+
 education:
   $ref: ../_education.json
 
