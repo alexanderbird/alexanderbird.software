@@ -3,15 +3,4 @@
   justify-content: flex-start;
   padding-bottom: 64px;
   position: relative;
-
-  .pages__home__casual-disclaimer {
-    text-align: center;
-    margin-top: 36px;
-    margin-bottom: 36px;
-
-    .printer-friendly-version:target & {
-      display: none;
-    }
-  }
-
 }

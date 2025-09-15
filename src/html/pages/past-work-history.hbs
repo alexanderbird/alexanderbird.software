@@ -2,6 +2,7 @@
   <div class='printer-friendly-version'>
     {{#> atoms/page slug='past-work-history' default='true' class='pages__past-work-history'}}
       {{> organisms/child-page-header profile pageTitle=pageTitle }}
+      <p>{{disclaimer}}</p>
       {{> organisms/experience
         experience-front-matter
         items=experience
