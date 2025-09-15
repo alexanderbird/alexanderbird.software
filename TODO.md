@@ -14,3 +14,8 @@
 - Spruce up "Contact Me"
 - Add icons for the past/present/future (path/boot/map?)
 - Add a "Books and Advice that Shaped Me" page
+- Consider revamping that last tile in the work history -- it links to GitHub
+  and Stack Overflow... but I don't do a lot of stuff there, right?
+    - Maybe have a "portfolio" section with
+       - a few notable open source contributions
+       - links to regextiles and other games
