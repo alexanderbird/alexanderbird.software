@@ -1,0 +1,10 @@
+{{#> organisms/index-meta }}
+  <div class='printer-friendly-version'>
+    {{#> atoms/page slug='present-contact' default='true' class='pages__present-contact'}}
+      {{> organisms/child-page-header profile pageTitle=pageTitle }}
+      <p>{{intro}}</p>
+      {{> organisms/contact-methods contact-methods}}
+      {{> atoms/copyright-footer copyright }}
+    {{/atoms/page}}
+  </div>
+{{/ organisms/index-meta }}
