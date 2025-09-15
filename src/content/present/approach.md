@@ -29,7 +29,7 @@ work well. Because of that, I pay attention to:
    instead of half-braining two things).
     - code structure, testing strategy, tool choice, automation, just enough
       documentation, etc.
-4. Social practices to make space for enjoyable debate
+4. Social practices to make space for healthy debate
     - We can't do creative work well when we are in fight-or-flight mode. I have
       seen engineering cultures where truth matters more than delivery (which
       seems like it would be efficient but turns out to shut down discussion),
