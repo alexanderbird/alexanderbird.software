@@ -1,0 +1,30 @@
+.organisms__child-page-header {
+  background-color: color-mix(in srgb, var(--color-accent-darker), var(--color-background) 50%);
+  margin: -24px -24px 0 -24px;
+  padding: 24px 24px 0 24px;
+  
+  .organisms__child-page-header__home-link {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    margin-bottom: 16px;
+    text-align: center;
+    text-decoration: none;
+
+    & > * {
+      display: block;
+      margin-right: 16px;
+    }
+
+    .molecules__name-and-title {
+      color: var(--color-primary);
+      margin: auto;
+    }
+  }
+
+  .profile-picture {
+    margin-bottom: 16px;
+    width: 64px;
+  }
+}

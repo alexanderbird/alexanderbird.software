@@ -1,7 +1,8 @@
 {{#> organisms/index-meta }}
   <div class='printer-friendly-version'>
     {{#> atoms/page slug='past-work-history' default='true' class='pages__past-work-history'}}
-      {{> organisms/header profile}}
+      {{> organisms/child-page-header profile}}
+      {{> molecules/child-page-title pageTitle}}
       {{> organisms/experience
         experience-front-matter
         items=experience

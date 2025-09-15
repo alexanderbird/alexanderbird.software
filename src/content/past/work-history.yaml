@@ -2,6 +2,11 @@ meta:
   pageTemplate: past-work-history
 
 title: Alexander Bird - Software Engineer
+
+pageTitle:
+  section: Past
+  page: Work Experience
+
 profile:
   $ref: ../_profile.json
 

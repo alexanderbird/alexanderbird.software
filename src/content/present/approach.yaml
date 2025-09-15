@@ -3,5 +3,12 @@ meta:
 
 title: How I Work &bull; Alexander Bird
 
+pageTitle:
+  section: Present
+  page: How I Work
+
+profile:
+  $ref: ../_profile.json
+
 introduction:
   $ref: ../_bio.json
