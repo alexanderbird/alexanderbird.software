@@ -1,6 +1,8 @@
 <div class='organisms__child-page-header'>
   <a href="/" title="Home" class="organisms__child-page-header__home-link">
     {{> atoms/profile-picture class='profile-picture'}} 
-    {{> molecules/name-and-title title=title name=name }}
+    <span class='organisms__child-page-header__name'>{{name}}</span>
   </a>
+  <span class='organisms__child-page-header__divider'>//</span>
+  <span class='organisms__child-page-header__title'>{{pageTitle}}</span>
 </div>

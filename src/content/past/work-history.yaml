@@ -3,9 +3,7 @@ meta:
 
 title: Alexander Bird - Software Engineer
 
-pageTitle:
-  section: Past
-  page: Work Experience
+pageTitle: Work Experience
 
 profile:
   $ref: ../_profile.json

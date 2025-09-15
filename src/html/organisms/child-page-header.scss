@@ -2,25 +2,49 @@
   background-color: color-mix(in srgb, var(--color-accent-darker), var(--color-background) 50%);
   margin: -24px -24px 0 -24px;
   padding: 24px 24px 0 24px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+
+  & > * {
+    display: block;
+    margin-right: 16px;
+  }
+
+  .organisms__child-page-header__name {
+    color: var(--color-primary);
+    font-size: 28px;
+    align-self: flex-end;
+    padding-bottom: 12px;
+  }
+
+  .organisms__child-page-header__divider {
+    color: var(--color-secondary);
+    font-size: 28px;
+    align-self: flex-end;
+    padding-bottom: 12px;
+  }
+
+  .organisms__child-page-header__title {
+    font-size: 42px;
+    align-self: flex-end;
+    padding-bottom: 8px;
+  }
   
   .organisms__child-page-header__home-link {
     display: flex;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
     justify-content: flex-start;
-    margin-bottom: 16px;
     text-align: center;
     text-decoration: none;
 
-    & > * {
+    & > *:not(:last-child) {
       display: block;
-      margin-right: 16px;
+      margin-right: 8px;
     }
 
-    .molecules__name-and-title {
-      color: var(--color-primary);
-      margin: auto;
-    }
   }
 
   .profile-picture {
