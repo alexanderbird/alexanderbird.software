@@ -1,0 +1,10 @@
+meta:
+  pageTemplate: future-plans
+
+title: What's Next - Alexander Bird
+
+pageTitle: What's Next
+
+profile:
+  $ref: ../_profile.json
+
