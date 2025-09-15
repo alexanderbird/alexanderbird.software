@@ -1,9 +1,6 @@
 # TODO
 
-- review the new material
-- publish
-- share
-
+- Do a round of copy editing on the main site
 
 ### Maybe
 
