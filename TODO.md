@@ -1,10 +1,11 @@
 # TODO
 
-- Add links to Hunter blog posts
 - Write "What's Next"
 - Write "How I Work"
   - consider also the mind map blog post
   - consider having an archive of previous "how I worked" content?
+- publish
+- share
 
 
 ### Maybe
