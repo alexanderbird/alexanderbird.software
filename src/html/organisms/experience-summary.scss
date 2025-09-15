@@ -28,5 +28,16 @@
 
   &__secondary {
     color: var(--color-secondary);
+
+    @media (max-width: 600px) {
+      display: block;
+      width: 100%;
+      text-align: right;
+      
+      &:before {
+        content: '\21b3  ';
+        opacity: 0.5;
+      }
+    }
   }
 }

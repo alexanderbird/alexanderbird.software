@@ -8,6 +8,23 @@
   .organisms__experience__section-header {
     font-size: 1.5em;
   }
+
+  @media (max-width: 600px) {
+    .organisms__experience__summary-tile {
+      margin-bottom: 12px;
+
+      & > * {
+        margin: 0;
+        display: inline;
+      }
+
+      .organisms__experience__disclaimer {
+        &:before { content: '('; }
+        &:after { content: ')'; }
+        color: var(--color-secondary);
+      }
+    }
+  }
 }
 
 .printer-friendly-version:not(:target) .organisms__experience {

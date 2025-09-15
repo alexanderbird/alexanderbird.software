@@ -1,13 +1,24 @@
 .organisms__past-present-future {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
-  padding: 24px;
+  align-items: flex-start;
+  padding: 2px 2px 24px 2px;
+
+  @media (min-width: 600px) {
+    flex-direction: row;
+    padding: 24px;
+    align-items: center;
+  }
 
   section {
-    margin: 0 auto;
+    margin: 24px auto 0 24px;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 600px) {
+      margin: 0 auto;
+    }
 
     h3 {
       background-color: var(--color-accent);
