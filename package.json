@@ -2,16 +2,16 @@
   "name": "alexanderbird.softare",
   "version": "0.0.1",
   "description": "Resume Website",
-  "main": "html/index.html",
+  "main": "dist/index.html",
   "scripts": {
     "build:ci": "npm run build && npm run _sanitize",
     "build": "gulp --gulpfile gulp/gulpfile.js --cwd .",
     "build:fast": "gulp --gulpfile gulp/gulpfile.js --cwd . build",
     "build:fast:watch": "test -f tmp/dynamic/icons.svg || npm run build:fast:prepare && nodemon --watch src --exec 'npm run build:fast' --ext '*'",
     "build:fast:prepare": "gulp --gulpfile gulp/gulpfile.js --cwd . build:tmp",
-    "start": "http-server html",
+    "start": "http-server dist",
     "dev": "run-p start build:fast:watch",
-    "_sanitize": "rm -rf html/private"
+    "_sanitize": "rm -rf dist/private"
   },
   "repository": {
     "type": "git",
@@ -23,7 +23,7 @@
   "author": "Alexander Bird",
   "license": "UNLICENSED",
   "gulp": {
-    "buildDirectory": "html",
+    "buildDirectory": "dist",
     "buildAssetsDirectory": "assets",
     "buildIconsBasename": "icons",
     "sourceDirectory": "src/html",
