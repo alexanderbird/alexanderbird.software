@@ -1,0 +1,7 @@
+meta:
+  pageTemplate: present-approach
+
+title: How I Work &bull; Alexander Bird
+
+introduction:
+  $ref: ../_bio.json
