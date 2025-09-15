@@ -50,9 +50,6 @@ navigation:
 introduction:
   $ref: ../_bio.json
 
-experience-front-matter:
-  $ref: ../_experience-front-matter.json
-
 experience:
   $ref: ../_experience.json
 
