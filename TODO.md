@@ -1,6 +1,5 @@
 # TODO
 
-- Mobile view throughout, especially the landing page
 - Add links to Hunter blog posts
 - Write "What's Next"
 - Write "How I Work"
@@ -19,3 +18,5 @@
     - Maybe have a "portfolio" section with
        - a few notable open source contributions
        - links to regextiles and other games
+- On the work history page, consider linking from each experience summary to its
+  corresponding overview?
