@@ -64,8 +64,9 @@ const preProcessData = (data, file) => {
   const markdownFile = path.join(sourceContentDirectory, file).replace(/\.json$/, '.md')
   try {
     data.content = fs.readFileSync(markdownFile).toString()
+      .replace(/ -- /g, ' &mdash; ');
   } catch(e) {
-    // meh 
+    // The content is optional so we don't need to worry about missing files
   }
   return data
 }
