@@ -6,6 +6,18 @@
   flex-direction: row;
   align-items: center;
   justify-content: flex-start;
+  @media (max-width: 600px) {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-areas:
+      'link divider'
+      'title title';
+
+    .organisms__child-page-header__title {
+      text-align: center;
+      width: 100%;
+    }
+  }
 
   & > * {
     display: block;
@@ -24,12 +36,14 @@
     font-size: 28px;
     align-self: flex-end;
     padding-bottom: 12px;
+    grid-area: divider;
   }
 
   .organisms__child-page-header__title {
     font-size: 42px;
     align-self: flex-end;
     padding-bottom: 8px;
+    grid-area: title;
   }
   
   .organisms__child-page-header__home-link {
@@ -39,6 +53,7 @@
     justify-content: flex-start;
     text-align: center;
     text-decoration: none;
+    grid-area: link;
 
     & > *:not(:last-child) {
       display: block;

@@ -1,11 +1,11 @@
 <div class='organisms__experience'>
-  <h2 class='organisms__experience__section-header'>{{{title}}}</h2>
-  <div class='organisms__experience__summary'>
-  {{#each summary}}
-    {{> molecules/employment-summary this }}
-  {{/each}}
-  </div>
+  <p>{{intro}}</p>
   <div class='atoms__grid organisms__experience__experiences'>
+    <div class='organisms__experience__summary-tile atoms__card'>
+      <h3>Overview</h3>
+      <p class='organisms__experience__disclaimer'>{{disclaimer}}</p>
+      {{> organisms/experience-summary experience-summary }}
+    </div>
     {{#each items }}
       {{> organisms/experience-tile this }}
     {{/each}}

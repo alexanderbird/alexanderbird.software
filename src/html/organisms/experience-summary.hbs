@@ -1,0 +1,11 @@
+<div class='organisms__experience-summary'>
+  <ul>
+    {{#each events}}
+      <li>
+        <span class='organisms__experience-summary__year'>{{this.year}}</span>
+        <span class='organisms__experience-summary__main'>{{this.main}}</span>
+        <span class='organisms__experience-summary__secondary'>{{this.secondary}}</span>
+      </li>
+    {{/each}}
+  </ul>
+</div>

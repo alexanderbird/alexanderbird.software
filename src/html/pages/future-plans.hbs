@@ -1,0 +1,9 @@
+{{#> organisms/index-meta }}
+  <div class='printer-friendly-version'>
+    {{#> atoms/page slug='future-plans' default='true' class='pages__future-plans'}}
+      {{> organisms/child-page-header profile pageTitle=pageTitle }}
+      {{{ markdown content }}}
+      {{> atoms/copyright-footer copyright }}
+    {{/atoms/page}}
+  </div>
+{{/ organisms/index-meta }}

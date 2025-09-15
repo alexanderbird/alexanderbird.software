@@ -1,0 +1,10 @@
+meta:
+  pageTemplate: present-location
+
+title: Location - Alexander Bird
+
+pageTitle: Location
+
+profile:
+  $ref: ../_profile.json
+

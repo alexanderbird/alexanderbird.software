@@ -18,17 +18,7 @@ disclaimer: "Last updated September 2025"
 copyright:
   $ref: ../_copyright.json
 
-contact-methods: 
-  - link: mailto:alex@alexanderbird.software
-    text: alex@alexanderbird.software
-    icon: mail
-  - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
-    text: LinkedIn
-    icon: linkedin
-  - link: https://mstdn.ca/@alexanderbird
-    rel: me
-    text: Mastodon
-    icon: mastodon
+intro: Here are some back-of-the-napkin sketches of my work experience.
 
 navigation:
   print-mode:
@@ -50,11 +40,11 @@ navigation:
 introduction:
   $ref: ../_bio.json
 
-experience-front-matter:
-  $ref: ../_experience-front-matter.json
-
 experience:
   $ref: ../_experience.json
+
+experience-summary:
+  $ref: ../_experience-summary.json
 
 education:
   $ref: ../_education.json
