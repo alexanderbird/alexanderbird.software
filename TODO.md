@@ -9,6 +9,7 @@
 
 ### Maybe
 
+- include some of the accolades/high fives given in the past?
 - spruce up the link styles under past/present/future
 - Spruce up "Contact Me"
 - Add icons for the past/present/future (path/boot/map?)

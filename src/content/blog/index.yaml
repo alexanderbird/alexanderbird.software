@@ -9,8 +9,112 @@ header:
 meta-tags:
   $ref: ./_meta-tags.json
 posts:
+  - date: 2025-09
+    title: Software Team Taboos
+    subtitle: Strategies for talking about those things that nobody wants to talk about
+    url: https://blog.huntersoftware.team/2025/09/08/software-team-taboos.html
+  - date: 2025-07
+    title: Spike, Revert, TDD
+    subtitle: A pattern for practicing TDD when you don't know where to start
+    url: https://blog.huntersoftware.team/2025/07/04/spike-revert-tdd.html
+  - date: 2025-06
+    title: Adopt, Adapt, or Ignore
+    subtitle: A pattern for sharing inventions between autonomous teams
+    url: https://blog.huntersoftware.team/2025/06/10/adopt-adapt-ignore.html
+  - date: 2025-04
+    title: Type Narrowing in TypeScript
+    subtitle: When the API gives us too much info and we don't want to know about it
+    url: https://blog.huntersoftware.team/2025/04/25/type-narrowing-in-typescript.html
+  - date: 2025-03
+    title: So DRY it's SCORCHED
+    subtitle: How to tank your maintainability by over DRYing your code
+    url: https://blog.huntersoftware.team/2025/03/28/so-dry-it-is-scorched.html
+  - date: 2025-03
+    title: Readability Requires Editing
+    subtitle: How ease of inline/extract refactoring impacts the inevitable readability of our code
+    url: https://blog.huntersoftware.team/2025/03/28/cost-to-split-and-merge.html
+  - date: 2025-02
+    title: A Mental Model for Reactive Programming
+    subtitle: From City Water Supply to My Kitchen Sink
+    url: https://blog.huntersoftware.team/2025/02/06/rxjs-subscribe-vs-pipe.html
+  - date: 2025-01
+    title: Generating Angular Service Spies
+    subtitle: Reducing Keystrokes and Supporting Refactoring
+    url: https://blog.huntersoftware.team/2025/01/30/generating-angular-service-spies.html
+  - date: 2025-01
+    title: Continuous Learning Through Coding Games
+    subtitle: Coding Microsites and How We Use Them
+    url: https://blog.huntersoftware.team/2025/01/28/learning-games.html
+  - date: 2024-10
+    title: "PowerShell Script: What Changed While I Was On Vacation?"
+    subtitle: Listing all the git changes across many repos from certain authors in the last week
+    url: https://blog.huntersoftware.team/2024/10/02/powershell-script-what-changed-since.html
+  - date: 2024-09
+    title: Solving Hard Problems Without Luck
+    subtitle: Thirty-One Alternatives to Guessing What To Do Next
+    url: https://blog.huntersoftware.team/2024/09/05/alternatives-to-guessing-what-to-do-next.html
+  - date: 2024-09
+    title: In Favor of Single-Team Ownership
+    subtitle: An argument for independent software teams
+    url: https://blog.huntersoftware.team/2024/09/03/in-favor-of-single-team-ownership.html
+  - date: 2024-08
+    title: Angular Testing Patterns
+    subtitle: ng On Init, ng On Changes, and mock components
+    url: https://blog.huntersoftware.team/2024/08/09/angular-testing-patterns.html
+  - date: 2024-06
+    title: Split Pipe
+    subtitle: a Refactoring Pattern for RXJS
+    url: https://blog.huntersoftware.team/2024/06/19/rxjs-refactoring-pattern-split-pipe.html
   - $ref: ./2024/how-do-i-learn.json
+  - date: 2024-06
+    title: Adapter vs Facade vs Bridge
+    subtitle: "Notes while reading Design Patterns: Elements of Reusable Object-Oriented Software"
+    url: https://blog.huntersoftware.team/2024/06/07/comparison-of-structural-patterns.html
+  - date: 2024-05
+    title: Is a tomato a fruit or a vegetable?
+    subtitle: On software encapsulation and tomato taxonomy
+    url: https://blog.huntersoftware.team/2024/05/07/is-a-tomato-a-fruit-or-vegetable.html
+  - date: 2024-04
+    title: Group By using Reduce in JavaScript
+    subtitle: Not often useful, but when you need it it's helpful to know
+    url: https://blog.huntersoftware.team/2024/04/05/javascript-reduce-to-group-by.html
+  - date: 2024-03
+    title: The Joy of a Low-Hazard Development Environment
+    subtitle: Shaping our tools and processes to reduce risk in our work
+    url: https://blog.huntersoftware.team/2024/03/25/low-hazard-workplace.html
+  - date: 2024-01
+    title: Git Squash
+    subtitle: How to combine multiple commits
+    url: https://blog.huntersoftware.team/2024/01/16/git-squash.html
+  - date: 2024-01
+    title: Slingblade
+    subtitle: When it's time to abandon your precious idea
+    url: https://blog.huntersoftware.team/2024/01/09/slingblade.html
+  - date: 2023-12
+    title: Sketching Wildflowers and Writing Software
+    subtitle: Lessons from a visual artist on tackling overwhelming complexity
+    url: https://blog.huntersoftware.team/2023/12/05/sketching-wildflowers-writing-software.html
+  - date: 2023-11
+    title: Motivation Engineering
+    subtitle: Technical strategies for tackling overwhelming lists of compiler errors
+    url: https://blog.huntersoftware.team/2023/11/24/motivation-engineering.html
+  - date: 2023-11
+    title: “Jump onto the desk, Harry”
+    subtitle: Distributed Monoliths, Harry Potter, and Half-Doing New Ideas
+    url: https://blog.huntersoftware.team/2023/11/08/harry-potter-splits-the-monolith.html
+  - date: 2023-11
+    title: Hotspot Analysis
+    subtitle: Finding the most maintenance-worthy code in the project
+    url: https://blog.huntersoftware.team/2023/11/02/hotspot-analysis.html
+  - date: 2023-11
+    title: Find the Bright Spots
+    subtitle: Notes while reading Switch
+    url: https://blog.huntersoftware.team/2023/11/01/find-the-bright-spots.html
   - $ref: ./2023/a-template-for-introducing-mobbing.json
+  - date: 2023-10
+    title: Notes while reading Switch
+    subtitle: Leading change requires more than analysis and arguments
+    url: https://blog.huntersoftware.team/2023/10/31/notes-while-reading-switch.html
   - $ref: ./2023/technical-approach.json
   - $ref: ./2023/optimize-for-never-hearing-about-this-again.json
   - $ref: ./2023/mistakes-i-make.json
@@ -39,3 +143,4 @@ posts:
   - $ref: ./pair-programming-primer.json
   - $ref: ./git-commit-message-template.json
   - $ref: ./architecture-tests.json
+

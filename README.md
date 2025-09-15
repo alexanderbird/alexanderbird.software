@@ -42,3 +42,25 @@ are plenty out of the box tools that would do just as well 😅
  - `npm run dev` watches for changes and recompiles; also runs a dev server
  - `git push` to publish -- Netlify is configured to build the `main` branch on
    push
+
+### Blog Notes
+
+#### For Blog Posts published at blog.huntersoftware.team
+
+Use this to copy the links: 
+
+```javascript
+function toDate(string) {
+  const date = new Date(Date.parse(string.replace("'", '20')));
+  const year = date.getFullYear();
+  const month = date.getMonth() + 1;
+  return `${year}-${("00"+month).slice(-2)}`;
+}
+
+copy(Array.from(document.querySelectorAll('ul.post-list li')).map(li => ({
+  url: li.querySelector('a').href,
+  date: toDate(li.querySelector('.post-date').textContent.trim()),
+  title: li.querySelector('.post-link__heading').textContent.trim(),
+  subtitle: li.querySelector('.post-link__subheading').textContent.trim()
+})).map(x => `  - date: ${x.date}\n    title: ${x.title}\n    subtitle: ${x.subtitle}\n    url: ${x.url}`).join('\n'))
+```
