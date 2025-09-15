@@ -2,6 +2,9 @@ meta:
   pageTemplate: past-work-history
 
 title: Alexander Bird - Software Engineer
+
+pageTitle: Work Experience
+
 profile:
   $ref: ../_profile.json
 
@@ -9,6 +12,8 @@ meta-tags:
   twitter-handle: '@alexander_bird'
   site-image: https://alexanderbird.software/assets/alexanderbird.jpg
   description: Learning to build useful, valuable software in a team.
+
+disclaimer: "Last updated September 2025"
 
 copyright:
   $ref: ../_copyright.json

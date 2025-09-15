@@ -13,18 +13,6 @@ meta-tags:
 copyright:
   $ref: ./_copyright.json
 
-contact-methods: 
-  - link: mailto:alex@alexanderbird.software
-    text: alex@alexanderbird.software
-    icon: mail
-  - link: https://www.linkedin.com/in/alexander-bird-a24a3b84/
-    text: LinkedIn
-    icon: linkedin
-  - link: https://mstdn.ca/@alexanderbird
-    rel: me
-    text: Mastodon
-    icon: mastodon
-
 navigation:
   print-mode:
     icon: printer

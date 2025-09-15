@@ -1,0 +1,7 @@
+<div class='organisms__contact-methods'>
+  <ul>
+    {{#each this as |contact|}}
+      <li><a target='_blank' rel='{{contact.rel}}' href='{{contact.link}}'>{{> atoms/svg-icon name=contact.icon}}{{contact.text}}</a>
+    {{/each}}
+  </ul>
+</div>

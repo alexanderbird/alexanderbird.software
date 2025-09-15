@@ -1,13 +1,16 @@
 {{#> organisms/index-meta }}
-  {{#> atoms/page slug='past-work-history' default='true' class='pages__past-work-history'}}
-    {{> organisms/header profile}}
-    {{> organisms/experience
-      experience-front-matter
-      items=experience
-      education=education
-      hobby-experience=hobby-experience
-      }}
-    <hr class='atoms__hr'>
-    {{> atoms/copyright-footer copyright }}
-  {{/atoms/page}}
+  <div class='printer-friendly-version'>
+    {{#> atoms/page slug='past-work-history' default='true' class='pages__past-work-history'}}
+      {{> organisms/child-page-header profile pageTitle=pageTitle }}
+      <p>{{disclaimer}}</p>
+      {{> organisms/experience
+        experience-front-matter
+        items=experience
+        education=education
+        hobby-experience=hobby-experience
+        }}
+      <hr class='atoms__hr'>
+      {{> atoms/copyright-footer copyright }}
+    {{/atoms/page}}
+  </div>
 {{/ organisms/index-meta }}

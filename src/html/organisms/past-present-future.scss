@@ -1,0 +1,11 @@
+.organisms__past-present-future {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  section {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+  }
+}
