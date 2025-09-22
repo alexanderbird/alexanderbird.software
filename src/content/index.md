@@ -6,3 +6,8 @@ corrected** and having my assumptions challenged.
 
 I make the **work fun** so I can work my hardest. I **work hard** to keep the
 work fun.
+
+For **direction**, I'm guided by a deep care for customers and a respect for the
+judgment of our business' leaders. For **speed**, I invest in technical excellence,
+collaboration, and mentoring my more junior teammates with the hope that they
+overtake me.
