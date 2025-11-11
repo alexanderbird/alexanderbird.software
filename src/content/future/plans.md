@@ -1,5 +1,4 @@
-For some time now, I have been practising these skills by initiative. In my next
-role, I would like some or all of them to be my stated responsibilities.
+In my next role, I would like some or all of these responsibilities.
 
 - **Engineering strategy** to reconcile business goals with technical constraints
   - Finding a "3rd option" when business and tech needs seem to contradict
