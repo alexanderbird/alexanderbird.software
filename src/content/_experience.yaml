@@ -1,12 +1,16 @@
-- summary: Provide engaging and timely training for the department
+- summary: Delivering, derisking, training, and teaching
   team-size: "30"
   employer: Hunter Industries
   role: Distinguished Software Engineer
   ongoing-since: October 2023
   comments:
-    - Collaborate with other distinguished engineers to identify and address software delivery threats
-    - Lead a department-wide "show and tell" code review to highlight and share techniques
-    - Address emerging skill gaps in the department by providing monthly mini-training on software development practices
+    - Develop technical patterns by building examples and prototypes
+    - Improve team process bottlenecks by creating software tools
+    - Collaborate with other distinguished engineers to identify and address process risks
+    - Establish new patterns and practices across teams through training, collaboration, and mentoring
+    - Provide monthly training to address emerging skill gaps in the department
+    - Identify, report, and act on technical threats and opportunities
+    - Architect full stack software systems to reduce the cost to build and maintain
   noStack: true
 - summary: Reduce delivery lead time from >1yr to 100 days
   team-size: "3+"
