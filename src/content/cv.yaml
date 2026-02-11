@@ -3,10 +3,10 @@ meta:
 
 title: Alexander Bird - CV
 
-pageTitle: Resume
+pageTitle: Curriculum Vitae
 
 profile:
-  $ref: ../_profile.json
+  $ref: ./_profile.json
 
 copyright:
-  $ref: ../_copyright.json
+  $ref: ./_copyright.json
