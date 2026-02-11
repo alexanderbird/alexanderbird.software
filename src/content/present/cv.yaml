@@ -8,3 +8,5 @@ pageTitle: Resume
 profile:
   $ref: ../_profile.json
 
+copyright:
+  $ref: ../_copyright.json

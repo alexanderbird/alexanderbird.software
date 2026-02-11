@@ -1,7 +1,7 @@
 .pages__present-cv {
   article {
     margin: 0 12px;
-    padding-top: 4px;
+    padding-top: 8px;
 
     hr {
       border-top: 0.5px solid var(--color-secondary);
@@ -25,6 +25,14 @@
     ul:has(+ hr) {
       margin-bottom: 0;
     }
+  }
 
+  .atoms__copyright-footer {
+    margin-top: 12px;
+  }
+  @media print {
+    .atoms__copyright-footer {
+      display: none;
+    }
   }
 }

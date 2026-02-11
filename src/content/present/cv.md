@@ -6,8 +6,8 @@
 
 - Extract a reusable design system library from an AI-generated application
 - Design and build the build tooling used by 6+ teams multiple times per hour
-   - before: teams reported the process was confusing and error prone
-   - after: teams reported the new tooling made it simple, understandable,
+   - Previously, teams described the process as confusing and error prone
+   - After, teams reported the new tooling made it simple, understandable,
      repeatable
 - Collaborate with other distinguished engineers to identify missing skills
   across the department; design and provide monthly training to address the gaps
@@ -19,8 +19,9 @@
   <span class='role'>Volunteer Board Member</span>
 </div>
 
-- Worked 1:1 with the director to establish an operational report template to
-  include data that we were missing to inform key policy decisions
+- Introduce a feedback mechanism for the board to specify what
+  data is needed in the recurring operational report. I established a report
+  template and the regular practice of revising the template.
 - Distil operational reports and board goals into policy changes and research
   questions, driving action without infringing on the director's autonomy
 - Revise policy to direct the director and their staff on topics like
@@ -59,7 +60,7 @@
 
 <hr/>
 
-### Other Remarks and Experience
+### Other Experience and Remarks
 
 - Morgan Stanley - Senior Software Developer <span class='atoms__inline-date'>2019</span>
 - Arcurve Inc - Technical Lead <span class='atoms__inline-date'>2018 - 2019</span>
@@ -69,6 +70,6 @@
   Engineering
 - Favorite AWS service: DynamoDB
 - Favorite style of TDD: London
-- Favorite oncall experience: racing to resolve a surprise linear performance
+- Favorite oncall incident: racing to resolve an unexpected linear performance
   degredation before so many people signed up for the app that it started timing
   out
