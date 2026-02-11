@@ -4,12 +4,13 @@
   <span class='role'>Distinguished Software Engineer</span>
 </div>
 
-- Extract a reusable design system library from an AI-generated application
-- Design and build the build tooling used by 6+ teams multiple times per hour
+- Extracted a reusable design system library from an AI-generated application
+- Designed and build the build tooling used by 6+ teams multiple times per hour
    - Teams report the old process was confusing and error prone but is now simple
      and understandable
 - Collaborate with other distinguished engineers to identify missing skills
   across the department; design and provide monthly training to address the gaps
+- Design, build, and deploy serverless web app features to allow customers to control irrigation IOT devices 
 
 <hr/>
 <div class='atoms__cv-header'>
@@ -18,7 +19,7 @@
   <span class='role'>Volunteer Board Member</span>
 </div>
 
-- Introduce a feedback mechanism for the board to specify what
+- Introduced a feedback mechanism for the board to specify what
   data is needed in the recurring operational report. I established a report
   template and the regular practice of revising the template
 - Distil operational reports and board goals into policy changes and research
@@ -35,9 +36,9 @@
   <span class='role'>Senior Software Development Engineer (SDE3)</span>
 </div>
 
-- Writing technical strategy and design documents to align executives and the engineering team
-- Mentoring tech leads through technical and communication challenges
-- Oncall operations (resolving high severity operational incidents)
+- Wrote technical strategy and design documents to align executives and the engineering team
+- Mentored tech leads through technical and communication challenges
+- Resolved high severity operational incidents (oncall)
 - Created prototypes and code patterns to bypass technical obstacles
 
 <div class='atoms__cv-header'>
@@ -47,9 +48,9 @@
 
 - Led the team's ramp-up on a neighbouring system as our area of ownership
  doubled
-- Mentoring and supporting 10+ engineers with weekly 1:1s
-- Supporting onboarding of 4+ engineers
-- Coaching several engineers who were mentoring interns for the first time
+- Mentored and supported 10+ engineers with weekly 1:1s, including onboarding 4
+  engineers
+- Coached several engineers who were mentoring interns for the first time
  (3/4 interns returned to our team the following year)
 
 <div class='atoms__cv-header'>
