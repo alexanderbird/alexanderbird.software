@@ -13,7 +13,7 @@ meta-tags:
   site-image: https://alexanderbird.software/assets/alexanderbird.jpg
   description: Learning to build useful, valuable software in a team.
 
-disclaimer: "Last updated September 2025"
+disclaimer: "Last updated February 2026"
 
 copyright:
   $ref: ../_copyright.json
