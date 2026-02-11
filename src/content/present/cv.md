@@ -88,5 +88,5 @@ Software | University of Calgary</span>
 - Favorite AWS service: DynamoDB
 - Favorite style of TDD: London
 - Favorite oncall incident: racing to resolve an unexpected linear performance
-  degredation before so many people signed up for the app that it started timing
+  degradation before so many people signed up for the app that it started timing
   out
