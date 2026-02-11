@@ -1,0 +1,10 @@
+meta:
+  pageTemplate: present-cv
+
+title: Alexander Bird - CV
+
+pageTitle: Resume
+
+profile:
+  $ref: ../_profile.json
+

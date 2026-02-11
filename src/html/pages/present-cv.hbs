@@ -1,0 +1,11 @@
+{{#> organisms/index-meta }}
+  <div class='printer-friendly-version'>
+    {{#> atoms/page slug='present-cv' default='true' class='pages__present-cv'}}
+      {{> organisms/child-page-header profile pageTitle=pageTitle }}
+      <article>
+        {{{ markdown content }}}
+      </article>
+      {{> atoms/copyright-footer copyright }}
+    {{/atoms/page}}
+  </div>
+{{/ organisms/index-meta }}
