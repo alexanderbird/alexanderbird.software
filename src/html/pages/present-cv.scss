@@ -1,5 +1,28 @@
 .pages__present-cv {
   article {
     margin: 0 12px;
+    padding-top: 12px;
+
+    hr {
+      border-top: 0.5px solid var(--color-secondary);
+      margin-left: -12px;
+      margin-right: -12px;
+      padding-left: 12px;
+      padding-right: 12px;
+      margin-bottom: 4px;
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+
+    *:has(+ hr) {
+      margin-bottom: 0;
+    }
+
+    ul {
+      margin-top: 2px;
+    }
   }
 }
