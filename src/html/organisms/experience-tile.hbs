@@ -16,7 +16,7 @@
       organisms__experience-tile__employer
       {{#if client}}organisms__experience-tile__employer--with-client{{/if}}
       '>
-      <span class='atoms__span--emphasis'>Employer: </span>{{employer}}
+      <span class='atoms__span--emphasis'>{{coalesce label-for-employer 'Employer'}}: </span>{{employer}}
     </div>
     {{#if client}}
     <div class='organisms__experience-tile__client'>
@@ -26,7 +26,13 @@
     </div>
     {{/if}}
     <div class='organisms__experience-tile__statistics'>
+      {{#if team-size}}
       <span class='organisms__experience-tile__statistics-item'>{{> atoms/svg-icon name='human' }} {{pluralize 'person' team-size}}</span>
+      {{/if}}
+      {{#if other-statistic}}
+      <span
+      class='organisms__experience-tile__statistics-item'>{{other-statistic}}</span>
+      {{/if}}
       <span class='organisms__experience-tile__pipe-divider'></span>
       <span class='organisms__experience-tile__statistics-item'>{{> atoms/svg-icon name='calendar' }}
         {{#if ongoing-since}}

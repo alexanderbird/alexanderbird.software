@@ -50,6 +50,21 @@
             - DynamoDB
             - AWS IoT
 
+- summary: Contribute to the governance of a non-profit summer camp
+  other-statistic: "> $1M yearly revenue"
+  employer: Crowsnest Lake Bible Camp Association
+  label-for-employer: Organization
+  role: Volunteer Board Member
+  ongoing-since: 2022
+  noStack: true
+  comments:
+    - Introduced a feedback mechanism for the board to specify what
+      data is needed in the recurring operational report. I established a report
+      template and the regular practice of revising the template
+    - Distil operational reports and board goals into policy changes and research
+      questions, driving action without infringing on the director's autonomy
+    - Revise policy to direct the director and their staff on topics like
+      fundraising, sabbatical and burnout prevention, and camper safety
 - summary: Support tech leads in designing and executing software deliveries
   team-size: "12"
   employer: Amazon Web Services
