@@ -6,8 +6,7 @@
 
 - Extracted a reusable design system library from an AI-generated application
 - Designed and build the build tooling used by 6+ teams multiple times per hour
-   - Teams report the old process was confusing and error prone but is now simple
-     and understandable
+   - Teams report the tool is simple to use, whereas the old process was confusing and error prone
 - Collaborate with other distinguished engineers to identify missing skills
   across the department; design and provide monthly training to address the gaps
 - Design, build, and deploy serverless web app features to allow customers to control irrigation IOT devices 
