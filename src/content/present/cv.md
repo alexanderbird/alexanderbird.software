@@ -6,7 +6,7 @@
 
 - Extract a reusable design system library from an AI-generated application
 - Design and build the build tooling used by 6+ teams multiple times per hour
-   - Teams report the process was confusing and error prone but is now simple
+   - Teams report the old process was confusing and error prone but is now simple
      and understandable
 - Collaborate with other distinguished engineers to identify missing skills
   across the department; design and provide monthly training to address the gaps
@@ -20,7 +20,7 @@
 
 - Introduce a feedback mechanism for the board to specify what
   data is needed in the recurring operational report. I established a report
-  template and the regular practice of revising the template.
+  template and the regular practice of revising the template
 - Distil operational reports and board goals into policy changes and research
   questions, driving action without infringing on the director's autonomy
 - Revise policy to direct the director and their staff on topics like
@@ -89,4 +89,4 @@ Software | University of Calgary</span>
 - Favorite style of TDD: London
 - Favorite oncall incident: racing to resolve an unexpected linear performance
   degradation before so many people signed up for the app that it started timing
-  out
+  out. Each signup added to everyone's response time.
