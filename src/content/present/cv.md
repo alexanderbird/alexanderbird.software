@@ -6,9 +6,8 @@
 
 - Extract a reusable design system library from an AI-generated application
 - Design and build the build tooling used by 6+ teams multiple times per hour
-   - Previously, teams described the process as confusing and error prone
-   - After, teams reported the new tooling made it simple, understandable,
-     repeatable
+   - Teams report the process was confusing and error prone but is now simple
+     and understandable
 - Collaborate with other distinguished engineers to identify missing skills
   across the department; design and provide monthly training to address the gaps
 
@@ -36,7 +35,7 @@
   <span class='role'>Senior Software Development Engineer (SDE3)</span>
 </div>
 
-- Writing technical documents to align executives and the engineering team
+- Writing technical strategy and design documents to align executives and the engineering team
 - Mentoring tech leads through technical and communication challenges
 - Oncall operations (resolving high severity operational incidents)
 - Created prototypes and code patterns to bypass technical obstacles
@@ -60,14 +59,32 @@
 
 <hr/>
 
-### Other Experience and Remarks
+<div class='atoms__cv-header'>
+  <span class='date'>2019</span>
+  <span class='role'>Senior Software Developer | Morgan Stanley</span>
+</div>
+<div class='atoms__cv-header'>
+  <span class='date'>2018 - 2019</span>
+  <span class='role'>Technical Lead | Arcurve Inc</span>
+</div>
+<div class='atoms__cv-header'>
+  <span class='date'>2016 - 2018</span>
+  <span class='role'>Software Developer | Arcurve Inc</span>
+</div>
+<div class='atoms__cv-header'>
+  <span class='date'>2016</span>
+  <span class='role'>Bachelor of Science in
+Software | University of Calgary</span>
+</div>
+<div class='atoms__cv-header'>
+  <span class='date'>2014 - 2015 (16 months)</span>
+  <span class='role'>Software Developer Intern Engineering | Arcurve Inc</span>
+</div>
 
-- Morgan Stanley - Senior Software Developer <span class='atoms__inline-date'>2019</span>
-- Arcurve Inc - Technical Lead <span class='atoms__inline-date'>2018 - 2019</span>
-- Arcurve Inc - Software Developer <span class='atoms__inline-date'>2016 - 2018</span>
-- University of Calgary - Bachelor of Science in Software <span class='atoms__inline-date'>2016</span>
-- Arcurve Inc - Software Developer Intern <span class='atoms__inline-date'>2014 - 2015 (16 months)</span>
-  Engineering
+<hr/>
+
+### Trivia
+
 - Favorite AWS service: DynamoDB
 - Favorite style of TDD: London
 - Favorite oncall incident: racing to resolve an unexpected linear performance
