@@ -2,6 +2,11 @@
 A classic resume website... excessively customized technical stack when there
 are plenty out of the box tools that would do just as well 😅
 
+## Page view statistics
+
+Collected through [NeatStats](https://neatstats.net/docs/about), a minimal and
+privacy-conscious page view counter.
+
 ## Architecture
 ### Build Process
  - the YAML files are the main source code for the website
