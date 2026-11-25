@@ -16,11 +16,6 @@
       <h2>{{{title}}}</h2>
       {{#if subtitle}}<p>{{{subtitle}}}</p>{{/if}}
       {{{ markdown content }}}
-      <p>Was this helpful?</p>
-      <p>
-        <span class="updoot" data-emoji="👍"></span>
-        <span class="updoot" data-emoji="😐"></span>
-      </p>
       {{#if mastodon}}
         <hr/>
         <p>Something to add? <a href='{{mastodon}}'>Continue the conversation on Mastodon</a></p>
@@ -29,6 +24,11 @@
         <hr/>
         <p class='pages__blog-post__written-on'>Written {{date}}</p>
       {{/if}}
+      <hr/>
+      <p class="was-this-helpful-button">
+        Was this helpful?
+        <span class="updoot" data-emoji="👍"></span>
+      </p>
     </section>
     <footer class='pages__blog-post__footer'>
       {{> atoms/copyright-footer copyright }}
